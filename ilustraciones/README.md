@@ -44,3 +44,15 @@ Libro 2: hoja de personajes en `referencias/hoja-personajes-libro2.png` (Tomi de
 ## Maqueta
 
 `maqueta/libro1.py` arma el HTML y `maqueta/pdf.js` lo pasa a PDF (`libros/01-girar/libro-1-borrador-ilustrado.pdf`). Usa las imágenes comprimidas de `maqueta/img/`.
+
+## Libro 2 (carpeta `libro2/`)
+
+Generado el 26 de octubre de 2026 con Nano Banana Pro en 2K, con referencias `referencias/hoja-personajes-libro2.png` (personaje) y `borradores/p01-portada-v2.png` (estilo). Bloque de estilo: `herramientas/style-libro2.txt`. Maqueta: `maqueta/libro2.py`, que usa las piezas comunes de `maqueta/comun.py`.
+
+| Página | Archivo |
+| --- | --- |
+| 1 Portada | `p01-portada-v1.png` |
+| 2–3 a 18–19 | `d01-v1.png` … `d09-v1.png` |
+| 20–21 | `d10-compuesta.png` (a partir de `d10-v3.png`: la secuencia de la izquierda y Tomi en cuatro patas a la derecha) |
+| 22–23 | `exp-v1.png` |
+| 24 | `p24-v1.png` |
