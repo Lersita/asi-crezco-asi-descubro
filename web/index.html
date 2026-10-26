@@ -266,19 +266,10 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
           </div>
           <p class="ayuda" id="ayuda-nombre">Aparece en la tapa y en el cuento. Hasta 14 letras.</p>
         </div>
-        <!--solo-web-->
         <div class="descarga">
-          <label class="etq" for="libro-elegido">Libro para descargar</label>
-          <div class="campo">
-            <select id="libro-elegido">
-              <option value="libro1">Libro 1 · aprende a girar</option>
-              <option value="libro2">Libro 2 · aprende a sentarse</option>
-            </select>
-            <button class="boton" type="button" id="descargar">Descargar el PDF</button>
-          </div>
-          <p class="ayuda estado-descarga" id="estado-descarga" aria-live="polite">PDF de 24 páginas de 21,6 × 21,6 cm, listo para imprimir.</p>
+          <span class="etq">Su libro</span>
+          <p class="ayuda">Muy pronto vas a poder comprar el libro de <b data-nombre>Emi</b> y descargarlo al instante, listo para imprimir.</p>
         </div>
-        <!--/solo-web-->
       </form>
     </div>
 
@@ -470,8 +461,7 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
     $$("#puntos button").forEach((b,k)=>{b.setAttribute("aria-current",k===i?"true":"false");b.classList.toggle("bloq",k>=LIBRES);});
     $("#nro-libro").textContent=L.nro; $("#titulo-libro").textContent=`aprende ${L.t2}`;
     $$("[data-libro]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.libro===estado.libro?"true":"false"));
-    const sel=$("#libro-elegido"); if(sel&&sel.value!==estado.libro) sel.value=estado.libro;
-  }
+      }
   function irA(i){
     if(i<0||i>=PIES.length||i===estado.i)return;
     const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -507,7 +497,6 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
   input.addEventListener("input",()=>{const v=limpiar(input.value);if(v!==input.value){const p=input.selectionStart;input.value=v;try{input.setSelectionRange(p,p)}catch(e){}}estado.nombre=v;aplicar();});
   $("#armador").addEventListener("submit",e=>{e.preventDefault();$("#hojear").scrollIntoView({behavior:"smooth"});});
   $$("[data-libro]").forEach(b=>b.addEventListener("click",()=>{estado.libro=b.dataset.libro;pintarPagina();}));
-  const selL=$("#libro-elegido"); if(selL) selL.addEventListener("change",()=>{estado.libro=selL.value;pintarPagina();});
   addEventListener("resize",()=>ajustarTitulo());
   $$("[data-genero]").forEach(b=>b.addEventListener("click",()=>{
     const antes=def(); estado.genero=b.dataset.genero;
@@ -564,33 +553,5 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
 })();
 </script>
 
-<!--solo-web-->
-<script>
-(function(){
-  const $=s=>document.querySelector(s);
-  const boton=$("#descargar"), estadoEl=$("#estado-descarga"), sel=$("#libro-elegido");
-  const titulos={libro1:"aprende a girar",libro2:"aprende a sentarse"};
-  let libs=null;
-  const cargar=src=>new Promise((ok,mal)=>{const s=document.createElement("script");s.src=src;s.onload=ok;s.onerror=()=>mal(new Error("No se pudo cargar el generador. Revisá la conexión y probá de nuevo."));document.head.appendChild(s);});
-  function rotular(){const n=window.acad?window.acad.nombre():"";boton.textContent=`Descargar el PDF de ${n}`;}
-  document.addEventListener("input",rotular); document.addEventListener("click",()=>setTimeout(rotular,0)); rotular();
-  boton.addEventListener("click",async()=>{
-    const {estado,nombre}=window.acad, libro=sel.value, n=nombre();
-    estadoEl.classList.remove("error"); boton.disabled=true;
-    try{
-      estadoEl.textContent="Preparando el generador…";
-      libs=libs||Promise.all([cargar("vendor/pdf-lib.min.js"),cargar("vendor/fontkit.umd.min.js"),cargar("js/libro-pdf.js")]);
-      await libs;
-      const bytes=await window.LibroPDF.generarLibro({libro,genero:estado.genero,nombre:n,alAvanzar:(h,t)=>{estadoEl.textContent=`Armando el libro de ${n}: doble ${h} de ${t}…`;}});
-      const url=URL.createObjectURL(new Blob([bytes],{type:"application/pdf"}));
-      const a=document.createElement("a"); a.href=url; a.download=`${n} ${titulos[libro]}.pdf`.normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/ñ/g,"n"); document.body.appendChild(a); a.click(); a.remove();
-      setTimeout(()=>URL.revokeObjectURL(url),60000);
-      estadoEl.textContent=`Listo: se descargó “${n} ${titulos[libro]}”.`;
-    }catch(e){estadoEl.textContent=e.message||"No se pudo armar el PDF. Probá de nuevo.";estadoEl.classList.add("error");libs=null;}
-    finally{boton.disabled=false;}
-  });
-})();
-</script>
-<!--/solo-web-->
 </body>
 </html>

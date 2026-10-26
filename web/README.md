@@ -1,6 +1,8 @@
 # Web de la colección
 
-Página de un solo archivo (`index.html`) con un personalizador: elegís mujer o varón, escribís el nombre, hojeás el libro 1 y descargás el PDF personalizado. El PDF se arma **en el navegador** (con `pdf-lib`), así que no hace falta servidor ni base de datos.
+Página de un solo archivo (`index.html`) con un personalizador: elegís mujer o varón, escribís el nombre y hojeás el libro 1 o 2 (desde la quinta doble, la vista previa se ve borrosa).
+
+**Desde el 26 de octubre de 2026 la descarga gratis está desactivada.** El generador de PDF (`js/libro-pdf.js`, `plantillas/`, `fuentes/`, `vendor/`) sigue en el repositorio, pero no se publica en Vercel (ver `.vercelignore`), para que las páginas nítidas no queden a la vista. Va a volver cuando el PDF se arme en el servidor después del pago.
 
 ## Cómo se arma el PDF
 

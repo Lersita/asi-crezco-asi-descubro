@@ -259,7 +259,11 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
           </div>
           <p class="ayuda" id="ayuda-nombre">Aparece en la tapa y en el cuento. Hasta 14 letras.</p>
         </div>
-              </form>
+        <div class="descarga">
+          <span class="etq">Su libro</span>
+          <p class="ayuda">Muy pronto vas a poder comprar el libro de <b data-nombre>Emi</b> y descargarlo al instante, listo para imprimir.</p>
+        </div>
+      </form>
     </div>
 
     <div class="escena" aria-label="Tapa del libro personalizado">
@@ -450,8 +454,7 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
     $$("#puntos button").forEach((b,k)=>{b.setAttribute("aria-current",k===i?"true":"false");b.classList.toggle("bloq",k>=LIBRES);});
     $("#nro-libro").textContent=L.nro; $("#titulo-libro").textContent=`aprende ${L.t2}`;
     $$("[data-libro]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.libro===estado.libro?"true":"false"));
-    const sel=$("#libro-elegido"); if(sel&&sel.value!==estado.libro) sel.value=estado.libro;
-  }
+      }
   function irA(i){
     if(i<0||i>=PIES.length||i===estado.i)return;
     const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -487,7 +490,6 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
   input.addEventListener("input",()=>{const v=limpiar(input.value);if(v!==input.value){const p=input.selectionStart;input.value=v;try{input.setSelectionRange(p,p)}catch(e){}}estado.nombre=v;aplicar();});
   $("#armador").addEventListener("submit",e=>{e.preventDefault();$("#hojear").scrollIntoView({behavior:"smooth"});});
   $$("[data-libro]").forEach(b=>b.addEventListener("click",()=>{estado.libro=b.dataset.libro;pintarPagina();}));
-  const selL=$("#libro-elegido"); if(selL) selL.addEventListener("change",()=>{estado.libro=selL.value;pintarPagina();});
   addEventListener("resize",()=>ajustarTitulo());
   $$("[data-genero]").forEach(b=>b.addEventListener("click",()=>{
     const antes=def(); estado.genero=b.dataset.genero;
