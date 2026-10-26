@@ -1,0 +1,19 @@
+{
+  "titulo": {
+    "x": 232,
+    "y": 25.29,
+    "w": 184,
+    "h": 42.33
+  },
+  "titulo_texto": "Emi aprende\na girar",
+  "nombre": {
+    "x": 18,
+    "y": 16,
+    "w": 150,
+    "h": 29.2
+  },
+  "nombre_texto": "Me llamo Emi. Soy chiquita, muy chiquita.",
+  "nombre_maximo": 150,
+  "nombre_estilo": "left:18mm;top:16mm;width:150mm",
+  "dobles": 13
+}

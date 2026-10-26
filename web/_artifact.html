@@ -1,0 +1,514 @@
+<title>Así crezco, así descubro</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Libros ilustrados de física y matemática donde el protagonista lleva el nombre de tu peque.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Fraunces:opsz,wght,SOFT,WONK@9..144,500..900,0..100,0..1&display=swap">
+<style>
+/* Concepto: un cuento de papel recortado que se arma mientras bajás; Rula rueda de verdad con el scroll. */
+:root{
+  --papel:#FFF6E4; --papel-2:#FBE9C8; --carton:#FFFDF7; --tinta:#23304A; --tinta-suave:#5A6378;
+  --rojo:#E4492E; --naranja:#F28B2A; --yema:#F2B52A; --hoja:#5A9E45; --cielo:#45A3DC; --violeta:#8B5CBD;
+  --guarda:#23304A; --sombra:rgba(70,45,20,.18); --linea:rgba(35,48,74,.14);
+  --display:"Fraunces",Georgia,"Times New Roman",serif; --texto:"Andika","Trebuchet MS",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --papel:#18223A; --papel-2:#1F2C4A; --carton:#24314F; --tinta:#FFF3DC; --tinta-suave:#C9C3B4;
+  --guarda:#0F1729; --sombra:rgba(0,0,0,.4); --linea:rgba(255,243,220,.16); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --papel:#18223A; --papel-2:#1F2C4A; --carton:#24314F; --tinta:#FFF3DC; --tinta-suave:#C9C3B4;
+  --guarda:#0F1729; --sombra:rgba(0,0,0,.4); --linea:rgba(255,243,220,.16); color-scheme:dark}
+
+*{box-sizing:border-box}
+body{margin:0}img{max-width:100%}[hidden]{display:none!important}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth}
+body{background:var(--papel);color:var(--tinta);font-family:var(--texto);font-size:1.0625rem;line-height:1.55;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--papel)}
+.envoltura{max-width:1180px;margin-inline:auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--display);font-variation-settings:"SOFT" 100,"WONK" 1;line-height:1.02;text-wrap:balance;margin:0;letter-spacing:-.01em}
+p{margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--cielo);outline-offset:3px;border-radius:6px}
+.grano{position:relative}
+.grano::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .32 0 0 0 0 .18 0 0 0 .08 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+/* Barra */
+.barra{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--papel) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--linea)}
+.barra .envoltura{display:flex;align-items:center;gap:12px;padding-block:10px}
+.marca{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:800;font-size:1.15rem;text-decoration:none;font-variation-settings:"SOFT" 100,"WONK" 1}
+.marca svg{width:30px;height:30px;flex:none}
+.prototipo{font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--tinta-suave);border:1.5px dashed var(--linea);border-radius:99px;padding:3px 10px;white-space:nowrap}
+.barra .ir{margin-left:auto}
+.boton{display:inline-flex;align-items:center;gap:.5em;font-family:var(--texto);font-weight:700;font-size:1rem;border:0;cursor:pointer;text-decoration:none;
+  background:var(--rojo);color:#fff;padding:.72em 1.25em;border-radius:14px 18px 12px 20px;box-shadow:0 4px 0 #A8321D;transition:transform .15s,box-shadow .15s}
+.boton:hover{transform:translateY(-2px);box-shadow:0 6px 0 #A8321D}
+.boton:active{transform:translateY(2px);box-shadow:0 2px 0 #A8321D}
+.boton.chico{font-size:.9rem;padding:.5em .95em}
+.boton.claro{background:var(--carton);color:var(--tinta);box-shadow:0 4px 0 var(--linea);border:1.5px solid var(--linea)}
+@media (max-width:560px){.prototipo{display:none}}
+
+/* Hero */
+.hero{position:relative;overflow:hidden;padding-block:clamp(28px,6vw,72px) clamp(40px,7vw,96px)}
+.hero .envoltura{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(24px,4vw,56px);align-items:center;position:relative;z-index:2}
+@media (max-width:860px){.hero .envoltura{grid-template-columns:minmax(0,1fr)}}
+.copete{display:inline-flex;flex-wrap:wrap;gap:6px;margin-bottom:18px}
+.copete span{font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:8px;color:#fff}
+.hero h1{font-size:clamp(2.5rem,6.4vw,4.9rem);font-weight:850}
+.hero h1 .vivo{color:var(--rojo);display:inline-block;position:relative;white-space:nowrap}
+.hero h1 .vivo::after{content:"";position:absolute;left:-2%;right:-2%;bottom:.02em;height:.16em;background:var(--yema);border-radius:40% 60% 50% 40%;z-index:-1;transform:rotate(-1.5deg)}
+.bajada{font-size:clamp(1.05rem,1.6vw,1.22rem);color:var(--tinta-suave);max-width:36em;margin-top:18px}
+
+.armador{margin-top:26px;background:var(--carton);border-radius:22px 28px 20px 26px;padding:20px;box-shadow:0 10px 30px var(--sombra);display:grid;gap:16px;max-width:520px;position:relative}
+.armador::before{content:"";position:absolute;top:-12px;left:34px;width:70px;height:22px;background:color-mix(in srgb,var(--yema) 70%,transparent);transform:rotate(-4deg);border-radius:2px}
+.etq{font-weight:700;font-size:.82rem;letter-spacing:.07em;text-transform:uppercase;color:var(--tinta-suave);margin-bottom:8px;display:block}
+.eleccion{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.eleccion button{display:flex;align-items:center;gap:10px;padding:8px 12px 8px 8px;border-radius:16px;border:2px solid var(--linea);background:var(--papel);color:var(--tinta);font:700 1.05rem var(--texto);cursor:pointer;transition:border-color .2s,transform .2s,background .2s}
+.eleccion button img{width:52px;height:52px;object-fit:contain;transition:transform .3s}
+.eleccion button[aria-pressed="true"]{border-color:var(--hoja);background:color-mix(in srgb,var(--hoja) 14%,var(--carton))}
+.eleccion button[aria-pressed="true"] img{transform:rotate(-8deg) scale(1.08)}
+.eleccion button:hover{transform:translateY(-2px)}
+.campo{display:flex;gap:10px;flex-wrap:wrap}
+.campo input{flex:1 1 200px;min-width:0;font:700 1.35rem var(--display);font-variation-settings:"SOFT" 100;color:var(--tinta);background:var(--papel);border:2px solid var(--linea);border-radius:14px;padding:.45em .7em}
+.campo input:focus{border-color:var(--cielo);outline:none}
+.ayuda{font-size:.9rem;color:var(--tinta-suave)}
+.campo select{flex:1 1 220px;min-width:0;font:700 1rem var(--texto);color:var(--tinta);background:var(--papel);border:2px solid var(--linea);border-radius:14px;padding:.7em .8em}
+.descarga{border-top:2px dashed var(--linea);padding-top:16px}
+.boton[disabled]{opacity:.6;cursor:progress;transform:none}
+.estado-descarga.error{color:var(--rojo);font-weight:700}
+
+.escena{position:relative;aspect-ratio:1/1;max-width:540px;width:100%;margin-inline:auto}
+.tapa3d{position:absolute;inset:9% 10% 9% 6%;perspective:1400px}
+.tapa{position:absolute;inset:0;transform:rotateY(-16deg) rotateZ(2deg);transform-style:preserve-3d;transition:transform .6s cubic-bezier(.2,.8,.2,1);border-radius:4px 12px 12px 4px;
+  box-shadow:-18px 22px 40px var(--sombra),inset 6px 0 10px rgba(0,0,0,.18);overflow:hidden;background:#FFF9E7}
+.escena:hover .tapa{transform:rotateY(-6deg) rotateZ(0)}
+.tapa img{width:100%;height:100%;object-fit:cover;display:block;transition:opacity .35s}
+.tapa .lomo{position:absolute;inset:0 auto 0 0;width:5%;background:linear-gradient(90deg,rgba(0,0,0,.25),rgba(0,0,0,0));}
+.tapa .titulo{position:absolute;left:8%;right:8%;top:7%;color:#23304A}
+.tapa .col{font:700 clamp(.55rem,1.1vw,.75rem) var(--texto);letter-spacing:.2em;text-transform:uppercase;color:#C4532E}
+.tapa .tit{font:850 clamp(1.6rem,4.4vw,3rem)/1 var(--display);font-variation-settings:"SOFT" 100,"WONK" 1;margin-top:.25em;text-wrap:balance}
+.tapa .insignia{position:absolute;right:7%;top:7%;width:13%;aspect-ratio:1;border-radius:50%;background:conic-gradient(#D9452B 0 60deg,#EE8A2A 0 120deg,#E9B21C 0 180deg,#5E9E44 0 240deg,#4FA3D9 0 300deg,#8A5CB8 0 360deg);display:grid;place-items:center;color:#fff;font:900 clamp(1rem,2.4vw,1.6rem) var(--display);text-shadow:0 1px 3px rgba(0,0,0,.4)}
+
+/* Figuritas y papeles que flotan */
+.flota{position:absolute;pointer-events:none;will-change:transform;z-index:3}
+.flota img{display:block;width:100%;height:auto;filter:drop-shadow(0 6px 8px var(--sombra))}
+.papelito{position:absolute;border-radius:50%;pointer-events:none;z-index:1;will-change:transform}
+.papelito.cuadro{border-radius:18% 30% 22% 26%}
+
+@supports (animation-timeline:view()){
+  @media (prefers-reduced-motion:no-preference){
+    .aparece{animation:aparece linear both;animation-timeline:view();animation-range:entry 0% cover 35%}
+    .va-y-viene img{animation:vaviene linear both;animation-timeline:view();animation-range:cover 0% cover 100%}
+  }
+}
+@keyframes aparece{from{opacity:.15;transform:translateY(40px) scale(.96)}to{opacity:1;transform:none}}
+@keyframes vaviene{0%{opacity:0;transform:scale(.5) rotate(-18deg)}22%{opacity:1;transform:scale(1) rotate(0)}78%{opacity:1;transform:scale(1) rotate(4deg)}100%{opacity:0;transform:scale(.7) translateY(-30px) rotate(16deg)}}
+
+/* Banda de Rula */
+.rueda{position:relative;background:var(--guarda);color:#FFF3DC;overflow:hidden;padding-block:56px 0}
+.rueda .envoltura{position:relative;z-index:2;display:grid;gap:10px}
+.rueda h2{font-size:clamp(1.8rem,4vw,3rem);color:#FFF3DC}
+.rueda p{max-width:44em;color:#D9D3C4}
+.pista{position:relative;height:190px;margin-top:20px}
+.pista::after{content:"";position:absolute;left:0;right:0;bottom:0;height:34px;background:repeating-linear-gradient(90deg,#3A4A6C 0 60px,#33425F 60px 120px)}
+.pista .marcas{position:absolute;left:0;right:0;bottom:34px;height:14px;background:repeating-linear-gradient(90deg,rgba(255,243,220,.5) 0 2px,transparent 2px var(--paso,110px))}
+.rula-rodando{position:absolute;bottom:34px;left:0;width:150px;height:150px}
+.rula-rodando img{width:100%;height:100%;display:block;filter:drop-shadow(0 10px 10px rgba(0,0,0,.35))}
+.contador{position:absolute;right:max(16px,env(safe-area-inset-right,0px));top:4px;font:700 .85rem var(--texto);letter-spacing:.06em;text-transform:uppercase;color:#FFF3DC;background:rgba(255,255,255,.08);padding:6px 12px;border-radius:99px;font-variant-numeric:tabular-nums}
+.puntitos{position:absolute;inset:0;opacity:.6;background-image:radial-gradient(circle at 25% 25%,rgba(233,178,28,.5) 0 3px,transparent 3.5px),radial-gradient(circle at 75% 75%,rgba(79,163,217,.45) 0 3px,transparent 3.5px);background-size:46px 46px}
+
+/* Hojear */
+.seccion{padding-block:clamp(56px,8vw,110px);position:relative;overflow:hidden}
+.titulo-sec{display:grid;gap:10px;margin-bottom:28px;max-width:46em;position:relative;z-index:2}
+.titulo-sec h2{font-size:clamp(2rem,4.6vw,3.4rem);font-weight:850}
+.titulo-sec p{color:var(--tinta-suave);font-size:1.1rem}
+.marcador{font-weight:700;font-size:.8rem;letter-spacing:.09em;text-transform:uppercase;color:var(--rojo)}
+.visor{position:relative;z-index:2}
+.libro{position:relative;aspect-ratio:2/1;max-width:100%;container-type:inline-size;border-radius:6px;overflow:hidden;box-shadow:0 22px 50px var(--sombra),0 2px 0 var(--linea);background:#FFF9E7}
+.pag{position:absolute;inset:0;background-size:cover;background-position:center;transition:opacity .45s ease,transform .45s ease}
+.pag.saliendo{opacity:0;transform:translateX(-2%)}
+.pliegue{position:absolute;left:47.7%;width:4.6%;top:0;bottom:0;pointer-events:none;background:linear-gradient(90deg,transparent,rgba(60,40,20,.12) 45%,rgba(60,40,20,.2) 50%,rgba(60,40,20,.12) 55%,transparent);z-index:5}
+.t{position:absolute;width:fit-content;font-family:var(--texto);font-size:1.78cqw;line-height:1.27;color:#23304A;padding:1cqw 1.6cqw 1.15cqw;isolation:isolate;filter:drop-shadow(0 .12cqw .2cqw rgba(70,45,20,.28));z-index:4}
+.t.chico{font-size:1.52cqw}
+.t::before{content:"";position:absolute;inset:0;z-index:-1;background:#FFF8E8;clip-path:polygon(0.8% 6%,18% 1.5%,41% 3.5%,63% 0.5%,86% 3%,99.4% 0%,98.6% 34%,100% 68%,98.8% 97%,77% 99.2%,52% 96.8%,29% 100%,6% 97.5%,0% 99%,1.2% 62%,0% 30%)}
+.t b{color:#C4532E}
+.pal{position:absolute;font:900 1cqw var(--display);letter-spacing:.02em;display:flex;align-items:center;gap:.7cqw;z-index:4;text-shadow:.12cqw .16cqw 0 rgba(70,45,20,.22)}
+.pal svg{height:.9em;width:auto}
+.num{position:absolute;width:4.2cqw;height:4.2cqw;border-radius:50%;color:#fff;font:800 2.8cqw var(--display);display:grid;place-items:center;box-shadow:.12cqw .2cqw 0 rgba(70,45,20,.25);z-index:4}
+.guarda-pag{position:absolute;inset:0 50% 0 0;background-color:#23304A;background-image:radial-gradient(circle at 25% 25%,rgba(233,178,28,.55) 0 .5cqw,transparent .55cqw),radial-gradient(circle at 75% 75%,rgba(79,163,217,.45) 0 .5cqw,transparent .55cqw);background-size:8.3cqw 8.3cqw}
+.tapa-pag{position:absolute;inset:0 0 0 50%;background-size:cover}
+.tapa-pag .col{position:absolute;left:7.4%;top:7.4%;font:700 1.1cqw var(--texto);letter-spacing:.22em;text-transform:uppercase;color:#C4532E}
+.tapa-pag .tit{position:absolute;left:7.4%;right:22%;top:12%;font:850 5.2cqw/1 var(--display);font-variation-settings:"SOFT" 100,"WONK" 1;color:#23304A}
+.tapa-pag .ins{position:absolute;right:7.4%;top:7.4%;width:10cqw;height:10cqw;border-radius:50%;background:conic-gradient(#D9452B 0 60deg,#EE8A2A 0 120deg,#E9B21C 0 180deg,#5E9E44 0 240deg,#4FA3D9 0 300deg,#8A5CB8 0 360deg);display:grid;place-items:center;color:#fff;font:900 5cqw var(--display);text-shadow:0 .2cqw .5cqw rgba(0,0,0,.35)}
+.controles{display:flex;align-items:center;gap:12px;margin-top:18px;flex-wrap:wrap}
+.flecha{width:52px;height:52px;border-radius:50%;border:2px solid var(--linea);background:var(--carton);color:var(--tinta);font-size:1.4rem;cursor:pointer;display:grid;place-items:center;transition:transform .15s}
+.flecha:hover{transform:scale(1.06)}
+.flecha:disabled{opacity:.35;cursor:default;transform:none}
+.puntos{display:flex;gap:7px;flex-wrap:wrap}
+.puntos button{width:13px;height:13px;border-radius:50%;border:0;padding:0;background:var(--linea);cursor:pointer}
+.puntos button[aria-current="true"]{background:var(--rojo);transform:scale(1.25)}
+.pie-visor{color:var(--tinta-suave);font-size:.95rem;margin-left:auto}
+.cambio-rapido{display:flex;gap:8px;flex-wrap:wrap}
+.cambio-rapido button{font:700 .9rem var(--texto);padding:6px 12px;border-radius:99px;border:1.5px solid var(--linea);background:var(--carton);color:var(--tinta);cursor:pointer}
+.cambio-rapido button[aria-pressed="true"]{background:var(--tinta);color:var(--papel)}
+
+/* Colección */
+.coleccion{background:var(--papel-2)}
+.estante{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(230px,260px);gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:10px 4px 26px;position:relative;z-index:2;scrollbar-width:thin}
+.libro-card{scroll-snap-align:start;background:var(--carton);border-radius:18px 22px 16px 24px;overflow:hidden;box-shadow:0 8px 22px var(--sombra);display:flex;flex-direction:column;min-width:0}
+.libro-card .cubierta{aspect-ratio:1;position:relative;display:grid;place-items:center;overflow:hidden}
+.libro-card .cubierta img{width:100%;height:100%;object-fit:cover}
+.libro-card .cubierta .sil{width:62%;height:62%;border-radius:50%;opacity:.95;display:grid;place-items:center;font:900 3.6rem var(--display);color:rgba(255,255,255,.9);font-variation-settings:"SOFT" 100,"WONK" 1}
+.libro-card .info{padding:14px 16px 18px;display:grid;gap:6px}
+.libro-card .nro{font:700 .75rem var(--texto);letter-spacing:.1em;text-transform:uppercase;color:var(--tinta-suave)}
+.libro-card h3{font-size:1.35rem}
+.libro-card .edad{font-size:.92rem;color:var(--tinta-suave)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.chip{font-size:.78rem;font-weight:700;padding:3px 9px;border-radius:99px}
+.chip.fis{background:color-mix(in srgb,var(--cielo) 20%,transparent);color:var(--tinta)}
+.chip.mat{background:color-mix(in srgb,var(--yema) 30%,transparent);color:var(--tinta)}
+.estado{font-size:.78rem;font-weight:700;color:var(--hoja)}
+.estado.pronto{color:var(--tinta-suave)}
+
+/* Qué aprende */
+.dos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;position:relative;z-index:2}
+@media (max-width:760px){.dos{grid-template-columns:minmax(0,1fr)}}
+.hoja{background:var(--carton);border-radius:24px 18px 26px 20px;padding:clamp(20px,3vw,34px);box-shadow:0 10px 26px var(--sombra);display:grid;gap:14px;align-content:start;position:relative;min-width:0}
+.hoja h3{font-size:clamp(1.5rem,2.6vw,2rem)}
+.hoja .ej{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px;align-items:start}
+.hoja .ej i{width:14px;height:14px;border-radius:50%;margin-top:.45em}
+.hoja .ej p{color:var(--tinta-suave)}
+.hoja .ej b{color:var(--tinta)}
+.cita{margin-top:22px;background:var(--guarda);color:#FFF3DC;border-radius:22px;padding:clamp(22px,3vw,36px);display:grid;grid-template-columns:auto minmax(0,1fr);gap:22px;align-items:center;position:relative;z-index:2}
+.cita img{width:110px;height:auto}
+.cita p{font:600 clamp(1.15rem,2vw,1.45rem)/1.35 var(--display);font-variation-settings:"SOFT" 100}
+.cita small{display:block;margin-top:8px;font:400 .95rem var(--texto);color:#D9D3C4}
+@media (max-width:560px){.cita{grid-template-columns:minmax(0,1fr)}.cita img{width:80px}}
+
+/* Pasos */
+.pasos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;counter-reset:paso;position:relative;z-index:2}
+@media (max-width:760px){.pasos{grid-template-columns:minmax(0,1fr)}}
+.paso{counter-increment:paso;padding:22px;border-radius:20px;border:2px dashed var(--linea);display:grid;gap:8px;align-content:start;min-width:0}
+.paso::before{content:counter(paso);width:46px;height:46px;border-radius:50%;display:grid;place-items:center;font:900 1.5rem var(--display);color:#fff;background:var(--c)}
+.paso h3{font-size:1.4rem}
+.paso p{color:var(--tinta-suave)}
+
+/* Cierre */
+.cierre{background:var(--rojo);color:#fff;text-align:left}
+.cierre .envoltura{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:center;position:relative;z-index:2}
+@media (max-width:760px){.cierre .envoltura{grid-template-columns:minmax(0,1fr)}}
+.cierre h2{font-size:clamp(2.2rem,5vw,3.8rem);color:#fff}
+.cierre p{color:#FFE3D6;font-size:1.1rem;margin-top:10px;max-width:34em}
+.cierre .boton{background:#FFF6E4;color:#23304A;box-shadow:0 4px 0 #A8321D;font-size:1.1rem}
+.aviso{margin-top:16px;background:rgba(255,255,255,.14);border-radius:14px;padding:14px 16px;max-width:34em}
+footer{padding-block:28px;color:var(--tinta-suave);font-size:.9rem}
+footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:space-between}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.tapa,.pag{transition:none}}
+@media (max-width:760px){.seccion .flota{width:86px!important;right:-18px!important;left:auto!important;top:6px!important;bottom:auto!important}.titulo-sec{padding-right:56px}}
+</style>
+
+<header class="barra">
+  <div class="envoltura">
+    <a class="marca" href="#armar" aria-label="Así crezco, así descubro, inicio">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="#D9452B"/><path d="M20 2a18 18 0 0 1 15.6 9L20 20Z" fill="#EE8A2A"/><path d="M35.6 11A18 18 0 0 1 35.6 29L20 20Z" fill="#E9B21C"/><path d="M35.6 29A18 18 0 0 1 20 38L20 20Z" fill="#5E9E44"/><path d="M20 38A18 18 0 0 1 4.4 29L20 20Z" fill="#4FA3D9"/><path d="M4.4 29A18 18 0 0 1 4.4 11L20 20Z" fill="#8A5CB8"/><circle cx="20" cy="20" r="3.4" fill="#E4492E" stroke="#fff" stroke-width="1.2"/></svg>
+      <span>Así crezco, así descubro</span>
+    </a>
+    <span class="prototipo">Prototipo · ilustraciones de prueba</span>
+    <a class="boton chico ir" href="#hojear">Ver el libro</a>
+  </div>
+</header>
+
+<main>
+<section class="hero grano" id="armar">
+  <div class="papelito" data-vel="-0.25" style="width:220px;height:220px;background:var(--yema);opacity:.35;left:-60px;top:40px"></div>
+  <div class="papelito cuadro" data-vel="0.18" style="width:140px;height:140px;background:var(--cielo);opacity:.25;right:4%;top:-30px;transform:rotate(12deg)"></div>
+  <div class="papelito" data-vel="0.35" style="width:90px;height:90px;background:var(--violeta);opacity:.25;left:44%;bottom:30px"></div>
+  <div class="envoltura">
+    <div>
+      <div class="copete" aria-label="De qué se trata">
+        <span style="background:var(--hoja)">11 libros</span><span style="background:var(--cielo)">Física y matemática</span><span style="background:var(--violeta)">De 5 a 7 años</span>
+      </div>
+      <h1><span class="vivo" data-nombre>Emi</span> aprende a girar, sentarse, gatear… y descubre el mundo.</h1>
+      <p class="bajada">Una colección ilustrada en papel recortado. Cada libro sigue un primer gran logro de un bebé y enseña un concepto de física y uno de matemática. Elegí si es mujer o varón, escribí su nombre y el cuento se arma con su nombre.</p>
+
+      <form class="armador" id="armador" autocomplete="off">
+        <div>
+          <span class="etq" id="etq-para">¿Para quién es?</span>
+          <div class="eleccion" role="group" aria-labelledby="etq-para">
+            <button type="button" id="elegir-mujer" data-genero="mujer" aria-pressed="true"><img src="img/emi-cara.webp" alt="">Mujer</button>
+            <button type="button" id="elegir-varon" data-genero="varon" aria-pressed="false"><img src="img/tomi-cara.webp" alt="">Varón</button>
+          </div>
+        </div>
+        <div>
+          <label class="etq" for="nombre">Su nombre</label>
+          <div class="campo">
+            <input id="nombre" name="nombre" maxlength="14" value="Emi" inputmode="text" spellcheck="false" aria-describedby="ayuda-nombre">
+            <a class="boton" href="#hojear" id="ir-hojear">Ver su libro</a>
+          </div>
+          <p class="ayuda" id="ayuda-nombre">Aparece en la tapa y en el cuento. Hasta 14 letras.</p>
+        </div>
+              </form>
+    </div>
+
+    <div class="escena" aria-label="Tapa del libro personalizado">
+      <div class="flota" data-vel="-0.12" style="width:40%;left:-10%;bottom:-6%;transform:rotate(-8deg)"><img id="fig-hero-1" src="img/emi-girando.webp" alt=""></div>
+      <div class="flota" data-vel="0.1" style="width:24%;right:-4%;top:-2%"><img src="img/rula.webp" alt=""></div>
+      <div class="tapa3d">
+        <div class="tapa">
+          <img id="tapa-img" src="img/b1-mujer-portada.jpg" alt="Ilustración de tapa: la bebé boca abajo sobre una manta, estirando la mano hacia Rula, la pelota de colores.">
+          <div class="lomo"></div>
+          <div class="titulo"><div class="col">Así crezco, así descubro</div><div class="tit"><span data-nombre>Emi</span> aprende a girar</div></div>
+          <div class="insignia">1</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="rueda" aria-labelledby="t-rueda">
+  <div class="puntitos"></div>
+  <div class="envoltura">
+    <span class="marcador" style="color:var(--yema)">Libro 1 · Rotación</span>
+    <h2 id="t-rueda">Bajá despacio: Rula rueda con vos.</h2>
+    <p>Rula mide unos 35 centímetros de alto. Cada vuelta completa avanza lo mismo que mide su contorno: unos 110 centímetros. Es lo que <span data-nombre>Emi</span> descubre en el primer libro: lo redondo rueda.</p>
+  </div>
+  <div class="pista" id="pista">
+    <div class="marcas"></div>
+    <div class="rula-rodando" id="rula-rodando"><img src="img/rula.webp" alt="Rula, la pelota de seis gajos de colores"></div>
+    <div class="contador" id="contador" aria-live="off">0,0 vueltas</div>
+  </div>
+</section>
+
+<section class="seccion" id="hojear" aria-labelledby="t-hojear">
+  <div class="flota va-y-viene" data-vel="-0.15" style="width:150px;right:2%;top:30px"><img src="img/rula.webp" alt=""></div>
+  <div class="envoltura">
+    <div class="titulo-sec aparece">
+      <span class="marcador">Hojeá el libro 1</span>
+      <h2 id="t-hojear"><span data-nombre>Emi</span> aprende a girar</h2>
+      <p>Estas son páginas reales del borrador, con el nombre que escribiste. Pasá las dobles con las flechas o con el teclado.</p>
+    </div>
+    <div class="visor aparece">
+      <div class="libro" id="libro" role="img" aria-roledescription="libro" aria-label="Doble página del libro">
+        <div class="pag" id="pag"></div>
+        <div class="pliegue"></div>
+      </div>
+      <div class="controles">
+        <button class="flecha" id="anterior" type="button" aria-label="Doble anterior">←</button>
+        <button class="flecha" id="siguiente" type="button" aria-label="Doble siguiente">→</button>
+        <div class="puntos" id="puntos" role="group" aria-label="Elegir doble"></div>
+        <div class="cambio-rapido" role="group" aria-label="Versión">
+          <button type="button" data-genero="mujer" aria-pressed="true">Mujer</button>
+          <button type="button" data-genero="varon" aria-pressed="false">Varón</button>
+        </div>
+        <p class="pie-visor" id="pie-visor" aria-live="polite">Tapa</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="seccion coleccion grano" aria-labelledby="t-coleccion">
+  <div class="flota va-y-viene" data-vel="0.2" style="width:170px;right:2%;top:24px"><img id="fig-col" src="img/emi-boca-abajo.webp" alt=""></div>
+  <div class="flota va-y-viene" data-vel="-0.2" style="width:150px;left:2%;bottom:10px"><img src="img/tomi-cuatro-patas.webp" alt=""></div>
+  <div class="envoltura">
+    <div class="titulo-sec aparece">
+      <span class="marcador">La colección</span>
+      <h2 id="t-coleccion">Once libros, once primeros logros</h2>
+      <p>El protagonista crece de libro en libro: es bebé en el primero y anda en bici en el último. Las edades son aproximadas: cada bebé tiene su ritmo.</p>
+    </div>
+    <div class="estante" id="estante" tabindex="0" aria-label="Los once libros de la colección"></div>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-aprende">
+  <div class="flota va-y-viene" data-vel="0.15" style="width:140px;right:3%;top:10px"><img src="img/tomi-solito.webp" alt=""></div>
+  <div class="envoltura">
+    <div class="titulo-sec aparece">
+      <span class="marcador">Qué aprenden</span>
+      <h2 id="t-aprende">Ciencia de verdad, contada a la altura del piso</h2>
+      <p>Cada libro tiene diez dobles de cuento, un experimento con cosas de la casa y una página para los grandes.</p>
+    </div>
+    <div class="dos">
+      <article class="hoja aparece">
+        <h3>Física, sin decir nada falso</h3>
+        <div class="ej"><i style="background:var(--rojo)"></i><p><b>Rotación.</b> Lo redondo toca el piso en un puntito y rueda con poco. Lo plano se apoya en una cara entera.</p></div>
+        <div class="ej"><i style="background:var(--cielo)"></i><p><b>Equilibrio.</b> Con las piernas abiertas y las manos en el piso, la base se hace más ancha y ya no se cae.</p></div>
+        <div class="ej"><i style="background:var(--hoja)"></i><p><b>Fricción, gravedad, fuerza, flotación.</b> Cada concepto aparece cuando el cuerpo lo necesita.</p></div>
+      </article>
+      <article class="hoja aparece">
+        <h3>Matemática en el cuerpo</h3>
+        <div class="ej"><i style="background:var(--yema)"></i><p><b>Arriba y abajo, contar hasta 3.</b> Una vuelta, dos vueltas, tres vueltas, hasta alcanzar a Rula.</p></div>
+        <div class="ej"><i style="background:var(--naranja)"></i><p><b>Alto y bajo, cerca y lejos.</b> Desde el piso todo es alto; sentado, Rula queda cerca.</p></div>
+        <div class="ej"><i style="background:var(--violeta)"></i><p><b>Pasos, ordinales, formas, volumen.</b> Lo que se cuenta y se mide jugando.</p></div>
+      </article>
+    </div>
+    <div class="cita aparece">
+      <img src="img/rula.webp" alt="">
+      <p>“Un objeto se mantiene en equilibrio cuando su peso cae dentro de su base de apoyo.”<small>Así empieza la página “Para los grandes” del libro 2: lo que hay que saber para acompañar las preguntas.</small></p>
+    </div>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-pasos" style="padding-top:0">
+  <div class="envoltura">
+    <div class="titulo-sec aparece"><span class="marcador">Cómo se arma</span><h2 id="t-pasos">Tres pasos y el libro es suyo</h2></div>
+    <div class="pasos">
+      <div class="paso aparece" style="--c:var(--hoja)"><h3>Elegís mujer o varón</h3><p>Emi o Tomi: los dos con la misma Rula, la misma casa y las mismas ilustraciones de papel recortado.</p></div>
+      <div class="paso aparece" style="--c:var(--cielo)"><h3>Escribís su nombre</h3><p>Va en la tapa y en el cuento, en primera persona: “Me llamo <span data-nombre>Emi</span>”.</p></div>
+      <div class="paso aparece" style="--c:var(--violeta)"><h3>Recibís el libro</h3><p>Primero en PDF para imprimir en casa. Más adelante, impreso y en tu puerta.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="seccion cierre grano" aria-labelledby="t-cierre">
+  <div class="papelito" data-vel="0.2" style="width:240px;height:240px;background:#FFF6E4;opacity:.12;right:-60px;top:-50px"></div>
+  <div class="envoltura">
+    <div>
+      <h2 id="t-cierre">El primer libro de <span data-nombre>Emi</span> ya tiene tapa.</h2>
+      <p>Estamos terminando los once libros. Este prototipo muestra cómo va a quedar el suyo.</p>
+      <div class="aviso" id="aviso" hidden>Esto es un prototipo: todavía no tomamos pedidos. El libro de <b data-nombre>Emi</b> queda anotado para cuando abramos.</div>
+    </div>
+    <button class="boton" type="button" id="quiero">Quiero el libro de <span data-nombre>Emi</span></button>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="envoltura"><span>Así crezco, así descubro · prototipo</span><span>Ilustraciones de prueba · sin ventas reales</span></div>
+</footer>
+
+<script>
+(function(){
+  const COLS=["#D9452B","#EE8A2A","#E9B21C","#5E9E44","#4FA3D9","#8A5CB8"];
+  const estado={genero:"mujer",nombre:"Emi",i:0};
+  try{const g=JSON.parse(localStorage.getItem("acad-perso")||"null");if(g&&(g.genero==="mujer"||g.genero==="varon")){estado.genero=g.genero;estado.nombre=g.nombre||estado.nombre;}}catch(e){}
+  const def=()=>estado.genero==="mujer"?"Emi":"Tomi";
+  const N=()=>estado.nombre||def();
+  const G=(o,a)=>estado.genero==="mujer"?a:o;
+  const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  const limpiar=v=>{v=v.replace(/[^A-Za-zÁÉÍÓÚÜÑáéíóúüñ' -]/g,"").replace(/\s+/g," ").trimStart().slice(0,14);return v?v.charAt(0).toUpperCase()+v.slice(1):"";};
+
+  // Páginas del libro 1 (posiciones en milímetros de una doble de 432 × 216)
+  const flechaSVG=d=>`<svg viewBox="0 0 40 60" style="transform:rotate(${d==="arriba"?0:180}deg)"><path d="M20 4 L36 24 H26 V56 H14 V24 H4 Z" fill="#23304A"/></svg>`;
+  const P=[
+    {img:"portada",pie:"Tapa"},
+    {img:"d01",pie:"Páginas 2 y 3",t:[[()=>`Me llamo <b>${esc(N())}</b>. Soy ${G("chiquito","chiquita")}, muy ${G("chiquito","chiquita")}.`,18,16,150],[()=>"Todavía no me siento, no gateo y no camino. Pero hoy voy a aprender algo nuevo.",232,14,118]]},
+    {img:"d02",pie:"Páginas 4 y 5",t:[[()=>"Estoy boca arriba.",128,26,74],[()=>"Arriba veo el techo, la lámpara y la cara de mamá.",230,30,84]],pal:[["ARRIBA",62,116,17,"arriba"]]},
+    {img:"d04",pie:"Páginas 8 y 9",t:[[()=>"Uno: estiro el brazo. No llego.",18,18,180],[()=>"Dos: levanto una pierna. Tres: giro la cabeza para el costado.",234,18,180]],n:[[1,108,70],[2,271,70],[3,377,70]]},
+    {img:"d05",pie:"Páginas 10 y 11",t:[[()=>"Mi cabeza va para un lado. Después, mis hombros.",18,14,150],[()=>"Y el resto de mi cuerpo los sigue. ¡Me estoy dando vuelta!",230,14,105]]},
+    {img:"d06",pie:"Páginas 12 y 13",t:[[()=>"¡PLAF! Ahora estoy boca abajo.",18,16,160],[()=>"Abajo veo la manta y el piso. ¡Di media vuelta!",232,14,112]],pal:[["ABAJO",30,46,22,"abajo"]]},
+    {img:"d07",pie:"Páginas 14 y 15",t:[[()=>"Toco a Rula con la mano y Rula se va rodando.",40,12,150],[()=>"Rula es redonda. Las cosas redondas ruedan.",240,12,160]]},
+    {img:"d10",pie:"Páginas 20 y 21",t:[[()=>"Quiero llegar a Rula. Giro una vez, giro dos veces, giro tres veces. ¡La alcancé!",18,16,182],[()=>"Hoy aprendí a girar. ¿Vos también girabas así cuando eras bebé? Ahora quiero ver todo desde más arriba… ¿qué voy a aprender?",226,160,190,"chico"]],
+      n:()=>estado.genero==="mujer"?[[1,37,98],[2,107,98],[3,177,98]]:[[1,37,88],[2,103,88],[3,158,88]]}
+  ];
+  const pct=(v,t)=>(v/t*100).toFixed(3)+"%";
+  const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+  const pag=$("#pag");
+
+  function pintarPagina(){
+    const p=P[estado.i], g=estado.genero; let h="";
+    if(p.img==="portada"){
+      h=`<div class="guarda-pag"></div><div class="tapa-pag" style="background-image:url(img/b1-${g}-portada.jpg)"><div class="col">Así crezco, así descubro</div><div class="tit">${esc(N())} aprende a girar</div><div class="ins">1</div></div>`;
+      pag.style.backgroundImage="none";
+    }else{
+      pag.style.backgroundImage=`url(img/b1-${g}-${p.img}.jpg)`;
+      (p.t||[]).forEach(([f,x,y,w,c])=>{h+=`<div class="t ${c||""}" style="left:${pct(x,432)};top:${pct(y,216)};max-width:${pct(w,432)}">${f()}</div>`;});
+      (p.pal||[]).forEach(([w,x,y,s,fl])=>{const l=[...w].map((c,i)=>`<span style="color:${COLS[i%6]}">${c}</span>`).join("");h+=`<div class="pal" style="left:${pct(x,432)};top:${pct(y,216)};font-size:${(s/432*100).toFixed(2)}cqw">${l}${flechaSVG(fl)}</div>`;});
+      const ns=typeof p.n==="function"?p.n():(p.n||[]);
+      ns.forEach(([n,x,y],k)=>{h+=`<div class="num" style="left:${pct(x-9,432)};top:${pct(y,216)};background:${COLS[[0,2,4][k]]}">${n}</div>`;});
+    }
+    pag.innerHTML=h;
+    $("#libro").setAttribute("aria-label",`${p.pie} del libro “${N()} aprende a girar”`);
+    $("#pie-visor").textContent=`${p.pie} · ${estado.i+1} de ${P.length}`;
+    $("#anterior").disabled=estado.i===0; $("#siguiente").disabled=estado.i===P.length-1;
+    $$("#puntos button").forEach((b,k)=>b.setAttribute("aria-current",k===estado.i?"true":"false"));
+  }
+  function irA(i){
+    if(i<0||i>=P.length||i===estado.i)return;
+    const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if(reduce){estado.i=i;pintarPagina();return;}
+    pag.classList.add("saliendo");
+    setTimeout(()=>{estado.i=i;pintarPagina();pag.classList.remove("saliendo");},220);
+  }
+  P.forEach((p,k)=>{const b=document.createElement("button");b.type="button";b.setAttribute("aria-label",p.pie);b.addEventListener("click",()=>irA(k));$("#puntos").appendChild(b);});
+  $("#anterior").addEventListener("click",()=>irA(estado.i-1));
+  $("#siguiente").addEventListener("click",()=>irA(estado.i+1));
+  document.addEventListener("keydown",e=>{
+    const r=$("#libro").getBoundingClientRect(); if(r.bottom<0||r.top>innerHeight)return;
+    if(document.activeElement&&document.activeElement.tagName==="INPUT")return;
+    if(e.key==="ArrowRight")irA(estado.i+1); if(e.key==="ArrowLeft")irA(estado.i-1);
+  });
+  let x0=null; $("#libro").addEventListener("touchstart",e=>{x0=e.touches[0].clientX},{passive:true});
+  $("#libro").addEventListener("touchend",e=>{if(x0===null)return;const dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>40)irA(estado.i+(dx<0?1:-1));x0=null;});
+
+  function aplicar(){
+    const n=N(), g=estado.genero;
+    $$("[data-nombre]").forEach(el=>el.textContent=n);
+    $$("[data-genero]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.genero===g?"true":"false"));
+    $("#tapa-img").src=`img/b1-${g}-portada.jpg`;
+    $("#tapa-img").alt=`Ilustración de tapa: ${G("el bebé","la bebé")} boca abajo sobre una manta, estirando la mano hacia Rula, la pelota de colores.`;
+    $("#fig-hero-1").src=`img/${g==="mujer"?"emi":"tomi"}-girando.webp`;
+    $("#fig-col").src=`img/${g==="mujer"?"emi":"tomi"}-boca-abajo.webp`;
+    $("#ir-hojear").textContent=`Ver el libro de ${n}`;
+    pintarPagina(); pintarEstante();
+    try{localStorage.setItem("acad-perso",JSON.stringify({genero:g,nombre:estado.nombre}))}catch(e){}
+  }
+  const input=$("#nombre");
+  input.value=estado.nombre;
+  input.addEventListener("input",()=>{const v=limpiar(input.value);if(v!==input.value){const p=input.selectionStart;input.value=v;try{input.setSelectionRange(p,p)}catch(e){}}estado.nombre=v;aplicar();});
+  $("#armador").addEventListener("submit",e=>{e.preventDefault();$("#hojear").scrollIntoView({behavior:"smooth"});});
+  $$("[data-genero]").forEach(b=>b.addEventListener("click",()=>{
+    const antes=def(); estado.genero=b.dataset.genero;
+    if(!estado.nombre||estado.nombre===antes){estado.nombre=def();input.value=estado.nombre;}
+    aplicar();
+  }));
+
+  // Colección
+  const LIBROS=[
+    ["Girar","4 a 6 meses","Rotación","Arriba y abajo"],["Sentarse","6 a 8 meses","Equilibrio","Alto, bajo, cerca, lejos"],
+    ["Gatear","7 a 10 meses","Fricción","Contar manos y rodillas"],["Pararse","9 a 12 meses","Gravedad","Comparar alturas"],
+    ["Caminar","12 a 15 meses","Fuerza","Pasos y distancias"],["Correr","18 a 24 meses","Velocidad","Ordinales"],
+    ["Saltar","2 a 3 años","Subir y bajar","Medir alturas"],["Subir escaleras","2 a 3 años","Altura y esfuerzo","Secuencias"],
+    ["Tirar una pelota","3 a 4 años","Trayectoria","Formas"],["Nadar","4 a 5 años","Flotar y hundirse","Lleno, vacío, volumen"],
+    ["Andar en bici","5 a 6 años","Equilibrio en movimiento","Vueltas y ciclos"]];
+  const verbo={"Girar":"aprende a girar","Sentarse":"aprende a sentarse"};
+  function pintarEstante(){
+    const g=estado.genero;
+    $("#estante").innerHTML=LIBROS.map(([h,e,f,m],k)=>{
+      let cub;
+      if(k===0) cub=`<img src="img/b1-${g}-portada.jpg" alt="Tapa del libro 1" loading="lazy">`;
+      else if(k===1) cub=`<img src="img/b2-portada.jpg" alt="Tapa del libro 2" loading="lazy">`;
+      else cub=`<div class="sil" style="background:${COLS[k%6]}">${k+1}</div>`;
+      const estado2=k===0?"Borrador ilustrado · mujer y varón":k===1?"Borrador ilustrado · por ahora solo varón":"Próximamente";
+      return `<article class="libro-card"><div class="cubierta" style="background:${COLS[(k+3)%6]}22">${cub}</div><div class="info"><span class="nro">Libro ${k+1}</span><h3>${k<2?esc(N())+" "+verbo[h]:h}</h3><span class="edad">Más o menos de ${e}</span><div class="chips"><span class="chip fis">${f}</span><span class="chip mat">${m}</span></div><span class="estado ${k>1?"pronto":""}">${estado2}</span></div></article>`;
+    }).join("");
+  }
+
+  // Quiero el libro
+  $("#quiero").addEventListener("click",()=>{$("#aviso").hidden=false;});
+
+  // Movimiento con el scroll: papeles con paralaje y Rula que rueda de verdad
+  const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const moviles=$$("[data-vel]");
+  const rula=$("#rula-rodando"), pista=$("#pista"), cont=$("#contador");
+  let pedido=false;
+  function mover(){
+    pedido=false;
+    const vh=innerHeight;
+    if(!reduce) moviles.forEach(el=>{const r=el.parentElement.getBoundingClientRect();const c=(r.top+r.height/2-vh/2);el.style.translate=`0 ${(c*parseFloat(el.dataset.vel)).toFixed(1)}px`;});
+    const r=pista.getBoundingClientRect(), d=rula.offsetWidth;
+    const prog=Math.min(1,Math.max(0,(vh-r.top)/(vh+r.height)));
+    const x=prog*(pista.clientWidth-d);
+    const vueltas=x/(Math.PI*d);
+    rula.style.transform=`translateX(${x.toFixed(1)}px) rotate(${(vueltas*360).toFixed(1)}deg)`;
+    cont.textContent=vueltas.toLocaleString("es-AR",{minimumFractionDigits:1,maximumFractionDigits:1})+(Math.abs(vueltas-1)<.05?" vuelta":" vueltas");
+  }
+  // La regla de la pista marca una vuelta de Rula (su contorno)
+  function ajustarMarcas(){pista.querySelector(".marcas").style.setProperty("--paso",(Math.PI*rula.offsetWidth).toFixed(0)+"px");}
+  addEventListener("scroll",()=>{if(!pedido){pedido=true;requestAnimationFrame(mover);}},{passive:true});
+  addEventListener("resize",()=>{ajustarMarcas();mover();});
+  ajustarMarcas(); aplicar(); mover();
+  window.acad={estado,nombre:N};
+})();
+</script>
+

@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Así crezco, así descubro</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <meta name="description" content="Libros ilustrados de física y matemática donde el protagonista lleva el nombre de tu peque.">
@@ -20,6 +25,8 @@
   --guarda:#0F1729; --sombra:rgba(0,0,0,.4); --linea:rgba(255,243,220,.16); color-scheme:dark}
 
 *{box-sizing:border-box}
+body{margin:0}img{max-width:100%}[hidden]{display:none!important}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 html{scroll-behavior:smooth}
 body{background:var(--papel);color:var(--tinta);font-family:var(--texto);font-size:1.0625rem;line-height:1.55;overflow-x:hidden}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--papel)}
@@ -71,6 +78,10 @@ a{color:inherit}
 .campo input{flex:1 1 200px;min-width:0;font:700 1.35rem var(--display);font-variation-settings:"SOFT" 100;color:var(--tinta);background:var(--papel);border:2px solid var(--linea);border-radius:14px;padding:.45em .7em}
 .campo input:focus{border-color:var(--cielo);outline:none}
 .ayuda{font-size:.9rem;color:var(--tinta-suave)}
+.campo select{flex:1 1 220px;min-width:0;font:700 1rem var(--texto);color:var(--tinta);background:var(--papel);border:2px solid var(--linea);border-radius:14px;padding:.7em .8em}
+.descarga{border-top:2px dashed var(--linea);padding-top:16px}
+.boton[disabled]{opacity:.6;cursor:progress;transform:none}
+.estado-descarga.error{color:var(--rojo);font-weight:700}
 
 .escena{position:relative;aspect-ratio:1/1;max-width:540px;width:100%;margin-inline:auto}
 .tapa3d{position:absolute;inset:9% 10% 9% 6%;perspective:1400px}
@@ -202,6 +213,8 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
 @media (max-width:760px){.seccion .flota{width:86px!important;right:-18px!important;left:auto!important;top:6px!important;bottom:auto!important}.titulo-sec{padding-right:56px}}
 </style>
 
+</head>
+<body>
 <header class="barra">
   <div class="envoltura">
     <a class="marca" href="#armar" aria-label="Así crezco, así descubro, inicio">
@@ -224,14 +237,14 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
         <span style="background:var(--hoja)">11 libros</span><span style="background:var(--cielo)">Física y matemática</span><span style="background:var(--violeta)">De 5 a 7 años</span>
       </div>
       <h1><span class="vivo" data-nombre>Emi</span> aprende a girar, sentarse, gatear… y descubre el mundo.</h1>
-      <p class="bajada">Una colección ilustrada en papel recortado. Cada libro sigue un primer gran logro de un bebé y enseña un concepto de física y uno de matemática. Elegí si es nena o nene, escribí su nombre y el cuento se arma con su nombre.</p>
+      <p class="bajada">Una colección ilustrada en papel recortado. Cada libro sigue un primer gran logro de un bebé y enseña un concepto de física y uno de matemática. Elegí si es mujer o varón, escribí su nombre y el cuento se arma con su nombre.</p>
 
       <form class="armador" id="armador" autocomplete="off">
         <div>
           <span class="etq" id="etq-para">¿Para quién es?</span>
           <div class="eleccion" role="group" aria-labelledby="etq-para">
-            <button type="button" id="elegir-nena" data-genero="nena" aria-pressed="true"><img src="img/emi-cara.webp" alt="">Nena</button>
-            <button type="button" id="elegir-nene" data-genero="nene" aria-pressed="false"><img src="img/tomi-cara.webp" alt="">Nene</button>
+            <button type="button" id="elegir-mujer" data-genero="mujer" aria-pressed="true"><img src="img/emi-cara.webp" alt="">Mujer</button>
+            <button type="button" id="elegir-varon" data-genero="varon" aria-pressed="false"><img src="img/tomi-cara.webp" alt="">Varón</button>
           </div>
         </div>
         <div>
@@ -242,6 +255,19 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
           </div>
           <p class="ayuda" id="ayuda-nombre">Aparece en la tapa y en el cuento. Hasta 14 letras.</p>
         </div>
+        <!--solo-web-->
+        <div class="descarga">
+          <label class="etq" for="libro-elegido">Libro para descargar</label>
+          <div class="campo">
+            <select id="libro-elegido">
+              <option value="libro1">Libro 1 · aprende a girar</option>
+              <option value="libro2">Libro 2 · aprende a sentarse (solo varón)</option>
+            </select>
+            <button class="boton" type="button" id="descargar">Descargar el PDF</button>
+          </div>
+          <p class="ayuda estado-descarga" id="estado-descarga" aria-live="polite">PDF de 24 páginas de 21,6 × 21,6 cm, listo para imprimir.</p>
+        </div>
+        <!--/solo-web-->
       </form>
     </div>
 
@@ -250,7 +276,7 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
       <div class="flota" data-vel="0.1" style="width:24%;right:-4%;top:-2%"><img src="img/rula.webp" alt=""></div>
       <div class="tapa3d">
         <div class="tapa">
-          <img id="tapa-img" src="img/b1-nena-portada.jpg" alt="Ilustración de tapa: la bebé boca abajo sobre una manta, estirando la mano hacia Rula, la pelota de colores.">
+          <img id="tapa-img" src="img/b1-mujer-portada.jpg" alt="Ilustración de tapa: la bebé boca abajo sobre una manta, estirando la mano hacia Rula, la pelota de colores.">
           <div class="lomo"></div>
           <div class="titulo"><div class="col">Así crezco, así descubro</div><div class="tit"><span data-nombre>Emi</span> aprende a girar</div></div>
           <div class="insignia">1</div>
@@ -292,8 +318,8 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
         <button class="flecha" id="siguiente" type="button" aria-label="Doble siguiente">→</button>
         <div class="puntos" id="puntos" role="group" aria-label="Elegir doble"></div>
         <div class="cambio-rapido" role="group" aria-label="Versión">
-          <button type="button" data-genero="nena" aria-pressed="true">Nena</button>
-          <button type="button" data-genero="nene" aria-pressed="false">Nene</button>
+          <button type="button" data-genero="mujer" aria-pressed="true">Mujer</button>
+          <button type="button" data-genero="varon" aria-pressed="false">Varón</button>
         </div>
         <p class="pie-visor" id="pie-visor" aria-live="polite">Tapa</p>
       </div>
@@ -347,7 +373,7 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
   <div class="envoltura">
     <div class="titulo-sec aparece"><span class="marcador">Cómo se arma</span><h2 id="t-pasos">Tres pasos y el libro es suyo</h2></div>
     <div class="pasos">
-      <div class="paso aparece" style="--c:var(--hoja)"><h3>Elegís nena o nene</h3><p>Emi o Tomi: los dos con la misma Rula, la misma casa y las mismas ilustraciones de papel recortado.</p></div>
+      <div class="paso aparece" style="--c:var(--hoja)"><h3>Elegís mujer o varón</h3><p>Emi o Tomi: los dos con la misma Rula, la misma casa y las mismas ilustraciones de papel recortado.</p></div>
       <div class="paso aparece" style="--c:var(--cielo)"><h3>Escribís su nombre</h3><p>Va en la tapa y en el cuento, en primera persona: “Me llamo <span data-nombre>Emi</span>”.</p></div>
       <div class="paso aparece" style="--c:var(--violeta)"><h3>Recibís el libro</h3><p>Primero en PDF para imprimir en casa. Más adelante, impreso y en tu puerta.</p></div>
     </div>
@@ -374,11 +400,11 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
 <script>
 (function(){
   const COLS=["#D9452B","#EE8A2A","#E9B21C","#5E9E44","#4FA3D9","#8A5CB8"];
-  const estado={genero:"nena",nombre:"Emi",i:0};
-  try{const g=JSON.parse(localStorage.getItem("acad-perso")||"null");if(g&&g.genero){estado.genero=g.genero;estado.nombre=g.nombre||estado.nombre;}}catch(e){}
-  const def=()=>estado.genero==="nena"?"Emi":"Tomi";
+  const estado={genero:"mujer",nombre:"Emi",i:0};
+  try{const g=JSON.parse(localStorage.getItem("acad-perso")||"null");if(g&&(g.genero==="mujer"||g.genero==="varon")){estado.genero=g.genero;estado.nombre=g.nombre||estado.nombre;}}catch(e){}
+  const def=()=>estado.genero==="mujer"?"Emi":"Tomi";
   const N=()=>estado.nombre||def();
-  const G=(o,a)=>estado.genero==="nena"?a:o;
+  const G=(o,a)=>estado.genero==="mujer"?a:o;
   const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
   const limpiar=v=>{v=v.replace(/[^A-Za-zÁÉÍÓÚÜÑáéíóúüñ' -]/g,"").replace(/\s+/g," ").trimStart().slice(0,14);return v?v.charAt(0).toUpperCase()+v.slice(1):"";};
 
@@ -393,7 +419,7 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
     {img:"d06",pie:"Páginas 12 y 13",t:[[()=>"¡PLAF! Ahora estoy boca abajo.",18,16,160],[()=>"Abajo veo la manta y el piso. ¡Di media vuelta!",232,14,112]],pal:[["ABAJO",30,46,22,"abajo"]]},
     {img:"d07",pie:"Páginas 14 y 15",t:[[()=>"Toco a Rula con la mano y Rula se va rodando.",40,12,150],[()=>"Rula es redonda. Las cosas redondas ruedan.",240,12,160]]},
     {img:"d10",pie:"Páginas 20 y 21",t:[[()=>"Quiero llegar a Rula. Giro una vez, giro dos veces, giro tres veces. ¡La alcancé!",18,16,182],[()=>"Hoy aprendí a girar. ¿Vos también girabas así cuando eras bebé? Ahora quiero ver todo desde más arriba… ¿qué voy a aprender?",226,160,190,"chico"]],
-      n:()=>estado.genero==="nena"?[[1,37,98],[2,107,98],[3,177,98]]:[[1,37,88],[2,103,88],[3,158,88]]}
+      n:()=>estado.genero==="mujer"?[[1,37,98],[2,107,98],[3,177,98]]:[[1,37,88],[2,103,88],[3,158,88]]}
   ];
   const pct=(v,t)=>(v/t*100).toFixed(3)+"%";
   const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
@@ -441,8 +467,8 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
     $$("[data-genero]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.genero===g?"true":"false"));
     $("#tapa-img").src=`img/b1-${g}-portada.jpg`;
     $("#tapa-img").alt=`Ilustración de tapa: ${G("el bebé","la bebé")} boca abajo sobre una manta, estirando la mano hacia Rula, la pelota de colores.`;
-    $("#fig-hero-1").src=`img/${g==="nena"?"emi":"tomi"}-girando.webp`;
-    $("#fig-col").src=`img/${g==="nena"?"emi":"tomi"}-boca-abajo.webp`;
+    $("#fig-hero-1").src=`img/${g==="mujer"?"emi":"tomi"}-girando.webp`;
+    $("#fig-col").src=`img/${g==="mujer"?"emi":"tomi"}-boca-abajo.webp`;
     $("#ir-hojear").textContent=`Ver el libro de ${n}`;
     pintarPagina(); pintarEstante();
     try{localStorage.setItem("acad-perso",JSON.stringify({genero:g,nombre:estado.nombre}))}catch(e){}
@@ -473,7 +499,7 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
       if(k===0) cub=`<img src="img/b1-${g}-portada.jpg" alt="Tapa del libro 1" loading="lazy">`;
       else if(k===1) cub=`<img src="img/b2-portada.jpg" alt="Tapa del libro 2" loading="lazy">`;
       else cub=`<div class="sil" style="background:${COLS[k%6]}">${k+1}</div>`;
-      const estado2=k===0?(g==="nena"?"Borrador ilustrado · versión Emi y Tomi":"Borrador ilustrado · versión Tomi y Emi"):k===1?"Borrador ilustrado · por ahora solo Tomi":"Próximamente";
+      const estado2=k===0?"Borrador ilustrado · mujer y varón":k===1?"Borrador ilustrado · por ahora solo varón":"Próximamente";
       return `<article class="libro-card"><div class="cubierta" style="background:${COLS[(k+3)%6]}22">${cub}</div><div class="info"><span class="nro">Libro ${k+1}</span><h3>${k<2?esc(N())+" "+verbo[h]:h}</h3><span class="edad">Más o menos de ${e}</span><div class="chips"><span class="chip fis">${f}</span><span class="chip mat">${m}</span></div><span class="estado ${k>1?"pronto":""}">${estado2}</span></div></article>`;
     }).join("");
   }
@@ -502,5 +528,38 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
   addEventListener("scroll",()=>{if(!pedido){pedido=true;requestAnimationFrame(mover);}},{passive:true});
   addEventListener("resize",()=>{ajustarMarcas();mover();});
   ajustarMarcas(); aplicar(); mover();
+  window.acad={estado,nombre:N};
 })();
 </script>
+
+<!--solo-web-->
+<script>
+(function(){
+  const $=s=>document.querySelector(s);
+  const boton=$("#descargar"), estadoEl=$("#estado-descarga"), sel=$("#libro-elegido");
+  const titulos={libro1:"aprende a girar",libro2:"aprende a sentarse"};
+  let libs=null;
+  const cargar=src=>new Promise((ok,mal)=>{const s=document.createElement("script");s.src=src;s.onload=ok;s.onerror=()=>mal(new Error("No se pudo cargar el generador. Revisá la conexión y probá de nuevo."));document.head.appendChild(s);});
+  function rotular(){const n=window.acad?window.acad.nombre():"";boton.textContent=`Descargar el PDF de ${n}`;}
+  document.addEventListener("input",rotular); document.addEventListener("click",()=>setTimeout(rotular,0)); rotular();
+  boton.addEventListener("click",async()=>{
+    const {estado,nombre}=window.acad, libro=sel.value, n=nombre();
+    if(libro==="libro2"&&estado.genero==="mujer"){estadoEl.textContent="El libro 2 todavía no tiene versión mujer. Elegí el libro 1 o varón.";estadoEl.classList.add("error");return;}
+    estadoEl.classList.remove("error"); boton.disabled=true;
+    try{
+      estadoEl.textContent="Preparando el generador…";
+      libs=libs||Promise.all([cargar("vendor/pdf-lib.min.js"),cargar("vendor/fontkit.umd.min.js"),cargar("js/libro-pdf.js")]);
+      await libs;
+      const bytes=await window.LibroPDF.generarLibro({libro,genero:estado.genero,nombre:n,alAvanzar:(h,t)=>{estadoEl.textContent=`Armando el libro de ${n}: doble ${h} de ${t}…`;}});
+      const url=URL.createObjectURL(new Blob([bytes],{type:"application/pdf"}));
+      const a=document.createElement("a"); a.href=url; a.download=`${n} ${titulos[libro]}.pdf`.normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/ñ/g,"n"); document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(()=>URL.revokeObjectURL(url),60000);
+      estadoEl.textContent=`Listo: se descargó “${n} ${titulos[libro]}”.`;
+    }catch(e){estadoEl.textContent=e.message||"No se pudo armar el PDF. Probá de nuevo.";estadoEl.classList.add("error");libs=null;}
+    finally{boton.disabled=false;}
+  });
+})();
+</script>
+<!--/solo-web-->
+</body>
+</html>
