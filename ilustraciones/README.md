@@ -56,3 +56,14 @@ Generado el 26 de octubre de 2026 con Nano Banana Pro en 2K, con referencias `re
 | 20–21 | `d10-compuesta.png` (a partir de `d10-v3.png`: la secuencia de la izquierda y Tomi en cuatro patas a la derecha) |
 | 22–23 | `exp-v1.png` |
 | 24 | `p24-v1.png` |
+
+## Versión nena: Emi (carpeta `emi/`)
+
+Emi se hizo el 26 de octubre de 2026 editando las imágenes de Tomi del libro 1 con Nano Banana 2 y la hoja `referencias/hoja-personajes-emi.png`: piel un tono más clara, pelo castaño claro con un mechón atado con una flor coral, pestañas un poco más largas, mismo body verde.
+
+- Doble 4: la tercera viñeta seguía siendo Tomi; se corrigió editando solo el recorte de las viñetas 2 y 3 (`d04-emi-v3.png` → `d04-emi-compuesta.png`).
+- Doble 6: la edición oscureció la piel de papá; se devolvió la zona del adulto desde la versión original (`d06-emi-v2.png`).
+- Doble 10: la secuencia de la izquierda se rearmó con las figuritas recortadas de la hoja de Emi (`d10-emi-compuesta.png`).
+- Doble 2 (solo se ven las manos) usa la misma imagen que Tomi.
+
+Maqueta: `maqueta/libro1_emi.py` → `libros/01-girar/libro-1-emi-borrador-ilustrado.pdf`.
