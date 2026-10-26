@@ -11,7 +11,7 @@ Página de un solo archivo (`index.html`) con un personalizador: elegís mujer o
 
 Cuando cambian las ilustraciones o el texto de un libro: regenerá la maqueta (`maqueta/libro1.py`, `libro1_emi.py`, `libro2.py`) y después las plantillas con `node web/herramientas/plantillas.js` (desde la raíz del repositorio).
 
-Libros disponibles hoy: libro 1 (mujer y varón) y libro 2 (solo varón).
+Libros disponibles hoy: libro 1 y libro 2, en mujer y varón.
 
 ## Publicar en Vercel
 
