@@ -58,7 +58,7 @@ S.append(doble("d08-emi.jpg", [texto("Al lado hay un cubo de juguete. Lo empujo 
 S.append(doble("d09-emi.jpg", [texto("En el piso hay muchas cosas.", 18, 6, 150, 19),
     texto("¿Cuáles ruedan y cuáles no? ¿Vos qué decís?", 232, 6, 186, 19)], (18, 19)))
 S.append(doble("d10-emi-compuesta.jpg", [texto("Quiero llegar a Rula. Giro una vez, giro dos veces, giro tres veces. ¡La alcancé!", 18, 16, 182),
-    numero(1, 37, 98, COLS[0]), numero(2, 107, 98, COLS[2]), numero(3, 177, 98, COLS[4]),
+    numero(1, 37, 88, COLS[0]), numero(2, 103, 88, COLS[2]), numero(3, 158, 88, COLS[4]),
     texto("Hoy aprendí a girar. ¿Vos también girabas así cuando eras bebé? Ahora quiero ver todo desde más arriba… ¿qué voy a aprender?", 226, 160, 190, 19)], (20, 21)))
 
 filas = "".join(f'<tr><td><i style="background:{COLS[i % 6]}"></i>{o}</td><td></td><td></td></tr>' for i, o in enumerate(
