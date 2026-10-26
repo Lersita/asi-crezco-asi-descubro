@@ -8,9 +8,9 @@ Narra en primera persona. Es curioso, insistente y se ríe cuando algo le sale. 
 
 ### Rasgos que no cambian en ningún libro
 
-- Pelo castaño oscuro, con un **remolino** arriba de la frente que se le para siempre.
-- Ojos grandes, oscuros y redondos.
-- Piel trigueña clara, cachetes rosados.
+- Pelo **castaño claro**, con un **remolino** arriba de la frente que se le para siempre.
+- Ojos grandes y redondos, **color miel**.
+- Piel clara de tono durazno cálido, cachetes rosados (cambiado el 26 de octubre de 2026: un par de tonos más clara que la propuesta original).
 - **Color propio: verde hoja.** Siempre lleva algo verde (body, remera, medias, casco).
 - Gesto propio: cuando se concentra, **saca la puntita de la lengua**.
 

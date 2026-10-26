@@ -31,33 +31,33 @@ def doble(img, extras, folios, pos="center"):
 S = []
 # Tapa interior: guarda a la izquierda, portada a la derecha
 S.append(f'''<section class="spread"><div class="guarda"></div>
-<div class="page-r art" style="background-image:url({B}p01-portada-v1.jpg)"></div><div class="fold"></div>
+<div class="page-r art" style="background-image:url({B}p01-portada-v2.jpg)"></div><div class="fold"></div>
 <div class="cover-t"><div class="coleccion">Así crezco, así descubro</div>
 <h1>Tomi aprende<br>a girar</h1><div class="badge"><span>Libro</span>1</div></div>
 <div class="borrador">Borrador · ilustraciones de prueba</div></section>''')
 
-S.append(doble("d01-v2.jpg", [texto("Me llamo Tomi. Soy chiquito, muy chiquito.", 18, 16, 150),
+S.append(doble("d01-v3.jpg", [texto("Me llamo Tomi. Soy chiquito, muy chiquito.", 18, 16, 150),
     texto("Todavía no me siento, no gateo y no camino. Pero hoy voy a aprender algo nuevo.", 232, 14, 118)], (2, 3)))
-S.append(doble("d02-v2.jpg", [texto("Estoy boca arriba.", 128, 26, 74),
+S.append(doble("d02-v4.jpg", [texto("Estoy boca arriba.", 128, 26, 74),
     palabra("ARRIBA", 62, 116, 17, "arriba"),
     texto("Arriba veo el techo, la lámpara y la cara de mamá.", 230, 30, 84)], (4, 5)))
-S.append(doble("d03-v2.jpg", [texto("Esta es Rula, mi pelota. Es redonda, blandita y de muchos colores.", 18, 14, 160),
+S.append(doble("d03-v3.jpg", [texto("Esta es Rula, mi pelota. Es redonda, blandita y de muchos colores.", 18, 14, 160),
     texto("Está ahí, al costado. ¡La quiero agarrar!", 300, 188, 116, 19)], (6, 7)))
-S.append(doble("d04-v1-compuesta.jpg", [texto("Uno: estiro el brazo. No llego.", 18, 18, 180),
+S.append(doble("d04-v3-compuesta.jpg", [texto("Uno: estiro el brazo. No llego.", 18, 18, 180),
     texto("Dos: levanto una pierna. Tres: giro la cabeza para el costado.", 234, 18, 180),
     numero(1, 108, 70, COLS[0]), numero(2, 271, 70, COLS[2]), numero(3, 377, 70, COLS[4])], (8, 9)))
-S.append(doble("d05-v1.jpg", [texto("Mi cabeza va para un lado. Después, mis hombros.", 18, 14, 150),
+S.append(doble("d05-v2.jpg", [texto("Mi cabeza va para un lado. Después, mis hombros.", 18, 14, 150),
     texto("Y el resto de mi cuerpo los sigue. ¡Me estoy dando vuelta!", 230, 14, 105)], (10, 11)))
-S.append(doble("d06-v1.jpg", [texto("¡PLAF! Ahora estoy boca abajo.", 18, 16, 160),
+S.append(doble("d06-v3.jpg", [texto("¡PLAF! Ahora estoy boca abajo.", 18, 16, 160),
     palabra("ABAJO", 30, 46, 22, "abajo"),
     texto("Abajo veo la manta y el piso. ¡Di media vuelta!", 232, 14, 112)], (12, 13)))
-S.append(doble("d07-v1.jpg", [texto("Toco a Rula con la mano y Rula se va rodando.", 40, 12, 150),
+S.append(doble("d07-v2.jpg", [texto("Toco a Rula con la mano y Rula se va rodando.", 40, 12, 150),
     texto("Rula es redonda. Las cosas redondas ruedan.", 240, 12, 160)], (14, 15)))
-S.append(doble("d08-v1.jpg", [texto("Al lado hay un cubo de juguete. Lo empujo y se queda quieto.", 112, 12, 92, 19),
+S.append(doble("d08-v2.jpg", [texto("Al lado hay un cubo de juguete. Lo empujo y se queda quieto.", 112, 12, 92, 19),
     texto("El cubo tiene lados planos. Las cosas con lados planos no ruedan.", 228, 12, 112, 19)], (16, 17)))
-S.append(doble("d09-v1.jpg", [texto("En el piso hay muchas cosas.", 18, 6, 150, 19),
+S.append(doble("d09-v2.jpg", [texto("En el piso hay muchas cosas.", 18, 6, 150, 19),
     texto("¿Cuáles ruedan y cuáles no? ¿Vos qué decís?", 232, 6, 186, 19)], (18, 19)))
-S.append(doble("d10-v2-compuesta.jpg", [texto("Quiero llegar a Rula. Giro una vez, giro dos veces, giro tres veces. ¡La alcancé!", 18, 16, 182),
+S.append(doble("d10-v3-compuesta.jpg", [texto("Quiero llegar a Rula. Giro una vez, giro dos veces, giro tres veces. ¡La alcancé!", 18, 16, 182),
     numero(1, 37, 88, COLS[0]), numero(2, 103, 88, COLS[2]), numero(3, 158, 88, COLS[4]),
     texto("Hoy aprendí a girar. ¿Vos también girabas así cuando eras bebé? Ahora quiero ver todo desde más arriba… ¿qué voy a aprender?", 226, 160, 190, 19)], (20, 21)))
 
@@ -69,13 +69,13 @@ S.append(f'''<section class="spread papel">
 <ol><li>Armá la rampa con un adulto. Que quede bajita.</li><li>Antes de soltar cada cosa, adiviná: ¿rueda, se desliza o se queda quieta? Anotalo en la tabla.</li>
 <li>Soltá cada cosa arriba de la rampa, sin empujarla.</li><li>Anotá lo que pasó.</li>
 <li><b>Desafío:</b> probá el rollo acostado y después parado. Hacé lo mismo con la tapa. ¿Qué cambia?</li></ol>
-<img src="{B}exp-v1.jpg"></div>
+<img src="{B}exp-v2.jpg"></div>
 <div class="exp-der"><table><tr><th>Objeto</th><th>Yo creo que…</th><th>Lo que pasó</th></tr>{filas}</table>
 <p class="nota">En cada casillero escribí o dibujá: rueda, se desliza o se queda quieta.</p>
 <div class="descubrimos"><b>Qué descubrimos</b>Las cosas redondas tocan el piso en un puntito o en una rayita finita, y ruedan con poquito. Las que tienen lados planos se apoyan en una cara entera: se quedan quietas o, si la rampa es empinada, se deslizan sin rodar. El rollo y la tapa son redondos de un lado y planos del otro: ruedan según cómo los apoyes.</div></div>
 <div class="fold"></div><div class="folio izq">22</div><div class="folio der">23</div></section>''')
 
-S.append(f'''<section class="spread"><div class="page-l art" style="background-image:url({B}p24-cuna-v1.jpg)"></div><div class="guarda der"></div><div class="fold"></div>
+S.append(f'''<section class="spread"><div class="page-l art" style="background-image:url({B}p24-cuna-v2.jpg)"></div><div class="guarda der"></div><div class="fold"></div>
 <div class="grandes"><div class="etiqueta">Para los grandes</div>
 <p><b>El concepto.</b> Rodar es girar alrededor de un eje. Una pelota toca el piso en un solo punto, y el menor empujón la hace girar. Un cubo apoya una cara entera: para darlo vuelta hay que levantarlo por encima de un borde. El bebé hace lo mismo que la pelota: gira alrededor de una línea imaginaria que va de la cabeza a los pies. Cuando lleva la cabeza y el hombro más allá de su base de apoyo, su propio peso termina el giro.</p>
 <p><b>El hito.</b> Muchos bebés empiezan a girar entre los 4 y los 6 meses, más o menos. Muchas veces aparece primero de boca abajo a boca arriba, pero no siempre. Cada bebé tiene su ritmo; ante cualquier duda, lo mejor es consultar al pediatra.</p>
