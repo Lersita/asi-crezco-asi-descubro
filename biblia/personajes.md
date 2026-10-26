@@ -1,0 +1,67 @@
+# Personajes
+
+Aprobado el 25 de octubre de 2026. No se modifica entre libros: es lo que mantiene la colección reconocible.
+
+## Tomi
+
+Narra en primera persona. Es curioso, insistente y se ríe cuando algo le sale. Descubre solo: los grandes no le resuelven el problema.
+
+### Rasgos que no cambian en ningún libro
+
+- Pelo castaño oscuro, con un **remolino** arriba de la frente que se le para siempre.
+- Ojos grandes, oscuros y redondos.
+- Piel trigueña clara, cachetes rosados.
+- **Color propio: verde hoja.** Siempre lleva algo verde (body, remera, medias, casco).
+- Gesto propio: cuando se concentra, **saca la puntita de la lengua**.
+
+### Cómo crece, libro por libro
+
+| Libro | Edad aproximada | Cuerpo | Ropa | Qué puede hacer |
+| --- | --- | --- | --- | --- |
+| 1. Girar | 4–6 meses | Bebé muy chiquito, cabeza grande, poco pelo (solo el remolino), sin dientes | Body verde, descalzo | Levanta la cabeza boca abajo, gira. No se sienta solo |
+| 2. Sentarse | 6–8 meses | Más rellenito, pelo corto | Body verde con dibujo de pelota | Se sienta, primero con apoyo de las manos |
+| 3. Gatear | 7–10 meses | Primeros dos dientes abajo | Body verde y rodilleras de tela o pantalón largo | Gatea, se arrastra |
+| 4. Pararse | 9–12 meses | Piernas más firmes, algunos dientes más | Remera verde, pañal o pantalón corto | Se para agarrado a un mueble bajo |
+| 5. Caminar | 12–15 meses | Panza de bebé, piernas abiertas al caminar | Remera verde, primeras zapatillas | Primeros pasos, brazos arriba para equilibrarse |
+| 6. Correr | 18–24 meses | Más alto, pelo más largo | Remera verde, joggin, zapatillas | Corre, frena, a veces se cae sentado |
+| 7. Saltar | 2–3 años | Nene chiquito, ya no bebé | Remera verde con número, short | Salta con los dos pies |
+| 8. Subir escaleras | 2–3 años | Igual que en el 7, un poco más alto | Remera verde, pantalón largo | Sube agarrado a la baranda, con un adulto cerca |
+| 9. Tirar una pelota | 3–4 años | Más delgado, brazos más largos | Remera verde rayada | Tira con una mano, apunta |
+| 10. Nadar | 4–5 años | Más alto | Malla verde, antiparras | Flota y patea, siempre con un adulto en el agua |
+| 11. Andar en bici | 5–6 años | La edad de los lectores | Remera verde y **casco verde** | Anda en bici, primero con rueditas o empujado |
+
+## Rula
+
+La pelota de Tomi. Aparece en los 11 libros y en cada uno muestra el concepto físico.
+
+### Rasgos fijos
+
+- Pelota de goma blanda, inflada, de unos **35 cm** de diámetro. Su tamaño real no cambia: al lado del bebé del libro 1 parece enorme; al lado del Tomi del libro 11, es una pelota normal. Así se ve que Tomi crece.
+- **Seis gajos de colores**, siempre en este orden: rojo, naranja, amarillo, verde, celeste y violeta. El orden fijo sirve para mostrar que gira (se ve cómo se mueven los gajos).
+- **No tiene cara.** No habla ni piensa: es un objeto real que se comporta como un objeto real. Así lo que hace siempre es física verdadera.
+- Un poco gastada, con un raspón chiquito en el gajo amarillo, que se mantiene en todos los libros.
+
+### Qué hace Rula en cada libro
+
+| Libro | Qué muestra Rula |
+| --- | --- |
+| 1 | Rueda porque es redonda |
+| 2 | Se queda quieta en el piso; Tomi se balancea igual que ella cuando la empuja |
+| 3 | Rueda lejos en el piso liso y frena enseguida sobre la alfombra |
+| 4 | Se cae desde arriba del sillón cuando Tomi la suelta |
+| 5 | Tomi la empuja y la tira; se mueve para donde va la fuerza |
+| 6 | Rueda rápido en bajada y lento en subida |
+| 7 | Rebota: sube y vuelve a bajar |
+| 8 | Baja la escalera rebotando escalón por escalón (Tomi la mira desde abajo, nunca la persigue) |
+| 9 | Vuela en curva cuando Tomi la tira |
+| 10 | Flota en la pileta |
+| 11 | Va en el canasto de la bici; sus gajos giran como las ruedas |
+
+Cuidado con el libro 9: Rula es liviana y grande, y el aire la frena mucho. Su curva es real, pero no sirve para hablar de "lo pesado y lo liviano caen igual". Ver `tono-y-lenguaje.md`.
+
+## Mamá y papá
+
+- Acompañan de fondo, sin protagonismo. Muchas veces se ven **en parte**: las manos, las piernas, una sonrisa en el borde de la página.
+- Nunca le resuelven el problema a Tomi. Miran, cuidan y festejan.
+- Siempre hay un adulto en escena (aunque sea de costado) cuando Tomi está boca abajo, en el agua, en la escalera o en la bici.
+- Rasgos: mamá, pelo enrulado atado, anteojos redondos; papá, barba corta, buzo mostaza. Rasgos simples para que se reconozcan aunque aparezcan cortados.
