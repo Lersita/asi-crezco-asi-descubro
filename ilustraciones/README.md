@@ -67,3 +67,14 @@ Emi se hizo el 26 de octubre de 2026 editando las imágenes de Tomi del libro 1 
 - Doble 2 (solo se ven las manos) usa la misma imagen que Tomi.
 
 Maqueta: `maqueta/libro1_emi.py` → `libros/01-girar/libro-1-emi-borrador-ilustrado.pdf`.
+
+## Emi, versión 2 (carpeta `emi2/`, vigente)
+
+Desde el 26 de octubre de 2026, Emi tiene el pelo muy cortito (pelusita de bebé con un mechoncito y la misma flor coral) y la misma piel que Tomi. Hoja: `referencias/hoja-personajes-emi-v2.png`. Se editaron otra vez las ilustraciones de Tomi del libro 1.
+
+- Doble 4: viñetas 1 y 2, y viñeta 3, editadas por separado y recompuestas en `d04-compuesta.png`.
+- Doble 6: se devolvió la zona de papá desde la versión original (`d06-v2.png`).
+- Doble 7: se sacó una pelota que había aparecido en el borde izquierdo (`d07-v2.png`).
+- Doble 8: se volvió a editar porque había cambiado a mamá (`d08-v2.png`).
+
+La carpeta `emi/` queda como antecedente.
