@@ -131,7 +131,7 @@ a{color:inherit}
 .marcador{font-weight:700;font-size:.8rem;letter-spacing:.09em;text-transform:uppercase;color:var(--rojo)}
 .visor{position:relative;z-index:2}
 .libro{position:relative;aspect-ratio:2/1;max-width:100%;container-type:inline-size;border-radius:6px;overflow:hidden;box-shadow:0 22px 50px var(--sombra),0 2px 0 var(--linea);background:#FFF9E7}
-.pag{position:absolute;inset:0;background-size:cover;background-position:center;transition:opacity .45s ease,transform .45s ease}
+.pag{position:absolute;inset:0;background-size:cover;background-position:center;transition:opacity .45s ease,transform .45s ease,filter .45s ease}
 .pag.saliendo{opacity:0;transform:translateX(-2%)}
 .pliegue{position:absolute;left:47.7%;width:4.6%;top:0;bottom:0;pointer-events:none;background:linear-gradient(90deg,transparent,rgba(60,40,20,.12) 45%,rgba(60,40,20,.2) 50%,rgba(60,40,20,.12) 55%,transparent);z-index:5}
 .t{position:absolute;width:fit-content;font-family:var(--texto);font-size:1.78cqw;line-height:1.27;color:#23304A;padding:1cqw 1.6cqw 1.15cqw;isolation:isolate;filter:drop-shadow(0 .12cqw .2cqw rgba(70,45,20,.28));z-index:4}
@@ -157,6 +157,17 @@ a{color:inherit}
 .cambio-rapido{display:flex;gap:8px;flex-wrap:wrap}
 .cambio-rapido button{font:700 .9rem var(--texto);padding:6px 12px;border-radius:99px;border:1.5px solid var(--linea);background:var(--carton);color:var(--tinta);cursor:pointer}
 .cambio-rapido button[aria-pressed="true"]{background:var(--tinta);color:var(--papel)}
+.tit2{position:absolute;font:800 4.9cqw/1 var(--display);font-variation-settings:"SOFT" 100,"WONK" 1;color:#23304A;white-space:nowrap;z-index:4}
+.tit2 span{display:inline-block}
+.libro.cerrado .pag{filter:blur(1.2cqw) saturate(.9);transform:scale(1.06)}
+.muro{position:absolute;inset:0;z-index:6;display:grid;place-items:center;padding:4%;background:linear-gradient(180deg,rgba(255,246,228,.15),rgba(255,246,228,.55))}
+.muro-tarjeta{background:var(--carton);color:var(--tinta);border-radius:20px 26px 18px 24px;box-shadow:0 14px 40px var(--sombra);padding:clamp(14px,2.6cqw,30px) clamp(16px,3.2cqw,36px);display:grid;gap:clamp(6px,1cqw,12px);justify-items:start;max-width:min(92%,520px)}
+.muro-eti{font-weight:700;font-size:clamp(.62rem,1.3cqw,.8rem);letter-spacing:.09em;text-transform:uppercase;color:var(--hoja)}
+.muro-tit{font:850 clamp(1.15rem,3.6cqw,2.2rem)/1.05 var(--display);font-variation-settings:"SOFT" 100,"WONK" 1}
+.muro-txt{color:var(--tinta-suave);font-size:clamp(.82rem,1.8cqw,1.08rem)}
+.muro .boton{font-size:clamp(.8rem,1.7cqw,1rem)}
+.puntos button.bloq{opacity:.55;background:repeating-linear-gradient(45deg,var(--linea) 0 2px,transparent 2px 4px);border:1px solid var(--linea)}
+@media (max-width:520px){.muro-txt{display:none}}
 
 /* Colección */
 .coleccion{background:var(--papel-2)}
@@ -261,7 +272,7 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
           <div class="campo">
             <select id="libro-elegido">
               <option value="libro1">Libro 1 · aprende a girar</option>
-              <option value="libro2">Libro 2 · aprende a sentarse (solo varón)</option>
+              <option value="libro2">Libro 2 · aprende a sentarse</option>
             </select>
             <button class="boton" type="button" id="descargar">Descargar el PDF</button>
           </div>
@@ -304,19 +315,31 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
   <div class="flota va-y-viene" data-vel="-0.15" style="width:150px;right:2%;top:30px"><img src="img/rula.webp" alt=""></div>
   <div class="envoltura">
     <div class="titulo-sec aparece">
-      <span class="marcador">Hojeá el libro 1</span>
-      <h2 id="t-hojear"><span data-nombre>Emi</span> aprende a girar</h2>
-      <p>Estas son páginas reales del borrador, con el nombre que escribiste. Pasá las dobles con las flechas o con el teclado.</p>
+      <span class="marcador">Hojeá el libro <span id="nro-libro">1</span></span>
+      <h2 id="t-hojear"><span data-nombre>Emi</span> <span id="titulo-libro">aprende a girar</span></h2>
+      <p>Son las mismas páginas del libro que se descarga, con el nombre que escribiste. Pasá las dobles con las flechas o con el teclado.</p>
     </div>
     <div class="visor aparece">
       <div class="libro" id="libro" role="img" aria-roledescription="libro" aria-label="Doble página del libro">
         <div class="pag" id="pag"></div>
         <div class="pliegue"></div>
+        <div class="muro" id="muro" hidden>
+          <div class="muro-tarjeta">
+            <span class="muro-eti">Vista previa · páginas 1 a 7</span>
+            <p class="muro-tit">El cuento sigue…</p>
+            <p class="muro-txt">Para seguir leyendo con <b data-nombre>Emi</b>, completá tu compra y recibí el libro entero.</p>
+            <a class="boton" href="#t-cierre">Quiero el libro de <span data-nombre>Emi</span></a>
+          </div>
+        </div>
       </div>
       <div class="controles">
         <button class="flecha" id="anterior" type="button" aria-label="Doble anterior">←</button>
         <button class="flecha" id="siguiente" type="button" aria-label="Doble siguiente">→</button>
         <div class="puntos" id="puntos" role="group" aria-label="Elegir doble"></div>
+        <div class="cambio-rapido" role="group" aria-label="Libro">
+          <button type="button" data-libro="libro1" aria-pressed="true">Libro 1</button>
+          <button type="button" data-libro="libro2" aria-pressed="false">Libro 2</button>
+        </div>
         <div class="cambio-rapido" role="group" aria-label="Versión">
           <button type="button" data-genero="mujer" aria-pressed="true">Mujer</button>
           <button type="button" data-genero="varon" aria-pressed="false">Varón</button>
@@ -408,49 +431,55 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
   const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
   const limpiar=v=>{v=v.replace(/[^A-Za-zÁÉÍÓÚÜÑáéíóúüñ' -]/g,"").replace(/\s+/g," ").trimStart().slice(0,14);return v?v.charAt(0).toUpperCase()+v.slice(1):"";};
 
-  // Páginas del libro 1 (posiciones en milímetros de una doble de 432 × 216)
-  const flechaSVG=d=>`<svg viewBox="0 0 40 60" style="transform:rotate(${d==="arriba"?0:180}deg)"><path d="M20 4 L36 24 H26 V56 H14 V24 H4 Z" fill="#23304A"/></svg>`;
-  const P=[
-    {img:"portada",pie:"Tapa"},
-    {img:"d01",pie:"Páginas 2 y 3",t:[[()=>`Me llamo <b>${esc(N())}</b>. Soy ${G("chiquito","chiquita")}, muy ${G("chiquito","chiquita")}.`,18,16,150],[()=>"Todavía no me siento, no gateo y no camino. Pero hoy voy a aprender algo nuevo.",232,14,118]]},
-    {img:"d02",pie:"Páginas 4 y 5",t:[[()=>"Estoy boca arriba.",128,26,74],[()=>"Arriba veo el techo, la lámpara y la cara de mamá.",230,30,84]],pal:[["ARRIBA",62,116,17,"arriba"]]},
-    {img:"d04",pie:"Páginas 8 y 9",t:[[()=>"Uno: estiro el brazo. No llego.",18,18,180],[()=>"Dos: levanto una pierna. Tres: giro la cabeza para el costado.",234,18,180]],n:[[1,108,70],[2,271,70],[3,377,70]]},
-    {img:"d05",pie:"Páginas 10 y 11",t:[[()=>"Mi cabeza va para un lado. Después, mis hombros.",18,14,150],[()=>"Y el resto de mi cuerpo los sigue. ¡Me estoy dando vuelta!",230,14,105]]},
-    {img:"d06",pie:"Páginas 12 y 13",t:[[()=>"¡PLAF! Ahora estoy boca abajo.",18,16,160],[()=>"Abajo veo la manta y el piso. ¡Di media vuelta!",232,14,112]],pal:[["ABAJO",30,46,22,"abajo"]]},
-    {img:"d07",pie:"Páginas 14 y 15",t:[[()=>"Toco a Rula con la mano y Rula se va rodando.",40,12,150],[()=>"Rula es redonda. Las cosas redondas ruedan.",240,12,160]]},
-    {img:"d10",pie:"Páginas 20 y 21",t:[[()=>"Quiero llegar a Rula. Giro una vez, giro dos veces, giro tres veces. ¡La alcancé!",18,16,182],[()=>"Hoy aprendí a girar. ¿Vos también girabas así cuando eras bebé? Ahora quiero ver todo desde más arriba… ¿qué voy a aprender?",226,160,190,"chico"]],
-      n:[[1,37,88],[2,103,88],[3,158,88]]}
-  ];
+  // Visor: usa las mismas plantillas que el PDF (una imagen por doble) y escribe encima
+  // el título de tapa y la frase con el nombre. Desde la quinta vista, la doble se ve borrosa.
+  const LIBROS_V={
+    libro1:{nro:1,t2:"a girar",nombre:[18,16,150],frase:()=>`Me llamo ${esc(N())}. Soy ${G("chiquito","chiquita")}, muy ${G("chiquito","chiquita")}.`},
+    libro2:{nro:2,t2:"a sentarse",nombre:[40,12,150],frase:()=>`Soy ${esc(N())}. Ya sé girar: boca arriba, boca abajo.`}
+  };
+  const LIBRES=4; // vistas que se ven completas (tapa y páginas 2 a 7)
+  const PIES=["Tapa","Páginas 2 y 3","Páginas 4 y 5","Páginas 6 y 7","Páginas 8 y 9","Páginas 10 y 11","Páginas 12 y 13","Páginas 14 y 15","Páginas 16 y 17","Páginas 18 y 19","Páginas 20 y 21","Experimento · páginas 22 y 23","Para los grandes · página 24"];
+  if(!estado.libro) estado.libro="libro1";
   const pct=(v,t)=>(v/t*100).toFixed(3)+"%";
   const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
   const pag=$("#pag");
+  const carpeta=()=>`vista/${estado.libro}-${estado.genero}/`;
 
+  function ajustarTitulo(){
+    const t=pag.querySelector(".tit2"); if(!t)return;
+    const lim=$("#libro").clientWidth*150/432; let tam=4.9;
+    t.style.fontSize=tam+"cqw";
+    const l1=t.querySelector("span");
+    while(l1.offsetWidth>lim&&tam>2.4){tam-=.1;t.style.fontSize=tam.toFixed(2)+"cqw";}
+  }
   function pintarPagina(){
-    const p=P[estado.i], g=estado.genero; let h="";
-    if(p.img==="portada"){
-      h=`<div class="guarda-pag"></div><div class="tapa-pag" style="background-image:url(img/b1-${g}-portada.jpg)"><div class="col">Así crezco, así descubro</div><div class="tit">${esc(N())} aprende a girar</div><div class="ins">1</div></div>`;
-      pag.style.backgroundImage="none";
-    }else{
-      pag.style.backgroundImage=`url(img/b1-${g}-${p.img}.jpg)`;
-      (p.t||[]).forEach(([f,x,y,w,c])=>{h+=`<div class="t ${c||""}" style="left:${pct(x,432)};top:${pct(y,216)};max-width:${pct(w,432)}">${f()}</div>`;});
-      (p.pal||[]).forEach(([w,x,y,s,fl])=>{const l=[...w].map((c,i)=>`<span style="color:${COLS[i%6]}">${c}</span>`).join("");h+=`<div class="pal" style="left:${pct(x,432)};top:${pct(y,216)};font-size:${(s/432*100).toFixed(2)}cqw">${l}${flechaSVG(fl)}</div>`;});
-      const ns=typeof p.n==="function"?p.n():(p.n||[]);
-      ns.forEach(([n,x,y],k)=>{h+=`<div class="num" style="left:${pct(x-9,432)};top:${pct(y,216)};background:${COLS[[0,2,4][k]]}">${n}</div>`;});
-    }
-    pag.innerHTML=h;
-    $("#libro").setAttribute("aria-label",`${p.pie} del libro “${N()} aprende a girar”`);
-    $("#pie-visor").textContent=`${p.pie} · ${estado.i+1} de ${P.length}`;
-    $("#anterior").disabled=estado.i===0; $("#siguiente").disabled=estado.i===P.length-1;
-    $$("#puntos button").forEach((b,k)=>b.setAttribute("aria-current",k===estado.i?"true":"false"));
+    const L=LIBROS_V[estado.libro], i=estado.i, n=esc(N());
+    const nn=String(i).padStart(2,"0");
+    pag.style.backgroundImage=`url(${carpeta()}d${nn}.jpg)`;
+    let h="";
+    if(i===0) h=`<div class="tit2" style="left:${pct(232,432)};top:${pct(25.29,216)}"><span>${n} aprende</span><br>${L.t2}</div>`;
+    if(i===1){const [x,y,w]=L.nombre; h=`<div class="t" style="left:${pct(x,432)};top:${pct(y,216)};width:${pct(w,432)}">${L.frase()}</div>`;}
+    const cerrado=i>=LIBRES;
+    $("#libro").classList.toggle("cerrado",cerrado);
+    $("#muro").hidden=!cerrado;
+    pag.innerHTML=h; ajustarTitulo();
+    const titulo=`${N()} aprende ${L.t2}`;
+    $("#libro").setAttribute("aria-label",cerrado?`${PIES[i]} de “${titulo}”: vista previa borrosa`:`${PIES[i]} de “${titulo}”`);
+    $("#pie-visor").textContent=`${PIES[i]} · ${i+1} de ${PIES.length}`;
+    $("#anterior").disabled=i===0; $("#siguiente").disabled=i===PIES.length-1;
+    $$("#puntos button").forEach((b,k)=>{b.setAttribute("aria-current",k===i?"true":"false");b.classList.toggle("bloq",k>=LIBRES);});
+    $("#nro-libro").textContent=L.nro; $("#titulo-libro").textContent=`aprende ${L.t2}`;
+    $$("[data-libro]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.libro===estado.libro?"true":"false"));
+    const sel=$("#libro-elegido"); if(sel&&sel.value!==estado.libro) sel.value=estado.libro;
   }
   function irA(i){
-    if(i<0||i>=P.length||i===estado.i)return;
+    if(i<0||i>=PIES.length||i===estado.i)return;
     const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
     if(reduce){estado.i=i;pintarPagina();return;}
     pag.classList.add("saliendo");
     setTimeout(()=>{estado.i=i;pintarPagina();pag.classList.remove("saliendo");},220);
   }
-  P.forEach((p,k)=>{const b=document.createElement("button");b.type="button";b.setAttribute("aria-label",p.pie);b.addEventListener("click",()=>irA(k));$("#puntos").appendChild(b);});
+  PIES.forEach((p,k)=>{const b=document.createElement("button");b.type="button";b.setAttribute("aria-label",p);b.addEventListener("click",()=>irA(k));$("#puntos").appendChild(b);});
   $("#anterior").addEventListener("click",()=>irA(estado.i-1));
   $("#siguiente").addEventListener("click",()=>irA(estado.i+1));
   document.addEventListener("keydown",e=>{
@@ -477,6 +506,9 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
   input.value=estado.nombre;
   input.addEventListener("input",()=>{const v=limpiar(input.value);if(v!==input.value){const p=input.selectionStart;input.value=v;try{input.setSelectionRange(p,p)}catch(e){}}estado.nombre=v;aplicar();});
   $("#armador").addEventListener("submit",e=>{e.preventDefault();$("#hojear").scrollIntoView({behavior:"smooth"});});
+  $$("[data-libro]").forEach(b=>b.addEventListener("click",()=>{estado.libro=b.dataset.libro;pintarPagina();}));
+  const selL=$("#libro-elegido"); if(selL) selL.addEventListener("change",()=>{estado.libro=selL.value;pintarPagina();});
+  addEventListener("resize",()=>ajustarTitulo());
   $$("[data-genero]").forEach(b=>b.addEventListener("click",()=>{
     const antes=def(); estado.genero=b.dataset.genero;
     if(!estado.nombre||estado.nombre===antes){estado.nombre=def();input.value=estado.nombre;}
@@ -497,9 +529,9 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
     $("#estante").innerHTML=LIBROS.map(([h,e,f,m],k)=>{
       let cub;
       if(k===0) cub=`<img src="img/b1-${g}-portada.jpg" alt="Tapa del libro 1" loading="lazy">`;
-      else if(k===1) cub=`<img src="img/b2-portada.jpg" alt="Tapa del libro 2" loading="lazy">`;
+      else if(k===1) cub=`<img src="img/b2-${g}-portada.jpg" alt="Tapa del libro 2" loading="lazy">`;
       else cub=`<div class="sil" style="background:${COLS[k%6]}">${k+1}</div>`;
-      const estado2=k===0?"Borrador ilustrado · mujer y varón":k===1?"Borrador ilustrado · por ahora solo varón":"Próximamente";
+      const estado2=k===0?"Borrador ilustrado · mujer y varón":k===1?"Borrador ilustrado · mujer y varón":"Próximamente";
       return `<article class="libro-card"><div class="cubierta" style="background:${COLS[(k+3)%6]}22">${cub}</div><div class="info"><span class="nro">Libro ${k+1}</span><h3>${k<2?esc(N())+" "+verbo[h]:h}</h3><span class="edad">Más o menos de ${e}</span><div class="chips"><span class="chip fis">${f}</span><span class="chip mat">${m}</span></div><span class="estado ${k>1?"pronto":""}">${estado2}</span></div></article>`;
     }).join("");
   }
@@ -544,7 +576,6 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
   document.addEventListener("input",rotular); document.addEventListener("click",()=>setTimeout(rotular,0)); rotular();
   boton.addEventListener("click",async()=>{
     const {estado,nombre}=window.acad, libro=sel.value, n=nombre();
-    if(libro==="libro2"&&estado.genero==="mujer"){estadoEl.textContent="El libro 2 todavía no tiene versión mujer. Elegí el libro 1 o varón.";estadoEl.classList.add("error");return;}
     estadoEl.classList.remove("error"); boton.disabled=true;
     try{
       estadoEl.textContent="Preparando el generador…";

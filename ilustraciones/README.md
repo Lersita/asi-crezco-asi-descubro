@@ -78,3 +78,7 @@ Desde el 26 de octubre de 2026, Emi tiene el pelo muy cortito (pelusita de bebé
 - Doble 8: se volvió a editar porque había cambiado a mamá (`d08-v2.png`).
 
 La carpeta `emi/` queda como antecedente.
+
+## Libro 2, versión mujer (carpeta `libro2-emi/`)
+
+Hecho el 26 de octubre de 2026 editando las ilustraciones de Tomi del libro 2 con la hoja `referencias/hoja-personajes-emi-libro2.png` (Emi de unos 7 meses). Maqueta: `maqueta/libro2_emi.py` → `libros/02-sentarse/libro-2-emi-borrador-ilustrado.pdf`.

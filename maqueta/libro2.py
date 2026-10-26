@@ -38,7 +38,7 @@ S.append(experimento("¿Qué se cae<br>y qué no?",
     f"{I}exp-v1.jpg", ["Objeto", "¿Se queda quieto?", "¿Aguanta el libro?"],
     ["Vaso boca arriba", "Vaso boca abajo", "Rollo parado", "Rollo acostado", "Caja", "Pelota", "Naranja"],
     "En cada casillero escribí o dibujá: sí o no.",
-    "Las cosas con una base ancha y plana se quedan quietas y aguantan peso arriba. Las redondas tocan el piso en un puntito: se mueven con poco y lo que ponés arriba se cae. Tomi hizo lo mismo que la caja: con las piernas abiertas y las manos en el piso, su base se hizo más ancha."))
+    "Las cosas con una base ancha y plana se quedan quietas y aguantan peso arriba. Las redondas tocan el piso en un puntito: se mueven con poco y lo que ponés arriba se cae. Con las piernas abiertas y las manos en el piso pasa lo mismo: la base se hace más ancha, igual que la caja."))
 
 PARRAFOS = [
     ("El concepto.", "Un objeto se mantiene en equilibrio cuando su peso cae dentro de su base de apoyo. Cuanto más ancha es la base y más bajo está el peso, más difícil es que se vuelque. Al sentarse, el bebé abre las piernas y apoya las manos adelante: arma una base ancha, como un trípode. Con la práctica, sus músculos aprenden a corregir el bamboleo y ya no necesita las manos."),

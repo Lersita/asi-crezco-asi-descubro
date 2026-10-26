@@ -9,6 +9,7 @@ const LIBROS = [
   { id: 'libro1-varon', html: 'maqueta/libro1.html' },
   { id: 'libro1-mujer', html: 'maqueta/libro1-emi.html' },
   { id: 'libro2-varon', html: 'maqueta/libro2.html' },
+  { id: 'libro2-mujer', html: 'maqueta/libro2-emi.html' },
 ];
 (async () => {
   const b = await chromium.launch();

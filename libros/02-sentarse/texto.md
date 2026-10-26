@@ -107,7 +107,7 @@ Para descubrir por qué Tomi ya no se cae. Para hacer con un adulto.
 | Pelota |  |  |
 | Naranja |  |  |
 
-**Qué descubrimos:** las cosas con una base ancha y plana se quedan quietas y aguantan peso arriba. Las redondas tocan el piso en un puntito: se mueven con poco y lo que ponés arriba se cae. Tomi hizo lo mismo que la caja: con las piernas abiertas y las manos en el piso, su base se hizo más ancha.
+**Qué descubrimos:** las cosas con una base ancha y plana se quedan quietas y aguantan peso arriba. Las redondas tocan el piso en un puntito: se mueven con poco y lo que ponés arriba se cae. Con las piernas abiertas y las manos en el piso pasa lo mismo: la base se hace más ancha, igual que la caja.
 
 ## Para los grandes (página 24)
 
@@ -122,3 +122,7 @@ Para descubrir por qué Tomi ya no se cae. Para hacer con un adulto.
 - ¿Qué cosas de tu casa son altas y cuáles son bajas?
 - ¿Por qué las sillas y las mesas tienen cuatro patas?
 - ¿Qué está cerca y qué está lejos de donde estás sentado ahora?
+
+## Versión mujer
+
+Mismo texto, con estos cambios: "Yo soy bajita, bajita." (doble 2), "¡pero me quedo sentada! ¡Estoy sentada solita!" (doble 6), "¿Vos sabés cuándo te sentaste sola por primera vez?" (doble 10) y "¿Qué está cerca y qué está lejos de donde estás sentada ahora?" (Para los grandes). La frase del experimento se escribió sin el nombre del protagonista para que sirva en el libro personalizado.

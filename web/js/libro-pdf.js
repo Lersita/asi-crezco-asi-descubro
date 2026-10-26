@@ -18,7 +18,7 @@
     },
     libro2: {
       titulo2: 'a sentarse',
-      generos: ['varon'],
+      generos: ['varon', 'mujer'],
       nombreTexto: n => `Soy ${n}. Ya sé girar: boca arriba, boca abajo.`,
     },
   };
