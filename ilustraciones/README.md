@@ -94,3 +94,13 @@ Generado el 27 de octubre de 2026 con Nano Banana Pro en 2K, con referencias `re
 Versión mujer: hoja `referencias/hoja-personajes-emi-libro3.png` y `herramientas/emi_libro3.py`, que edita cada imagen de Tomi con Nano Banana 2. Maqueta: `maqueta/libro3.py` arma las dos versiones (`libro3.html` y `libro3-emi.html`). La doble 8 se muestra entera (sin recortar a 2:1) porque son dos escenitas sobre fondo crema.
 
 Créditos usados en el libro 3: unos 470 (hojas de personajes 48, Tomi 234 más 30 de correcciones, Emi 156). Quedaron 206.
+
+## Pelo corregido en los libros 2 y 3 (27 de octubre de 2026)
+
+El pelo no crecía entre libros. Se aprobó la evolución que está en `biblia/personajes.md`: libro 2 con pelusa en toda la cabeza, libro 3 con pelo corto parejo, con el remolino en los dos, y Emi con el mismo pelo que Tomi, más el mechoncito y la flor coral.
+
+- Hojas de personajes nuevas, con los mismos nombres de archivo de antes: `referencias/hoja-personajes-libro2.png`, `hoja-personajes-libro3.png`, `hoja-personajes-emi-libro2.png` y `hoja-personajes-emi-libro3.png`.
+- Todas las páginas con bebé de los libros 2 y 3, en las dos versiones, se editaron con `herramientas/pelo.py` (Nano Banana 2, una edición por página). Los archivos se reemplazaron con los mismos nombres; las versiones anteriores siguen en el historial de Git. El experimento no cambió, porque en él no aparece el bebé.
+- Arreglos sin gastar créditos: en `libro2/d10-compuesta.png` se devolvió el borde derecho (la edición había agregado a mamá) y en `libro3/d07-v1.png` la esquina de arriba a la izquierda (había agregado una cara).
+- Se repitieron 3 ediciones: `libro2/p24-v1.png`, porque había perdido el remolino, y `libro2-emi/d04.png` y `d10-compuesta.png`, porque la edición había agregado una línea punteada y una hoja de personajes.
+- Las figuras de Tomi de la web (`web/img/tomi-solito.webp` y `tomi-cuatro-patas.webp`) se recortaron de la hoja nueva del libro 2.

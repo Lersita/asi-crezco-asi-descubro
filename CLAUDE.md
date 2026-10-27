@@ -50,13 +50,14 @@ Las edades son siempre un rango aproximado.
 - **26/10/2026:** Tomi con piel un par de tonos más clara, pelo castaño claro y ojos miel. Versión mujer: **Emi**, igual a Tomi, con pelo muy cortito, un mechón con una flor coral y la misma piel. El protagonista se personaliza: el cliente elige mujer o varón y escribe el nombre (va en la tapa, "{Nombre} aprende a girar", y en la frase de la doble 1). En la web se dice "mujer" y "varón", nunca "nena" o "nene".
 - **26/10/2026:** el texto de los libros no nombra al protagonista fuera de la tapa y la doble 1 (si no, el PDF personalizado diría "Tomi"). La versión mujer cambia solo las palabras con género.
 - **27/10/2026:** venta del **PDF digital** con Mercado Pago (Checkout Pro). Precios: 1 libro $18.999; 2 libros $34.199; 3 libros $48.499; colección de 11 $124.999. Hoy solo se venden 1 y 2 (hay 2 libros listos); 3 y 11 se muestran como "próximamente". El **impreso** en tapa dura (con el PDF de regalo al instante, en una sola compra) queda para cuando haya presupuesto de imprenta.
+- **27/10/2026:** el pelo crece libro a libro (detalle en `biblia/personajes.md`). Desde el libro 4, Tomi sin remolino y Emi sin colita; Emi lleva un ganchito con flor coral. Antes de gastar créditos en ilustraciones, revisar la evolución y consultar (ver "Cómo trabajar").
 
 ## Estado (27/10/2026)
 
 - **Libros 1 y 2:** texto, ilustraciones (varón y mujer) y PDF de borrador listos.
-- **Libro 3 (27/10/2026):** texto aprobado; ilustraciones (varón y mujer) y PDF de borrador listos para revisar. Falta sumarlo a la web. Libro 4 en adelante: sin empezar.
+- **Libro 3 (27/10/2026):** texto aprobado; ilustraciones (varón y mujer) y PDF de borrador listos para revisar. Pelo de Tomi y Emi corregido en los libros 2 y 3 (ver `ilustraciones/README.md`). Falta sumarlo a la web. Libro 4 en adelante: sin empezar.
 - **Web:** publicada en Vercel (https://asi-crezco-asi-descubro-web.vercel.app), carpeta `web/`. Personalizador, visor (desde la quinta doble se ve borroso), precios y packs, compra con Mercado Pago y descarga en `gracias.html`. Probado de punta a punta **en modo prueba** (credencial de un usuario vendedor de prueba en la variable `MP_ACCESS_TOKEN` de Vercel). Detalle técnico en `web/README.md`.
-- **Créditos de Kie.ai:** quedaban unos 200 el 27/10/2026, después del libro 3. Cada imagen nueva con Nano Banana Pro cuesta 18; cada edición con Nano Banana 2 en 2K, 12.
+- **Créditos de Kie.ai:** quedaban unos 520 el 27/10/2026, después de corregir el pelo. Cada imagen nueva con Nano Banana Pro cuesta 18; cada edición con Nano Banana 2 en 2K, 12.
 
 ### Pendiente para vender de verdad
 

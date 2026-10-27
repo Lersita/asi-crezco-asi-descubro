@@ -13,7 +13,8 @@ nena = ("Change ONLY the baby girl's hair so it matches exactly the hair of the 
 PROMPT = ("Edit the first image with minimal changes. " + (nene if genero == "varon" else nena) +
           NIVEL + " If the baby appears several times, change every copy. Keep EVERYTHING else exactly identical: the baby's face, expression, "
           "pose, clothes and size; the adults (same faces, light skin, hair and clothes); the ball, the room, the rug, the floor, "
-          "the colors, the composition and the cut-paper style. No text.")
+          "the colors, the composition and the cut-paper style. The first image is the page to edit; the second image is ONLY a hair reference: "
+          "never copy its layout, poses or extra babies into the page. Do not add outlines, dotted lines or new objects. No text.")
 def subir(f):
     r = subprocess.run(["python3", "herramientas/subir.py", f], capture_output=True, text=True).stdout.strip()
     return r
