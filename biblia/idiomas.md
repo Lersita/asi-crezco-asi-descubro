@@ -32,6 +32,13 @@ Para lectores de toda Latinoamérica y de hispanohablantes en Estados Unidos.
 | agarrar | agarrar | sirve en Latinoamérica |
 | tapita, frasco | tapa, frasco | |
 | nene, nena | niño, niña | |
+| zapatillas | zapatos | zapatillas / tenis / deportivos cambian por país |
+| tirar (la gravedad tira) | atraer | "tirar" se lee como "arrojar" en varios países |
+| tironear | jalar | |
+| de costado | de lado | |
+| me hamaco, me bamboleo | me balanceo, me tambaleo | |
+| almohadón, sillón | cojín, sofá | |
+| pararse | pararse | en Latinoamérica y Estados Unidos es "ponerse de pie"; en España es "detenerse" (cambiar si se vende allá) |
 
 ## Inglés
 
@@ -49,7 +56,7 @@ Para Estados Unidos.
 
 | Libro | Español neutro | Inglés |
 | --- | --- | --- |
-| Colección | Así crezco, así descubro | **(propuesta)** I Grow, I Discover |
+| Colección | Así crezco, así descubro | I Grow, I Discover (aprobado el 27/10/2026) |
 | 1 | Tommy aprende a girar | Tommy Learns to Roll Over |
 | 2 | Tommy aprende a sentarse | Tommy Learns to Sit Up |
 | 3 | Tommy aprende a gatear | Tommy Learns to Crawl |
