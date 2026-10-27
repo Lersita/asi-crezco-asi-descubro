@@ -79,7 +79,7 @@ Las edades son siempre un rango aproximado.
 
 ## Cómo se hace cada cosa
 
-- **Ilustrar un libro:** hoja de personajes de la edad nueva (editando la anterior) → cada doble con Nano Banana Pro en 2K y 21:9, pasando la hoja y una portada como referencia → revisar todas juntas en una hoja de contactos → corregir. La versión mujer se hace **editando** las imágenes del varón con Nano Banana 2 y la hoja de Emi.
+- **Ilustrar un libro:** revisión de la evolución con el usuario (ver "Antes de gastar créditos en ilustraciones") → hoja de personajes de la edad nueva (editando la anterior) → cada doble con Nano Banana Pro en 2K y 21:9, pasando la hoja y una portada como referencia → revisar todas juntas en una hoja de contactos → corregir. La versión mujer se hace **editando** las imágenes del varón con Nano Banana 2 y la hoja de Emi.
 - **Problemas conocidos de las ediciones:** a veces cambian la piel o la cara de los adultos, o dejan una viñeta sin cambiar. Arreglo sin gastar créditos: unir la zona del adulto desde la versión anterior (las imágenes quedan alineadas). Para una viñeta, editar solo ese recorte. Las URL de Kie.ai (tempfile) vencen: guardar siempre la imagen en `ilustraciones/`.
 - **Después de cambiar ilustraciones o texto:** maqueta (`python3 maqueta/libroN.py`) → PDF (`node maqueta/pdf.js maqueta/libroN.html salida.pdf`) → plantillas de la web (`node web/herramientas/plantillas.js`) → vistas previas (`python3 web/herramientas/vista.py`) → guardar en Git (Vercel publica solo).
 - **Sumar un libro a la venta:** agregarlo en `web/precios.json`, en `api/_pdf.js` (título y frase de la doble 1) y en el visor de `web/index.html`.
@@ -90,3 +90,12 @@ Las edades son siempre un rango aproximado.
 - Antes de cerrar un libro, revisarlo contra estas reglas y contra la biblia, y proponer mejoras en lugar de aplicarlas sin consultar.
 - Lo que no esté definido en la biblia se propone y se marca como **(propuesta)** hasta que lo apruebe.
 - Guardar en Git al cerrar cada paso, con un mensaje claro en español.
+
+### Antes de gastar créditos en ilustraciones (regla del 27/10/2026)
+
+Para **cualquier** ilustración (hojas de personajes, páginas, correcciones), antes de generar nada:
+
+1. **Revisar la evolución:** poner lado a lado a Tomi y a Emi del libro anterior (y de los anteriores) y comprobar que el cambio tiene sentido con la edad: **pelo (cantidad y largo, siempre igual o más que en el libro anterior, nunca menos)**, dientes, tamaño y proporciones del cuerpo, ropa y lo que puede hacer. Lo mismo para Rula, mamá, papá y la casa.
+2. **Preguntarle al usuario** las definiciones que no estén cerradas en `biblia/personajes.md` (cuánto pelo, cómo es la ropa nueva, etc.), mostrándole la comparación. No decidir solo.
+3. **Recién con su aprobación**, gastar créditos. Si una generación sale mal, no "corregir para el otro lado" sin volver a chequear contra la evolución aprobada.
+4. Avisar antes cuántos créditos se van a usar y cuántos quedan.
