@@ -116,3 +116,12 @@ Para **cualquier** ilustración (hojas de personajes, páginas, correcciones), a
 2. **Preguntarle al usuario** las definiciones que no estén cerradas en `biblia/personajes.md` (cuánto pelo, cómo es la ropa nueva, etc.), mostrándole la comparación. No decidir solo.
 3. **Recién con su aprobación**, gastar créditos. Si una generación sale mal, no "corregir para el otro lado" sin volver a chequear contra la evolución aprobada.
 4. Avisar antes cuántos créditos se van a usar y cuántos quedan, y después anotar lo gastado en `costos.md`.
+
+### Cómo pedir las imágenes para que la IA se equivoque menos (regla del 27/10/2026)
+
+1. **Hoja del set:** el living (sillón con respaldo, alfombra tejida, mesita, mesa, ventana) tiene una imagen de referencia propia en `ilustraciones/referencias/`. Se pasa en todas las páginas, junto con la hoja de personajes, en lugar de una página de un libro anterior. Cuando aparece un lugar nuevo (pileta, plaza, escalera), se arma su hoja antes de ilustrar.
+2. **La IA no dibuja medidas ni textos:** las líneas de altura, las flechas de medida, los números y las palabras se agregan en la maqueta. En la imagen solo van flechas de movimiento simples.
+3. **Prompts sin numeración** ("(1)", "1.") y con verbos que no se puedan malinterpretar: "se agarra del borde para sostenerse", no "holding a box".
+4. **Prueba antes del lote:** generar 2 imágenes, revisarlas y recién después lanzar el resto.
+5. **Regla fija de personas** en el bloque [REGLAS] de cada libro: solo mamá y papá, cada uno una vez como máximo, sin otras personas.
+6. **Las hojas de personajes no llevan objetos ni poses que adelanten otro libro** (caminar, cargar cosas), porque el modelo las copia en las páginas.
