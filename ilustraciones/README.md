@@ -1,10 +1,10 @@
 # Ilustraciones
 
-Borradores generados con inteligencia artificial (Kie.ai, modelo Nano Banana Pro, resolución 2K) el 26 de octubre de 2026. Estilo A, papel recortado.
+Ilustraciones generadas con inteligencia artificial (Kie.ai, modelo Nano Banana Pro, resolución 2K) el 26 de octubre de 2026. Estilo A, papel recortado.
 
 ## Cómo se hacen
 
-1. **Referencias fijas** (`referencias/`): la hoja de personajes de Tomi y Rula. Junto con la portada (`borradores/p01-portada-v1.png`), es la referencia de estilo de todas las páginas.
+1. **Referencias fijas** (`referencias/`): la hoja de personajes de Tomi y Rula. Junto con la portada (`borradores/p01-portada-v2.png`), es la referencia de estilo de todas las páginas.
 2. **Cada página** se genera pasando esas dos imágenes como referencia y el bloque de estilo de `herramientas/style2.txt`, más la escena de `libros/01-girar/ilustraciones.md`.
 3. **Correcciones chicas** (por ejemplo, sacar letras) se hacen editando la imagen con Nano Banana 2, que es más barato.
 4. Las dobles salen en 21:9 y la maqueta las recorta a 2:1. Las dobles 4 y 10 se recompusieron (`*-compuesta.png`) para que nada importante caiga en el pliegue.
@@ -57,17 +57,6 @@ Generado el 26 de octubre de 2026 con Nano Banana Pro en 2K, con referencias `re
 | 22–23 | `exp-v1.png` |
 | 24 | `p24-v1.png` |
 
-## Versión nena: Emi (carpeta `emi/`)
-
-Emi se hizo el 26 de octubre de 2026 editando las imágenes de Tomi del libro 1 con Nano Banana 2 y la hoja `referencias/hoja-personajes-emi.png`: piel un tono más clara, pelo castaño claro con un mechón atado con una flor coral, pestañas un poco más largas, mismo body verde.
-
-- Doble 4: la tercera viñeta seguía siendo Tomi; se corrigió editando solo el recorte de las viñetas 2 y 3 (`d04-emi-v3.png` → `d04-emi-compuesta.png`).
-- Doble 6: la edición oscureció la piel de papá; se devolvió la zona del adulto desde la versión original (`d06-emi-v2.png`).
-- Doble 10: la secuencia de la izquierda se rearmó con las figuritas recortadas de la hoja de Emi (`d10-emi-compuesta.png`).
-- Doble 2 (solo se ven las manos) usa la misma imagen que Tomi.
-
-Maqueta: `maqueta/libro1_emi.py` → `libros/01-girar/libro-1-emi-borrador-ilustrado.pdf`.
-
 ## Emi, versión 2 (carpeta `emi2/`, vigente)
 
 Desde el 26 de octubre de 2026, Emi tiene el pelo muy cortito (pelusita de bebé con un mechoncito y la misma flor coral) y la misma piel que Tomi. Hoja: `referencias/hoja-personajes-emi-v2.png`. Se editaron otra vez las ilustraciones de Tomi del libro 1.
@@ -77,8 +66,11 @@ Desde el 26 de octubre de 2026, Emi tiene el pelo muy cortito (pelusita de bebé
 - Doble 7: se sacó una pelota que había aparecido en el borde izquierdo (`d07-v2.png`).
 - Doble 8: se volvió a editar porque había cambiado a mamá (`d08-v2.png`).
 
-La carpeta `emi/` queda como antecedente.
 
 ## Libro 2, versión mujer (carpeta `libro2-emi/`)
 
 Hecho el 26 de octubre de 2026 editando las ilustraciones de Tomi del libro 2 con la hoja `referencias/hoja-personajes-emi-libro2.png` (Emi de unos 7 meses). Maqueta: `maqueta/libro2_emi.py` → `libros/02-sentarse/libro-2-emi-borrador-ilustrado.pdf`.
+
+## Limpieza
+
+El 27 de octubre de 2026 se borraron las versiones descartadas (pruebas, la primera Emi y las hojas de personajes reemplazadas). Siguen en el historial de Git si alguna vez hacen falta. En `borradores/`, `emi2/` y `libro2/` quedan solo las imágenes de las tablas de arriba y las originales de las dobles compuestas.
