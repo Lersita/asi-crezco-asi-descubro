@@ -75,9 +75,9 @@ Las edades son siempre un rango aproximado.
 
 - `CLAUDE.md`: este contexto y las reglas.
 - `costos.md`: créditos de Kie.ai y dólares gastados por libro (1.000 créditos = USD 5). Se actualiza cada vez que se gastan créditos.
-- `biblia/personajes.md`: Tomi en cada edad, Rula, mamá y papá. `biblia/tono-y-lenguaje.md`: cómo se escribe y la física que no se puede decir mal. `biblia/estilo-visual.md`: estilo, seguridad en las imágenes, formato de impresión.
+- `biblia/personajes.md`: Tomi en cada edad, Rula, mamá y papá. `biblia/tono-y-lenguaje.md`: cómo se escribe y la física que no se puede decir mal. `biblia/estilo-visual.md`: estilo, seguridad en las imágenes, formato de impresión. `biblia/idiomas.md`: español neutro e inglés para KDP (glosario, títulos, onomatopeyas).
 - `plantillas/libro.md`: la estructura fija de 24 páginas.
-- `libros/NN-hito/`: `texto.md`, `ilustraciones.md` (prompts) y los PDF de borrador.
+- `libros/NN-hito/`: `texto.md` (rioplatense, web), `texto-es.md` (español neutro, KDP), `texto-en.md` (inglés, KDP), `ilustraciones.md` (prompts) y los PDF de borrador.
 - `ilustraciones/`: imágenes originales. `README.md` dice qué versión se usa en cada página y cómo se hicieron. `herramientas/kie.py` genera o edita una imagen con Kie.ai.
 - `maqueta/`: arma cada libro en HTML (`libro1.py`, `libro1_emi.py`, `libro2.py`, `libro2_emi.py`, `libro3.py` y `libro4.py` que arman las dos versiones, con piezas comunes en `comun.py`) y lo pasa a PDF con `pdf.js`.
 - `web/`: la web y las funciones de pago. Ver `web/README.md`.
