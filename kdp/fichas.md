@@ -22,7 +22,7 @@ Borrador del 27 de octubre de 2026. Todo lo que pide KDP al cargar cada libro de
 | Archivo de tapa | `kdp/libroN-es-tapa.pdf` o `kdp/libroN-en-tapa.pdf` (17,3063 × 8,75 in). Elegir "Upload a cover you already have" |
 | Código de barras | Lo agrega KDP: el lugar abajo a la derecha de la contratapa ya está libre |
 | Distribución ampliada (Expanded distribution) | **No** (con este precio no deja ganancia) |
-| Precio sugerido | **USD 9,99** en Amazon.com. KDP muestra la regalía en la misma pantalla: es el 60% del precio menos el costo de impresión, que calculamos en unos USD 2,50 a 3 para 24 páginas a color premium. Queda alrededor de USD 3 por libro |
+| Precio | **USD 12,99** en Amazon.com (elegido el 27/10/2026). La regalía es el 60% del precio menos la impresión, que KDP calcula en USD 4,20 para 24 páginas a color premium: quedan unos USD 3,59 por libro, antes de la retención del 30% de Estados Unidos (unos USD 2,51 después) |
 
 ### Contenido generado con IA (lo pregunta KDP y hay que contestar con la verdad)
 

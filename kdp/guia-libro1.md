@@ -114,7 +114,7 @@ This information is only for Amazon: it is not shown on the book's page.
 
 ### Summary
 
-Under **Summary** you'll see the **Printing cost** (we estimate about USD 2.50 to 3.00). Click **Save and Continue**.
+Under **Summary** you'll see the **Printing cost** (USD 4.20 for book 1). Click **Save and Continue**.
 
 ---
 
@@ -124,7 +124,7 @@ Under **Summary** you'll see the **Printing cost** (we estimate about USD 2.50 t
 | --- | --- |
 | **Territories** | **All territories (worldwide rights)** |
 | **Primary marketplace** | **Amazon.com** |
-| **Price** (USD) | **9.99**. The royalty for that price appears right next to it (about USD 3) |
+| **Price** (USD) | **12.99**. The royalty for that price appears right next to it (about USD 3.59 before US tax withholding) |
 | **Other marketplaces** | Leave the prices KDP calculates automatically from the USD price |
 | **Expanded Distribution** | Leave it **unchecked** |
 | **Terms & Conditions** | Read and accept |
