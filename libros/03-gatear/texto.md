@@ -111,7 +111,7 @@ Para descubrir por qué Rula frena en la alfombra. Para hacer con un adulto.
 
 **El hito.** Muchos bebés empiezan a gatear entre los 7 y los 10 meses, más o menos. Antes suelen hamacarse en cuatro patas, y es común que al principio vayan para atrás. Algunos se arrastran, otros se desplazan sentados y algunos casi no gatean y pasan directo a pararse. Cada bebé tiene su ritmo; ante cualquier duda, lo mejor es consultar al pediatra.
 
-**Seguridad.** Cuando empieza a moverse, la casa cambia: conviene revisar el piso a su altura. Nada chico a su alcance (si pasa por adentro de un rollo de papel higiénico, es peligroso), tapas en los enchufes, cables fuera de alcance, muebles fijados a la pared y una puerta o reja en las escaleras. En pisos muy lisos, mejor descalzo o con medias antideslizantes. Y siempre, un adulto cerca.
+**Seguridad.** Cuando empieza a moverse, la casa cambia: conviene revisar el piso a su altura. Nada chico a su alcance (si pasa por adentro de un rollo de papel higiénico, es peligroso), tapas en los enchufes, cables fuera de alcance, muebles fijados a la pared y una puerta o reja en las escaleras. En pisos muy lisos, mejor con los pies descalzos o con medias antideslizantes. Y siempre, un adulto cerca.
 
 **Para charlar después de leer**
 
@@ -119,9 +119,14 @@ Para descubrir por qué Rula frena en la alfombra. Para hacer con un adulto.
 - ¿Dónde te resbalás más: en el piso mojado o en el piso seco?
 - ¿Cuántas patas usa un perro para caminar? ¿Y vos, cuántas usabas para gatear?
 
-## Versión mujer
+## Personalización (nombre y versión mujer o varón)
 
-El texto no tiene palabras con género que cambien: sirve igual para Emi. La frase de la doble 1 es la única que nombra a la protagonista ("Soy {Nombre}. Ya sé girar y ya sé sentarme.").
+El cliente elige mujer o varón y escribe el nombre. El nombre aparece solo en dos lugares:
+
+- **Tapa:** "{Nombre} aprende a gatear".
+- **Doble 1, página izquierda:** "Soy {Nombre}. Ya sé girar y ya sé sentarme."
+
+En el resto del libro no se nombra a quien protagoniza y ninguna frase tiene palabras con género (se evitaron a propósito: "Termino con la panza en el piso", "¡Estoy gateando!", "con los pies descalzos"). Por eso el texto es el mismo para las dos versiones. Lo único que cambia en la versión mujer son las ilustraciones: Emi en lugar de Tomi.
 
 ## Revisión contra las reglas
 
@@ -136,4 +141,4 @@ El texto no tiene palabras con género que cambien: sirve igual para Emi. La fra
 - [x] Experimento con materiales de la casa y sin riesgo (pelota mediana, sin piezas chicas).
 - [x] Tomi siempre en el piso, con un adulto cerca; sin cocina ni escaleras.
 - [x] Una sola onomatopeya (¡FIUUU!).
-- [x] El protagonista se nombra solo en la tapa y en la doble 1.
+- [x] El nombre va solo en la tapa y en la doble 1; ninguna frase tiene género, así que sirve para mujer y varón sin cambios.
