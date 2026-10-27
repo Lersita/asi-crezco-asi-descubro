@@ -21,7 +21,7 @@ Narra en primera persona. Es curioso, insistente y se ríe cuando algo le sale. 
 | 1. Girar | 4–6 meses | Bebé muy chiquito, cabeza grande, poco pelo (solo el remolino), sin dientes | Body verde, descalzo | Levanta la cabeza boca abajo, gira. No se sienta solo |
 | 2. Sentarse | 6–8 meses | Más rellenito, pelusa castaña clara cortita en toda la cabeza, con el remolino | Body verde con dibujo de pelota | Se sienta, primero con apoyo de las manos |
 | 3. Gatear | 7–10 meses | Pelo corto parejo que cubre la cabeza, con el remolino. Primeros dos dientes abajo | Body verde y rodilleras de tela o pantalón largo | Gatea, se arrastra |
-| 4. Pararse | 9–12 meses | Piernas más firmes, algunos dientes más | Remera verde, pañal o pantalón corto | Se para agarrado a un mueble bajo |
+| 4. Pararse | 9–12 meses | Piernas más firmes. Pelo un poco más largo y despeinado, sin remolino. Dos dientes abajo y dos arriba | Remera verde hoja con la pelotita en el pecho y pañal a la vista, descalzo | Se para agarrado a un mueble bajo |
 | 5. Caminar | 12–15 meses | Panza de bebé, piernas abiertas al caminar | Remera verde, primeras zapatillas | Primeros pasos, brazos arriba para equilibrarse |
 | 6. Correr | 18–24 meses | Más alto, pelo más largo | Remera verde, joggin, zapatillas | Corre, frena, a veces se cae sentado |
 | 7. Saltar | 2–3 años | Nene chiquito, ya no bebé | Remera verde con número, short | Salta con los dos pies |
@@ -40,7 +40,7 @@ Narra en primera persona. Es curioso, insistente y se ríe cuando algo le sale. 
 
 ## Emi (versión mujer)
 
-Igual a Tomi en todo (cara, piel, ojos, ropa, edad y lo que puede hacer), con **la misma cantidad de pelo que Tomi en cada libro**, más un mechoncito arriba con una **flor coral** (libros 1 a 3). **Desde el libro 4:** sin mechoncito ni colita; lleva un **ganchito con una flor coral** en algún lugar del pelo. Se hace editando las imágenes de Tomi.
+Igual a Tomi en todo (cara, piel, ojos, ropa, edad y lo que puede hacer), con **la misma cantidad de pelo que Tomi en cada libro**, más un mechoncito arriba con una **flor coral** (libros 1 a 3). **Desde el libro 4:** sin mechoncito ni colita; lleva un **ganchito con una flor coral** al costado, arriba de la oreja, sosteniendo un mechón. Se hace editando las imágenes de Tomi.
 
 ## Rula
 
