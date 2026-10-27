@@ -8,7 +8,7 @@ Narra en primera persona. Es curioso, insistente y se ríe cuando algo le sale. 
 
 ### Rasgos que no cambian en ningún libro
 
-- Pelo **castaño claro**, con un **remolino** arriba de la frente que se le para siempre.
+- Pelo **castaño claro**, con un **remolino** arriba de la frente que se le para (solo en los libros 1 a 3; desde el libro 4 el pelo crece normal y ya no tiene remolino).
 - Ojos grandes y redondos, **color miel**.
 - Piel clara de tono durazno cálido, cachetes rosados (cambiado el 26 de octubre de 2026: un par de tonos más clara que la propuesta original).
 - **Color propio: verde hoja.** Siempre lleva algo verde (body, remera, medias, casco).
@@ -35,12 +35,12 @@ Narra en primera persona. Es curioso, insistente y se ríe cuando algo le sale. 
 - **Libro 1:** casi pelado, solo el remolino.
 - **Libro 2:** pelusa castaña clara, cortita, que ya se ve en toda la cabeza, con el remolino.
 - **Libro 3:** pelo corto parejo que cubre la cabeza, con el remolino.
-- **Desde el libro 4:** un poco más en cada libro.
+- **Desde el libro 4 (decidido el 27 de octubre de 2026):** se terminan el remolino de Tomi y el mechoncito parado de Emi. El pelo crece de forma normal, un poco más en cada libro, siempre castaño claro.
 - Regla: en cada libro el pelo es **igual o más** que en el anterior, nunca menos. Antes de ilustrar, comparar con las hojas de los libros anteriores.
 
 ## Emi (versión mujer)
 
-Igual a Tomi en todo (cara, piel, ojos, ropa, edad y lo que puede hacer), con **la misma cantidad de pelo que Tomi en cada libro**, más un mechoncito arriba con una **flor coral**. Se hace editando las imágenes de Tomi.
+Igual a Tomi en todo (cara, piel, ojos, ropa, edad y lo que puede hacer), con **la misma cantidad de pelo que Tomi en cada libro**, más un mechoncito arriba con una **flor coral** (libros 1 a 3). **Desde el libro 4:** sin mechoncito ni colita; lleva un **ganchito con una flor coral** en algún lugar del pelo. Se hace editando las imágenes de Tomi.
 
 ## Rula
 
