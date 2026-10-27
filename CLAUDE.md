@@ -53,9 +53,10 @@ Las edades son siempre un rango aproximado.
 
 ## Estado (27/10/2026)
 
-- **Libros 1 y 2:** texto, ilustraciones (varón y mujer) y PDF de borrador listos. Libro 3 en adelante: sin empezar.
+- **Libros 1 y 2:** texto, ilustraciones (varón y mujer) y PDF de borrador listos.
+- **Libro 3 (27/10/2026):** texto aprobado; ilustraciones (varón y mujer) y PDF de borrador listos para revisar. Falta sumarlo a la web. Libro 4 en adelante: sin empezar.
 - **Web:** publicada en Vercel (https://asi-crezco-asi-descubro-web.vercel.app), carpeta `web/`. Personalizador, visor (desde la quinta doble se ve borroso), precios y packs, compra con Mercado Pago y descarga en `gracias.html`. Probado de punta a punta **en modo prueba** (credencial de un usuario vendedor de prueba en la variable `MP_ACCESS_TOKEN` de Vercel). Detalle técnico en `web/README.md`.
-- **Créditos de Kie.ai:** quedaban unos 670 el 27/10/2026. Cada imagen nueva con Nano Banana Pro cuesta 18; cada edición con Nano Banana 2 en 2K, 12.
+- **Créditos de Kie.ai:** quedaban unos 200 el 27/10/2026, después del libro 3. Cada imagen nueva con Nano Banana Pro cuesta 18; cada edición con Nano Banana 2 en 2K, 12.
 
 ### Pendiente para vender de verdad
 
@@ -73,7 +74,7 @@ Las edades son siempre un rango aproximado.
 - `plantillas/libro.md`: la estructura fija de 24 páginas.
 - `libros/NN-hito/`: `texto.md`, `ilustraciones.md` (prompts) y los PDF de borrador.
 - `ilustraciones/`: imágenes originales. `README.md` dice qué versión se usa en cada página y cómo se hicieron. `herramientas/kie.py` genera o edita una imagen con Kie.ai.
-- `maqueta/`: arma cada libro en HTML (`libro1.py`, `libro1_emi.py`, `libro2.py`, `libro2_emi.py`, con piezas comunes en `comun.py`) y lo pasa a PDF con `pdf.js`.
+- `maqueta/`: arma cada libro en HTML (`libro1.py`, `libro1_emi.py`, `libro2.py`, `libro2_emi.py`, `libro3.py` que arma las dos versiones, con piezas comunes en `comun.py`) y lo pasa a PDF con `pdf.js`.
 - `web/`: la web y las funciones de pago. Ver `web/README.md`.
 
 ## Cómo se hace cada cosa

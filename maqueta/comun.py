@@ -22,8 +22,9 @@ def texto(t, x, y, w, size=None):
     st = f"left:{x}mm;top:{y}mm;width:{w}mm" + (f";font-size:{size}pt" if size else "")
     return f'<div class="txt" style="{st}">{e(t)}</div>'
 
-def doble(img, extras, folios, pos="center"):
-    return (f'<section class="spread"><div class="art" style="background-image:url({B}{img});background-position:{pos}"></div>'
+def doble(img, extras, folios, pos="center", ajuste="cover"):
+    """ajuste="contain" muestra la imagen entera (para las dobles con fondo crema liso)."""
+    return (f'<section class="spread"><div class="art" style="background-image:url({B}{img});background-position:{pos};background-size:{ajuste}"></div>'
             f'<div class="fold"></div>{"".join(extras)}'
             f'<div class="folio izq">{folios[0]}</div><div class="folio der">{folios[1]}</div></section>')
 

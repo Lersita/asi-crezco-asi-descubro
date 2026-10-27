@@ -49,7 +49,7 @@ El "piso del pasillo" del texto es el piso de madera brillante, sin alfombra, qu
 
 ## Páginas 12–13 · Doble 6 · La alfombra me ayuda
 ```
-[ESTILO]. Close-up at floor level on the knitted rug: in the right half, one chubby baby hand pressed firmly on the rug and one knee in soft grey pants planted on the rug, the thick knitted texture and fringes very visible, Tomi's smiling face partly visible above. Left half: calm close-up of the rug texture and soft cream wall, with empty space for a big word. [REGLAS]. Wide 21:9.
+[ESTILO]. Low camera at floor level on the knitted rug, close framing. Right half: Tomi on his hands and knees, large, seen from the side, crawling to the right with a confident smile showing his two tiny lower teeth; his chubby hand pressed firmly on the thick knitted rug and his knee in soft grey pants planted on it, the knitted texture and fringes very visible under them. Left half: calm close-up of the rug texture and plain cream wall, with empty space for a big word; mom's slippers partially visible at the bottom left edge. No faces cut by the edges. [REGLAS]. Wide 21:9.
 ```
 
 ## Páginas 14–15 · Doble 7 · ¡Gateo!

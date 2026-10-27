@@ -74,3 +74,23 @@ Hecho el 26 de octubre de 2026 editando las ilustraciones de Tomi del libro 2 co
 ## Limpieza
 
 El 27 de octubre de 2026 se borraron las versiones descartadas (pruebas, la primera Emi y las hojas de personajes reemplazadas). Siguen en el historial de Git si alguna vez hacen falta. En `borradores/`, `emi2/` y `libro2/` quedan solo las imágenes de las tablas de arriba y las originales de las dobles compuestas.
+
+## Libro 3 (carpetas `libro3/` y `libro3-emi/`)
+
+Generado el 27 de octubre de 2026 con Nano Banana Pro en 2K, con referencias `referencias/hoja-personajes-libro3.png` (Tomi de unos 9 meses: dos dientitos abajo y pantalón largo gris) y `libro2/p01-portada-v1.png` (estilo y living). Bloque de estilo: `herramientas/style-libro3.txt`. Se generan todas juntas con `herramientas/generar_libro3.py` (lee los prompts de `libros/03-gatear/ilustraciones.md`). Para pasar referencias locales, `herramientas/subir.py` las sube a Kie.ai y devuelve la URL.
+
+| Página | Varón (`libro3/`) | Mujer (`libro3-emi/`) |
+| --- | --- | --- |
+| 1 Portada | `p01-v1.png` | `p01.png` |
+| 2–3 a 10–11 | `d01-v1.png` … `d05-v1.png` | `d01.png` … `d05.png` |
+| 12–13 | `d06-v2.png` (rehecha: primer plano de mano y rodilla en la alfombra) | `d06.png` |
+| 14–15 | `d07-v1.png` | `d07.png` |
+| 16–17 | `d08-v2.png` (se borró una mano de adulto que parecía empujar a Rula) | `d08-v2.png` (se devolvió la zona del adulto desde la de Tomi: la edición le había agregado una cara) |
+| 18–19 | `d09-v1.png` | `d09.png` |
+| 20–21 | `d10-v2.png` (editada con Nano Banana 2 para que mire hacia el sillón) | `d10.png` |
+| 22–23 | `exp-v1.png` | `exp.png` |
+| 24 | `p24-v1.png` | `p24.png` |
+
+Versión mujer: hoja `referencias/hoja-personajes-emi-libro3.png` y `herramientas/emi_libro3.py`, que edita cada imagen de Tomi con Nano Banana 2. Maqueta: `maqueta/libro3.py` arma las dos versiones (`libro3.html` y `libro3-emi.html`). La doble 8 se muestra entera (sin recortar a 2:1) porque son dos escenitas sobre fondo crema.
+
+Créditos usados en el libro 3: unos 470 (hojas de personajes 48, Tomi 234 más 30 de correcciones, Emi 156). Quedaron 206.

@@ -9,7 +9,7 @@ def armar(nombre, I):
     S = [portada(f"{I}p01.jpg", f"{nombre} aprende<br>a gatear", 3)]
 
     S.append(doble(f"{I}d01.jpg", [texto(f"Soy {nombre}. Ya sé girar y ya sé sentarme.", 24, 12, 150),
-        texto("Pero Rula siempre se me escapa. Hoy voy a aprender a gatear.", 226, 12, 150)], (2, 3)))
+        texto("Pero Rula siempre se me escapa. Hoy voy a aprender a gatear.", 226, 12, 150)], (2, 3), pos="80% center"))
     S.append(doble(f"{I}d02.jpg", [texto("Me pongo en cuatro patas. ¿Cuántas cosas me sostienen?", 24, 12, 150),
         texto("Una mano, dos manos. Una rodilla, dos rodillas. ¡Cuatro!", 226, 12, 150)] + NUMS_D02, (4, 5)))
     S.append(doble(f"{I}d03.jpg", [texto("Me hamaco para adelante y para atrás.", 24, 12, 150),
@@ -24,7 +24,7 @@ def armar(nombre, I):
     S.append(doble(f"{I}d07.jpg", [texto("Mano, rodilla. Mano, rodilla.", 24, 12, 120),
         texto("¡Avanzo! ¡Estoy gateando!", 226, 12, 120)], (14, 15)))
     S.append(doble(f"{I}d08.jpg", [texto("Empujo a Rula en el piso liso. ¡Rueda lejos, lejos!", 24, 12, 160),
-        texto("Ahora la empujo en la alfombra. ¡Frena enseguida! La alfombra la frena más que el piso liso.", 226, 12, 175)], (16, 17)))
+        texto("Ahora la empujo en la alfombra. ¡Frena enseguida! La alfombra la frena más que el piso liso.", 226, 12, 175)], (16, 17), ajuste="contain"))
     S.append(doble(f"{I}d09.jpg", [texto("¿Dónde rueda más lejos Rula: en el piso liso o en la alfombra?", 24, 12, 165),
         texto("¿Cuántas manos y cuántas rodillas tengo en el piso? ¡Contalas conmigo!", 226, 12, 165)], (18, 19)))
     S.append(doble(f"{I}d10.jpg", [texto("Una mano, otra mano, una rodilla, otra rodilla. ¡Llegué hasta Rula! ¡La alcancé!", 24, 12, 165),
@@ -49,7 +49,8 @@ def armar(nombre, I):
 
 
 # Números 1 a 4 al lado de cada mano y rodilla en la doble 2 (posiciones en mm sobre la doble de 432 × 216).
-NUMS_D02 = []
+NUMS_D02 = [numero(1, 336, 180, COLS[0]), numero(2, 384, 172, COLS[1]),
+            numero(3, 246, 172, COLS[3]), numero(4, 274, 180, COLS[4])]
 
 PARRAFOS = [
     ("El concepto.", "La fricción aparece cuando dos superficies se tocan y una se mueve, o intenta moverse, sobre la otra. No solo frena: también es lo que permite agarrarse y empujar. Al gatear, el bebé empuja el piso hacia atrás con las manos y las rodillas, y gracias a la fricción avanza; en un piso muy liso, resbala. Con la pelota pasa algo parecido: cuando rueda sobre la alfombra, la alfombra se hunde un poco y le va quitando energía, por eso frena antes (los físicos lo llaman resistencia a la rodadura)."),

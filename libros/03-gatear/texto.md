@@ -70,7 +70,7 @@ Máximo tres frases por página. Tomi siempre en el piso (alfombra o piso de mad
 
 - **Texto, página izquierda:** Empujo a Rula en el piso liso. ¡Rueda lejos, lejos!
 - **Texto, página derecha:** Ahora la empujo en la alfombra. ¡Frena enseguida! La alfombra la frena más que el piso liso.
-- **Ilustración:** Izquierda: Rula rodando por el pasillo de madera, con una línea de movimiento larga. Derecha: Rula quieta sobre la alfombra, cerquita de Tomi, con una línea de movimiento corta. Tomi en cuatro patas en el borde de la alfombra.
+- **Ilustración:** Dos escenitas sobre fondo crema. Izquierda: Tomi empuja a Rula en el piso de madera y Rula rueda lejos, con una línea de movimiento larga. Derecha: Tomi la empuja en la alfombra y Rula queda cerquita, con una línea de movimiento corta.
 
 **Doble 9. ¿Vos qué decís? (páginas 18–19)**
 
@@ -83,7 +83,7 @@ Máximo tres frases por página. Tomi siempre en el piso (alfombra o piso de mad
 - **Texto, página izquierda:** Una mano, otra mano, una rodilla, otra rodilla. ¡Llegué hasta Rula! ¡La alcancé!
 - **Ilustración, página izquierda:** Tomi abrazando a Rula sobre la alfombra, feliz.
 - **Texto, página derecha:** Hoy aprendí a gatear. ¿Vos sabés cómo te movías cuando eras bebé? Ahora miro el sillón… ¿qué habrá allá arriba?
-- **Ilustración, página derecha:** Tomi en el piso, al lado de un sillón bajo y firme, con una mano apoyada en el almohadón, mirando hacia arriba. Rula arriba del sillón. Es el adelanto del libro 4: pararse.
+- **Ilustración, página derecha:** un sillón bajo y firme, con papá y mamá sentados; Tomi, abrazado a Rula, mira hacia arriba del sillón con curiosidad. Es el adelanto del libro 4: pararse. (Cambiado al ilustrar: una sola Rula en la doble.)
 
 ## Experimento: ¿Dónde llega más lejos la pelota? (páginas 22–23)
 
