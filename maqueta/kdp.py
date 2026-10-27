@@ -93,20 +93,22 @@ def armar(n, lang):
         lados = ["der"] if k == 0 else ["izq"] if k == 12 else ["izq", "der"]
         for lado in lados:
             x = -SANGRADO if lado == "izq" else -PAG_H
-            extra = f'<div class="legal">{html.escape(LEGAL[lang])}</div>' if k == 12 else ""
+            extra = f'<div class="legal"><span>{html.escape(LEGAL[lang])}</span></div>' if k == 12 else ""
             paginas.append(f'<div class="kpage"><div class="kspread" style="left:{x:.3f}mm">{s}</div>{extra}</div>')
     assert len(paginas) == 24, len(paginas)
 
     css = f"""
 @page{{size:{PAG_W}mm {PAG_H}mm;margin:0}}
-body{{margin:0}}
-.kpage{{width:{PAG_W}mm;height:{PAG_H}mm;position:relative;overflow:hidden;page-break-after:always;background:#FFF9E7}}
+html,body{{margin:0;width:{PAG_W}mm;overflow:hidden}}
+.kpage{{contain:paint;width:{PAG_W}mm;height:{PAG_H}mm;position:relative;overflow:hidden;page-break-after:always;background:#FFF9E7}}
 .kspread{{position:absolute;top:0;width:432mm;height:216mm;transform:scale({ESCALA:.6f});transform-origin:0 0}}
 .kspread>section{{page-break-after:auto}}
 .folio,.borrador,.fold{{display:none!important}}
 .txt{{translate:0 3mm}}
-.legal{{position:absolute;left:24mm;right:24mm;bottom:15mm;font:7pt/1.3 Andika,sans-serif;color:#8A7562;text-align:center}}
+.legal{{position:absolute;left:24mm;right:24mm;bottom:15mm;font:7pt/1.3 Andika,sans-serif;color:#6E5F52;text-align:center}}
+.legal span{{background:#FFF9E7;padding:1mm 3mm;border-radius:1.5mm}}
 """
+    doc = re.sub(r"@page\{[^}]*\}", "", doc)   # la regla de página de la maqueta (432 × 216 mm) confunde al navegador
     doc = doc.replace("</style>", css + "</style>", 1)
     doc = re.sub(r"<body>.*</body>", "<body>" + "".join(paginas) + "</body>", doc, flags=re.S)
     doc = doc.replace('lang="es"', f'lang="{lang}"')
