@@ -27,7 +27,7 @@ module.exports = async (req, res) => {
         statement_descriptor: 'ASI CREZCO',
       }),
     });
-    const prueba = String(process.env.MP_ACCESS_TOKEN || '').startsWith('TEST-');
+    const prueba = String(process.env.MP_ACCESS_TOKEN || '').trim().startsWith('TEST-');
     res.status(200).json({ link: prueba ? preferencia.sandbox_init_point : preferencia.init_point });
   } catch (e) { responderError(res, e); }
 };
