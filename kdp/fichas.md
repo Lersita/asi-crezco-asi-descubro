@@ -61,6 +61,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 > With help from Rula, his big colorful ball, Tommy works and wiggles until he rolls over for the very first time. Along the way, he discovers why round things roll and things with flat sides don't, and counts his way to Rula: one, two, three!
 >
 > **Inside this book:**
+>
 > - A gentle story to read aloud, told by Tommy himself
 > - Real, simple physics: rolling, round and flat, up and down
 > - A hands-on experiment with things from home
@@ -83,6 +84,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 > Con la ayuda de Rula, su pelota grande y de colores, Tommy se estira, se esfuerza y, por primera vez, ¡gira! En el camino descubre por qué las cosas redondas ruedan y las que tienen lados planos no, y cuenta hasta llegar a Rula: ¡uno, dos, tres!
 >
 > **En este libro:**
+>
 > - Una historia tierna para leer en voz alta, contada por el propio Tommy
 > - Física simple y verdadera: rodar, lo redondo y lo plano, arriba y abajo
 > - Un experimento con cosas de la casa
@@ -104,6 +106,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 > Today he's going to learn to sit up… even if he tips over at first. FLOP! With Rula, his big colorful ball, Tommy discovers the secret of balance: a wide base doesn't fall. And from his new spot on the blanket, he learns what's tall and short, near and far.
 >
 > **Inside this book:**
+>
 > - A gentle story to read aloud, told by Tommy himself
 > - Real, simple physics: balance and a wide base of support
 > - Early math: tall and short, near and far
@@ -126,6 +129,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 > Hoy va a aprender a sentarse… aunque al principio se cae hacia un lado. ¡PLAF! Con Rula, su pelota grande y de colores, descubre el secreto del equilibrio: una base ancha no se cae. Y desde su nuevo lugar en la manta aprende qué es alto y bajo, qué está cerca y qué está lejos.
 >
 > **En este libro:**
+>
 > - Una historia tierna para leer en voz alta, contada por el propio Tommy
 > - Física simple y verdadera: el equilibrio y la base de apoyo
 > - Matemática temprana: alto y bajo, cerca y lejos
@@ -148,6 +152,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 > He rocks forward and back, goes backward by mistake, and slips on the shiny hallway floor. WHOOSH! Then he discovers friction, the thing that keeps his hands and knees from slipping on the rug. And he counts: one hand, two hands, one knee, two knees. Four!
 >
 > **Inside this book:**
+>
 > - A gentle story to read aloud, told by Tommy himself
 > - Real, simple physics: friction helps us grip, and it also slows things down
 > - Early math: counting hands and knees, measuring with your hands
@@ -170,6 +175,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 > Se balancea hacia adelante y hacia atrás, va hacia atrás sin querer y resbala en el piso brillante del pasillo. ¡FIUUU! Entonces descubre la fricción, lo que no deja que sus manos y rodillas resbalen en la alfombra. Y cuenta: una mano, dos manos, una rodilla, dos rodillas. ¡Cuatro!
 >
 > **En este libro:**
+>
 > - Una historia tierna para leer en voz alta, contada por el propio Tommy
 > - Física simple y verdadera: la fricción ayuda a agarrarse y también frena
 > - Matemática temprana: contar manos y rodillas, medir con las manos
@@ -192,6 +198,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 > Today he's going to learn to stand up: he grabs on, pushes with his legs, and… BUMP! Something pulls him back down. That's how Tommy discovers gravity, the force that pulls everything toward the floor. And standing tall, he compares heights: the coffee table, the couch, his head, and Dad's, way up high!
 >
 > **Inside this book:**
+>
 > - A gentle story to read aloud, told by Tommy himself
 > - Real, simple physics: everything we let go of falls down
 > - Early math: comparing heights, higher and lower
@@ -214,6 +221,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 > Hoy va a aprender a pararse: se agarra, empuja con las piernas y… ¡PUM! Algo lo atrae de vuelta hacia abajo. Así descubre la gravedad, la fuerza que atrae todo hacia el piso. Y ya de pie, compara alturas: la mesita, el sofá, su cabeza y la de papá, ¡altísimo!
 >
 > **En este libro:**
+>
 > - Una historia tierna para leer en voz alta, contada por el propio Tommy
 > - Física simple y verdadera: todo lo que soltamos cae hacia abajo
 > - Matemática temprana: comparar alturas, más arriba y más abajo
