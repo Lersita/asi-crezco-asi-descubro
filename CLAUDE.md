@@ -50,12 +50,14 @@ Las edades son siempre un rango aproximado.
 - **26/10/2026:** Tomi con piel un par de tonos más clara, pelo castaño claro y ojos miel. Versión mujer: **Emi**, igual a Tomi, con pelo muy cortito, un mechón con una flor coral y la misma piel. El protagonista se personaliza: el cliente elige mujer o varón y escribe el nombre (va en la tapa, "{Nombre} aprende a girar", y en la frase de la doble 1). En la web se dice "mujer" y "varón", nunca "nena" o "nene".
 - **26/10/2026:** el texto de los libros no nombra al protagonista fuera de la tapa y la doble 1 (si no, el PDF personalizado diría "Tomi"). La versión mujer cambia solo las palabras con género.
 - **27/10/2026:** venta del **PDF digital** con Mercado Pago (Checkout Pro). Precios: 1 libro $18.999; 2 libros $34.199; 3 libros $48.499; colección de 11 $124.999. Hoy solo se venden 1 y 2 (hay 2 libros listos); 3 y 11 se muestran como "próximamente". El **impreso** en tapa dura (con el PDF de regalo al instante, en una sola compra) queda para cuando haya presupuesto de imprenta.
+- **27/10/2026:** el pelo crece libro a libro (detalle en `biblia/personajes.md`). Desde el libro 4, Tomi sin remolino y Emi sin colita; Emi lleva un ganchito con flor coral. Antes de gastar créditos en ilustraciones, revisar la evolución y consultar (ver "Cómo trabajar").
 
 ## Estado (27/10/2026)
 
-- **Libros 1 y 2:** texto, ilustraciones (varón y mujer) y PDF de borrador listos. Libro 3 en adelante: sin empezar.
+- **Libros 1 y 2:** texto, ilustraciones (varón y mujer) y PDF de borrador listos.
+- **Libro 3 (27/10/2026):** texto aprobado; ilustraciones (varón y mujer) y PDF de borrador listos para revisar. Pelo de Tomi y Emi corregido en los libros 2 y 3 (ver `ilustraciones/README.md`). Falta sumarlo a la web. Libro 4 en adelante: sin empezar.
 - **Web:** publicada en Vercel (https://asi-crezco-asi-descubro-web.vercel.app), carpeta `web/`. Personalizador, visor (desde la quinta doble se ve borroso), precios y packs, compra con Mercado Pago y descarga en `gracias.html`. Probado de punta a punta **en modo prueba** (credencial de un usuario vendedor de prueba en la variable `MP_ACCESS_TOKEN` de Vercel). Detalle técnico en `web/README.md`.
-- **Créditos de Kie.ai:** quedaban unos 670 el 27/10/2026. Cada imagen nueva con Nano Banana Pro cuesta 18; cada edición con Nano Banana 2 en 2K, 12.
+- **Créditos de Kie.ai:** quedaban unos 520 el 27/10/2026, después de corregir el pelo. Cada imagen nueva con Nano Banana Pro cuesta 18; cada edición con Nano Banana 2 en 2K, 12.
 
 ### Pendiente para vender de verdad
 
@@ -73,14 +75,14 @@ Las edades son siempre un rango aproximado.
 - `plantillas/libro.md`: la estructura fija de 24 páginas.
 - `libros/NN-hito/`: `texto.md`, `ilustraciones.md` (prompts) y los PDF de borrador.
 - `ilustraciones/`: imágenes originales. `README.md` dice qué versión se usa en cada página y cómo se hicieron. `herramientas/kie.py` genera o edita una imagen con Kie.ai.
-- `maqueta/`: arma cada libro en HTML (`libro1.py`, `libro1_emi.py`, `libro2.py`, `libro2_emi.py`, con piezas comunes en `comun.py`) y lo pasa a PDF con `pdf.js`.
+- `maqueta/`: arma cada libro en HTML (`libro1.py`, `libro1_emi.py`, `libro2.py`, `libro2_emi.py`, `libro3.py` que arma las dos versiones, con piezas comunes en `comun.py`) y lo pasa a PDF con `pdf.js`.
 - `web/`: la web y las funciones de pago. Ver `web/README.md`.
 
 ## Cómo se hace cada cosa
 
-- **Ilustrar un libro:** hoja de personajes de la edad nueva (editando la anterior) → cada doble con Nano Banana Pro en 2K y 21:9, pasando la hoja y una portada como referencia → revisar todas juntas en una hoja de contactos → corregir. La versión mujer se hace **editando** las imágenes del varón con Nano Banana 2 y la hoja de Emi.
+- **Ilustrar un libro:** revisión de la evolución con el usuario (ver "Antes de gastar créditos en ilustraciones") → hoja de personajes de la edad nueva (editando la anterior) → cada doble con Nano Banana Pro en 2K y 21:9, pasando la hoja y una portada como referencia → revisar todas juntas en una hoja de contactos → corregir. La versión mujer se hace **editando** las imágenes del varón con Nano Banana 2 y la hoja de Emi.
 - **Problemas conocidos de las ediciones:** a veces cambian la piel o la cara de los adultos, o dejan una viñeta sin cambiar. Arreglo sin gastar créditos: unir la zona del adulto desde la versión anterior (las imágenes quedan alineadas). Para una viñeta, editar solo ese recorte. Las URL de Kie.ai (tempfile) vencen: guardar siempre la imagen en `ilustraciones/`.
-- **Después de cambiar ilustraciones o texto:** maqueta (`python3 maqueta/libroN.py`) → PDF (`node maqueta/pdf.js maqueta/libroN.html salida.pdf`) → plantillas de la web (`node web/herramientas/plantillas.js`) → vistas previas (`python3 web/herramientas/vista.py`) → guardar en Git (Vercel publica solo).
+- **Después de cambiar ilustraciones o texto:** maqueta (`python3 maqueta/libroN.py`) → PDF (`node maqueta/pdf.js maqueta/libroN.html salida.pdf`) → plantillas de la web (`node web/herramientas/plantillas.js`) → vistas previas (`python3 web/herramientas/vista.py`) → guardar en Git → pull request a `main` y merge (Vercel publica solo) → comprobar la web. Ver "Cada cambio llega al repositorio y a la web".
 - **Sumar un libro a la venta:** agregarlo en `web/precios.json`, en `api/_pdf.js` (título y frase de la doble 1) y en el visor de `web/index.html`.
 
 ## Cómo trabajar
@@ -89,3 +91,25 @@ Las edades son siempre un rango aproximado.
 - Antes de cerrar un libro, revisarlo contra estas reglas y contra la biblia, y proponer mejoras en lugar de aplicarlas sin consultar.
 - Lo que no esté definido en la biblia se propone y se marca como **(propuesta)** hasta que lo apruebe.
 - Guardar en Git al cerrar cada paso, con un mensaje claro en español.
+
+### Cada cambio llega al repositorio y a la web (regla del 27/10/2026)
+
+Un cambio no está terminado hasta que se ve en el repositorio **y** en la web publicada:
+
+1. Trabajar en la rama de trabajo y guardar en Git con un mensaje claro en español.
+2. Si el cambio toca un libro que está a la venta (ilustraciones, texto, tapa), regenerar maqueta, PDF, plantillas y vistas previas de la web (ver "Después de cambiar ilustraciones o texto").
+3. Abrir un **pull request a `main`** con un resumen en español de qué cambió y por qué.
+4. Hacer el **merge a `main`** con el OK del usuario: Vercel publica solo desde `main`.
+5. **Comprobar la web publicada** (https://asi-crezco-asi-descubro-web.vercel.app): que el cambio se vea (tapas, visor, precios) y que nada se haya roto.
+6. Avisarle al usuario el resultado, con el link del pull request.
+
+Los libros que todavía no están a la venta se suman a la web con "Sumar un libro a la venta", cuando el usuario lo apruebe.
+
+### Antes de gastar créditos en ilustraciones (regla del 27/10/2026)
+
+Para **cualquier** ilustración (hojas de personajes, páginas, correcciones), antes de generar nada:
+
+1. **Revisar la evolución:** poner lado a lado a Tomi y a Emi del libro anterior (y de los anteriores) y comprobar que el cambio tiene sentido con la edad: **pelo (cantidad y largo, siempre igual o más que en el libro anterior, nunca menos)**, dientes, tamaño y proporciones del cuerpo, ropa y lo que puede hacer. Lo mismo para Rula, mamá, papá y la casa.
+2. **Preguntarle al usuario** las definiciones que no estén cerradas en `biblia/personajes.md` (cuánto pelo, cómo es la ropa nueva, etc.), mostrándole la comparación. No decidir solo.
+3. **Recién con su aprobación**, gastar créditos. Si una generación sale mal, no "corregir para el otro lado" sin volver a chequear contra la evolución aprobada.
+4. Avisar antes cuántos créditos se van a usar y cuántos quedan.
