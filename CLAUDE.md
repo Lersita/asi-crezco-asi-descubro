@@ -82,7 +82,7 @@ Las edades son siempre un rango aproximado.
 
 - **Ilustrar un libro:** revisión de la evolución con el usuario (ver "Antes de gastar créditos en ilustraciones") → hoja de personajes de la edad nueva (editando la anterior) → cada doble con Nano Banana Pro en 2K y 21:9, pasando la hoja y una portada como referencia → revisar todas juntas en una hoja de contactos → corregir. La versión mujer se hace **editando** las imágenes del varón con Nano Banana 2 y la hoja de Emi.
 - **Problemas conocidos de las ediciones:** a veces cambian la piel o la cara de los adultos, o dejan una viñeta sin cambiar. Arreglo sin gastar créditos: unir la zona del adulto desde la versión anterior (las imágenes quedan alineadas). Para una viñeta, editar solo ese recorte. Las URL de Kie.ai (tempfile) vencen: guardar siempre la imagen en `ilustraciones/`.
-- **Después de cambiar ilustraciones o texto:** maqueta (`python3 maqueta/libroN.py`) → PDF (`node maqueta/pdf.js maqueta/libroN.html salida.pdf`) → plantillas de la web (`node web/herramientas/plantillas.js`) → vistas previas (`python3 web/herramientas/vista.py`) → guardar en Git (Vercel publica solo).
+- **Después de cambiar ilustraciones o texto:** maqueta (`python3 maqueta/libroN.py`) → PDF (`node maqueta/pdf.js maqueta/libroN.html salida.pdf`) → plantillas de la web (`node web/herramientas/plantillas.js`) → vistas previas (`python3 web/herramientas/vista.py`) → guardar en Git → pull request a `main` y merge (Vercel publica solo) → comprobar la web. Ver "Cada cambio llega al repositorio y a la web".
 - **Sumar un libro a la venta:** agregarlo en `web/precios.json`, en `api/_pdf.js` (título y frase de la doble 1) y en el visor de `web/index.html`.
 
 ## Cómo trabajar
@@ -91,6 +91,19 @@ Las edades son siempre un rango aproximado.
 - Antes de cerrar un libro, revisarlo contra estas reglas y contra la biblia, y proponer mejoras en lugar de aplicarlas sin consultar.
 - Lo que no esté definido en la biblia se propone y se marca como **(propuesta)** hasta que lo apruebe.
 - Guardar en Git al cerrar cada paso, con un mensaje claro en español.
+
+### Cada cambio llega al repositorio y a la web (regla del 27/10/2026)
+
+Un cambio no está terminado hasta que se ve en el repositorio **y** en la web publicada:
+
+1. Trabajar en la rama de trabajo y guardar en Git con un mensaje claro en español.
+2. Si el cambio toca un libro que está a la venta (ilustraciones, texto, tapa), regenerar maqueta, PDF, plantillas y vistas previas de la web (ver "Después de cambiar ilustraciones o texto").
+3. Abrir un **pull request a `main`** con un resumen en español de qué cambió y por qué.
+4. Hacer el **merge a `main`** con el OK del usuario: Vercel publica solo desde `main`.
+5. **Comprobar la web publicada** (https://asi-crezco-asi-descubro-web.vercel.app): que el cambio se vea (tapas, visor, precios) y que nada se haya roto.
+6. Avisarle al usuario el resultado, con el link del pull request.
+
+Los libros que todavía no están a la venta se suman a la web con "Sumar un libro a la venta", cuando el usuario lo apruebe.
 
 ### Antes de gastar créditos en ilustraciones (regla del 27/10/2026)
 
