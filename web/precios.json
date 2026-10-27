@@ -1,0 +1,13 @@
+{
+  "moneda": "ARS",
+  "libros": {
+    "libro1": { "nro": 1, "titulo": "aprende a girar", "disponible": true },
+    "libro2": { "nro": 2, "titulo": "aprende a sentarse", "disponible": true }
+  },
+  "packs": [
+    { "id": "1", "cantidad": 1, "precio": 18999, "nombre": "1 libro", "disponible": true },
+    { "id": "2", "cantidad": 2, "precio": 34199, "nombre": "2 libros", "disponible": true },
+    { "id": "3", "cantidad": 3, "precio": 48499, "nombre": "3 libros", "disponible": false },
+    { "id": "11", "cantidad": 11, "precio": 124999, "nombre": "La colección completa", "disponible": false }
+  ]
+}

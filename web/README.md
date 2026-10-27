@@ -2,14 +2,23 @@
 
 Página de un solo archivo (`index.html`) con un personalizador: elegís mujer o varón, escribís el nombre y hojeás el libro 1 o 2 (desde la quinta doble, la vista previa se ve borrosa).
 
-**Desde el 26 de octubre de 2026 la descarga gratis está desactivada.** El generador de PDF (`js/libro-pdf.js`, `plantillas/`, `fuentes/`, `vendor/`) sigue en el repositorio, pero no se publica en Vercel (ver `.vercelignore`), para que las páginas nítidas no queden a la vista. Va a volver cuando el PDF se arme en el servidor después del pago.
+**Venta:** el cliente elige los libros, paga con Mercado Pago (Checkout Pro) y descarga el PDF en `gracias.html`. Los precios están en `precios.json`, que usan la web (para mostrarlos) y el servidor (para cobrar).
+
+## Funciones del servidor (`api/`)
+
+- `crear-pago.js`: valida el pedido, toma el precio de `precios.json` y crea la preferencia en Mercado Pago. El pedido (libros, versión, nombre y una clave al azar) viaja en `external_reference`, así que no hace falta base de datos.
+- `pedido.js`: le pregunta a Mercado Pago cómo está el pago y confirma que la clave coincide.
+- `descargar.js`: si el pago está aprobado, arma el PDF con `_pdf.js` y lo entrega.
+- Variable de entorno en Vercel: `MP_ACCESS_TOKEN` (credencial de prueba o de producción de Mercado Pago).
+
+`privado/` (plantillas nítidas y tipografías) solo lo lee el servidor; la dirección `/privado/...` redirige al inicio.
 
 ## Cómo se arma el PDF
 
-1. `plantillas/<libro>-<genero>/dNN.jpg`: una imagen por doble, sacada de la maqueta (`maqueta/*.html`) sin el título de tapa ni el texto con el nombre. `medidas.json` guarda dónde iban esos dos textos.
-2. `js/libro-pdf.js` toma esas imágenes, escribe el título y la etiqueta con el nombre (tipografías en `fuentes/`) y arma 24 páginas cuadradas de 21,6 cm.
+1. `privado/plantillas/<libro>-<genero>/dNN.jpg`: una imagen por doble, sacada de la maqueta (`maqueta/*.html`) sin el título de tapa ni el texto con el nombre. `medidas.json` guarda dónde iban esos dos textos.
+2. `api/_pdf.js` toma esas imágenes, escribe el título y la etiqueta con el nombre (tipografías en `privado/fuentes/`) y arma 24 páginas cuadradas de 21,6 cm.
 
-Cuando cambian las ilustraciones o el texto de un libro: regenerá la maqueta (`maqueta/libro1.py`, `libro1_emi.py`, `libro2.py`) y después las plantillas con `node web/herramientas/plantillas.js` (desde la raíz del repositorio).
+Cuando cambian las ilustraciones o el texto de un libro: regenerá la maqueta (`maqueta/libro1.py`, `libro1_emi.py`, `libro2.py`) y después las plantillas y las vistas previas con `node web/herramientas/plantillas.js` y `python3 web/herramientas/vista.py` (desde la raíz del repositorio).
 
 Libros disponibles hoy: libro 1 y libro 2, en mujer y varón.
 

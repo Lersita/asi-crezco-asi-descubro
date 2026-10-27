@@ -79,7 +79,16 @@ a{color:inherit}
 .campo input:focus{border-color:var(--cielo);outline:none}
 .ayuda{font-size:.9rem;color:var(--tinta-suave)}
 .campo select{flex:1 1 220px;min-width:0;font:700 1rem var(--texto);color:var(--tinta);background:var(--papel);border:2px solid var(--linea);border-radius:14px;padding:.7em .8em}
-.descarga{border-top:2px dashed var(--linea);padding-top:16px}
+.compra{border-top:2px dashed var(--linea);padding-top:16px;display:grid;gap:10px}
+.compra .etq{margin-bottom:0}
+.opciones{display:grid;gap:8px}
+.opcion{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:10px;padding:10px 12px;border:2px solid var(--linea);border-radius:14px;background:var(--papel);cursor:pointer;font-size:.98rem;transition:border-color .2s,background .2s}
+.opcion:has(input:checked){border-color:var(--hoja);background:color-mix(in srgb,var(--hoja) 12%,var(--carton))}
+.opcion input{accent-color:var(--hoja);width:18px;height:18px;margin:0}
+.opcion em{font:800 1.05rem var(--display);font-style:normal;font-variant-numeric:tabular-nums;white-space:nowrap}
+.ahorro{font-style:normal;font-size:.75rem;font-weight:700;color:#fff;background:var(--rojo);padding:2px 8px;border-radius:99px;margin-left:4px;white-space:nowrap}
+.estado-pago.error{color:var(--rojo);font-weight:700}
+.compra .boton{justify-self:start}
 .boton[disabled]{opacity:.6;cursor:progress;transform:none}
 .estado-descarga.error{color:var(--rojo);font-weight:700}
 
@@ -211,6 +220,26 @@ a{color:inherit}
 .paso p{color:var(--tinta-suave)}
 
 /* Cierre */
+.precios{background:var(--papel-2)}
+.planes{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;position:relative;z-index:2}
+@media (max-width:980px){.planes{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.planes{grid-template-columns:minmax(0,1fr)}}
+.plan{background:var(--carton);border-radius:22px 18px 24px 20px;padding:22px 20px;box-shadow:0 10px 26px var(--sombra);display:grid;gap:10px;align-content:start;position:relative;min-width:0;border:2px solid transparent}
+.plan.destacado{border-color:var(--rojo)}
+.plan h3{font-size:1.45rem}
+.plan .monto{font:850 2.1rem/1 var(--display);font-variation-settings:"SOFT" 100,"WONK" 1;font-variant-numeric:tabular-nums}
+.plan .monto small{font:700 .9rem var(--texto);color:var(--tinta-suave);margin-left:4px}
+.plan .cada{color:var(--tinta-suave);font-size:.95rem}
+.plan .antes{text-decoration:line-through;color:var(--tinta-suave);font-size:.92rem}
+.plan-eti{justify-self:start;font-size:.75rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:4px 10px;border-radius:8px;color:#fff;background:var(--hoja)}
+.plan-eti.pronto{background:var(--tinta-suave)}
+.plan-eti.oferta{background:var(--rojo)}
+.plan .boton{justify-self:start;margin-top:4px}
+.plan.no-disp .monto{opacity:.75}
+.plan.impreso{margin-top:16px;grid-template-columns:auto minmax(0,1fr);column-gap:18px;align-items:center;z-index:2;border:2px dashed var(--linea);box-shadow:none;background:transparent}
+.plan.impreso .plan-eti{grid-row:span 2}
+.plan.impreso p{color:var(--tinta-suave)}
+@media (max-width:640px){.plan.impreso{grid-template-columns:minmax(0,1fr)}.plan.impreso .plan-eti{grid-row:auto}}
 .cierre{background:var(--rojo);color:#fff;text-align:left}
 .cierre .envoltura{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:center;position:relative;z-index:2}
 @media (max-width:760px){.cierre .envoltura{grid-template-columns:minmax(0,1fr)}}
@@ -266,9 +295,18 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
           </div>
           <p class="ayuda" id="ayuda-nombre">Aparece en la tapa y en el cuento. Hasta 14 letras.</p>
         </div>
-        <div class="descarga">
-          <span class="etq">Su libro</span>
-          <p class="ayuda">Muy pronto vas a poder comprar el libro de <b data-nombre>Emi</b> y descargarlo al instante, listo para imprimir.</p>
+        <div class="compra" id="comprar">
+          <span class="etq" id="etq-libros">¿Qué libros querés?</span>
+          <div class="opciones" id="opciones" role="radiogroup" aria-labelledby="etq-libros">
+            <label class="opcion"><input type="radio" name="compra" id="compra-libro1" value="libro1" checked><span><b>Libro 1</b> · <span data-nombre>Emi</span> aprende a girar</span><em data-precio="1">$18.999</em></label>
+            <label class="opcion"><input type="radio" name="compra" id="compra-libro2" value="libro2"><span><b>Libro 2</b> · <span data-nombre>Emi</span> aprende a sentarse</span><em data-precio="1">$18.999</em></label>
+            <label class="opcion"><input type="radio" name="compra" id="compra-ambos" value="libro1,libro2"><span><b>Los dos libros</b> <i class="ahorro" data-ahorro="2">10% menos</i></span><em data-precio="2">$34.199</em></label>
+          </div>
+          <!--solo-web-->
+          <button class="boton" type="button" id="pagar">Comprar y descargar · $18.999</button>
+          <p class="ayuda estado-pago" id="estado-pago" aria-live="polite">Pagás con Mercado Pago y descargás el PDF al instante, listo para imprimir.</p>
+          <!--/solo-web-->
+          <!--artifact:<p class="ayuda">En la web vas a poder pagar con Mercado Pago y descargar el PDF al instante.</p>-->
         </div>
       </form>
     </div>
@@ -319,7 +357,7 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
             <span class="muro-eti">Vista previa · páginas 1 a 7</span>
             <p class="muro-tit">El cuento sigue…</p>
             <p class="muro-txt">Para seguir leyendo con <b data-nombre>Emi</b>, completá tu compra y recibí el libro entero.</p>
-            <a class="boton" href="#t-cierre">Quiero el libro de <span data-nombre>Emi</span></a>
+            <a class="boton" href="#comprar">Quiero el libro de <span data-nombre>Emi</span></a>
           </div>
         </div>
       </div>
@@ -391,6 +429,23 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
       <div class="paso aparece" style="--c:var(--cielo)"><h3>Escribís su nombre</h3><p>Va en la tapa y en el cuento, en primera persona: “Me llamo <span data-nombre>Emi</span>”.</p></div>
       <div class="paso aparece" style="--c:var(--violeta)"><h3>Recibís el libro</h3><p>Primero en PDF para imprimir en casa. Más adelante, impreso y en tu puerta.</p></div>
     </div>
+  </div>
+</section>
+
+<section class="seccion precios grano" id="precios" aria-labelledby="t-precios">
+  <div class="flota va-y-viene" data-vel="0.12" style="width:120px;right:3%;top:24px"><img src="img/rula.webp" alt=""></div>
+  <div class="envoltura">
+    <div class="titulo-sec aparece">
+      <span class="marcador">Precios</span>
+      <h2 id="t-precios">Cuantos más libros, más descubre</h2>
+      <p>Cada libro es un PDF personalizado de 24 páginas, listo para imprimir o leer en la tablet. Lo descargás apenas se aprueba el pago.</p>
+    </div>
+    <div class="planes" id="planes"></div>
+    <article class="plan impreso aparece">
+      <span class="plan-eti pronto">Próximamente</span>
+      <h3>Impreso en tapa dura</h3>
+      <p>El mismo libro en papel, enviado a tu casa. Y mientras se imprime, te llevás el PDF al instante para empezar a leer esa misma noche.</p>
+    </article>
   </div>
 </section>
 
@@ -526,7 +581,7 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
   }
 
   // Quiero el libro
-  $("#quiero").addEventListener("click",()=>{$("#aviso").hidden=false;});
+  $("#quiero").addEventListener("click",()=>{if($("#pagar")){$("#comprar").scrollIntoView({behavior:"smooth",block:"center"});}else{$("#aviso").hidden=false;}});
 
   // Movimiento con el scroll: papeles con paralaje y Rula que rueda de verdad
   const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -553,5 +608,71 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
 })();
 </script>
 
+<script>
+// Precios y packs: salen de precios.json, el mismo archivo que usa el servidor para cobrar
+(function(){
+  const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+  const plata=n=>"$"+Math.round(n).toLocaleString("es-AR");
+  const textos={
+    "1":{sub:"Elegí el libro 1 o el libro 2.",boton:"Elegir un libro",valor:"libro1"},
+    "2":{sub:"Los dos libros que ya están listos.",boton:"Elegir los dos",valor:"libro1,libro2"},
+    "3":{sub:"Cuando esté listo el libro 3."},
+    "11":{sub:"Los 11 libros, de girar a andar en bici. Cuando esté completa."}
+  };
+  fetch("precios.json").then(r=>r.json()).then(P=>{
+    const uno=P.packs.find(p=>p.cantidad===1).precio;
+    const ahorro=p=>Math.round((1-p.precio/(p.cantidad*uno))*100);
+    $("#planes").innerHTML=P.packs.map(p=>{
+      const t=textos[p.id]||{}, a=ahorro(p);
+      const etis=(p.disponible?"":`<span class="plan-eti pronto">Próximamente</span>`)+(a>0?`<span class="plan-eti oferta">${a}% menos</span>`:"");
+      return `<article class="plan aparece ${p.disponible?"":"no-disp"} ${p.cantidad===11?"destacado":""}">
+        <div style="display:flex;gap:6px;flex-wrap:wrap">${etis||'<span class="plan-eti">Disponible</span>'}</div>
+        <h3>${p.nombre}</h3>
+        <div class="monto">${plata(p.precio)}</div>
+        ${p.cantidad>1?`<div class="cada">${plata(p.precio/p.cantidad)} cada libro · <span class="antes">${plata(uno*p.cantidad)}</span></div>`:`<div class="cada">PDF personalizado</div>`}
+        <p class="cada">${t.sub||""}</p>
+        ${p.disponible&&t.boton?`<button class="boton chico" type="button" data-elegir="${t.valor}">${t.boton}</button>`:""}
+      </article>`;
+    }).join("");
+    $$("[data-precio]").forEach(e=>{const p=P.packs.find(x=>String(x.cantidad)===e.dataset.precio);if(p)e.textContent=plata(p.precio);});
+    $$("[data-ahorro]").forEach(e=>{const p=P.packs.find(x=>String(x.cantidad)===e.dataset.ahorro);if(p)e.textContent=ahorro(p)+"% menos";});
+    $$("[data-elegir]").forEach(b=>b.addEventListener("click",()=>{
+      const r=$$('input[name="compra"]').find(i=>i.value===b.dataset.elegir); if(r){r.checked=true;r.dispatchEvent(new Event("change",{bubbles:true}));}
+      $("#comprar").scrollIntoView({behavior:"smooth",block:"center"});
+    }));
+    window.acadPrecios=P;
+    document.dispatchEvent(new Event("acad-precios"));
+  }).catch(()=>{});
+})();
+</script>
+<!--solo-web-->
+<script>
+// Compra: le pide al servidor el link de pago de Mercado Pago y lleva al cliente ahí
+(function(){
+  const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+  const boton=$("#pagar"), estado=$("#estado-pago"); if(!boton) return;
+  const plata=n=>"$"+Math.round(n).toLocaleString("es-AR");
+  const elegidos=()=>($$('input[name="compra"]').find(i=>i.checked)||{value:"libro1"}).value.split(",");
+  function rotular(){
+    const P=window.acadPrecios, n=elegidos().length;
+    const p=P&&P.packs.find(x=>x.cantidad===n);
+    boton.textContent=`Comprar y descargar${p?" · "+plata(p.precio):""}`;
+  }
+  document.addEventListener("change",e=>{if(e.target.name==="compra")rotular();});
+  document.addEventListener("acad-precios",rotular); rotular();
+  boton.addEventListener("click",async()=>{
+    const {estado:st,nombre}=window.acad; estado.classList.remove("error");
+    boton.disabled=true; estado.textContent="Preparando el pago…";
+    try{
+      const r=await fetch("/api/crear-pago",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({libros:elegidos(),genero:st.genero,nombre:nombre()})});
+      const d=await r.json().catch(()=>({}));
+      if(!r.ok||!d.link) throw new Error(d.error||"No se pudo iniciar el pago. Probá de nuevo en un rato.");
+      estado.textContent="Te llevamos a Mercado Pago…";
+      location.href=d.link;
+    }catch(e){estado.textContent=e.message;estado.classList.add("error");boton.disabled=false;}
+  });
+})();
+</script>
+<!--/solo-web-->
 </body>
 </html>

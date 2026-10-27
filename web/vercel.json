@@ -1,6 +1,14 @@
 {
   "cleanUrls": true,
+  "functions": {
+    "api/descargar.js": { "includeFiles": "privado/**", "maxDuration": 30 }
+  },
+  "redirects": [
+    { "source": "/privado/:ruta*", "destination": "/", "permanent": false },
+    { "source": "/precios", "destination": "/#precios", "permanent": false }
+  ],
   "headers": [
-    { "source": "/(img|plantillas|fuentes|vendor)/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }] }
+    { "source": "/(img|vista)/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }] },
+    { "source": "/api/(.*)", "headers": [{ "key": "Cache-Control", "value": "no-store" }] }
   ]
 }

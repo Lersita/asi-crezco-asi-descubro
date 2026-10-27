@@ -6,7 +6,7 @@ from pathlib import Path
 from PIL import Image, ImageFilter
 WEB = Path(__file__).resolve().parent.parent
 LIBRES = 4
-for carpeta in sorted((WEB / "plantillas").iterdir()):
+for carpeta in sorted((WEB / "privado" / "plantillas").iterdir()):
     if not carpeta.is_dir(): continue
     destino = WEB / "vista" / carpeta.name; destino.mkdir(parents=True, exist_ok=True)
     for f in sorted(carpeta.glob("d*.jpg")):

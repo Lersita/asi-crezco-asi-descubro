@@ -1,7 +1,7 @@
 // Genera las plantillas del PDF personalizado a partir de las maquetas.
 // Uso (desde la raíz del repositorio): node web/herramientas/plantillas.js
 // Saca una imagen por doble, sin el título de tapa ni el texto con el nombre,
-// y guarda dónde iban esos textos en web/plantillas/<libro>/medidas.json.
+// y guarda dónde iban esos textos en web/privado/plantillas/<libro>/medidas.json.
 const { chromium } = require('playwright');
 const fs = require('fs'), path = require('path');
 const RAIZ = path.resolve(__dirname, '..', '..');
@@ -14,7 +14,7 @@ const LIBROS = [
 (async () => {
   const b = await chromium.launch();
   for (const L of LIBROS) {
-    const out = path.join(RAIZ, 'web', 'plantillas', L.id); fs.mkdirSync(out, { recursive: true });
+    const out = path.join(RAIZ, 'web', 'privado', 'plantillas', L.id); fs.mkdirSync(out, { recursive: true });
     // 432 mm = 1632,76 px a 96 ppp; con escala 1,47 cada doble sale de unos 2.400 px de ancho
     const p = await b.newPage({ viewport: { width: 1640, height: 820 }, deviceScaleFactor: 1.47 });
     await p.goto('file://' + path.join(RAIZ, L.html), { waitUntil: 'networkidle' });
@@ -31,7 +31,7 @@ const LIBROS = [
     });
     const secs = await p.$$('section.spread');
     for (let i = 0; i < secs.length; i++) {
-      await secs[i].screenshot({ path: path.join(out, `d${String(i).padStart(2, '0')}.jpg`), type: 'jpeg', quality: 84 });
+      await secs[i].screenshot({ path: path.join(out, `d${String(i).padStart(2, '0')}.jpg`), type: 'jpeg', quality: 78 });
     }
     fs.writeFileSync(path.join(out, 'medidas.json'), JSON.stringify(medidas, null, 2));
     console.log(L.id, medidas.dobles, 'dobles', JSON.stringify(medidas.titulo), JSON.stringify(medidas.nombre), medidas.nombre_estilo);

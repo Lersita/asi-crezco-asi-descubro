@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Tu libro · Así crezco, así descubro</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Fraunces:opsz,wght,SOFT,WONK@9..144,500..900,0..100,0..1&display=swap">
+<style>
+:root{--papel:#FFF6E4;--carton:#FFFDF7;--tinta:#23304A;--tinta-suave:#5A6378;--rojo:#E4492E;--hoja:#5A9E45;--sombra:rgba(70,45,20,.18);--linea:rgba(35,48,74,.14);
+  --display:"Fraunces",Georgia,serif;--texto:"Andika","Trebuchet MS",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root{--papel:#18223A;--carton:#24314F;--tinta:#FFF3DC;--tinta-suave:#C9C3B4;--sombra:rgba(0,0,0,.4);--linea:rgba(255,243,220,.16);color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--papel);color:var(--tinta);font-family:var(--texto);font-size:1.0625rem;line-height:1.55;min-height:100vh}
+main{max-width:640px;margin-inline:auto;padding-block:clamp(32px,8vw,80px);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:22px}
+.marca{display:flex;align-items:center;gap:10px;font:800 1.1rem var(--display);font-variation-settings:"SOFT" 100,"WONK" 1;text-decoration:none;color:inherit}
+.marca img{width:34px;height:34px}
+.tarjeta{background:var(--carton);border-radius:24px 18px 26px 20px;box-shadow:0 12px 30px var(--sombra);padding:clamp(22px,5vw,36px);display:grid;gap:14px}
+h1{font:850 clamp(2rem,6vw,2.8rem)/1.05 var(--display);font-variation-settings:"SOFT" 100,"WONK" 1;margin:0;text-wrap:balance}
+p{margin:0}
+.suave{color:var(--tinta-suave)}
+.libros{display:grid;gap:10px;margin-top:6px}
+.boton{display:inline-flex;align-items:center;justify-content:center;gap:.5em;font:700 1rem var(--texto);border:0;cursor:pointer;text-decoration:none;background:var(--rojo);color:#fff;padding:.8em 1.25em;border-radius:14px 18px 12px 20px;box-shadow:0 4px 0 #A8321D}
+.boton.claro{background:var(--carton);color:var(--tinta);box-shadow:0 4px 0 var(--linea);border:1.5px solid var(--linea)}
+.boton:focus-visible{outline:3px solid #45A3DC;outline-offset:3px}
+.nota{font-size:.92rem;color:var(--tinta-suave);border-top:2px dashed var(--linea);padding-top:12px}
+.rula{width:90px;justify-self:end;margin-top:-70px;margin-right:-10px}
+</style>
+</head>
+<body>
+<main>
+  <a class="marca" href="/"><img src="img/rula.webp" alt="">Así crezco, así descubro</a>
+  <section class="tarjeta" id="tarjeta" aria-live="polite">
+    <h1 id="titulo">Buscando tu compra…</h1>
+    <p class="suave" id="texto">Estamos confirmando el pago con Mercado Pago.</p>
+    <div class="libros" id="libros"></div>
+    <p class="nota" id="nota" hidden></p>
+  </section>
+  <img class="rula" src="img/rula.webp" alt="">
+</main>
+<script>
+(function(){
+  const q=new URLSearchParams(location.search);
+  const pago=q.get("payment_id")||q.get("collection_id")||"", ref=q.get("external_reference")||"";
+  const $=s=>document.querySelector(s);
+  const poner=(t,x)=>{$("#titulo").textContent=t;$("#texto").textContent=x;};
+  const botonVolver=t=>`<a class="boton claro" href="/#comprar">${t}</a>`;
+  if(!pago||pago==="null"||!ref){
+    poner("No se completó el pago","Si cerraste Mercado Pago antes de terminar, no se cobró nada. Podés volver a intentarlo cuando quieras.");
+    $("#libros").innerHTML=botonVolver("Volver a la tienda"); return;
+  }
+  async function consultar(){
+    try{
+      const r=await fetch(`/api/pedido?payment_id=${encodeURIComponent(pago)}&ref=${encodeURIComponent(ref)}`);
+      const d=await r.json();
+      if(!r.ok) throw new Error(d.error||"No pudimos encontrar tu compra.");
+      if(d.estado==="aprobado"){
+        poner(`¡Listo! ${d.libros.length>1?"Los libros":"El libro"} de ${d.nombre} ${d.libros.length>1?"ya están":"ya está"} acá`,"Tocá cada libro para descargarlo. Es un PDF de 24 páginas cuadradas de 21,6 cm, listo para imprimir o leer en la tablet.");
+        $("#libros").innerHTML=d.libros.map(l=>`<a class="boton" href="/api/descargar?payment_id=${encodeURIComponent(pago)}&ref=${encodeURIComponent(ref)}&libro=${l.id}">Descargar “${l.titulo}”</a>`).join("");
+        const n=$("#nota"); n.hidden=false; n.textContent="Guardá esta página en favoritos: con este mismo link podés volver a descargar los libros cuando quieras.";
+      }else if(d.estado==="pendiente"){
+        poner("Tu pago está en proceso","Mercado Pago todavía no lo acreditó. Puede tardar unos minutos; con algunos medios de pago, hasta un día hábil. Volvé a este mismo link y vas a poder descargar el libro.");
+        $("#libros").innerHTML=`<button class="boton claro" type="button" id="otra">Consultar de nuevo</button>`; $("#otra").onclick=consultar;
+      }else{
+        poner("El pago no se aprobó","No se cobró nada. Podés probar con otro medio de pago.");
+        $("#libros").innerHTML=botonVolver("Volver a intentar");
+      }
+    }catch(e){poner("No pudimos encontrar tu compra",e.message+" Si ya pagaste, guardá el comprobante de Mercado Pago: ahí figura tu compra.");$("#libros").innerHTML=botonVolver("Volver a la tienda");}
+  }
+  consultar();
+})();
+</script>
+</body>
+</html>
