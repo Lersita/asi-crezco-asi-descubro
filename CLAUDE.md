@@ -72,6 +72,7 @@ Las edades son siempre un rango aproximado.
 ## Estructura del proyecto
 
 - `CLAUDE.md`: este contexto y las reglas.
+- `costos.md`: créditos de Kie.ai y dólares gastados por libro (1.000 créditos = USD 5). Se actualiza cada vez que se gastan créditos.
 - `biblia/personajes.md`: Tomi en cada edad, Rula, mamá y papá. `biblia/tono-y-lenguaje.md`: cómo se escribe y la física que no se puede decir mal. `biblia/estilo-visual.md`: estilo, seguridad en las imágenes, formato de impresión.
 - `plantillas/libro.md`: la estructura fija de 24 páginas.
 - `libros/NN-hito/`: `texto.md`, `ilustraciones.md` (prompts) y los PDF de borrador.
@@ -113,4 +114,4 @@ Para **cualquier** ilustración (hojas de personajes, páginas, correcciones), a
 1. **Revisar la evolución:** poner lado a lado a Tomi y a Emi del libro anterior (y de los anteriores) y comprobar que el cambio tiene sentido con la edad: **pelo (cantidad y largo, siempre igual o más que en el libro anterior, nunca menos)**, dientes, tamaño y proporciones del cuerpo, ropa y lo que puede hacer. Lo mismo para Rula, mamá, papá y la casa.
 2. **Preguntarle al usuario** las definiciones que no estén cerradas en `biblia/personajes.md` (cuánto pelo, cómo es la ropa nueva, etc.), mostrándole la comparación. No decidir solo.
 3. **Recién con su aprobación**, gastar créditos. Si una generación sale mal, no "corregir para el otro lado" sin volver a chequear contra la evolución aprobada.
-4. Avisar antes cuántos créditos se van a usar y cuántos quedan.
+4. Avisar antes cuántos créditos se van a usar y cuántos quedan, y después anotar lo gastado en `costos.md`.
