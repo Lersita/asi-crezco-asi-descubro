@@ -18,6 +18,12 @@ REFILE = 215.9              # 8,5 pulgadas
 PAG_W, PAG_H = REFILE + SANGRADO, REFILE + 2 * SANGRADO   # página con sangrado: 219,075 × 222,25 mm
 ESCALA = PAG_H / 216        # la maqueta mide 432 × 216 mm por doble
 
+# Ajustes de posición solo para KDP (márgenes más estrictos que la maqueta de la web)
+AJUSTES = {
+    1: [('<div class="txt" style="left:300mm;top:188mm;', '<div class="txt" style="left:300mm;top:172mm;')],
+    2: [('<div class="palabra" style="left:150mm;top:64mm;', '<div class="palabra" style="left:136mm;top:64mm;')],
+}
+
 LEGAL = {
     "es": "© 2026 LERSA. Todos los derechos reservados. Ilustraciones creadas con ayuda de inteligencia artificial.",
     "en": "© 2026 LERSA. All rights reserved. Illustrations created with the help of AI tools.",
@@ -73,6 +79,9 @@ def armar(n, lang):
     doc, faltan = traducir(doc, n, i)
     if faltan:
         raise SystemExit("Faltan traducciones:\n- " + "\n- ".join(faltan))
+    for viejo, nuevo in AJUSTES.get(n, []):
+        assert viejo in doc, viejo
+        doc = doc.replace(viejo, nuevo)
     doc = correr_textos(doc)
     # Ilustraciones ampliadas para imprenta, si existen
     doc = re.sub(r"img/([\w.-]+)\.jpg", lambda m: f"img-kdp/{m.group(1)}.jpg" if (AQUI / "img-kdp" / f"{m.group(1)}.jpg").exists() else m.group(0), doc)
@@ -96,7 +105,7 @@ body{{margin:0}}
 .kspread>section{{page-break-after:auto}}
 .folio,.borrador,.fold{{display:none!important}}
 .txt{{translate:0 3mm}}
-.legal{{position:absolute;left:24mm;right:24mm;bottom:12mm;font:7pt/1.3 Andika,sans-serif;color:#8A7562;text-align:center}}
+.legal{{position:absolute;left:24mm;right:24mm;bottom:15mm;font:7pt/1.3 Andika,sans-serif;color:#8A7562;text-align:center}}
 """
     doc = doc.replace("</style>", css + "</style>", 1)
     doc = re.sub(r"<body>.*</body>", "<body>" + "".join(paginas) + "</body>", doc, flags=re.S)
