@@ -48,6 +48,13 @@ Referencia de precios: imagen nueva con Nano Banana Pro en 2K, 18 créditos (USD
 | **Subtotal Tomi** | **366** |
 | 13 páginas de Emi (pendiente) | 156 (estimado) |
 
+### Ampliación para imprenta de KDP (27/10/2026)
+
+| Paso | Créditos |
+| --- | --- |
+| Prueba con Recraft Crisp Upscale (1 doble) | 0,5 |
+| Prueba con Topaz Image Upscale (3 intentos, fallaron por error de Kie.ai: no cobra) | 0 |
+
 ## Lo que más encarece
 
 - **Repetir por errores de la IA:** cada corrección suma 12 o 18 créditos. Revisar la evolución antes de generar (regla de `CLAUDE.md`) evita la más cara: rehacer un libro entero, como pasó con el pelo.
