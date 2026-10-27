@@ -11,9 +11,9 @@ Referencia de precios: imagen nueva con Nano Banana Pro en 2K, 18 créditos (USD
 | 1 · Girar | unos 800 (estimado) | unos 4,00 | No quedó registrado: se estima por las imágenes que existen (14 páginas, cambio de piel, dos versiones de Emi) |
 | 2 · Sentarse | unos 450 (estimado) + 360 del pelo = unos 810 | unos 4,05 | Lo original, estimado (14 páginas de Tomi, 14 ediciones de Emi y 2 hojas); la corrección del pelo, medida |
 | 3 · Gatear | 468 + 324 del pelo = 792 | 3,96 | Medido |
-| 4 · Pararse | 42 hasta ahora (hojas de personajes); se estima unos 480 en total | 0,21 hasta ahora; unos 2,40 en total | Medido; se actualiza al terminar |
+| 4 · Pararse | 366 hasta ahora (hojas y versión de Tomi); con Emi, unos 522 | 1,83 hasta ahora; unos 2,61 con Emi | Medido; falta la versión de Emi |
 
-**Total medido desde el 27/10/2026:** 1.176 créditos (USD 5,88), entre el libro 3, la corrección del pelo y las hojas del libro 4.
+**Total medido desde el 27/10/2026:** 1.518 créditos (USD 7,59): libro 3, corrección del pelo y libro 4 hasta la versión de Tomi.
 
 ## Detalle
 
@@ -42,8 +42,11 @@ Referencia de precios: imagen nueva con Nano Banana Pro en 2K, 18 créditos (USD
 | --- | --- |
 | Hoja de Tomi (Nano Banana Pro) y corrección de poses y pelo | 30 |
 | Hoja de Emi | 12 |
-| 13 páginas de Tomi | 234 (en curso) |
-| 13 páginas de Emi | 156 (estimado) |
+| 13 páginas de Tomi (Nano Banana Pro) | 234 |
+| Sillón unificado con respaldo en la tapa y las dobles 1 a 5 (6 ediciones) | 72 |
+| Doble 7 rehecha (alturas mal comparadas) | 18 |
+| **Subtotal Tomi** | **366** |
+| 13 páginas de Emi (pendiente) | 156 (estimado) |
 
 ## Lo que más encarece
 

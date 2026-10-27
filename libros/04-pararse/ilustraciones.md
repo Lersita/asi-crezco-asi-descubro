@@ -13,7 +13,7 @@ Cada prompt se arma así: **[ESTILO] + escena + [REGLAS]**.
 An adult partially visible nearby. No small objects near the baby. Keep faces and the ball away from the vertical center line. Calm plain area in the upper part for text.
 ```
 
-El sillón es siempre el mismo: bajo, firme, beige, con un almohadón; el asiento queda a la altura del pecho de Tomi cuando está de pie.
+El sillón es siempre el mismo: el sillón beige de living, bajo y firme, **con respaldo y apoyabrazos** (el de `libro4/d10-v1.png`); el asiento queda a la altura del pecho de Tomi cuando está de pie. La tapa y las dobles 1 a 5 salieron con un banco sin respaldo y se editaron para usar este sillón.
 
 ---
 
@@ -54,7 +54,7 @@ El sillón es siempre el mismo: bajo, firme, beige, con un almohadón; el asient
 
 ## Páginas 14–15 · Doble 7 · ¿Hasta dónde llego?
 ```
-[ESTILO]. A clear side-view lineup across the room, left to right, well separated: a small low wooden coffee table; Tomi standing and holding the armrest of the low beige sofa; a taller wooden dining table; dad standing (mustard sweater, short beard), his head near the top of the image. A thin deep-navy cut-paper dashed line at the top of each one, so the heights can be compared: coffee table lowest, then Tomi's head, then the dining table, then dad's head. Keep Tomi away from the center line. [REGLAS]. Wide 21:9.
+[ESTILO]. A clear side-view lineup across the room, left to right, well separated, all standing on the floor: a small low wooden coffee table, about knee height of an adult; Tomi standing and holding the armrest of the beige sofa with backrest; a tall wooden dining table whose tabletop is clearly HIGHER than the top of Tomi's head; dad standing (mustard sweater, short beard), his head near the top of the image. Four short separate thin deep-navy cut-paper dashed lines, each one only over its own object and each at a clearly different height: lowest over the coffee table, then over Tomi's head, then higher over the dining table, then highest over dad's head. Keep Tomi away from the center line. [REGLAS]. Wide 21:9.
 ```
 
 ## Páginas 16–17 · Doble 8 · Pasitos de costado

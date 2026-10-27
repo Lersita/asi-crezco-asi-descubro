@@ -104,3 +104,25 @@ El pelo no crecía entre libros. Se aprobó la evolución que está en `biblia/p
 - Arreglos sin gastar créditos: en `libro2/d10-compuesta.png` se devolvió el borde derecho (la edición había agregado a mamá) y en `libro3/d07-v1.png` la esquina de arriba a la izquierda (había agregado una cara).
 - Se repitieron 3 ediciones: `libro2/p24-v1.png`, porque había perdido el remolino, y `libro2-emi/d04.png` y `d10-compuesta.png`, porque la edición había agregado una línea punteada y una hoja de personajes.
 - Las figuras de Tomi de la web (`web/img/tomi-solito.webp` y `tomi-cuatro-patas.webp`) se recortaron de la hoja nueva del libro 2.
+
+## Libro 4 (carpetas `libro4/` y `libro4-emi/`)
+
+Generado el 27 de octubre de 2026 con Nano Banana Pro en 2K, con referencias `referencias/hoja-personajes-libro4.png` (Tomi de unos 11 meses: pelo más largo y despeinado sin remolino, cuatro dientes, remera verde y pañal) y `libro3/d10-v2.png` (estilo y living). Bloque de estilo: `herramientas/style-libro4.txt`. Se genera con `herramientas/generar_libro.py 4`, que sirve para cualquier libro.
+
+- La hoja de Tomi se editó para que no cargue la caja ni camine, y se borró a mano una figura que seguía cargándola.
+- La tapa y las dobles 1 a 5 salieron con un banco sin respaldo; se editaron (`*-v2.png`) para que el sillón sea el mismo con respaldo de las demás páginas.
+- La doble 7 se rehízo (`d07-v2.png`) porque la línea de la cabeza de Tomi quedaba a la altura de la mesa.
+- En el experimento se borraron a mano unos números "(1) (2) (3)" que había escrito la IA.
+- Doble 5: en el borde derecho aparece otro papá, pero queda afuera al recortar la doble a 2:1.
+
+| Página | Varón (`libro4/`) |
+| --- | --- |
+| 1 Portada | `p01-v2.png` |
+| 2–3 a 10–11 | `d01-v2.png` … `d05-v2.png` |
+| 12–13 | `d06-v1.png` |
+| 14–15 | `d07-v2.png` |
+| 16–17 a 20–21 | `d08-v1.png` … `d10-v1.png` |
+| 22–23 | `exp-v1.png` |
+| 24 | `p24-v1.png` |
+
+Las versiones `-v1` de la tapa y de las dobles 1 a 5 quedan como originales de las editadas.
