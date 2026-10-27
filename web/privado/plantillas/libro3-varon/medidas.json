@@ -1,0 +1,19 @@
+{
+  "titulo": {
+    "x": 232,
+    "y": 25.29,
+    "w": 184,
+    "h": 42.33
+  },
+  "titulo_texto": "Tomi aprende\na gatear",
+  "nombre": {
+    "x": 24,
+    "y": 12,
+    "w": 150,
+    "h": 29.2
+  },
+  "nombre_texto": "Soy Tomi. Ya sé girar y ya sé sentarme.",
+  "nombre_maximo": 150,
+  "nombre_estilo": "left:24mm;top:12mm;width:150mm",
+  "dobles": 13
+}

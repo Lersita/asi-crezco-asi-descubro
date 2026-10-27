@@ -8,7 +8,8 @@ module.exports = async (req, res) => {
     const pedido = armarPedido(req.body || {});
     const ref = codificar(pedido);
     const base = `https://${req.headers['x-forwarded-host'] || req.headers.host}`;
-    const nombres = pedido.libros.map(l => `“${titulo(l, pedido.nombre)}”`).join(' y ');
+    const lista = pedido.libros.map(l => `“${titulo(l, pedido.nombre)}”`);
+    const nombres = lista.length > 1 ? `${lista.slice(0, -1).join(', ')} y ${lista[lista.length - 1]}` : lista[0];
     const preferencia = await mp('/checkout/preferences', {
       method: 'POST',
       body: JSON.stringify({
