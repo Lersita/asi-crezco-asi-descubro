@@ -6,7 +6,7 @@ module.exports = async (req, res) => {
   try {
     const r = await fetch('https://api.mercadopago.com/users/me', { headers: { Authorization: `Bearer ${t.trim()}` } });
     const d = await r.json();
-    info.mercado_pago = r.ok ? { reconoce_la_cuenta: true, pais: d.site_id, es_usuario_de_prueba: /^TEST/i.test(d.nickname || '') || (d.tags || []).includes('test_user') } : { reconoce_la_cuenta: false, respuesta: d.message || r.status };
+    info.mercado_pago = r.ok ? { reconoce_la_cuenta: true, cuenta_que_vende: d.nickname, pais: d.site_id, es_usuario_de_prueba: /^TEST/i.test(d.nickname || '') || (d.tags || []).includes('test_user') } : { reconoce_la_cuenta: false, respuesta: d.message || r.status };
   } catch (e) { info.mercado_pago = { error: e.message }; }
   res.setHeader('Cache-Control', 'no-store'); res.status(200).json(info);
 };
