@@ -11,7 +11,7 @@ Borrador (propuesta), 28 de octubre de 2026.
 | Física | Fuerza: empujar y tirar. Lo pesado necesita más fuerza; a veces empujo y no alcanza |
 | Matemática | Contar pasos y medir distancias con pasos: cerca es pocos pasos, lejos es muchos |
 | Formato | 24 páginas: portada, 10 dobles de historia, experimento casero (doble) y página para los grandes |
-| Lector | Chicos de 5 a 7 años, leído en voz alta por un adulto |
+| Lector | Chicos de 4 a 7 años, leído en voz alta por un adulto |
 | Edad de Tomi | 12–15 meses (la apariencia se define antes de ilustrar, según la regla de `CLAUDE.md`) |
 | Qué hace Rula | Tomi la empuja con el pie y se va rodando lejos; tira de su mantita y Rula viene hacia él |
 

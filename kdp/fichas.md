@@ -11,7 +11,7 @@ Borrador del 27 de octubre de 2026. Todo lo que pide KDP al cargar cada libro de
 | Serie (Series) | Inglés: **I Grow, I Discover** · Español: **Así crezco, así descubro**. Son dos series separadas, una por idioma. Número de libro: 1 a 4 |
 | Derechos (Publishing rights) | I own the copyright and I hold necessary publishing rights |
 | Contenido sexual explícito | No |
-| Edad de lectura (Reading age) | **5 a 7 años** (es el lector de la colección). Si conviene llegar a más familias: 4 a 7 |
+| Edad de lectura (Reading age) | **4 a 7 años** (decidido el 28/10/2026) |
 | ISBN | **ISBN gratis de KDP** (uno por libro; cada idioma es un libro distinto) |
 | Fecha de publicación | Vacía (se usa la del día de publicación) |
 | Tinta y papel (Print options) | **Premium color**, papel blanco (white paper) |
@@ -52,7 +52,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy Learns to Roll Over
 - **Subtítulo:** A Picture Book About Babies, Balls, and the Science of Rolling
 - **Serie:** I Grow, I Discover · Book 1
-- **Palabras clave (7):** baby milestones picture book · physics for kids ages 5-7 · science books for kindergarten · round things roll · STEM read aloud book · early math counting 1 to 3 · books about growing up
+- **Palabras clave (7):** baby milestones picture book · physics for kids ages 4-7 · science books for kindergarten · round things roll · STEM read aloud book · early math counting 1 to 3 · books about growing up
 
 **Descripción:**
 
@@ -67,7 +67,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 > - A hands-on experiment with things from home
 > - A page for grown-ups with the science behind the story, the milestone, and baby safety tips
 >
-> *I Grow, I Discover* is a series that follows a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every book. For curious kids ages 5 to 7 and the grown-ups who read with them.
+> *I Grow, I Discover* is a series that follows a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every book. For curious kids ages 4 to 7 and the grown-ups who read with them.
 
 ## Libro 1 · español
 
@@ -75,7 +75,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy aprende a girar
 - **Subtítulo:** Un libro ilustrado sobre bebés, pelotas y la ciencia de rodar
 - **Serie:** Así crezco, así descubro · Libro 1
-- **Palabras clave (7):** libros infantiles en español · ciencia para niños de 5 a 7 años · física para niños · hitos del bebé libro · libro STEM en español · cuentos para leer en voz alta · contar del 1 al 3
+- **Palabras clave (7):** libros infantiles en español · ciencia para niños de 4 a 7 años · física para niños · hitos del bebé libro · libro STEM en español · cuentos para leer en voz alta · contar del 1 al 3
 
 **Descripción:**
 
@@ -90,14 +90,14 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 > - Un experimento con cosas de la casa
 > - Una página para los grandes con la ciencia de la historia, el hito y consejos de seguridad
 >
-> *Así crezco, así descubro* es una colección que sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 5 a 7 años y los grandes que leen con ellos.
+> *Así crezco, así descubro* es una colección que sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años y los grandes que leen con ellos.
 
 ## Libro 2 · inglés
 
 - **Título:** Tommy Learns to Sit Up
 - **Subtítulo:** A Picture Book About Balance, Tall and Short, Near and Far
 - **Serie:** I Grow, I Discover · Book 2
-- **Palabras clave (7):** baby milestones picture book · balance science for kids · physics for kids ages 5-7 · tall and short concepts book · near and far for kindergarten · STEM read aloud book · books about growing up
+- **Palabras clave (7):** baby milestones picture book · balance science for kids · physics for kids ages 4-7 · tall and short concepts book · near and far for kindergarten · STEM read aloud book · books about growing up
 
 **Descripción:**
 
@@ -113,14 +113,14 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 > - A hands-on experiment: what tips over and what doesn't?
 > - A page for grown-ups with the science, the milestone, and safety tips
 >
-> *I Grow, I Discover* follows a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every book. For curious kids ages 5 to 7.
+> *I Grow, I Discover* follows a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every book. For curious kids ages 4 to 7.
 
 ## Libro 2 · español
 
 - **Título:** Tommy aprende a sentarse
 - **Subtítulo:** Un libro ilustrado sobre el equilibrio, lo alto y lo bajo, lo cerca y lo lejos
 - **Serie:** Así crezco, así descubro · Libro 2
-- **Palabras clave (7):** libros infantiles en español · equilibrio para niños · física para niños de 5 a 7 años · alto y bajo cerca y lejos · hitos del bebé libro · libro STEM en español · cuentos para leer en voz alta
+- **Palabras clave (7):** libros infantiles en español · equilibrio para niños · física para niños de 4 a 7 años · alto y bajo cerca y lejos · hitos del bebé libro · libro STEM en español · cuentos para leer en voz alta
 
 **Descripción:**
 
@@ -136,14 +136,14 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 > - Un experimento: ¿qué se cae y qué no?
 > - Una página para los grandes con la ciencia, el hito y consejos de seguridad
 >
-> *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 5 a 7 años.
+> *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
 
 ## Libro 3 · inglés
 
 - **Título:** Tommy Learns to Crawl
 - **Subtítulo:** A Picture Book About Friction and Counting Hands and Knees
 - **Serie:** I Grow, I Discover · Book 3
-- **Palabras clave (7):** baby milestones picture book · friction science for kids · physics for kids ages 5-7 · counting books for kindergarten · crawling baby book · STEM read aloud book · books about growing up
+- **Palabras clave (7):** baby milestones picture book · friction science for kids · physics for kids ages 4-7 · counting books for kindergarten · crawling baby book · STEM read aloud book · books about growing up
 
 **Descripción:**
 
@@ -159,14 +159,14 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 > - A hands-on experiment: where does the ball roll farther?
 > - A page for grown-ups with the science, the milestone, and baby-proofing tips
 >
-> *I Grow, I Discover* follows a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every book. For curious kids ages 5 to 7.
+> *I Grow, I Discover* follows a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every book. For curious kids ages 4 to 7.
 
 ## Libro 3 · español
 
 - **Título:** Tommy aprende a gatear
 - **Subtítulo:** Un libro ilustrado sobre la fricción y cómo contar manos y rodillas
 - **Serie:** Así crezco, así descubro · Libro 3
-- **Palabras clave (7):** libros infantiles en español · fricción para niños · física para niños de 5 a 7 años · libros para contar · bebé gateando libro · libro STEM en español · cuentos para leer en voz alta
+- **Palabras clave (7):** libros infantiles en español · fricción para niños · física para niños de 4 a 7 años · libros para contar · bebé gateando libro · libro STEM en español · cuentos para leer en voz alta
 
 **Descripción:**
 
@@ -182,14 +182,14 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 > - Un experimento: ¿dónde llega más lejos la pelota?
 > - Una página para los grandes con la ciencia, el hito y consejos para preparar la casa
 >
-> *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 5 a 7 años.
+> *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
 
 ## Libro 4 · inglés
 
 - **Título:** Tommy Learns to Stand Up
 - **Subtítulo:** A Picture Book About Gravity and Comparing Heights
 - **Serie:** I Grow, I Discover · Book 4
-- **Palabras clave (7):** baby milestones picture book · gravity science for kids · physics for kids ages 5-7 · comparing heights kindergarten · baby first steps book · STEM read aloud book · books about growing up
+- **Palabras clave (7):** baby milestones picture book · gravity science for kids · physics for kids ages 4-7 · comparing heights kindergarten · baby first steps book · STEM read aloud book · books about growing up
 
 **Descripción:**
 
@@ -205,14 +205,14 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 > - A hands-on experiment: does everything fall the same?
 > - A page for grown-ups with the science, the milestone, and safety tips
 >
-> *I Grow, I Discover* follows a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every book. For curious kids ages 5 to 7.
+> *I Grow, I Discover* follows a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every book. For curious kids ages 4 to 7.
 
 ## Libro 4 · español
 
 - **Título:** Tommy aprende a pararse
 - **Subtítulo:** Un libro ilustrado sobre la gravedad y cómo comparar alturas
 - **Serie:** Así crezco, así descubro · Libro 4
-- **Palabras clave (7):** libros infantiles en español · gravedad para niños · física para niños de 5 a 7 años · comparar alturas · primeros pasos del bebé libro · libro STEM en español · cuentos para leer en voz alta
+- **Palabras clave (7):** libros infantiles en español · gravedad para niños · física para niños de 4 a 7 años · comparar alturas · primeros pasos del bebé libro · libro STEM en español · cuentos para leer en voz alta
 
 **Descripción:**
 
@@ -228,7 +228,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 > - Un experimento: ¿todo cae igual?
 > - Una página para los grandes con la ciencia, el hito y consejos de seguridad
 >
-> *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 5 a 7 años.
+> *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
 
 ---
 

@@ -35,10 +35,10 @@ You'll go through 3 pages: **Paperback Details**, **Paperback Content**, and **P
 | **Description** | Paste the description from section "Description to paste" below |
 | **Publishing Rights** | **I own the copyright and I hold necessary publishing rights** |
 | **Primary Audience · Sexually Explicit Images or Title** | **No** |
-| **Primary Audience · Reading age** | Minimum: **5** · Maximum: **7** |
+| **Primary Audience · Reading age** | Minimum: **4** · Maximum: **7** |
 | **Primary marketplace** | **Amazon.com** |
 | **Categories** | Click **Choose categories**. Use the search box and pick up to 3: **Children's Books › Science, Nature & How It Works › Physics**; **Children's Books › Education & Reference › Math** (or **Early Learning › Basic Concepts**); **Children's Books › Growing Up & Facts of Life › Family Life** (or **Growing Up**). If a name is slightly different, choose the closest one. |
-| **Keywords** (7 boxes) | baby milestones picture book · physics for kids ages 5-7 · science books for kindergarten · round things roll · STEM read aloud book · early math counting 1 to 3 · books about growing up |
+| **Keywords** (7 boxes) | baby milestones picture book · physics for kids ages 4-7 · science books for kindergarten · round things roll · STEM read aloud book · early math counting 1 to 3 · books about growing up |
 
 Click **Save and Continue**.
 
@@ -57,7 +57,7 @@ Paste it in the Description box. You can make the first line bold with the **B**
 > - A hands-on experiment with things from home
 > - A page for grown-ups with the science behind the story, the milestone, and baby safety tips
 >
-> I Grow, I Discover is a series that follows a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every book. For curious kids ages 5 to 7 and the grown-ups who read with them.
+> I Grow, I Discover is a series that follows a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every book. For curious kids ages 4 to 7 and the grown-ups who read with them.
 
 ---
 
@@ -151,7 +151,7 @@ Same steps. Change only this:
 | **Subtitle** | Un libro ilustrado sobre bebés, pelotas y la ciencia de rodar |
 | **Series** | Create a second series: **Así crezco, así descubro** · number **1** |
 | **Description** | The Spanish description in the "Fichas" document |
-| **Keywords** | libros infantiles en español · ciencia para niños de 5 a 7 años · física para niños · hitos del bebé libro · libro STEM en español · cuentos para leer en voz alta · contar del 1 al 3 |
+| **Keywords** | libros infantiles en español · ciencia para niños de 4 a 7 años · física para niños · hitos del bebé libro · libro STEM en español · cuentos para leer en voz alta · contar del 1 al 3 |
 | **Manuscript** | `libro1-es-interior.pdf` |
 | **Cover** | `libro1-es-tapa.pdf` |
 | **ISBN** | Assign a new free KDP ISBN (each language is a different book) |

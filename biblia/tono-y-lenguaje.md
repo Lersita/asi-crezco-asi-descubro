@@ -2,7 +2,7 @@
 
 ## A quién le hablamos
 
-- El texto **lo lee un adulto en voz alta** a un chico de 5 a 7 años. Tiene que sonar bien dicho, no solo leído.
+- El texto **lo lee un adulto en voz alta** a un chico de 4 a 7 años. Tiene que sonar bien dicho, no solo leído.
 - El narrador es Tomi en primera persona. Habla como un chico de 5 años contando lo que le pasaba de bebé: simple y con entusiasmo, pero sin hablar como bebé ("tete", "papa" no).
 
 ## Reglas de escritura

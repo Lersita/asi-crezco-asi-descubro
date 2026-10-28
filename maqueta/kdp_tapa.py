@@ -32,8 +32,8 @@ CONTRATAPA = {
     },
 }
 SERIE = {
-    "es": "Una colección que sigue los primeros logros de un bebé, de girar a andar en bicicleta, y en cada libro enseña un concepto de física y uno de matemática. Para leer en voz alta con niños de 5 a 7 años.",
-    "en": "A series that follows a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every book. For reading aloud with kids ages 5 to 7.",
+    "es": "Una colección que sigue los primeros logros de un bebé, de girar a andar en bicicleta, y en cada libro enseña un concepto de física y uno de matemática. Para leer en voz alta con niños de 4 a 7 años.",
+    "en": "A series that follows a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every book. For reading aloud with kids ages 4 to 7.",
 }
 ADENTRO = {
     "es": ["Una historia para leer en voz alta", "Un experimento con cosas de la casa", "Una página para los grandes"],

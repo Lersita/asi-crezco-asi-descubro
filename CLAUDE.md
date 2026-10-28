@@ -8,7 +8,7 @@ Una colección de 11 libros infantiles de física y matemática. Proyecto person
 
 ## Concepto
 
-- **Lectores:** chicos de 5 a 7 años. El libro lo lee un adulto en voz alta.
+- **Lectores:** chicos de 4 a 7 años. El libro lo lee un adulto en voz alta.
 - **Hilo de la colección:** cada libro es un hito motor del desarrollo de un bebé.
 - **Narrador:** Tomi, en primera persona. Crece de libro en libro: es bebé en el libro 1 y anda en bici en el 11.
 - **Compañera fija:** Rula, su pelota grande, blanda y de colores. Aparece en los 11 libros y muestra el concepto físico de cada uno.
@@ -52,6 +52,7 @@ Las edades son siempre un rango aproximado.
 - **27/10/2026:** venta del **PDF digital** con Mercado Pago (Checkout Pro). Precios: 1 libro $18.999; 2 libros $34.199; 3 libros $48.499; colección de 11 $124.999. Desde el 27/10/2026 se venden los libros 1, 2 y 3 (packs de 1, 2 y 3); la colección de 11 se muestra como "próximamente". En la web se eligen los libros tildándolos. El **impreso** en tapa dura (con el PDF de regalo al instante, en una sola compra) queda para cuando haya presupuesto de imprenta.
 - **27/10/2026:** la venta real se abre **cuando estén terminados los 11 libros**, para que la saga tenga sentido completa. Hasta entonces, la web queda como vidriera y con la credencial de prueba de Mercado Pago.
 - **27/10/2026 · cambio de modelo:** prueba de venta en **Amazon KDP (Estados Unidos)**, **tapa blanda** y **sin personalizar**, con los **libros 1 a 4** en dos ediciones: **español neutro** (tuteo, sin regionalismos) e **inglés**. El protagonista es **Tommy** en los dos idiomas (sin versión Emi en KDP). Las tapas dicen **"by LERSA"** (apodo del autor). Cobro por Payoneer (cuenta en Estados Unidos que el usuario ya tiene). La **web con Mercado Pago queda en pausa**; los textos rioplatenses y la personalización se conservan.
+- **28/10/2026:** el público pasa a ser de **4 a 7 años** (antes, 5 a 7), en la web, en las fichas y edad de lectura de KDP y en la contratapa.
 - **27/10/2026:** el pelo crece libro a libro (detalle en `biblia/personajes.md`). Desde el libro 4, Tomi sin remolino y Emi sin colita; Emi lleva un ganchito con flor coral. Antes de gastar créditos en ilustraciones, revisar la evolución y consultar (ver "Cómo trabajar").
 
 ## Estado (27/10/2026)

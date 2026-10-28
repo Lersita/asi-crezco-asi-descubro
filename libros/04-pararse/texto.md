@@ -11,7 +11,7 @@ Borrador (propuesta), 27 de octubre de 2026.
 | Física | Gravedad: todo lo que suelto cae para abajo |
 | Matemática | Comparar alturas: más arriba, más abajo, hasta dónde llego |
 | Formato | 24 páginas: portada, 10 dobles de historia, experimento casero (doble) y página para los grandes |
-| Lector | Chicos de 5 a 7 años, leído en voz alta por un adulto |
+| Lector | Chicos de 4 a 7 años, leído en voz alta por un adulto |
 | Edad de Tomi | 9–12 meses (la apariencia se define antes de ilustrar, según la regla de `CLAUDE.md`) |
 | Qué hace Rula | Está arriba del sillón; Tomi la suelta y cae al piso |
 
