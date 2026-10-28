@@ -74,7 +74,10 @@ Se bajó la cantidad de pelo desde el libro 3 para que se parezca a lo habitual 
 | Hojas de Tomi de los libros 3, 4 y 5 (una del libro 5 se repitió porque copió la hoja del libro 3) | 48 |
 | Hojas de Emi de los libros 3, 4 y 5 (la del libro 5 se repitió; las figuras de arriba se unieron gratis desde la de Tomi) | 48 |
 | **Subtotal hojas** | **96** |
-| Páginas de los libros 3 y 4 (pendiente) | unos 468 (estimado) |
+| Páginas de Tomi de los libros 3 y 4 (24 ediciones, más la doble 2 del libro 3 repetida; 4 arreglos a mano sin costo) | 300 |
+| **Total de la segunda corrección** | **396** |
+
+La versión de Emi de los libros 3 y 4 queda para más adelante (decidido el 28/10/2026): se hace sobre las páginas nuevas de Tomi.
 
 ## Lo que más encarece
 

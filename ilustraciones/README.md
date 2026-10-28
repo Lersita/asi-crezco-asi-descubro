@@ -126,3 +126,7 @@ Generado el 27 de octubre de 2026 con Nano Banana Pro en 2K, con referencias `re
 | 24 | `p24-v1.png` |
 
 Las versiones `-v1` de la tapa y de las dobles 1 a 5 quedan como originales de las editadas.
+
+## Segunda corrección del pelo (28 de octubre de 2026)
+
+La curva del pelo se bajó desde el libro 3 (ver `biblia/personajes.md`). Hojas nuevas en `referencias/` (las anteriores, en `referencias/anteriores/`). Las páginas de Tomi de los libros 3 y 4 se editaron con `herramientas/pelo2.py` (Nano Banana 2) y quedaron como `libroN/<página>-pelo2.png`. Arreglos a mano, pegando la zona desde la imagen anterior: libro 3 página 24 (cara de papá) y libro 4 dobles 3 (línea punteada de más), 4 (mamá había quedado pelada) y 10 (una segunda pelota); se guardaron como `-pelo2-c.png`. El experimento no se tocó (muestra al lector, no a Tomi). La versión de Emi de los libros 3 y 4 todavía usa las imágenes anteriores: se rehace más adelante.

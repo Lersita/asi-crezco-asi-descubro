@@ -14,8 +14,11 @@ for n in ["d01-v3", "d02-v4", "d03-v3", "d04-v3-compuesta", "d05-v2", "d06-v3", 
     FUENTES[n] = f"ilustraciones/borradores/{n}.png"
 for n in ["d01-v1", "d02-v1", "d03-v1", "d04-v1", "d05-v1", "d06-v1", "d07-v1", "d08-v1", "d09-v1", "d10-compuesta", "exp-v1", "p01-portada-v1", "p24-v1"]:
     FUENTES["l2-" + n] = f"ilustraciones/libro2/{n}.png"
-L3 = {"p01": "p01-v1", "d01": "d01-v1", "d02": "d02-v1", "d03": "d03-v1", "d04": "d04-v1", "d05": "d05-v1", "d06": "d06-v2", "d07": "d07-v1", "d08": "d08-v2", "d09": "d09-v1", "d10": "d10-v2", "exp": "exp-v1", "p24": "p24-v1"}
-L4 = {"p01": "p01-v2", "d01": "d01-v2", "d02": "d02-v2", "d03": "d03-v2", "d04": "d04-v2", "d05": "d05-v2", "d06": "d06-v1", "d07": "d07-v2", "d08": "d08-v1", "d09": "d09-v1", "d10": "d10-v1", "exp": "exp-v1", "p24": "p24-v1"}
+# Desde el 28/10/2026, versión con menos pelo (segunda corrección del pelo): -pelo2 y, donde se arregló a mano, -pelo2-c.
+L3 = {k: f"{k}-pelo2" for k in ["p01", "d01", "d02", "d03", "d04", "d05", "d06", "d07", "d08", "d09", "d10"]}
+L3.update({"p24": "p24-pelo2-c", "exp": "exp-v1"})
+L4 = {k: f"{k}-pelo2" for k in ["p01", "d01", "d02", "d05", "d06", "d07", "d08", "d09", "p24"]}
+L4.update({"d03": "d03-pelo2-c", "d04": "d04-pelo2-c", "d10": "d10-pelo2-c", "exp": "exp-v1"})
 FUENTES.update({"l3-" + k: f"ilustraciones/libro3/{v}.png" for k, v in L3.items()})
 FUENTES.update({"l4-" + k: f"ilustraciones/libro4/{v}.png" for k, v in L4.items()})
 
