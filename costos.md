@@ -12,6 +12,7 @@ Referencia de precios: imagen nueva con Nano Banana Pro en 2K, 18 créditos (USD
 | 2 · Sentarse | unos 450 (estimado) + 360 del pelo = unos 810 | unos 4,05 | Lo original, estimado (14 páginas de Tomi, 14 ediciones de Emi y 2 hojas); la corrección del pelo, medida |
 | 3 · Gatear | 468 + 324 del pelo = 792 | 3,96 | Medido |
 | 4 · Pararse | 366 hasta ahora (hojas y versión de Tomi); con Emi, unos 522 | 1,83 hasta ahora; unos 2,61 con Emi | Medido; falta la versión de Emi |
+| 5 · Caminar | 66 hasta ahora (hojas); estimado total unos 480 | 0,33 hasta ahora | Medido |
 
 **Total medido desde el 27/10/2026:** 1.518 créditos (USD 7,59): libro 3, corrección del pelo y libro 4 hasta la versión de Tomi.
 
@@ -54,6 +55,15 @@ Referencia de precios: imagen nueva con Nano Banana Pro en 2K, 18 créditos (USD
 | --- | --- |
 | Prueba con Recraft Crisp Upscale (1 doble) | 0,5 |
 | Prueba con Topaz Image Upscale (3 intentos, fallaron por error de Kie.ai: no cobra) | 0 |
+
+### Libro 5 (en curso, 28/10/2026)
+
+| Paso | Créditos |
+| --- | --- |
+| Hoja del living (nueva, sirve para los libros siguientes) | 18 |
+| Hoja de Tomi (edición de la del libro 4) y corrección de dientes y paso | 24 |
+| Hoja de Emi y corrección de las tres figuras de cuerpo entero (las caras se unieron gratis) | 24 |
+| **Subtotal** | **66** |
 
 ## Lo que más encarece
 
