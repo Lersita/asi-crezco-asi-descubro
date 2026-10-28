@@ -29,7 +29,7 @@ Only mom and dad may appear as adults, each at most once, no other people. An ad
 
 ## Páginas 4–5 · Doble 2 · ¡PLAF!
 ```
-[ESTILO]. A sequence of three Tomis on the knitted rug, left to right, at about 15, 45 and 80 percent of the width: letting go of the low beige sofa with arms raised; taking a wobbly step forward with arms out for balance; sitting down suddenly on his bottom on the soft rug, surprised and laughing. Mom partially visible at the far right, crouching, smiling. Plenty of empty rug between the figures. [REGLAS]. Wide 21:9.
+[ESTILO]. A sequence of three Tomis on the knitted rug, all three in the LEFT 40 percent and the RIGHT 40 percent of the image, nothing in the middle: on the far left, letting go of the low beige sofa with arms raised; at about 30 percent of the width, taking a wobbly step forward with arms out for balance; at about 70 percent of the width, sitting down suddenly on his bottom on the soft rug, surprised and laughing. The middle of the image, between 40 and 60 percent of the width, shows only empty rug and wall, no figure and no face. Mom partially visible at the far right, crouching, smiling. [REGLAS]. Wide 21:9.
 ```
 
 ## Páginas 6–7 · Doble 3 · ¡Llegué!
@@ -39,7 +39,7 @@ Only mom and dad may appear as adults, each at most once, no other people. An ad
 
 ## Páginas 8–9 · Doble 4 · Empujar
 ```
-[ESTILO]. Left half: Tomi standing on the knitted rug, one foot forward as if he has just nudged the ball with his foot, delighted face. Right half: Rula rolling away across the rug and the wooden floor, with a few short deep-navy cut-paper motion lines behind her. Upper area of the left half: calm wall with empty space for a big word. Dad partially visible at the far right, sitting on the floor. [REGLAS]. Wide 21:9.
+[ESTILO]. Left half: Tomi standing on the knitted rug, one foot forward as if he has just nudged the ball with his foot, delighted face; there is NO ball near his feet. Right half: Rula, the only ball in the image, rolling away across the rug and the wooden floor, with a few short deep-navy cut-paper motion lines behind her. Upper area of the left half: calm wall with empty space for a big word. Dad partially visible at the far right, sitting on the floor. There is exactly one ball in the whole picture. [REGLAS]. Wide 21:9.
 ```
 
 ## Páginas 10–11 · Doble 5 · Tirar

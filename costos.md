@@ -12,7 +12,7 @@ Referencia de precios: imagen nueva con Nano Banana Pro en 2K, 18 créditos (USD
 | 2 · Sentarse | unos 450 (estimado) + 360 del pelo = unos 810 | unos 4,05 | Lo original, estimado (14 páginas de Tomi, 14 ediciones de Emi y 2 hojas); la corrección del pelo, medida |
 | 3 · Gatear | 468 + 324 del pelo = 792 | 3,96 | Medido |
 | 4 · Pararse | 366 hasta ahora (hojas y versión de Tomi); con Emi, unos 522 | 1,83 hasta ahora; unos 2,61 con Emi | Medido; falta la versión de Emi |
-| 5 · Caminar | 66 hasta ahora (hojas); estimado total unos 480 | 0,33 hasta ahora | Medido |
+| 5 · Caminar | 414 (versión de Tomi); Emi queda para más adelante | 2,07 | Medido |
 
 **Total medido desde el 27/10/2026:** 1.518 créditos (USD 7,59): libro 3, corrección del pelo y libro 4 hasta la versión de Tomi.
 
@@ -63,7 +63,13 @@ Referencia de precios: imagen nueva con Nano Banana Pro en 2K, 18 créditos (USD
 | Hoja del living (nueva, sirve para los libros siguientes) | 18 |
 | Hoja de Tomi (edición de la del libro 4) y corrección de dientes y paso | 24 |
 | Hoja de Emi y corrección de las tres figuras de cuerpo entero (las caras se unieron gratis) | 24 |
-| **Subtotal** | **66** |
+| Hojas de Tomi y Emi (subtotal) | **66** |
+| Hoja del living pasada a papel recortado (no sirvió: quedó plana) | 12 |
+| 2 pruebas con la hoja del living de referencia (estilo plano, descartadas) | 36 |
+| 2 pruebas sin la hoja del living | 36 |
+| 12 páginas restantes de Tomi | 216 |
+| Correcciones: doble 2 (cara en el pliegue) y doble 4 (dos pelotas; un intento descartado y una edición) | 48 |
+| **Total del libro 5 (Tomi)** | **414** |
 
 ### Segunda corrección del pelo (28/10/2026)
 
