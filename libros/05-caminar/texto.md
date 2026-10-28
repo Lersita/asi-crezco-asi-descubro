@@ -1,6 +1,6 @@
 # Libro 5 — Tomi aprende a caminar
 
-Borrador (propuesta), 28 de octubre de 2026.
+Texto aprobado el 28 de octubre de 2026.
 
 ## Ficha del libro
 
@@ -12,7 +12,7 @@ Borrador (propuesta), 28 de octubre de 2026.
 | Matemática | Contar pasos y medir distancias con pasos: cerca es pocos pasos, lejos es muchos |
 | Formato | 24 páginas: portada, 10 dobles de historia, experimento casero (doble) y página para los grandes |
 | Lector | Chicos de 4 a 7 años, leído en voz alta por un adulto |
-| Edad de Tomi | 12–15 meses (la apariencia se define antes de ilustrar, según la regla de `CLAUDE.md`) |
+| Edad de Tomi | 12–15 meses: pelo casi igual que en el libro 4, cuatro dientes arriba y cuatro abajo, remera verde, short sobre el pañal y medias verdes antideslizantes (ver `biblia/personajes.md`) |
 | Qué hace Rula | Tomi la empuja con el pie y se va rodando lejos; tira de su mantita y Rula viene hacia él |
 
 ## Historia página por página
