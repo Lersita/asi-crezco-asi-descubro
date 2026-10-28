@@ -65,6 +65,17 @@ Referencia de precios: imagen nueva con Nano Banana Pro en 2K, 18 créditos (USD
 | Hoja de Emi y corrección de las tres figuras de cuerpo entero (las caras se unieron gratis) | 24 |
 | **Subtotal** | **66** |
 
+### Segunda corrección del pelo (28/10/2026)
+
+Se bajó la cantidad de pelo desde el libro 3 para que se parezca a lo habitual en cada edad.
+
+| Paso | Créditos |
+| --- | --- |
+| Hojas de Tomi de los libros 3, 4 y 5 (una del libro 5 se repitió porque copió la hoja del libro 3) | 48 |
+| Hojas de Emi de los libros 3, 4 y 5 (la del libro 5 se repitió; las figuras de arriba se unieron gratis desde la de Tomi) | 48 |
+| **Subtotal hojas** | **96** |
+| Páginas de los libros 3 y 4 (pendiente) | unos 468 (estimado) |
+
 ## Lo que más encarece
 
 - **Repetir por errores de la IA:** cada corrección suma 12 o 18 créditos. Revisar la evolución antes de generar (regla de `CLAUDE.md`) evita la más cara: rehacer un libro entero, como pasó con el pelo.
