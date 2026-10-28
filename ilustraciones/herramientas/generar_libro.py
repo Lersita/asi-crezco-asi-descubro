@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Genera las páginas de un libro (versión varón) a partir de libros/NN-*/ilustraciones.md.
-# uso: generar_libro.py N URL_HOJA URL_REFERENCIA_ESTILO [nombre ...]   (sin nombres: todas)
+# uso: generar_libro.py N URL_HOJA URL_REFERENCIA_ESTILO[,URL_SET...] [nombre ...]   (sin nombres: todas)
 # Guarda en ilustraciones/libroN/<nombre>-v1.png. Estilo: herramientas/style-libroN.txt
 import re, sys, subprocess, glob
 from concurrent.futures import ThreadPoolExecutor
@@ -15,7 +15,8 @@ def correr(par):
     nombre, prompt = par
     prompt = prompt.replace("[ESTILO]", estilo).replace("[REGLAS]", reglas)
     aspecto = "1:1" if nombre in ("p01", "p24") else "3:2" if nombre == "exp" else "21:9"
-    refs = [estilo_ref] if nombre == "exp" else [hoja, estilo_ref]
+    extra = estilo_ref.split(",")
+    refs = [extra[0]] if nombre == "exp" else [hoja, *extra]
     r = subprocess.run(["python3", "ilustraciones/herramientas/kie.py", "nano-banana-pro", aspecto, "2K",
                         f"ilustraciones/libro{n}/{nombre}-v1.png", prompt, *refs], capture_output=True, text=True)
     return nombre, (r.stdout + r.stderr).strip()[-200:]

@@ -76,7 +76,7 @@ Máximo tres frases por página. Tomi siempre en el piso del living, con un adul
 
 - **Texto, página izquierda:** ¿Qué necesita más fuerza: empujar a Rula o la caja llena?
 - **Texto, página derecha:** Contá mis huellitas hasta Rula. ¿Cuántos pasos di?
-- **Ilustración:** A la izquierda, Rula y la caja llena de juguetes, una al lado de la otra. A la derecha, Tomi junto a Rula, al final de un caminito de huellitas (se agregan en la maqueta, seis).
+- **Ilustración:** A la izquierda, la caja llena de juguetes y Rula, una al lado de la otra, y Tomi recién llegado junto a Rula. A la derecha, el piso libre por donde vino caminando: el caminito de seis huellitas se agrega en la maqueta.
 
 **Doble 10. Cierre (páginas 20–21)**
 
