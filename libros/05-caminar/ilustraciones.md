@@ -64,7 +64,7 @@ Only mom and dad may appear as adults, each at most once, no other people. An ad
 
 ## Páginas 18–19 · Doble 9 · ¿Vos qué decís?
 ```
-[ESTILO]. On the left side of the image, from left to right: the low cardboard toy box full to the top of big soft fabric toys at about 15 percent of the width; Rula on the floor at about 30 percent; Tomi standing right next to Rula at about 40 percent, proud, one hand resting on her, as if he has just arrived walking from the right. The whole right half is a long empty stretch of plain wooden floor and rug with no marks, with mom partially visible at the far right edge, sitting on the floor. [REGLAS]. Wide 21:9.
+[ESTILO]. On the left side of the image, from left to right: the low cardboard toy box full to the top of big soft fabric toys at about 15 percent of the width; Rula, the big soft ball with exactly six vertical segments red, orange, yellow, leaf green, sky blue and violet like in the character sheet, on the floor at about 30 percent; Tomi standing right next to Rula at about 40 percent, proud, one hand resting on her, as if he has just arrived walking from the right. The whole right half is a long empty stretch of plain wooden floor and rug with no marks, with mom partially visible at the far right edge, sitting on the floor. Same warm cut-paper gouache style as the reference page, same hair as the character sheet (short light chestnut-brown, flat, close to the scalp). [REGLAS]. Wide 21:9.
 ```
 
 ## Páginas 20–21 · Doble 10 · Cierre
