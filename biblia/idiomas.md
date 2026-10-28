@@ -49,7 +49,7 @@ Para Estados Unidos.
 - **Rula es "it"** (es un objeto, no tiene cara ni piensa). Mamá y papá: "Mom" y "Dad".
 - Ortografía y costumbres de Estados Unidos: "color", "diaper", "couch". Medidas en pulgadas si hiciera falta en el texto para adultos.
 - Onomatopeyas: ¡PLAF! → FLOP!, ¡PUM! → BUMP!, ¡FIUUU! → WHOOSH!
-- Palabras grandes de la maqueta: ARRIBA → UP, ABAJO → DOWN, CERCA → NEAR, LEJOS → FAR, ALTO → TALL, BAJO → SHORT, FRICCIÓN → FRICTION, GRAVEDAD → GRAVITY.
+- Palabras grandes de la maqueta: ARRIBA → UP, ABAJO → DOWN, CERCA → NEAR, LEJOS → FAR, ALTO → TALL, BAJO → SHORT, FRICCIÓN → FRICTION, GRAVEDAD → GRAVITY, EMPUJAR → PUSH, TIRAR → PULL (en español neutro, JALAR).
 - "Para los grandes" → **"For grown-ups"**. Seguridad según la Academia Americana de Pediatría: dormir boca arriba ("back to sleep"), nada de dejarlo solo en lugares altos.
 
 ## Títulos
@@ -61,3 +61,4 @@ Para Estados Unidos.
 | 2 | Tommy aprende a sentarse | Tommy Learns to Sit Up |
 | 3 | Tommy aprende a gatear | Tommy Learns to Crawl |
 | 4 | Tommy aprende a pararse | Tommy Learns to Stand Up |
+| 5 | Tommy aprende a caminar | Tommy Learns to Walk |

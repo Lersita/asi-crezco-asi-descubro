@@ -1,4 +1,4 @@
-# Fichas para Amazon KDP · libros 1 a 4 (propuesta)
+# Fichas para Amazon KDP · libros 1 a 5 (propuesta)
 
 Borrador del 27 de octubre de 2026. Todo lo que pide KDP al cargar cada libro de tapa blanda. Los campos que se repiten están en "Datos comunes"; abajo va lo propio de cada libro.
 
@@ -230,10 +230,56 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 >
 > *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
 
+## Libro 5 · inglés
+
+- **Título:** Tommy Learns to Walk
+- **Subtítulo:** A Picture Book About Pushing, Pulling, and Counting Steps
+- **Serie:** I Grow, I Discover · Book 5
+- **Palabras clave (7):** baby first steps picture book · push and pull science for kids · physics for kids ages 4-7 · counting books for kindergarten · near and far concepts book · STEM read aloud book · books about growing up
+
+**Descripción:**
+
+> **Mom is waiting with open arms, and today Tommy is going to walk.**
+>
+> One step, two steps, three steps… FLOP! He tries again. With Rula, his big colorful ball, Tommy discovers force: a little push sends Rula rolling, a pull on the blanket brings it back, and a full toy box won't budge until he pushes harder. Along the way, he counts his steps: four to the coffee table, eight to Dad.
+>
+> **Inside this book:**
+>
+> - A gentle story to read aloud, told by Tommy himself
+> - Real, simple physics: pushing and pulling, and why heavy things need more force
+> - Early math: counting steps, near and far
+> - A hands-on experiment: how much force does it take?
+> - A page for grown-ups with the science, the milestone, and safety tips
+>
+> *I Grow, I Discover* follows a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every book. For curious kids ages 4 to 7.
+
+## Libro 5 · español
+
+- **Título:** Tommy aprende a caminar
+- **Subtítulo:** Un libro ilustrado sobre empujar, jalar y contar pasos
+- **Serie:** Así crezco, así descubro · Libro 5
+- **Palabras clave (7):** libros infantiles en español · primeros pasos del bebé libro · fuerza para niños · física para niños de 4 a 7 años · contar pasos cerca y lejos · libro STEM en español · cuentos para leer en voz alta
+
+**Descripción:**
+
+> **Mamá lo espera con los brazos abiertos: hoy Tommy va a caminar.**
+>
+> Un paso, dos pasos, tres pasos… ¡PLAF! Y vuelve a intentar. Con Rula, su pelota grande y de colores, descubre la fuerza: un empujoncito la hace rodar lejos, si jala la manta Rula viene hacia él, y la caja llena de juguetes no se mueve hasta que empuja más fuerte. Y de paso cuenta sus pasos: cuatro hasta la mesita, ocho hasta papá.
+>
+> **En este libro:**
+>
+> - Una historia tierna para leer en voz alta, contada por el propio Tommy
+> - Física simple y verdadera: empujar y jalar, y por qué lo pesado necesita más fuerza
+> - Matemática temprana: contar pasos, cerca y lejos
+> - Un experimento: ¿cuánta fuerza hace falta?
+> - Una página para los grandes con la ciencia, el hito y consejos de seguridad
+>
+> *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
+
 ---
 
 ## Después de publicar
 
 - **Copia de prueba primero:** en el último paso, "Request printed proofs", pedir una de cada idioma antes de publicar. Llega en una o dos semanas.
 - **Anuncios:** con los libros publicados, crear una campaña automática de Amazon Ads (Sponsored Products) por libro, con USD 5 a 10 por día durante 30 a 60 días, y medir ventas por cada dólar gastado.
-- **Página de autor:** en Author Central (author.amazon.com) se puede crear la página de LERSA y unir los 4 libros de cada serie.
+- **Página de autor:** en Author Central (author.amazon.com) se puede crear la página de LERSA y unir los libros de cada serie.

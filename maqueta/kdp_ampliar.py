@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Amplía las ilustraciones de los libros 1 a 4 para la imprenta de KDP (300 dpi o más), sin IA:
+"""Amplía las ilustraciones de los libros 1 a 5 para la imprenta de KDP (300 dpi o más), sin IA:
 ampliación Lanczos ×2 desde el PNG original más un leve realce de nitidez, que conserva la textura del papel.
 Las imágenes que se imprimen chicas (experimento y viñeta de la página 24) se pasan sin ampliar, a calidad alta.
 Uso: python3 maqueta/kdp_ampliar.py → maqueta/img-kdp/<mismo nombre que en maqueta/img>.jpg (no se guarda en Git)"""
@@ -21,6 +21,7 @@ L4 = {k: f"{k}-pelo2" for k in ["p01", "d01", "d02", "d05", "d06", "d07", "d08",
 L4.update({"d03": "d03-pelo2-c", "d04": "d04-pelo2-c", "d10": "d10-pelo2-c", "exp": "exp-v1"})
 FUENTES.update({"l3-" + k: f"ilustraciones/libro3/{v}.png" for k, v in L3.items()})
 FUENTES.update({"l4-" + k: f"ilustraciones/libro4/{v}.png" for k, v in L4.items()})
+FUENTES.update({f"l5-{k}": f"ilustraciones/libro5/{k}-v1.png" for k in ["p01", "d01", "d02", "d03", "d04", "d05", "d06", "d07", "d08", "d09", "d10", "exp", "p24"]})
 
 SALIDA.mkdir(exist_ok=True)
 for nombre, ruta in FUENTES.items():

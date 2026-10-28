@@ -37,7 +37,7 @@ def armar(nombre, I):
         texto("Un paso, dos pasos, tres pasos… ¡PLAF! Me siento de cola en la alfombra.", 226, 12, 150)], (4, 5)))
     S.append(doble(f"{I}d03.jpg", [texto("Me paro otra vez. Abro los brazos para no caerme.", 24, 12, 150),
         texto("Uno, dos, tres, cuatro, cinco… ¡Llego a los brazos de mamá! Mamá estaba a cinco pasos.", 226, 12, 140),
-        camino([165, 210, 255, 300, 345], 199, 90)], (6, 7)))
+        camino([158, 188, 246, 290, 340], 194, 90, salto=6)], (6, 7)))
     S.append(doble(f"{I}d04.jpg", [texto("Ahora quiero jugar con Rula. Le doy un empujoncito con el pie.", 24, 12, 150),
         palabra("EMPUJAR", 228, 52, 16),
         texto("¡Rula se va rodando lejos! Cuando empujo, hago FUERZA.", 226, 12, 150)], (8, 9)))
@@ -46,12 +46,12 @@ def armar(nombre, I):
         texto("¡Rula viene hacia mí! Tirar también es hacer fuerza.", 226, 12, 150)], (10, 11)))
     S.append(doble(f"{I}d06.jpg", [texto("Empujo la caja de los juguetes. ¡No se mueve! Está llena y pesa mucho.", 24, 12, 150),
         texto("Empujo más fuerte… ¡se mueve un poquito! Lo pesado necesita más fuerza.", 226, 12, 150)], (12, 13)))
-    S.append(doble(f"{I}d07.jpg", [texto("Saco los juguetes de la caja. Ahora pesa poquito.", 24, 12, 150),
+    S.append(doble(f"{I}d07.jpg", [texto("Saco los juguetes de la caja. Ahora pesa poquito.", 18, 12, 88),
         texto("La empujo y camino detrás de ella. ¡Diez pasos sin caerme!", 226, 12, 140)], (14, 15)))
     S.append(doble(f"{I}d08.jpg", [texto("Hasta la mesita: cuatro pasos. Está cerca.", 24, 12, 140),
         texto("Hasta papá: ¡ocho pasos! Papá está más lejos.", 226, 12, 130),
-        camino([122, 96, 70, 44], 201, -90, color=CORAL),
-        camino([192, 217, 242, 267, 292, 317, 342, 367], 199, 90)], (16, 17)))
+        camino([126, 100, 74, 48], 192, -90, color=CORAL, salto=6),
+        camino([182, 242, 266, 290, 314, 338, 362, 386], 194, 90, salto=6)], (16, 17)))
     S.append(doble(f"{I}d09.jpg", [texto("¿Qué necesita más fuerza: empujar a Rula o la caja llena?", 24, 12, 160),
         texto("Contá mis huellitas hasta Rula. ¿Cuántos pasos di?", 226, 12, 140),
         camino([350, 315, 280, 245, 210, 178], 180, -90, numerar=False, salto=9)], (18, 19)))

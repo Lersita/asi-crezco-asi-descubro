@@ -23,12 +23,14 @@ CONTRATAPA = {
         2: "Tommy ya sabe girar, pero quiere ver todo desde más arriba. Hoy va a aprender a sentarse… aunque al principio se cae para un lado. Con Rula descubre el secreto del equilibrio: una base ancha no se cae. Y aprende qué es alto, bajo, cerca y lejos.",
         3: "Rula siempre se le escapa. Por eso Tommy va a aprender a gatear: se balancea, va hacia atrás, resbala en el piso liso… hasta que descubre la fricción, lo que no deja que sus manos y rodillas resbalen. Y cuenta: una mano, dos manos, una rodilla, dos rodillas. ¡Cuatro!",
         4: "Rula está encima del sofá y Tommy quiere alcanzarla. Hoy va a aprender a pararse: se agarra, empuja, ¡PUM!, y vuelve a intentar. Así descubre la gravedad, la fuerza que atrae todo hacia el piso, y compara alturas: la mesita, el sofá, su cabeza y la de papá.",
+        5: "Mamá espera a Tommy con los brazos abiertos. Hoy va a aprender a caminar: da un paso, dos, tres… ¡PLAF! Y vuelve a intentar. Con Rula descubre la fuerza: empujar y jalar hace que las cosas se muevan, y lo pesado necesita más fuerza. Y cuenta sus pasos: lo que está cerca, lo que está lejos.",
     },
     "en": {
         1: "Tommy is very little: he can't sit up, crawl, or walk yet. But today, with help from Rula, his big colorful ball, he's going to learn something new: how to roll over! Along the way, he discovers why round things roll and things with flat sides don't.",
         2: "Tommy can already roll over, but he wants to see everything from higher up. Today he's going to learn to sit up… even if he tips over at first. With Rula, he discovers the secret of balance: a wide base doesn't fall. And he learns what's tall, short, near, and far.",
         3: "Rula always gets away from him. So Tommy is going to learn to crawl: he rocks, goes backward, slips on the smooth floor… until he discovers friction, the thing that keeps his hands and knees from slipping. And he counts: one hand, two hands, one knee, two knees. Four!",
         4: "Rula is up on the couch, and Tommy wants to reach it. Today he's going to learn to stand up: he grabs on, pushes, BUMP!, and tries again. That's how he discovers gravity, the force that pulls everything toward the floor, and compares heights: the coffee table, the couch, his head, and Dad's.",
+        5: "Mom is waiting for Tommy with open arms. Today he's going to learn to walk: one step, two, three… FLOP! And he tries again. With Rula, he discovers force: pushing and pulling make things move, and heavy things need more force. And he counts his steps: what's near, what's far.",
     },
 }
 SERIE = {
