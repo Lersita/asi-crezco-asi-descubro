@@ -2,7 +2,9 @@
 # uso: kie.py MODELO ASPECTO RESOLUCION SALIDA.png "PROMPT" [URL_REF ...]
 import sys, json, subprocess, time
 model, ar, res, out, prompt, *refs = sys.argv[1:]
-def curl(*a): return json.loads(subprocess.run(["curl","-sS",*a],capture_output=True,text=True).stdout)
+import os
+AUT = ["-H", f"Authorization: Bearer {os.environ['KIE_API_KEY']}"] if os.environ.get("KIE_API_KEY") else []  # en la PC: export KIE_API_KEY=...
+def curl(*a): return json.loads(subprocess.run(["curl","-sS",*AUT,*a],capture_output=True,text=True).stdout)
 inp={"prompt":prompt,"aspect_ratio":ar,"resolution":res,"output_format":"png"}
 if refs: inp["image_input"]=refs
 r=curl("-X","POST","https://api.kie.ai/api/v1/jobs/createTask","-H","Content-Type: application/json","-d",json.dumps({"model":model,"input":inp}))

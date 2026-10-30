@@ -79,6 +79,7 @@ Las edades son siempre un rango aproximado.
 ## Estructura del proyecto
 
 - `CLAUDE.md`: este contexto y las reglas.
+- `PROJECT-RECOVERY.md`: cómo retomar el proyecto desde el respaldo, con o sin GitHub (arquitectura, flujo, indicaciones maestras, herramientas, estado de los 11 libros).
 - `costos.md`: créditos de Kie.ai y dólares gastados por libro (1.000 créditos = USD 5). Se actualiza cada vez que se gastan créditos.
 - `biblia/personajes.md`: Tomi en cada edad, Rula, mamá y papá. `biblia/tono-y-lenguaje.md`: cómo se escribe y la física que no se puede decir mal. `biblia/estilo-visual.md`: estilo, seguridad en las imágenes, formato de impresión. `biblia/idiomas.md`: español neutro e inglés para KDP (glosario, títulos, onomatopeyas).
 - `plantillas/libro.md`: la estructura fija de 24 páginas.

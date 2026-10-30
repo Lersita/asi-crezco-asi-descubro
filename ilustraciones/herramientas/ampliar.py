@@ -3,7 +3,9 @@
 # uso: ampliar.py recraft|topaz URL_IMAGEN SALIDA.png   (topaz: ×2; recraft: crisp upscale)
 import sys, json, subprocess, time
 modelo, url, out = sys.argv[1:4]
-def curl(*a): return json.loads(subprocess.run(["curl", "-sS", *a], capture_output=True, text=True).stdout)
+import os
+AUT = ["-H", f"Authorization: Bearer {os.environ['KIE_API_KEY']}"] if os.environ.get("KIE_API_KEY") else []  # en la PC: export KIE_API_KEY=...
+def curl(*a): return json.loads(subprocess.run(["curl", "-sS", *AUT, *a], capture_output=True, text=True).stdout)
 if modelo == "recraft":
     cuerpo = {"model": "recraft/crisp-upscale", "input": {"image": url}}
 else:
