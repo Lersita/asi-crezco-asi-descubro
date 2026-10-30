@@ -1,6 +1,6 @@
 # Libro 8 · Tomi aprende a subir la escalera · Ilustraciones
 
-Un prompt por página (las dobles llevan una sola imagen panorámica). Nano Banana Pro en 2K, con tres referencias: la hoja de personajes del libro 8 (`referencias/hoja-personajes-libro8.png`), la portada del libro 7 para el estilo (`libro7/p01-v1.png`) y la hoja de la escalera (`referencias/set-escalera.png`, con textura de papel, a diferencia de las hojas del living y del patio). Las dobles salen en 21:9 y se recortan a 2:1. Se generan con `herramientas/generar_libro.py 8 URL_HOJA URL_ESTILO,URL_ESCALERA`.
+Un prompt por página (las dobles llevan una sola imagen panorámica). Nano Banana Pro en 2K, con tres referencias: la hoja de personajes del libro 8 (`referencias/hoja-personajes-libro8.png`), la portada del libro 7 para el estilo (`libro7/p01-v1.png`; para la portada del libro 8 se usó la doble 4 del libro 8, porque con la del libro 7 salió plana) y la hoja de la escalera (`referencias/set-escalera.png`, con textura de papel, a diferencia de las hojas del living y del patio). Las dobles salen en 21:9 y se recortan a 2:1. Se generan con `herramientas/generar_libro.py 8 URL_HOJA URL_ESTILO,URL_ESCALERA`.
 
 Reglas de `CLAUDE.md`: la IA no dibuja números, palabras ni íconos (ESFUERZO, los números de los escalones y los íconos de mano y pie se agregan en la maqueta); prompts sin numeración; prueba de 2 imágenes antes del lote. En la escalera, Tomi siempre agarrado a la baranda y con un adulto al lado; nunca pasa del descanso.
 
@@ -19,7 +19,7 @@ Only mom and dad may appear as adults, each at most once, no other people. An ad
 
 ## Página 1 · Portada
 ```
-[ESTILO]. Tomi standing on the third step of the indoor wooden stairs, one hand holding the low banister, looking up toward the landing with a huge proud smile showing his teeth. Dad one step below him, smiling, one hand close to his back. Rula waiting up on the landing behind the banister. The top 40 percent of the image is calm plain peach wall for the title. Square 1:1.
+[ESTILO]. The indoor wooden stairs seen from the side, exactly as in the third reference image, rising from left to right. Tomi standing on the third step, his feet at the height of dad's waist, one hand holding the low diagonal banister, looking up toward the landing with a huge proud smile showing his teeth. Dad standing on the floor right beside the stairs, smiling, one hand close to Tomi's back. Rula resting up on the flat landing behind the horizontal banister. Only one safety gate, standing open against the wall at the foot of the stairs. The top 40 percent of the image is calm plain peach wall for the title. Square 1:1.
 ```
 
 ## Páginas 2–3 · Doble 1
@@ -39,7 +39,7 @@ Only mom and dad may appear as adults, each at most once, no other people. An ad
 
 ## Páginas 8–9 · Doble 4 · Mano, pie, pie
 ```
-[ESTILO]. The indoor wooden stairs in side view. Tomi standing on the third step with both feet together on the same step, one hand holding the low diagonal banister, smiling proudly. Dad standing on the floor right beside the stairs at his level, one hand close to Tomi's back. The landing is empty. In the lower part of the image, a wide empty stretch of plain wooden floor in front of the stairs, with nothing on it. [REGLAS]. Wide 21:9.
+[ESTILO]. The indoor wooden stairs in side view. Tomi standing on the third step, with two steps below his feet, both feet together on the same step; his feet are at the height of dad's waist. One hand holding the low diagonal banister, smiling proudly. Dad standing on the floor right beside the stairs, one hand close to Tomi's back. The landing is empty and there is no ball in the picture. In the lower part of the image, a wide empty stretch of plain wooden floor in front of the stairs, with nothing on it. [REGLAS]. Wide 21:9.
 ```
 
 ## Páginas 10–11 · Doble 5 · ESFUERZO
