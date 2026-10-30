@@ -59,7 +59,7 @@ Only mom and dad may appear as adults, each at most once, no other people. An ad
 
 ## Páginas 16–17 · Doble 8 · Tres flores
 ```
-[ESTILO]. Left side: Tomi crouching on the grass, looking closely and pointing with one finger. In front of him, three single flowers in a row on the lawn, well separated from each other and from the middle of the image: first a red one, then a yellow one, then a violet one, the violet one on the right half. Rula resting on the grass at the far left behind Tomi. Mom partially visible at the far right. [REGLAS]. Wide 21:9.
+[ESTILO]. Left half only: Tomi crouching on the grass at about 15 percent of the width, looking closely and pointing with one finger. Right half only: three single flowers in a row on the lawn at about 62, 74 and 86 percent of the width, well separated from each other: first a red one, then a yellow one, then a violet one. Nothing at all between 40 and 58 percent of the width except plain grass. Rula resting on the grass behind Tomi at about 5 percent. Mom partially visible at the far right edge. [REGLAS]. Wide 21:9.
 ```
 
 ## Páginas 18–19 · Doble 9 · ¿Tú qué dices?
@@ -74,7 +74,7 @@ Only mom and dad may appear as adults, each at most once, no other people. An ad
 
 ## Páginas 22–23 · Experimento
 ```
-Premium children's picture book spot illustrations in exactly the same handmade cut-paper collage style as the reference, on a plain warm cream background, each item separate with plenty of empty space around it, no frames, no text, no letters, no numbers: a tray resting on two books as a low ramp with a ball rolling down it; the same tray resting on a taller pile of books as a steep ramp with the ball rolling down faster, with short deep-navy speed lines; a ball rolling on a smooth wooden floor next to a ball stopped on a soft rug; a smiling 6-year-old child with light chestnut hair in a green shirt, kneeling at the top of a ramp and letting go of a ball, an empty cardboard paper towel tube and an empty plastic bottle at the same time.
+Premium children's picture book spot illustrations in exactly the same handmade cut-paper collage style as the reference, on a plain warm cream background, each item separate with plenty of empty space around it, no frames, no text, no letters, no numbers. Top left: a tray resting on two books as a low ramp, with a ball rolling down it. Top right: the same tray resting on a taller pile of books as a steep ramp, with the ball rolling down faster and short deep-navy speed lines. Bottom left: a ball rolling on a smooth wooden floor next to a ball stopped on a soft rug. Bottom right: a smiling 6-year-old child with light chestnut hair in a green shirt KNEELING ON THE FLOOR next to the ramp, both knees on the floor, letting go of a ball, an empty cardboard paper towel tube and an empty plastic bottle at the top of the ramp; the ramp rests on a pile of books and nobody sits or kneels on the books.
 ```
 
 ## Página 24 · Para los grandes

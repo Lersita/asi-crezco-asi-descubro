@@ -86,13 +86,17 @@ Se bajó la cantidad de pelo desde el libro 3 para que se parezca a lo habitual 
 
 La versión de Emi de los libros 3 y 4 queda para más adelante (decidido el 28/10/2026): se hace sobre las páginas nuevas de Tomi.
 
-### Libro 6 (en curso, 31/10/2026)
+### Libro 6 (31/10/2026)
 
 | Paso | Créditos |
 | --- | --- |
 | Hoja del patio (lugar nuevo) | 18 |
 | Hoja de Tomi (edición de la del libro 5) | 12 |
-| **Subtotal** | **30** |
+| 2 pruebas (portada y doble 3) | 36 |
+| Doble 3 repetida dos veces (colina mal armada; estilo plano) | 36 |
+| 11 páginas restantes | 198 |
+| Correcciones: doble 8 rehecha (flores en el pliegue), mamá agregada en las dobles 3 y 10, experimento (chico arriba de los libros: dos ediciones fallidas y uno rehecho) | 90 |
+| **Total del libro 6 (Tomi)** | **426** |
 
 ## Lo que más encarece
 
