@@ -32,6 +32,12 @@ cd asi-crezco-asi-descubro
 git checkout claude/sharp-volta-3chy3b
 ```
 
+Si además hay respaldos chicos posteriores (por ejemplo `respaldo-desde-31oct.bundle`, con el libro 6), se suman después de abrir el completo, en orden de fecha, dentro de la carpeta del proyecto:
+
+```
+git pull ../respaldo-desde-31oct.bundle claude/sharp-volta-3chy3b
+```
+
 La rama `claude/sharp-volta-3chy3b` es la que tiene todo lo último (libros 3 a 5, KDP, correcciones del pelo). `main` es lo que estaba publicado en la web antes de la suspensión.
 
 ---
