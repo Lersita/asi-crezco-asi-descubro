@@ -13,6 +13,15 @@ Todo el proyecto (textos, ilustraciones originales, maquetas, herramientas, hist
 
 Lo que **no** está en el respaldo, porque se regenera con las herramientas: los PDF de KDP (`kdp/*.pdf`), las ilustraciones ampliadas (`maqueta/img-kdp/`) y los HTML de KDP (`maqueta/kdp-*.html`). Igual conviene guardar los PDF de KDP aparte: son los archivos que se suben a Amazon.
 
+### Si el respaldo viene en partes
+
+El respaldo del 31/10/2026 pesa 1,8 GB y se mandó en 6 partes (`proyecto-completo.bundle.parte0` a `parte5`). Antes de abrirlo hay que unirlas, en orden, en la carpeta donde estén:
+
+- **Windows** (en "Símbolo del sistema"): `copy /b proyecto-completo.bundle.parte0+proyecto-completo.bundle.parte1+proyecto-completo.bundle.parte2+proyecto-completo.bundle.parte3+proyecto-completo.bundle.parte4+proyecto-completo.bundle.parte5 proyecto-completo.bundle`
+- **Mac o Linux:** `cat proyecto-completo.bundle.parte? > proyecto-completo.bundle`
+
+Para comprobar que quedó bien: `git bundle verify proyecto-completo.bundle` tiene que decir "is okay". Su código de control (SHA-256) es `e3c52c452d06f23a255f9854fc84c133afffdd22511e075580a6c5ed9321792e`.
+
 ### Cómo abrir el respaldo en una computadora
 
 Hace falta Git (git-scm.com). En una terminal, en la carpeta donde se quiera el proyecto:
