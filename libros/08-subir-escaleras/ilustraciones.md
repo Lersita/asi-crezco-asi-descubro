@@ -19,7 +19,7 @@ Only mom and dad may appear as adults, each at most once, no other people. An ad
 
 ## Página 1 · Portada
 ```
-[ESTILO]. The indoor wooden stairs seen from the side, exactly as in the third reference image, rising from left to right. Tomi standing on the third step, his feet at the height of dad's waist, one hand holding the low diagonal banister, looking up toward the landing with a huge proud smile showing his teeth. Dad standing on the floor right beside the stairs, smiling, one hand close to Tomi's back. Rula resting up on the flat landing behind the horizontal banister. Only one safety gate, standing open against the wall at the foot of the stairs. The top 40 percent of the image is calm plain peach wall for the title. Square 1:1.
+[ESTILO]. Close view of the indoor wooden stairs from the side. Tomi is big in the picture, filling most of the lower half: he stands on the third step, one hand holding the low diagonal banister, the other arm raised in joy, looking up toward the landing with a huge proud smile showing his teeth; his whole body is visible from head to socks. Dad's hands and arm partially visible at the right edge, close to Tomi's back. Rula resting up on the landing behind the horizontal banister, partly visible. The top 40 percent of the image is calm plain peach wall for the title. Square 1:1.
 ```
 
 ## Páginas 2–3 · Doble 1

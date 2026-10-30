@@ -122,7 +122,8 @@ Quedaban 571,5 créditos el 31/10/2026. El resto de los arreglos de la doble 8 (
 | Escalera: baranda horizontal en el descanso (edición; perdió un escalón, se usó solo la parte de arriba) | 12 |
 | 2 pruebas: portada y doble 4 (Nano Banana Pro) | 36 |
 | 2 pruebas rehechas: portada y doble 4 (Nano Banana Pro) | 36 |
-| **Subtotal** | **144** |
+| Lote: 11 páginas y la portada de cerca (Nano Banana Pro; la portada salió plana otra vez) | 216 |
+| **Subtotal** | **360** |
 
 ## Lo que más encarece
 
