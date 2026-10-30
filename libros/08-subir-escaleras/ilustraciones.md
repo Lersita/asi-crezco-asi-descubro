@@ -12,7 +12,7 @@ Cada prompt se arma así: **[ESTILO] + escena + [REGLAS]**.
 
 **[REGLAS]**
 ```
-Only mom and dad may appear as adults, each at most once, no other people. An adult right next to the boy whenever he is on the stairs. Exactly one ball in the picture unless the scene says otherwise. Exactly six steps up to the landing whenever the stairs are shown. Keep faces and the ball away from the vertical center line. Calm plain wall in the upper part for text.
+Only mom and dad may appear as adults, each at most once, no other people. An adult right next to the boy whenever he is on the stairs. Exactly one ball in the picture unless the scene says otherwise. Exactly six steps up to the landing whenever the stairs are shown. On the stairs and on the landing, every person is always on the inner side of the banister, between the banister and the wall, with the balusters in front of them, between them and the viewer; nobody is ever on the outer side of the banister, on the outer edge of a step or on the front edge of the landing. Keep faces and the ball away from the vertical center line. Calm plain wall in the upper part for text.
 ```
 
 ---
@@ -34,7 +34,7 @@ Only mom and dad may appear as adults, each at most once, no other people. An ad
 
 ## Páginas 6–7 · Doble 3 · El primer escalón
 ```
-[ESTILO]. Close view of the bottom of the indoor wooden stairs. Tomi at the foot of the stairs, one hand holding the low banister post, lifting one foot up onto the first step, concentrating with the tip of his tongue out; the step looks high for him. Dad crouching right behind him with his hands close to Tomi, ready to help. The open white safety gate beside them. Living room floor on the left. [REGLAS]. Wide 21:9.
+[ESTILO]. Close view of the bottom of the indoor wooden stairs. Tomi standing on the floor at the foot of the stairs, on the inner side of the banister, between the wall and the banister post: the banister post and the balusters are in front of him, between him and the viewer. He holds the banister with one hand and lifts one foot up onto the first step, concentrating with the tip of his tongue out; the step looks high for him. Dad crouching on the floor right behind him, with his hands close to Tomi, ready to help. The open white safety gate beside them. Living room floor on the left. [REGLAS]. Wide 21:9.
 ```
 
 ## Páginas 8–9 · Doble 4 · Mano, pie, pie
@@ -44,12 +44,12 @@ Only mom and dad may appear as adults, each at most once, no other people. An ad
 
 ## Páginas 10–11 · Doble 5 · ESFUERZO
 ```
-[ESTILO]. The indoor wooden stairs. Tomi on the fourth step, leaning forward, lifting one leg up to the next step with a big effort: cheeks puffed, eyebrows up, a tiny drop of sweat on his forehead; one hand holding the low banister. Dad right beside him on the step below, encouraging him with a smile. Calm plain peach wall on the left half for a big word. [REGLAS]. Wide 21:9.
+[ESTILO]. The indoor wooden stairs. Tomi on the fourth step, on the inner side of the banister: the low diagonal banister and its balusters are in front of him, between him and the viewer. Both of his feet are on the steps, one foot lifting up to the next step; he leans forward with a big effort: cheeks puffed, eyebrows up, a tiny drop of sweat on his forehead; one hand holding the top rail of the banister. Dad standing on the floor right beside the stairs, close to Tomi, encouraging him with a smile. Calm plain peach wall on the left half for a big word. [REGLAS]. Wide 21:9.
 ```
 
 ## Páginas 12–13 · Doble 6 · ¡Llegué!
 ```
-[ESTILO]. The indoor wooden stairs with all six steps clearly visible and empty, from the floor up to the flat landing. Up on the landing, behind the horizontal banister, Tomi standing with both arms up in triumph, laughing; mom kneeling next to him on the landing, hugging him. Dad standing on the sixth step just below them, smiling. The six steps are plain, with nothing on them, so they can be numbered later. [REGLAS]. Wide 21:9.
+[ESTILO]. The indoor wooden stairs with all six steps clearly visible and empty, from the floor up to the flat landing. Up on the landing, safely behind the horizontal banister: the horizontal banister and its balusters are in front of them, between them and the viewer, so their legs are seen through the balusters. Tomi standing there with both arms up in triumph, laughing; mom kneeling next to him, hugging him. Dad standing on the floor at the foot of the stairs, looking up and smiling. [REGLAS]. Wide 21:9.
 ```
 
 ## Páginas 14–15 · Doble 7 · Bajar con cuidado
@@ -79,5 +79,5 @@ Premium children's picture book spot illustrations in exactly the same handmade 
 
 ## Página 24 · Para los grandes
 ```
-[ESTILO]. Small calm vignette in the lower half of the image, plain warm peach wall above: Tomi sitting on the bottom step of the indoor wooden stairs with Rula in his arms, resting and smiling; dad sitting on the step next to him. Soft afternoon light. Square 1:1.
+[ESTILO]. Small calm vignette in the lower half of the image, plain warm peach wall above: Tomi sitting on the knitted rug of the living room with Rula in his arms, resting and smiling; dad sitting on the rug next to him. The foot of the indoor wooden stairs in the soft background. Soft afternoon light. Square 1:1.
 ```
