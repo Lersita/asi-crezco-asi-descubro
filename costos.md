@@ -98,6 +98,13 @@ La versión de Emi de los libros 3 y 4 queda para más adelante (decidido el 28/
 | Correcciones: doble 8 rehecha (flores en el pliegue), mamá agregada en las dobles 3 y 10, experimento (chico arriba de los libros: dos ediciones fallidas y uno rehecho) | 90 |
 | **Total del libro 6 (Tomi)** | **426** |
 
+### Libro 7 (en curso, 31/10/2026)
+
+| Paso | Créditos |
+| --- | --- |
+| Hoja de Tomi (edición de la del libro 6) | 12 |
+| **Subtotal** | **12** |
+
 ## Lo que más encarece
 
 - **Repetir por errores de la IA:** cada corrección suma 12 o 18 créditos. Revisar la evolución antes de generar (regla de `CLAUDE.md`) evita la más cara: rehacer un libro entero, como pasó con el pelo.
