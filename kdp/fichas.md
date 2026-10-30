@@ -7,7 +7,7 @@ Borrador del 27 de octubre de 2026. Todo lo que pide KDP al cargar cada libro de
 | Campo de KDP | Qué poner |
 | --- | --- |
 | Formato | Paperback (tapa blanda) |
-| Autor (Author) | Nombre: vacío · Apellido: **LERSA** (KDP acepta seudónimos) |
+| Autor (Author) | Nombre: vacío · Apellido: **Lersa**, con L mayúscula y el resto en minúscula, igual en todos los libros (así Amazon los une en una sola página de autor). La tapa dice "by LERSA" en mayúsculas por diseño |
 | Serie (Series) | Inglés: **I Grow, I Discover** · Español: **Así crezco, así descubro**. Son dos series separadas, una por idioma. Número de libro: 1 a 4 |
 | Derechos (Publishing rights) | I own the copyright and I hold necessary publishing rights |
 | Contenido sexual explícito | No |
@@ -282,4 +282,4 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 
 - **Copia de prueba primero:** en el último paso, "Request printed proofs", pedir una de cada idioma antes de publicar. Llega en una o dos semanas.
 - **Anuncios:** con los libros publicados, crear una campaña automática de Amazon Ads (Sponsored Products) por libro, con USD 5 a 10 por día durante 30 a 60 días, y medir ventas por cada dólar gastado.
-- **Página de autor:** en Author Central (author.amazon.com) se puede crear la página de LERSA y unir los libros de cada serie.
+- **Página de autor:** en Author Central (author.amazon.com) se puede crear la página de Lersa y unir los libros de cada serie.

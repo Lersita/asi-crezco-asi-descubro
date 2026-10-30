@@ -30,7 +30,7 @@ You'll go through 3 pages: **Paperback Details**, **Paperback Content**, and **P
 | **Subtitle** | A Picture Book About Babies, Balls, and the Science of Rolling |
 | **Series** | Click **Add series details** → **Create a new series** → Series title: **I Grow, I Discover** → Reading order: **Ordered** → this book is number **1**. (For books 2 to 4 you'll pick this same series instead of creating it again.) |
 | **Edition Number** | Leave empty |
-| **Author** | First name: leave empty · Last name: **LERSA** |
+| **Author** | First name: leave empty · Last name: **Lersa** (capital L, the rest lowercase, exactly like book 1, so all books share one author page) |
 | **Contributors** | Leave empty |
 | **Description** | Paste the description from section "Description to paste" below |
 | **Publishing Rights** | **I own the copyright and I hold necessary publishing rights** |
