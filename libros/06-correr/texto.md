@@ -1,6 +1,6 @@
 # Libro 6 — Tomi aprende a correr
 
-Borrador (propuesta), 31 de octubre de 2026.
+Texto aprobado el 31 de octubre de 2026.
 
 ## Ficha del libro
 
@@ -12,9 +12,9 @@ Borrador (propuesta), 31 de octubre de 2026.
 | Matemática | Ordinales: en primer lugar, en segundo lugar, en tercer lugar; la primera, la segunda, la tercera |
 | Formato | 24 páginas: portada, 10 dobles de historia, experimento casero (doble) y página para los grandes |
 | Lector | Chicos de 4 a 7 años, leído en voz alta por un adulto |
-| Edad de Tomi | 18–24 meses (la apariencia se define antes de ilustrar, según la regla de `CLAUDE.md`) |
+| Edad de Tomi | 18–24 meses: pelo corto de nene con un poco de volumen, fila completa de dientes, remera verde, joggin gris y zapatillas blancas con verde (ver `biblia/personajes.md`) |
 | Qué hace Rula | Rueda rápido en la bajada de una lomita y despacio en la subida; en el pasto no frena de golpe |
-| Lugar | **(propuesta)** El patio de la casa: pasto, una lomita suave, un árbol, flores y la puerta de vidrio del living. Es un lugar nuevo: antes de ilustrar se arma su hoja |
+| Lugar | Aprobado el 31/10/2026. El patio de la casa: baldosas y macetas junto a la puerta (como se ve en el libro 5) y después pasto, una lomita suave, un árbol, flores y la puerta de vidrio del living. Es un lugar nuevo: antes de ilustrar se arma su hoja |
 
 ## Historia página por página
 
