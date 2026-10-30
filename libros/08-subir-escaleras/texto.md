@@ -1,6 +1,6 @@
 # Libro 8 — Tomi aprende a subir la escalera
 
-Borrador (propuesta), 31 de octubre de 2026.
+Texto aprobado el 31 de octubre de 2026.
 
 ## Ficha del libro
 
@@ -12,9 +12,9 @@ Borrador (propuesta), 31 de octubre de 2026.
 | Matemática | Secuencias: contar escalones del 1 al 6 y al revés, el patrón "mano, pie, pie" y los colores de Rula, que siempre van en el mismo orden |
 | Formato | 24 páginas: portada, 10 dobles de historia, experimento casero (doble) y página para los grandes |
 | Lector | Chicos de 4 a 7 años, leído en voz alta por un adulto |
-| Edad de Tomi | 2–3 años: igual que en el libro 7, un poco más alto, remera verde y pantalón largo (ver `biblia/personajes.md`; la ropa se define en la comparación de personajes) |
+| Edad de Tomi | 2–3 años: igual que en el libro 7, un poco más alto y con el mismo pelo; remera verde con estrella amarilla, jean azul y medias verdes antideslizantes (ver `biblia/personajes.md`) |
 | Qué hace Rula | Baja la escalera rebotando escalón por escalón; Tomi la mira desde abajo, nunca la persigue. Sus gajos muestran una secuencia de colores que se repite |
-| Lugar | **(propuesta)** La escalera de adentro de la casa, junto al living: de madera, con baranda y barrotes, una rejita de seguridad abajo y un descanso después de seis escalones. Es un lugar nuevo: antes de ilustrar se arma su hoja |
+| Lugar | Aprobado el 31/10/2026. La escalera de adentro de la casa, junto al living, la misma del libro 7 (doble 10): de madera, contra la pared, con el pasamanos en la pared. Se suman una rejita de seguridad abajo, un descanso después de seis escalones y, del lado abierto, una baranda con barrotes a la altura de la mano de Tomi. Es un lugar nuevo: antes de ilustrar se arma su hoja |
 
 ## Historia página por página
 

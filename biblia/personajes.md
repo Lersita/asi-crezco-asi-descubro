@@ -25,7 +25,7 @@ Narra en primera persona. Es curioso, insistente y se ríe cuando algo le sale. 
 | 5. Caminar | 12–15 meses | Panza de bebé, piernas abiertas al caminar. Pelo corto que cubre la cabeza, pegado y sin volumen. Cuatro dientes arriba y cuatro abajo | Remera verde hoja con la pelotita, short corto gris sobre el pañal (propuesta: el gris del pantalón del libro 3) y **medias verdes antideslizantes** (en casa). Las primeras zapatillas aparecen recién en la última página, en la puerta del patio | Primeros pasos, brazos arriba para equilibrarse |
 | 6. Correr | 18–24 meses | Más alto, piernas más largas. Pelo corto de nene con un poco de volumen arriba y un flequillo cortito que no llega a las cejas. Fila completa de dientes chiquitos arriba y abajo | Remera verde hoja con la pelotita, **joggin gris** y zapatillas blancas con detalles verdes (las del final del libro 5) | Corre, frena, a veces se cae sentado |
 | 7. Saltar | 2–3 años | Nene chiquito, ya no bebé: más alto y delgado, piernas más largas, cara un poco menos redonda, sin panza de bebé (mismos ojos miel, cachetes rosados y sonrisa). Pelo un poco más largo y despeinado arriba, flequillo a mitad de la frente, apenas tapa la parte de arriba de las orejas. Todos los dientes de leche | Remera verde hoja con una **estrella amarilla** en el pecho (sin número: la IA no dibuja números), **short azul marino** hasta la rodilla y las zapatillas blancas con detalles verdes | Salta con los dos pies |
-| 8. Subir escaleras | 2–3 años | Igual que en el 7, un poco más alto | Remera verde, pantalón largo | Sube agarrado a la baranda, con un adulto cerca |
+| 8. Subir escaleras | 2–3 años | Igual que en el 7, un poco más alto. Pelo igual que en el 7 (aprobado el 31/10/2026) | La misma remera verde hoja con la estrella amarilla, **jean azul** largo con el ruedo apenas doblado y **medias verdes antideslizantes** (adentro de casa, como en el libro 5) | Sube agarrado a la baranda, con un adulto al lado |
 | 9. Tirar una pelota | 3–4 años | Más delgado, brazos más largos | Remera verde rayada | Tira con una mano, apunta |
 | 10. Nadar | 4–5 años | Más alto | Malla verde, antiparras | Flota y patea, siempre con un adulto en el agua |
 | 11. Andar en bici | 5–6 años | La edad de los lectores | Remera verde y **casco verde** | Anda en bici, primero con rueditas o empujado |
@@ -41,7 +41,8 @@ La curva anterior (27/10) daba demasiado pelo desde el libro 3: Tomi tenía pelo
 - **Libro 5 (12–15 meses):** pelo corto que cubre la cabeza, pegado, sin volumen; apenas unos mechoncitos sueltos.
 - **Libro 6 (18–24 meses, decidido el 31 de octubre de 2026):** pelo corto de nene, con un poco de volumen arriba y un flequillo cortito que no llega a las cejas.
 - **Libro 7 (2–3 años, decidido el 31 de octubre de 2026):** un poco más largo y despeinado arriba, flequillo a mitad de la frente, apenas tapa la parte de arriba de las orejas.
-- **Libro 8 en adelante:** crece de a poco.
+- **Libro 8:** igual que en el libro 7 (aprobado el 31/10/2026).
+- **Libro 9 en adelante:** crece de a poco.
 - Regla: en cada libro el pelo es **igual o más** que en el anterior, nunca menos. Antes de ilustrar, comparar con las hojas de los libros anteriores.
 
 ## Emi (versión mujer)

@@ -1,6 +1,6 @@
 # Libro 8 — Tommy aprende a subir la escalera (español neutro, edición KDP)
 
-Borrador (propuesta), 31 de octubre de 2026. Traducción de `texto.md` según `biblia/idiomas.md` (tuteo, sin regionalismos). Las ilustraciones son las de la versión varón.
+Aprobado el 31 de octubre de 2026. Traducción de `texto.md` según `biblia/idiomas.md` (tuteo, sin regionalismos). Las ilustraciones son las de la versión varón.
 
 ## Historia página por página
 

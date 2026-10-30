@@ -1,6 +1,6 @@
 # Book 8 — Tommy Learns to Climb the Stairs (English, KDP edition)
 
-Draft (proposal), October 31, 2026. Translation of `texto.md` following `biblia/idiomas.md` (US English, read-aloud rhythm, Rula is "it"). Illustrations: the boy version.
+Approved October 31, 2026. Translation of `texto.md` following `biblia/idiomas.md` (US English, read-aloud rhythm, Rula is "it"). Illustrations: the boy version.
 
 ## Story, page by page
 
