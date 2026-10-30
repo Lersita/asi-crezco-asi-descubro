@@ -26,7 +26,7 @@ def armar(nombre, I):
     S.append(doble(f"{I}d04.jpg", [texto("Suelto a Rula desde arriba de mi cabeza. Baja, toca el piso…", 24, 12, 150),
         texto("¡Y rebota para arriba! Cada rebote es un poco más bajito, hasta que Rula se queda quieta.", 226, 12, 150)], (8, 9), pos="12%"))
     S.append(doble(f"{I}d05.jpg", [texto("Rula sube y baja. Yo subo y bajo.", 24, 12, 130),
-        palabra("SUBE", 14, 66, 13),
+        palabra("SUBE", 18, 64, 12),
         texto("¿Qué nos hace bajar a los dos? ¡La gravedad!", 226, 12, 130),
         palabra("BAJA", 342, 64, 15)], (10, 11)))
     S.append(doble(f"{I}d06.jpg", [texto("Papá pega tres papelitos de colores en la pared: uno bajo, uno en el medio y uno alto.", 24, 12, 150),

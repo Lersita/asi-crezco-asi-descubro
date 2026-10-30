@@ -270,8 +270,8 @@ Estoy retomando mi colección de libros infantiles "Así crezco, así descubro".
 | 3 | Gatear | Aprobado | Listas (pelo corregido el 28/10) | Con el pelo viejo: rehacer | Listo | Listos | Sin cargar |
 | 4 | Pararse | Aprobado | Listas (pelo corregido el 28/10) | Falta | Listo (solo Tomi) | Listos | Sin cargar |
 | 5 | Caminar | Aprobado | Listas | Falta (hoja lista) | Listo (solo Tomi) | Listos | Sin cargar |
-| 6 | Correr | — | — | — | — | — | — |
-| 7 | Saltar | — | — | — | — | — | — |
+| 6 | Correr | Aprobado | Listas | Falta | Listo (solo Tomi) | Listos | Sin cargar |
+| 7 | Saltar | Aprobado | Listas | Falta | Listo (solo Tomi) | Listos | Sin cargar |
 | 8 | Subir escaleras | — | — | — | — | — | — |
 | 9 | Tirar una pelota | — | — | — | — | — | — |
 | 10 | Nadar | — | — | — | — | — | — |
@@ -286,10 +286,10 @@ Lo que ya está definido para los libros 6 a 11 (en `CLAUDE.md`, `biblia/persona
 ## 10. Próximos pasos para continuar
 
 1. **Guardar el respaldo completo** (`proyecto-completo.bundle`) en la PC y en una nube. Guardar también los PDF de KDP.
-2. **KDP:** cargar un libro por semana en los dos idiomas (límite de cuentas nuevas): libro 2, después 3, 4 y 5, con autor "Lersa" y los archivos y fichas actuales. Pedir una copia de autor del libro 1.
+2. **KDP:** cargar un libro por semana en los dos idiomas (límite de cuentas nuevas): libro 2, después 3, 4, 5, 6 y 7, con autor "Lersa" y los archivos y fichas actuales. Pedir una copia de autor del libro 1.
 3. **Author Central:** cargar las biografías (`kdp/author-central.md`), la foto cuando lo permita y el link de autor (por ejemplo `lersabooks`).
-4. **Revisar los textos traducidos** (español neutro e inglés) de los libros 2 a 5 antes de publicarlos.
-5. **Libro 6 · Correr**, cuando lo pidas: texto → evolución → hojas → prueba → lote → maqueta → traducción → KDP.
+4. **Revisar los textos traducidos** (español neutro e inglés) de los libros 2 a 7 antes de publicarlos.
+5. **Libro 8 · Subir escaleras**, cuando lo pidas (necesita hoja de la escalera de adentro de la casa): texto → evolución → hojas → prueba → lote → maqueta → traducción → KDP.
 6. **Versión de Emi** de los libros 3 (rehacer con el pelo nuevo), 4 y 5, cuando se retome la web.
 7. **Si GitHub no vuelve:** instalar las herramientas en la PC (sección 6), abrir el respaldo y seguir con Claude Code ahí; guardar copias semanales del proyecto.
 8. **Contenido A+ en KDP** (imágenes debajo de la descripción): se puede armar con las páginas que ya existen, sin créditos.

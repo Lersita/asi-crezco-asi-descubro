@@ -1,4 +1,4 @@
-# Fichas para Amazon KDP · libros 1 a 6 (propuesta)
+# Fichas para Amazon KDP · libros 1 a 7 (propuesta)
 
 Borrador del 27 de octubre de 2026. Todo lo que pide KDP al cargar cada libro de tapa blanda. Los campos que se repiten están en "Datos comunes"; abajo va lo propio de cada libro.
 
@@ -318,6 +318,52 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 > - Física simple y verdadera: rápido y despacio, y por qué frenar lleva tiempo y espacio
 > - Matemática temprana: primero, segundo y tercero
 > - Un experimento: ¿rápido o despacio?
+> - Una página para los grandes con la ciencia, el hito y consejos de seguridad
+>
+> *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
+
+## Libro 7 · inglés
+
+- **Título:** Tommy Learns to Jump
+- **Subtítulo:** A Picture Book About Gravity, Bouncing, and Measuring Height
+- **Serie:** I Grow, I Discover · Book 7
+- **Palabras clave (7):** toddler jumping picture book · gravity for kids · physics for kids ages 4-7 · measuring height for kindergarten · bouncing ball science book · STEM read aloud book · books about growing up
+
+**Descripción:**
+
+> **Rula bounces way up high on the grass, and today Tommy is going to jump.**
+>
+> He bends his knees, pushes the ground, and… HOP! With Rula, his big colorful ball, Tommy discovers gravity: everything that goes up comes back down, and each bounce is a little lower than the one before. Then he measures himself with paper squares on the wall and a tower of blocks: who is taller, Tommy or Rula?
+>
+> **Inside this book:**
+>
+> - A gentle story to read aloud, told by Tommy himself
+> - Real, simple physics: gravity always pulls down, and why a ball bounces lower each time
+> - Early math: measuring and comparing heights
+> - A hands-on experiment: what bounces highest?
+> - A page for grown-ups with the science, the milestone, and safety tips
+>
+> *I Grow, I Discover* follows a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every book. For curious kids ages 4 to 7.
+
+## Libro 7 · español
+
+- **Título:** Tommy aprende a saltar
+- **Subtítulo:** Un libro ilustrado sobre la gravedad, los rebotes y cómo medir alturas
+- **Serie:** Así crezco, así descubro · Libro 7
+- **Palabras clave (7):** libros infantiles en español · gravedad para niños · física para niños de 4 a 7 años · medir alturas para niños · rebotes y pelotas para niños · libro STEM en español · cuentos para leer en voz alta
+
+**Descripción:**
+
+> **Rula rebota muy alto en el pasto, y hoy Tommy va a saltar.**
+>
+> Dobla las rodillas, empuja el piso y… ¡HOP! Con Rula, su pelota grande y de colores, descubre la gravedad: todo lo que sube vuelve a bajar, y cada rebote es un poco más bajito que el anterior. Después se mide con papelitos en la pared y con una torre de cubos: ¿quién es más alto, Tommy o Rula?
+>
+> **En este libro:**
+>
+> - Una historia tierna para leer en voz alta, contada por el propio Tommy
+> - Física simple y verdadera: la gravedad siempre atrae hacia abajo, y por qué una pelota rebota cada vez menos
+> - Matemática temprana: medir y comparar alturas
+> - Un experimento: ¿qué rebota más alto?
 > - Una página para los grandes con la ciencia, el hito y consejos de seguridad
 >
 > *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
