@@ -26,6 +26,7 @@ CONTRATAPA = {
         5: "Mamá espera a Tommy con los brazos abiertos. Hoy va a aprender a caminar: da un paso, dos, tres… ¡PLAF! Y vuelve a intentar. Con Rula descubre la fuerza: empujar y jalar hace que las cosas se muevan, y lo pesado necesita más fuerza. Y cuenta sus pasos: lo que está cerca, lo que está lejos.",
         6: "Rula se escapa rodando al patio, y Tommy va a aprender a correr. Despacio, rápido, más rápido… ¡y frenar no es tan fácil! Con Rula descubre la velocidad: en la bajada va cada vez más rápido y nada frena de golpe. Y en una carrera hasta el árbol aprende quién llega en primer, segundo y tercer lugar.",
         7: "Rula rebota muy alto en el pasto, y Tommy va a aprender a saltar. Dobla las rodillas, empuja el piso y… ¡HOP! Con Rula descubre la gravedad: todo lo que sube vuelve a bajar. Y se mide con cubos y con papelitos en la pared: ¿quién es más alto, Tommy o Rula?",
+        8: "Mamá suelta a Rula desde el descanso y baja rebotando: ¡BONC, BONC, BONC! Ahora le toca a Tommy subir la escalera, agarrado del barandal y con papá al lado. Descubre que subir cuesta esfuerzo, porque las piernas levantan todo el cuerpo. Y aprende las secuencias: mano, pie, pie… ¿qué sigue?",
     },
     "en": {
         1: "Tommy is very little: he can't sit up, crawl, or walk yet. But today, with help from Rula, his big colorful ball, he's going to learn something new: how to roll over! Along the way, he discovers why round things roll and things with flat sides don't.",
@@ -35,6 +36,7 @@ CONTRATAPA = {
         5: "Mom is waiting for Tommy with open arms. Today he's going to learn to walk: one step, two, three… FLOP! And he tries again. With Rula, he discovers force: pushing and pulling make things move, and heavy things need more force. And he counts his steps: what's near, what's far.",
         6: "Rula rolls out into the backyard, and Tommy is going to learn to run. Slow, fast, faster… and stopping isn't so easy! With Rula, he discovers speed: going downhill gets faster and faster, and nothing stops all at once. And in a race to the tree, he learns who comes in first, second, and third.",
         7: "Rula bounces way up high on the grass, and Tommy is going to learn to jump. He bends his knees, pushes the ground, and… HOP! With Rula, he discovers gravity: everything that goes up comes back down. And he measures himself with blocks and paper squares on the wall: who is taller, Tommy or Rula?",
+        8: "Mom lets go of Rula from the landing, and it bounces down: BONK, BONK, BONK! Now it's Tommy's turn to climb the stairs, holding the railing with Dad right beside him. He discovers that climbing takes effort, because his legs lift his whole body. And he learns about sequences: hand, foot, foot… what comes next?",
     },
 }
 SERIE = {

@@ -58,7 +58,7 @@ Approved October 31, 2026. Translation of `texto.md` following `biblia/idiomas.m
 - **Left:** I climb again with Dad: one, two, three, four, five, six! I don't get so tired anymore.
 - **Right:** Today I learned to climb the stairs. Do you know when you first climbed stairs? Rula is waiting for me in the backyard… what if I throw it really far?
 
-Big words in the layout: EFFORT (spread 5); step numbers (spreads 6 and 10) and hand and foot icons (spreads 4 and 9).
+Big words in the layout: EFFORT (spread 5); hand and foot icons (spreads 4 and 9).
 
 ## Experiment: What Takes More Effort? (pages 22–23)
 

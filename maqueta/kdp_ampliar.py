@@ -23,6 +23,7 @@ FUENTES.update({"l3-" + k: f"ilustraciones/libro3/{v}.png" for k, v in L3.items(
 FUENTES.update({"l4-" + k: f"ilustraciones/libro4/{v}.png" for k, v in L4.items()})
 FUENTES.update({f"l6-{k}": f"ilustraciones/libro6/{k}-v2.png" if k == "d03" else f"ilustraciones/libro6/{k}-v1.png" for k in ["p01", "d01", "d02", "d03", "d04", "d05", "d06", "d07", "d08", "d09", "d10", "exp", "p24"]})
 FUENTES.update({f"l7-{k}": f"ilustraciones/libro7/{k}-v1.png" for k in ["p01", "d01", "d02", "d03", "d04", "d05", "d06", "d07", "d08", "d09", "d10", "exp", "p24"]})
+FUENTES.update({f"l8-{k}": f"ilustraciones/libro8/{k}-v1.png" for k in ["p01", "d01", "d02", "d03", "d04", "d05", "d06", "d07", "d08", "d09", "d10", "exp", "p24"]})
 FUENTES.update({f"l5-{k}": f"ilustraciones/libro5/{k}-v1.png" for k in ["p01", "d01", "d02", "d03", "d04", "d05", "d06", "d07", "d08", "d09", "d10", "exp", "p24"]})
 
 SALIDA.mkdir(exist_ok=True)

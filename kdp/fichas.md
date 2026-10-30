@@ -1,4 +1,4 @@
-# Fichas para Amazon KDP · libros 1 a 7 (propuesta)
+# Fichas para Amazon KDP · libros 1 a 8 (propuesta)
 
 Borrador del 27 de octubre de 2026. Todo lo que pide KDP al cargar cada libro de tapa blanda. Los campos que se repiten están en "Datos comunes"; abajo va lo propio de cada libro.
 
@@ -365,6 +365,52 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 > - Matemática temprana: medir y comparar alturas
 > - Un experimento: ¿qué rebota más alto?
 > - Una página para los grandes con la ciencia, el hito y consejos de seguridad
+>
+> *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
+
+## Libro 8 · inglés
+
+- **Título:** Tommy Learns to Climb the Stairs
+- **Subtítulo:** A Picture Book About Effort, Height, and Sequences
+- **Serie:** I Grow, I Discover · Book 8
+- **Palabras clave (7):** toddler stairs picture book · climbing stairs for toddlers · physics for kids ages 4-7 · patterns and sequences for kindergarten · gravity and effort for kids · STEM read aloud book · books about growing up
+
+**Descripción:**
+
+> **Mom lets go of Rula from the landing, and it bounces down: BONK, BONK, BONK! Now it's Tommy's turn to climb.**
+>
+> Holding the railing, with Dad right beside him, Tommy lifts one foot… then the other. With Rula, his big colorful ball, he discovers that going down is easy for a ball, but climbing takes effort: his legs lift his whole body, and the higher he goes, the more effort it takes. Along the way he counts the steps up and down and spots a pattern: hand, foot, foot… what comes next?
+>
+> **Inside this book:**
+>
+> - A gentle story to read aloud, told by Tommy himself
+> - Real, simple physics: climbing takes effort because we lift our own body, and going down takes care, too
+> - Early math: sequences and patterns, counting up and down
+> - A hands-on experiment: what takes more effort?
+> - A page for grown-ups with the science, the milestone, and stair-safety tips
+>
+> *I Grow, I Discover* follows a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every book. For curious kids ages 4 to 7.
+
+## Libro 8 · español
+
+- **Título:** Tommy aprende a subir la escalera
+- **Subtítulo:** Un libro ilustrado sobre el esfuerzo, la altura y las secuencias
+- **Serie:** Así crezco, así descubro · Libro 8
+- **Palabras clave (7):** libros infantiles en español · escaleras para niños pequeños · física para niños de 4 a 7 años · secuencias y patrones para niños · gravedad y esfuerzo para niños · libro STEM en español · cuentos para leer en voz alta
+
+**Descripción:**
+
+> **Mamá suelta a Rula desde el descanso y baja rebotando: ¡BONC, BONC, BONC! Ahora le toca a Tommy subir.**
+>
+> Agarrado del barandal y con papá al lado, Tommy levanta un pie… y después el otro. Con Rula, su pelota grande y de colores, descubre que bajar es fácil para una pelota, pero subir cuesta esfuerzo: sus piernas levantan todo su cuerpo, y cuanto más alto sube, más esfuerzo hace. En el camino cuenta los escalones al subir y al bajar, y descubre una secuencia: mano, pie, pie… ¿qué sigue?
+>
+> **En este libro:**
+>
+> - Una historia tierna para leer en voz alta, contada por el propio Tommy
+> - Física simple y verdadera: subir cuesta esfuerzo porque levantamos nuestro cuerpo, y bajar también se hace con cuidado
+> - Matemática temprana: secuencias y patrones, contar hacia adelante y hacia atrás
+> - Un experimento: ¿qué cuesta más?
+> - Una página para los grandes con la ciencia, el hito y consejos de seguridad en la escalera
 >
 > *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
 

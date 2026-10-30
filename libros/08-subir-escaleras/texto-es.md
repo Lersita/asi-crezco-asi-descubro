@@ -58,7 +58,7 @@ Aprobado el 31 de octubre de 2026. Traducción de `texto.md` según `biblia/idio
 - **Izquierda:** Subo otra vez con papá: ¡uno, dos, tres, cuatro, cinco, seis! Ya no me canso tanto.
 - **Derecha:** Hoy aprendí a subir la escalera. ¿Tú sabes cuándo subiste una escalera por primera vez? Rula me espera en el patio… ¿y si ahora la lanzo bien lejos?
 
-Palabras grandes de la maqueta: ESFUERZO (doble 5); números de los escalones (dobles 6 y 10) e íconos de mano y pie (dobles 4 y 9).
+Palabras grandes de la maqueta: ESFUERZO (doble 5); íconos de mano y pie (dobles 4 y 9).
 
 ## Experimento: ¿Qué cuesta más? (páginas 22–23)
 
