@@ -1,4 +1,4 @@
-# Fichas para Amazon KDP · libros 1 a 5 (propuesta)
+# Fichas para Amazon KDP · libros 1 a 6 (propuesta)
 
 Borrador del 27 de octubre de 2026. Todo lo que pide KDP al cargar cada libro de tapa blanda. Los campos que se repiten están en "Datos comunes"; abajo va lo propio de cada libro.
 
@@ -272,6 +272,52 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 > - Física simple y verdadera: empujar y jalar, y por qué lo pesado necesita más fuerza
 > - Matemática temprana: contar pasos, cerca y lejos
 > - Un experimento: ¿cuánta fuerza hace falta?
+> - Una página para los grandes con la ciencia, el hito y consejos de seguridad
+>
+> *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
+
+## Libro 6 · inglés
+
+- **Título:** Tommy Learns to Run
+- **Subtítulo:** A Picture Book About Speed, Stopping, and First, Second, Third
+- **Serie:** I Grow, I Discover · Book 6
+- **Palabras clave (7):** toddler running picture book · speed science for kids · physics for kids ages 4-7 · ordinal numbers for kindergarten · fast and slow concepts book · STEM read aloud book · books about growing up
+
+**Descripción:**
+
+> **Rula rolls out into the backyard, and today Tommy is going to run.**
+>
+> Slow, fast, faster… but stopping isn't so easy! With Rula, his big colorful ball, Tommy discovers speed: rolling down a little hill, Rula goes faster and faster; rolling up, it slows down, and nothing stops all at once. Then comes a race to the tree: who comes in first, second, and third?
+>
+> **Inside this book:**
+>
+> - A gentle story to read aloud, told by Tommy himself
+> - Real, simple physics: fast and slow, and why stopping takes time and space
+> - Early math: first, second, third
+> - A hands-on experiment: fast or slow?
+> - A page for grown-ups with the science, the milestone, and safety tips
+>
+> *I Grow, I Discover* follows a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every book. For curious kids ages 4 to 7.
+
+## Libro 6 · español
+
+- **Título:** Tommy aprende a correr
+- **Subtítulo:** Un libro ilustrado sobre la velocidad, cómo frenar y el primero, el segundo y el tercero
+- **Serie:** Así crezco, así descubro · Libro 6
+- **Palabras clave (7):** libros infantiles en español · rápido y despacio para niños · física para niños de 4 a 7 años · números ordinales para niños · velocidad para niños · libro STEM en español · cuentos para leer en voz alta
+
+**Descripción:**
+
+> **Rula se escapa rodando al patio, y hoy Tommy va a correr.**
+>
+> Despacio, rápido, más rápido… ¡pero frenar no es tan fácil! Con Rula, su pelota grande y de colores, descubre la velocidad: de bajada por la colina, Rula va cada vez más rápido; de subida, cada vez más despacio, y nada frena de golpe. Y en una carrera hasta el árbol, ¿quién llega en primer, segundo y tercer lugar?
+>
+> **En este libro:**
+>
+> - Una historia tierna para leer en voz alta, contada por el propio Tommy
+> - Física simple y verdadera: rápido y despacio, y por qué frenar lleva tiempo y espacio
+> - Matemática temprana: primero, segundo y tercero
+> - Un experimento: ¿rápido o despacio?
 > - Una página para los grandes con la ciencia, el hito y consejos de seguridad
 >
 > *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.

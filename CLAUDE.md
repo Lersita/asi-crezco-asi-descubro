@@ -63,7 +63,8 @@ Las edades son siempre un rango aproximado.
 - **KDP (27/10/2026):** libros 1 a 4 en español neutro e inglés con interior (fotos a 400 dpi) y tapa listos, y fichas en `kdp/fichas.md`. **Libro 1 en inglés publicado** (https://www.amazon.com/dp/B0HPS5H68W, live el 30/10/2026; enviado el 27/10) a USD 12,99 (impresión USD 4,20; queda unos USD 3,59 por libro antes de la retención del 30 % de Estados Unidos). Cobro por Payoneer (Takenos no figura entre los bancos que acepta KDP). **Libro 1 en español publicado** (https://www.amazon.com/dp/B0HPS5LPS9, live el 30/10/2026; autor corregido a "Lersa" y descripción a 4–7 años el 31/10, en revisión). Falta: libros 2 a 5.
 - **Libro 4 (27/10/2026):** texto aprobado, hojas de personajes aprobadas, ilustraciones de Tomi y PDF de borrador de la versión varón listos. Falta la versión de Emi (unos 156 créditos).
 - **Segunda corrección del pelo (28/10/2026):** menos pelo desde el libro 3. Hojas nuevas de los libros 3 a 5 y páginas de Tomi de los libros 3 y 4 corregidas; KDP de los libros 3 y 4 rearmado. La versión de Emi de los libros 3 y 4 queda para más adelante (por ahora solo varón, para KDP).
-- **Libro 5 (28/10/2026):** texto aprobado, hojas de Tomi y Emi, 13 ilustraciones de Tomi y maqueta con PDF de borrador (`maqueta/libro5.py`). Maqueta aprobada; traducción a español neutro e inglés (`texto-es.md`, `texto-en.md`, `maqueta/kdp_textos.py`), fichas y archivos de KDP listos el 28/10/2026. Emi, más adelante. Libro 6 en adelante: sin empezar.
+- **Libro 5 (28/10/2026):** texto aprobado, hojas de Tomi y Emi, 13 ilustraciones de Tomi y maqueta con PDF de borrador (`maqueta/libro5.py`). Maqueta aprobada; traducción a español neutro e inglés (`texto-es.md`, `texto-en.md`, `maqueta/kdp_textos.py`), fichas y archivos de KDP listos el 28/10/2026. Emi, más adelante.
+- **Libro 6 (31/10/2026):** texto aprobado, hoja de Tomi (18–24 meses), hoja del patio, 13 ilustraciones de Tomi, maqueta (`maqueta/libro6.py`), traducción, fichas y archivos de KDP listos. Emi, más adelante. Libro 7 en adelante: sin empezar.
 - **Web:** publicada en Vercel (https://asi-crezco-asi-descubro-web.vercel.app), carpeta `web/`. Personalizador, visor (desde la quinta doble se ve borroso), precios y packs, compra con Mercado Pago y descarga en `gracias.html`. Probado de punta a punta **en modo prueba** (credencial de un usuario vendedor de prueba en la variable `MP_ACCESS_TOKEN` de Vercel). Detalle técnico en `web/README.md`.
 - **Créditos de Kie.ai:** quedaban 156 el 27/10/2026, después de la versión de Tomi del libro 4. Ver `costos.md`. Cada imagen nueva con Nano Banana Pro cuesta 18; cada edición con Nano Banana 2 en 2K, 12.
 
@@ -85,7 +86,7 @@ Las edades son siempre un rango aproximado.
 - `plantillas/libro.md`: la estructura fija de 24 páginas.
 - `libros/NN-hito/`: `texto.md` (rioplatense, web), `texto-es.md` (español neutro, KDP), `texto-en.md` (inglés, KDP), `ilustraciones.md` (prompts) y los PDF de borrador.
 - `ilustraciones/`: imágenes originales. `README.md` dice qué versión se usa en cada página y cómo se hicieron. `herramientas/kie.py` genera o edita una imagen con Kie.ai.
-- `maqueta/`: arma cada libro en HTML (`libro1.py`, `libro1_emi.py`, `libro2.py`, `libro2_emi.py`, `libro3.py` y `libro4.py` que arman las dos versiones, `libro5.py` solo varón por ahora, con piezas comunes en `comun.py`) y lo pasa a PDF con `pdf.js`.
+- `maqueta/`: arma cada libro en HTML (`libro1.py`, `libro1_emi.py`, `libro2.py`, `libro2_emi.py`, `libro3.py` y `libro4.py` que arman las dos versiones, `libro5.py` y `libro6.py` solo varón por ahora, con piezas comunes en `comun.py`) y lo pasa a PDF con `pdf.js`.
 - `web/`: la web y las funciones de pago. Ver `web/README.md`.
 
 ## Cómo se hace cada cosa
