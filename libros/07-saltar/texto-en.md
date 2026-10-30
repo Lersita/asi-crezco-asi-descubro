@@ -45,8 +45,8 @@ Borrador (propuesta), 31 de octubre de 2026. Traducción de `texto.md` según `b
 
 **Spread 8. How tall am I? (pages 16–17)**
 
-- **Left:** I stack my blocks one on top of the other, right next to me. I'm eight blocks tall!
-- **Right:** Rula is three blocks tall. I'm taller than Rula!
+- **Left:** I stack my blocks one on top of the other, right next to me. I'm five blocks tall!
+- **Right:** Rula is almost three blocks tall. I'm taller than Rula!
 
 **Spread 9. What do you think? (pages 18–19)**
 

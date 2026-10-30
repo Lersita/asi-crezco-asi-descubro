@@ -45,8 +45,8 @@ Borrador (propuesta), 31 de octubre de 2026. Traducción de `texto.md` según `b
 
 **Doble 8. ¿Cuánto mido? (páginas 16–17)**
 
-- **Izquierda:** Pongo mis cubos uno encima del otro, a mi lado. ¡Mido ocho cubos!
-- **Derecha:** Rula mide tres cubos. ¡Yo mido más que Rula!
+- **Izquierda:** Pongo mis cubos uno encima del otro, a mi lado. ¡Mido cinco cubos!
+- **Derecha:** Rula mide casi tres cubos. ¡Yo mido más que Rula!
 
 **Doble 9. ¿Tú qué dices? (páginas 18–19)**
 

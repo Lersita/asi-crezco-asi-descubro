@@ -69,9 +69,9 @@ Máximo tres frases por página. Tomi salta siempre en el piso (pasto o baldosas
 
 **Doble 8. ¿Cuánto mido? (páginas 16–17)**
 
-- **Texto, página izquierda:** Pongo mis cubos uno arriba del otro, al lado mío. ¡Mido ocho cubos!
-- **Texto, página derecha:** Rula mide tres cubos. ¡Yo mido más que Rula!
-- **Ilustración:** En las baldosas, Tomi parado de costado junto a una torre de ocho cubos de tela grandes y blandos, igual de alta que él; al lado, Rula junto a una torre de tres cubos. Los números se agregan en la maqueta.
+- **Texto, página izquierda:** Pongo mis cubos uno arriba del otro, al lado mío. ¡Mido cinco cubos!
+- **Texto, página derecha:** Rula mide casi tres cubos. ¡Yo mido más que Rula!
+- **Ilustración:** En las baldosas, Tomi parado de costado junto a una torre de cinco cubos de tela grandes y blandos, igual de alta que él; más lejos, Rula junto a una torre de tres cubos, un poco más alta que ella. Los números se agregan en la maqueta.
 
 **Doble 9. ¿Vos qué decís? (páginas 18–19)**
 
