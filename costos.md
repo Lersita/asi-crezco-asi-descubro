@@ -125,7 +125,8 @@ Quedaban 571,5 créditos el 31/10/2026. El resto de los arreglos de la doble 8 (
 | Lote: 11 páginas y la portada de cerca (Nano Banana Pro; la portada salió plana otra vez) | 216 |
 | Portada: edición de la doble 4 a cuadrado (Nano Banana 2) | 12 |
 | Dobles 3, 5 y 6 y página 24 rehechas por la baranda (Nano Banana Pro; salieron bien la 6 y la 24) | 72 |
-| **Subtotal** | **444** |
+| Doble 3 con otra escena (Nano Banana Pro) y doble 5 corregida (edición, Nano Banana 2) | 30 |
+| **Subtotal** | **474** |
 
 ## Lo que más encarece
 

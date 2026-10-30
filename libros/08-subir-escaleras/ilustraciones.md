@@ -34,7 +34,7 @@ Only mom and dad may appear as adults, each at most once, no other people. An ad
 
 ## Páginas 6–7 · Doble 3 · El primer escalón
 ```
-[ESTILO]. Close view of the bottom of the indoor wooden stairs. Tomi standing on the floor at the foot of the stairs, on the inner side of the banister, between the wall and the banister post: the banister post and the balusters are in front of him, between him and the viewer. He holds the banister with one hand and lifts one foot up onto the first step, concentrating with the tip of his tongue out; the step looks high for him. Dad crouching on the floor right behind him, with his hands close to Tomi, ready to help. The open white safety gate beside them. Living room floor on the left. [REGLAS]. Wide 21:9.
+[ESTILO]. Close view of the bottom of the indoor wooden stairs, seen from the side as in the third reference image. The bottom step is wide and sticks out to the left, in front of the banister post. Tomi stands on the floor right in front of the left end of that bottom step, close to the wall, facing the stairs; he lifts one foot up onto the bottom step, concentrating with the tip of his tongue out, and with one hand he holds the banister post, which is just ahead of him on his right. He is in the walking path of the stairs, never on the outer side of the balusters. Dad crouching on the floor right behind him, with his hands close to Tomi, ready to help. The open white safety gate against the wall nearby. Living room floor on the left. [REGLAS]. Wide 21:9.
 ```
 
 ## Páginas 8–9 · Doble 4 · Mano, pie, pie

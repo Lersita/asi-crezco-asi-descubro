@@ -45,7 +45,7 @@ def armar(nombre, I):
     S.append(doble(f"{I}d02.jpg", [texto("Mamá suelta a Rula arriba, en el descanso. ¡BONC, BONC, BONC!", 24, 12, 150),
         texto("Rula baja rebotando, escalón por escalón. La gravedad la tira para abajo… ¿y para subir?", 278, 12, 140)], (4, 5), pos="right"))
     S.append(doble(f"{I}d03.jpg", [texto("Ahora subo yo. Me agarro de la baranda y levanto un pie… ¡qué alto es el escalón!", 24, 12, 160),
-        texto("Empujo con la pierna y subo todo mi cuerpo. ¡Uno!", 226, 12, 130)], (6, 7), pos="left"))
+        texto("Empujo con la pierna y subo todo mi cuerpo. ¡Uno!", 226, 12, 130)], (6, 7)))
     S.append(doble(f"{I}d04.jpg", [texto("Mano en la baranda, un pie, el otro pie. ¡Dos!", 24, 12, 130),
         secuencia(34, 62, 6),
         texto("Mano, pie, pie. ¡Tres! Siempre lo mismo, en el mismo orden: es una secuencia.", 226, 12, 150)], (8, 9)))
