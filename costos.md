@@ -103,7 +103,13 @@ La versión de Emi de los libros 3 y 4 queda para más adelante (decidido el 28/
 | Paso | Créditos |
 | --- | --- |
 | Hoja de Tomi (edición de la del libro 6) | 12 |
-| **Subtotal** | **12** |
+| 2 pruebas (Nano Banana Pro) | 36 |
+| Lote de las otras 11 páginas (Nano Banana Pro) | 198 |
+| Doble 8 rehecha (salió plana, no se usó) | 18 |
+| Doble 8: edición del recorte de la torre (se usó solo el fondo) | 12 |
+| **Subtotal** | **276** (unos USD 1,38) |
+
+Quedaban 571,5 créditos el 31/10/2026. El resto de los arreglos de la doble 8 (torre de 5 cubos, Rula lejos del pliegue) se hizo sin gastar créditos.
 
 ## Lo que más encarece
 
