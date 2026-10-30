@@ -117,7 +117,8 @@ Quedaban 571,5 créditos el 31/10/2026. El resto de los arreglos de la doble 8 (
 | --- | --- |
 | Hoja de Tomi (edición de la del libro 7) | 12 |
 | Hoja de la escalera (Nano Banana Pro) | 18 |
-| **Subtotal** | **30** |
+| Hoja de la escalera rehecha (Nano Banana Pro) | 18 |
+| **Subtotal** | **48** |
 
 ## Lo que más encarece
 
