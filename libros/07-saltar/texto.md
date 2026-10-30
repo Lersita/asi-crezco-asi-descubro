@@ -1,6 +1,6 @@
 # Libro 7 — Tomi aprende a saltar
 
-Borrador (propuesta), 31 de octubre de 2026.
+Texto aprobado el 31 de octubre de 2026.
 
 ## Ficha del libro
 
@@ -12,9 +12,9 @@ Borrador (propuesta), 31 de octubre de 2026.
 | Matemática | Medir alturas: más alto, más bajo; medir con cubos y con la mano |
 | Formato | 24 páginas: portada, 10 dobles de historia, experimento casero (doble) y página para los grandes |
 | Lector | Chicos de 4 a 7 años, leído en voz alta por un adulto |
-| Edad de Tomi | 2–3 años (la apariencia se define antes de ilustrar, según la regla de `CLAUDE.md`) |
+| Edad de Tomi | 2–3 años: nene chiquito, pelo un poco más largo, remera verde con estrella amarilla, short azul marino y zapatillas blancas con verde (ver `biblia/personajes.md`) |
 | Qué hace Rula | Rebota: sube y vuelve a bajar, cada vez un poco menos, hasta que se queda quieta |
-| Lugar | **(propuesta)** El mismo patio del libro 6 (ya tiene hoja de referencia): la pared de la casa junto a las baldosas sirve para pegar los papelitos de colores |
+| Lugar | Aprobado el 31/10/2026. El mismo patio del libro 6 (ya tiene hoja de referencia): la pared de la casa junto a las baldosas sirve para pegar los papelitos de colores |
 
 ## Historia página por página
 
