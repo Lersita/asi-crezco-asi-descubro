@@ -111,6 +111,14 @@ La versión de Emi de los libros 3 y 4 queda para más adelante (decidido el 28/
 
 Quedaban 571,5 créditos el 31/10/2026. El resto de los arreglos de la doble 8 (torre de 5 cubos, Rula lejos del pliegue) se hizo sin gastar créditos.
 
+### Libro 8 (en curso, 31/10/2026)
+
+| Paso | Créditos |
+| --- | --- |
+| Hoja de Tomi (edición de la del libro 7) | 12 |
+| Hoja de la escalera (Nano Banana Pro) | 18 |
+| **Subtotal** | **30** |
+
 ## Lo que más encarece
 
 - **Repetir por errores de la IA:** cada corrección suma 12 o 18 créditos. Revisar la evolución antes de generar (regla de `CLAUDE.md`) evita la más cara: rehacer un libro entero, como pasó con el pelo.
