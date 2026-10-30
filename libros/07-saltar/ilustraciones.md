@@ -59,7 +59,7 @@ Only mom and dad may appear as adults, each at most once, no other people. An ad
 
 ## Páginas 16–17 · Doble 8 · ¿Cuánto mido?
 ```
-[ESTILO]. On the terracotta tiled terrace, left half: Tomi standing straight in side view next to a neat tower of eight big soft fabric cubes stacked one on top of the other, the tower exactly as tall as Tomi. Right half: Rula on the tiles next to a tower of three of the same big soft fabric cubes, the tower exactly as tall as Rula. The cubes are plain solid colors with nothing written or drawn on them. Dad partially visible at the far right, crouching. [REGLAS]. Wide 21:9.
+[ESTILO]. On the terracotta tiled terrace in front of the peach wall of the house. At about 18 percent of the width: Tomi standing straight in side view, and right next to him a neat tower of EXACTLY EIGHT big soft fabric cubes stacked one on top of the other, the top of the tower exactly level with the top of Tomi's head, not higher. At about 75 percent of the width: Rula standing on the tiles next to a tower of EXACTLY THREE of the same cubes, the top of that tower level with the top of Rula. The cubes are plain solid colors with nothing written or drawn on them, all the same size. Nothing between 40 and 60 percent of the width except tiles and wall. Dad partially visible at the far right, crouching. [REGLAS]. Wide 21:9.
 ```
 
 ## Páginas 18–19 · Doble 9 · ¿Tú qué dices?
