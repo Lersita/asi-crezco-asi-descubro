@@ -416,7 +416,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 
 ## Recopilatorio de los libros 1 a 4 (propuesta, 31/10/2026)
 
-Un solo libro con los cuatro primeros adentro (98 páginas: 2 de presentación + 4 × 24). Archivos: `kdp/bundle14-en-interior.pdf` y `kdp/bundle14-en-tapa.pdf` (17,48 × 8,75 in: el lomo mide 0,23 in y lleva texto), y lo mismo con `-es-`. Se arma con `python3 maqueta/kdp_bundle.py en|es` (ver el encabezado del script). La tapa es un álbum del primer año: cuatro polaroids de Tommy, una de cada libro, que suben como una escalera de crecimiento. Conviene cargarlo cuando los cuatro libros sueltos ya estén publicados, para que aparezca junto a ellos.
+Un solo libro con los cuatro primeros adentro (98 páginas: 2 de presentación + 4 × 24). Archivos: `kdp/bundle14-en-interior.pdf` y `kdp/bundle14-en-tapa.pdf` (17,48 × 8,75 in: el lomo mide 0,23 in y lleva texto), y lo mismo con `-es-`. Se arma con `python3 maqueta/kdp_bundle.py en|es` (ver el encabezado del script). La tapa lleva una ilustración propia (`ilustraciones/bundle14/tapa-v1.png`): los cuatro Tommys en la alfombra, de bebé girando a bebé parado junto al sillón, cada uno un poco más grande, con Rula rodando. Si se borra ese archivo, el script arma la versión álbum con cuatro polaroids. Conviene cargarlo cuando los cuatro libros sueltos ya estén publicados, para que aparezca junto a ellos.
 
 Datos comunes como los demás libros, salvo: **precio sugerido USD 24,99** (los cuatro sueltos suman USD 51,96; KDP muestra el costo de impresión al cargar el interior: si deja menos de USD 5 de regalía, subir a USD 27,99 o 29,99). Serie: sumarlo a la misma serie, sin número de libro (o "1–4" si KDP lo permite).
 

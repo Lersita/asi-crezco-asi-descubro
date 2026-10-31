@@ -104,7 +104,7 @@ CSS_COMUN = """
 h1{font-family:Fraunces,serif;font-weight:800;line-height:.95;margin:0;letter-spacing:-.01em;color:#23304A}
 .autor{display:inline-block;font-family:Fraunces,serif;font-weight:700;letter-spacing:.12em;color:#C4532E;background:#FFF8E8;border-radius:1.5mm;box-shadow:0 .5mm 1mm rgba(70,45,20,.2)}
 .badge{position:absolute;border-radius:50%;background:conic-gradient(#D9452B 0 60deg,#EE8A2A 0 120deg,#E9B21C 0 180deg,#5E9E44 0 240deg,#4FA3D9 0 300deg,#8A5CB8 0 360deg);display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:Fraunces,serif;font-weight:900;color:#fff;text-shadow:0 .5mm 1mm rgba(0,0,0,.4);line-height:.85;box-shadow:0 1mm 2mm rgba(70,45,20,.25);transform:rotate(8deg)}
-.badge b{font-size:17mm}.badge span{font-size:3.6mm;letter-spacing:.12em;text-transform:uppercase}
+.badge b{font-size:14mm;line-height:1;margin:.6mm 0 .2mm}.badge span{font-size:3.4mm;letter-spacing:.12em;text-transform:uppercase;line-height:1}
 .pol{position:absolute;background:#fffdf8;padding:2.6mm 2.6mm 0;box-shadow:0 1.2mm 2.5mm rgba(70,45,20,.28),0 0 0 .2mm rgba(70,45,20,.08)}
 .pol img{display:block;width:100%;aspect-ratio:1;object-fit:cover}
 .pol .pie{padding:2mm 0 2.6mm;text-align:center;font-family:Andika,sans-serif;color:#23304A}
@@ -131,6 +131,15 @@ def tapa(lang):
     pols = "".join(polaroid(n + 1, t, frente_x + x, SANGRADO + y, W, g) for n, (x, y, g) in enumerate(pos))
     centros = [(frente_x + x + W / 2, SANGRADO + y + W / 2) for x, y, _ in pos]
     lista = "".join(f"<li>{e(x)}</li>" for x in t["adentro"])
+    # Si existe la ilustración del pack (los cuatro Tommys en la alfombra), va de fondo del frente; si no, el álbum de polaroids
+    ilus = RAIZ / "ilustraciones" / "bundle14" / "tapa-v1.png"
+    if ilus.exists():
+        im = Image.open(ilus).convert("RGB")
+        im.resize((im.width * 2, im.height * 2), Image.LANCZOS).save(AQUI / "img-kdp" / "bundle14-tapa.jpg", quality=92)
+        arte = f'<div class="frente" style="background:url(img-kdp/bundle14-tapa.jpg) center/cover"></div>'
+    else:
+        arte = (f'<div class="frente"></div><div class="alfombra"></div>{camino_svg(centros, ANCHO, ALTO)}{pols}'
+                f'<img class="rula2" src="../web/img/rula.webp" alt="">')
     minis = "".join(f'<div class="mini"><img src="img-kdp/{FOTOS[n][0].split("/")[1]}"><div><b>{e(t["libro"])} {n}</b><span>{e(t["libros"][n - 1])}</span></div></div>' for n in range(1, 5))
     doc = f"""<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><title>{e(t['t1'])} {e(t['t2'])} · tapa</title>{FUENTES}
 <style>
@@ -165,10 +174,7 @@ body{{margin:0;font-family:Andika,sans-serif;color:#23304A}}
 .firma{{position:absolute;left:{SANGRADO + 2.05}in;bottom:{SANGRADO + 0.72}in;font-family:Fraunces,serif;font-weight:700;font-size:12pt;letter-spacing:.12em;color:#C4532E}}
 .rula2{{position:absolute;left:{frente_x + 6.55}in;top:{SANGRADO + 6.95}in;width:1.05in;transform:rotate(-12deg)}}
 </style></head><body><div class="tapa">
-<div class="frente"></div><div class="alfombra"></div>
-{camino_svg(centros, ANCHO, ALTO)}
-{pols}
-<img class="rula2" src="../web/img/rula.webp" alt="">
+{arte}
 <div class="titulo"><div class="coleccion">{e(t['coleccion'])}</div><h1>{e(t['t1'])}<br>{e(t['t2'])}</h1><div class="sub">{e(t['sub'])}</div><div class="autor">by LERSA</div></div>
 <div style="position:absolute;left:{frente_x + REFILE - 0.55 - 1.5}in;top:{SANGRADO + 0.5}in">{badge(t, 1.5)}</div>
 <div class="lomo"><div>{e(t['lomo'])}<span>LERSA</span></div></div>

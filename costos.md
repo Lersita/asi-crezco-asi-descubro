@@ -128,6 +128,13 @@ Quedaban 571,5 créditos el 31/10/2026. El resto de los arreglos de la doble 8 (
 | Doble 3 con otra escena (Nano Banana Pro) y doble 5 corregida (edición, Nano Banana 2) | 30 |
 | **Subtotal** | **474** |
 
+### Recopilatorio de los libros 1 a 4 (31/10/2026)
+
+| Paso | Créditos |
+| --- | --- |
+| Ilustración de tapa: los cuatro Tommys en la alfombra (Nano Banana Pro) | 18 |
+| **Subtotal** | **18** |
+
 ## Lo que más encarece
 
 - **Repetir por errores de la IA:** cada corrección suma 12 o 18 créditos. Revisar la evolución antes de generar (regla de `CLAUDE.md`) evita la más cara: rehacer un libro entero, como pasó con el pelo.
