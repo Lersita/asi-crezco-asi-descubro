@@ -414,6 +414,60 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 >
 > *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
 
+## Recopilatorio de los libros 1 a 4 (propuesta, 31/10/2026)
+
+Un solo libro con los cuatro primeros adentro (98 páginas: 2 de presentación + 4 × 24). Archivos: `kdp/bundle14-en-interior.pdf` y `kdp/bundle14-en-tapa.pdf` (17,48 × 8,75 in: el lomo mide 0,23 in y lleva texto), y lo mismo con `-es-`. Se arma con `python3 maqueta/kdp_bundle.py en|es` (ver el encabezado del script). La tapa es un álbum del primer año: cuatro polaroids de Tommy, una de cada libro, que suben como una escalera de crecimiento. Conviene cargarlo cuando los cuatro libros sueltos ya estén publicados, para que aparezca junto a ellos.
+
+Datos comunes como los demás libros, salvo: **precio sugerido USD 24,99** (los cuatro sueltos suman USD 51,96; KDP muestra el costo de impresión al cargar el interior: si deja menos de USD 5 de regalía, subir a USD 27,99 o 29,99). Serie: sumarlo a la misma serie, sin número de libro (o "1–4" si KDP lo permite).
+
+### Inglés
+
+- **Título:** Tommy's First Year
+- **Subtítulo:** 4 Books in 1: Roll Over, Sit Up, Crawl, and Stand Up
+- **Serie:** I Grow, I Discover
+- **Palabras clave (7):** baby's first year picture book · baby milestones book set · physics for kids ages 4-7 · STEM picture book collection · early math for kindergarten · read aloud book bundle · books about growing up
+
+**Descripción:**
+
+> **Four first milestones, four big discoveries, in one book.**
+>
+> In his first year, Tommy learns to roll over, sit up, crawl, and stand up. With Rula, his big colorful ball, he discovers why round things roll, how balance works, what friction does, and how gravity pulls everything down. Along the way he counts, compares, and measures: up and down, tall and short, near and far, hands and knees.
+>
+> **This collection includes:**
+>
+> - Book 1: Tommy Learns to Roll Over
+> - Book 2: Tommy Learns to Sit Up
+> - Book 3: Tommy Learns to Crawl
+> - Book 4: Tommy Learns to Stand Up
+>
+> **Inside each book:** a gentle story to read aloud, told by Tommy himself; real, simple physics and early math; a hands-on experiment with things from home; and a page for grown-ups with the science, the milestone, and safety tips.
+>
+> *I Grow, I Discover* follows a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every book. For curious kids ages 4 to 7.
+
+### Español
+
+- **Título:** El primer año de Tommy
+- **Subtítulo:** 4 libros en 1: girar, sentarse, gatear y pararse
+- **Serie:** Así crezco, así descubro
+- **Palabras clave (7):** libros infantiles en español · primer año del bebé libro · colección de libros para niños · física para niños de 4 a 7 años · matemática temprana para niños · libro STEM en español · cuentos para leer en voz alta
+
+**Descripción:**
+
+> **Cuatro primeros logros, cuatro grandes descubrimientos, en un solo libro.**
+>
+> En su primer año, Tommy aprende a girar, sentarse, gatear y pararse. Con Rula, su pelota grande y de colores, descubre por qué lo redondo rueda, cómo funciona el equilibrio, para qué sirve la fricción y cómo la gravedad atrae todo hacia abajo. Y en el camino cuenta, compara y mide: arriba y abajo, alto y bajo, cerca y lejos, manos y rodillas.
+>
+> **Esta colección incluye:**
+>
+> - Libro 1: Tommy aprende a girar
+> - Libro 2: Tommy aprende a sentarse
+> - Libro 3: Tommy aprende a gatear
+> - Libro 4: Tommy aprende a pararse
+>
+> **En cada libro:** una historia tierna para leer en voz alta, contada por el propio Tommy; física simple y verdadera, y matemática temprana; un experimento con cosas de la casa; y una página para los grandes con la ciencia, el hito y consejos de seguridad.
+>
+> *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
+
 ---
 
 ## Después de publicar
