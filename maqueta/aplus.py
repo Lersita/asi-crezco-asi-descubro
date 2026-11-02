@@ -66,7 +66,7 @@ LIBROS[(2, "en")] = {**COMUN_EN,
 LIBROS[(3, "en")] = {**COMUN_EN,
     "serie": "I Grow, I Discover · Book 3", "titulo": "Tommy Learns to Crawl",
     "bajada": "A read-aloud picture book about crawling, and the friction that keeps little hands from slipping.",
-    "cuadros": [("l3-d06.jpg", "88% 50%"), ("l3-d02.jpg", "84% 50%"), ("l3-exp.jpg", (0, 100, 1268, 1530))],  # al cuadro 3 se le tapa a mano un puntito abajo a la derecha
+    "cuadros": [("l3-d05.jpg", (1420, 290, 2148, 1018)), ("l3-d02.jpg", "84% 50%"), ("l3-exp.jpg", (0, 100, 1268, 1530))],  # al cuadro 3 se le tapa a mano un puntito abajo a la derecha
     "adentro": [("l3-d10.jpg", "12% 60%", "A gentle story", "told by Tommy himself"),
                 ("l3-d08.jpg", "0% 50%", "Real, simple physics", "friction keeps us from slipping"),
                 ("l3-exp.jpg", "0% 30%", "A home experiment", "with things from home"),

@@ -98,7 +98,7 @@ Mismos 4 módulos, con las imágenes `libro3-en-…`. Content name: **Tommy Book
 
 **Módulo 2 · Standard Three Images & Text**
 - **Headline del módulo:** Learning through play
-- **Imagen 1 · Headline:** Friction helps us grip · **Body:** On the fuzzy rug, Tommy's hands and knees don't slip. That grip is called friction, and it's what lets him crawl.
+- **Imagen 1 · Headline:** Slippery floor, grippy rug · **Body:** On the shiny hallway floor, Tommy's knees slip and slide… WHOOSH! On the fuzzy rug they don't. That grip is called friction, and it's what lets him crawl.
 - **Imagen 2 · Headline:** Hand, knee. Hand, knee. · **Body:** One hand, two hands, one knee, two knees: four! Tommy rocks, slips, tries again… and finally crawls all the way to Rula.
 - **Imagen 3 · Headline:** Try it at home · **Body:** A simple, safe experiment with books, a towel, and a ball: where does the ball roll farther, on the smooth floor or on the towel?
 
@@ -110,7 +110,7 @@ Mismos 4 módulos, con las imágenes `libro3-en-…`. Content name: **Tommy Book
 | Imagen | Alt text |
 | --- | --- |
 | Cabecera | Cover of Tommy Learns to Crawl: a baby crawling on a rug toward a colorful ball |
-| Cuadro 1 | Baby Tommy crawling on a fuzzy rug |
+| Cuadro 1 | Baby Tommy slipping on a shiny wooden floor |
 | Cuadro 2 | Baby Tommy on his hands and knees on the rug, smiling |
 | Cuadro 3 | A ball rolling down a ramp of books, and two little hands on a smooth floor |
 | Adentro | What's inside: a story, simple physics, an experiment, and a page for grown-ups |
