@@ -58,7 +58,7 @@ COMUN_EN = {"lema": "Big science for little ones", "edad": "Ages 4–7 · Read a
 LIBROS[(2, "en")] = {**COMUN_EN,
     "serie": "I Grow, I Discover · Book 2", "titulo": "Tommy Learns to Sit Up",
     "bajada": "A read-aloud picture book about sitting up for the first time, and the secret of balance.",
-    "cuadros": [("l2-d04-v1.jpg", "68% 50%"), ("l2-d07-v1.jpg", "72% 50%"), ("l2-exp-v1.jpg", "0% 50%")],
+    "cuadros": [("l2-d04-v1.jpg", "68% 50%"), ("l2-d07-v1.jpg", "72% 50%"), ("l2-exp-v1.jpg", (0, 130, 1195, 1530))],
     "adentro": [("l2-d03-v1.jpg", "85% 60%", "A gentle story", "told by Tommy himself"),
                 ("l2-d05-v1.jpg", "80% 60%", "Real, simple physics", "a wide base doesn't fall"),
                 ("l2-exp-v1.jpg", "0% 50%", "A home experiment", "with things from home"),
@@ -66,7 +66,7 @@ LIBROS[(2, "en")] = {**COMUN_EN,
 LIBROS[(3, "en")] = {**COMUN_EN,
     "serie": "I Grow, I Discover · Book 3", "titulo": "Tommy Learns to Crawl",
     "bajada": "A read-aloud picture book about crawling, and the friction that keeps little hands from slipping.",
-    "cuadros": [("l3-d06.jpg", "88% 50%"), ("l3-d07.jpg", "33% 50%"), ("l3-exp.jpg", "0% 0%")],
+    "cuadros": [("l3-d06.jpg", "88% 50%"), ("l3-d07.jpg", "33% 50%"), ("l3-exp.jpg", (0, 100, 1268, 1530))]  # después de generar, se tapa a mano un puntito en la esquina de abajo a la derecha,
     "adentro": [("l3-d02.jpg", "75% 60%", "A gentle story", "told by Tommy himself"),
                 ("l3-d08.jpg", "0% 50%", "Real, simple physics", "friction keeps us from slipping"),
                 ("l3-exp.jpg", "0% 30%", "A home experiment", "with things from home"),
@@ -93,6 +93,16 @@ def cabecera(t):
 
 
 def cuadro(img, pos):
+    """pos: posición CSS del recorte, o una caja (x0, y0, x1, y1) en píxeles para recortar antes."""
+    if isinstance(pos, tuple):
+        from PIL import Image
+        nombre = f"recorte-{img}"
+        rec = Image.open(AQUI / "img" / img).convert("RGB").crop(pos)
+        lado = max(rec.size)   # si la caja no es cuadrada, se completa con el color del fondo (crema liso)
+        cuadrado = Image.new("RGB", (lado, lado), rec.getpixel((5, 5)))
+        cuadrado.paste(rec, ((lado - rec.width) // 2, (lado - rec.height) // 2))
+        cuadrado.save(SALIDA / nombre, quality=92)
+        return BASE + f'<div class="lienzo" style="width:300px;height:300px;background:url(file://{SALIDA}/{nombre}) center/cover no-repeat"></div></body></html>'
     return BASE + f'<div class="lienzo" style="width:300px;height:300px;background:url({IMG}/{img}) {pos}/cover no-repeat"></div></body></html>'
 
 
