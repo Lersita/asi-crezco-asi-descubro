@@ -13,6 +13,20 @@ Módulos, en este orden:
 
 Texto alternativo (alt text) de cada imagen: una frase que describa la imagen, sin palabras clave repetidas.
 
+## Textos del módulo de cabecera (Standard Image Header With Text)
+
+### Inglés
+
+- **Headline (arriba de la imagen):** A first milestone, a first science lesson
+- **Headline (debajo de la imagen):** Meet Tommy and Rula
+- **Body text:** Tommy can't sit up, crawl, or walk yet, but today he's going to learn something new. With Rula, his big colorful ball, he rolls over for the very first time and discovers why round things roll. A gentle read-aloud story for curious kids ages 4 to 7, with a hands-on experiment and a page for grown-ups.
+
+### Español
+
+- **Título (arriba de la imagen):** Un primer logro, una primera lección de ciencia
+- **Título (debajo de la imagen):** Conoce a Tommy y a Rula
+- **Texto:** Tommy todavía no se sienta, no gatea y no camina, pero hoy va a aprender algo nuevo. Con Rula, su pelota grande y de colores, gira por primera vez y descubre por qué lo redondo rueda. Una historia tierna para leer en voz alta con niños curiosos de 4 a 7 años, con un experimento y una página para los grandes.
+
 ## Textos del módulo de tres imágenes
 
 ### Inglés
