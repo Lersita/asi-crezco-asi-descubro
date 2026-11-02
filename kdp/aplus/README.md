@@ -53,3 +53,65 @@ Texto alternativo (alt text) de cada imagen: una frase que describa la imagen, s
 | Cuadro 3 | A child testing what rolls down a ramp made of books | Un chico prueba qué rueda por una rampa hecha con libros |
 | Adentro | What's inside: a story, simple physics, an experiment, and a page for grown-ups | Qué hay adentro: una historia, física simple, un experimento y una página para los grandes |
 | Serie | The first four books of the I Grow, I Discover series | Los primeros cuatro libros de la serie Así crezco, así descubro |
+
+---
+
+# Libro 2 · inglés (Tommy Learns to Sit Up)
+
+Mismos 4 módulos y en el mismo orden que el libro 1, con las imágenes `libro2-en-…`. El módulo de la serie (`libro2-en-4-serie.jpg`) es igual al del libro 1. Content name: **Tommy Book 2 – EN**.
+
+**Módulo 1 · Standard Image Header With Text**
+- **Headline (arriba):** Sitting up is a balancing act
+- **Headline (abajo):** Tommy wants to see everything from higher up
+- **Body text:** Tommy can already roll over, but today he's going to learn to sit up… even if he tips over at first. FLOP! With Rula, his big colorful ball, he discovers the secret of balance: a wide base doesn't fall. And from his new spot on the blanket, he learns what's tall and short, near and far. A gentle read-aloud story for curious kids ages 4 to 7, with a hands-on experiment and a page for grown-ups.
+
+**Módulo 2 · Standard Three Images & Text**
+- **Headline del módulo:** Learning through play
+- **Imagen 1 · Headline:** A wide base doesn't fall · **Body:** Tommy spreads his legs and puts his hands down in front of him, like a little three-legged stool, and this time he stays sitting up.
+- **Imagen 2 · Headline:** Near and far · **Body:** Sitting up, everything looks different. Rula is near: Tommy can touch it without stretching. Then he pushes it, and it rolls far away!
+- **Imagen 3 · Headline:** Try it at home · **Body:** A simple, safe experiment with cups, cardboard rolls, a box, and a ball: what tips over, and what can hold a book on top?
+
+**Módulo 3 · What's inside** (`libro2-en-3-adentro.jpg`): headline y body vacíos.
+
+**Módulo 4 · Standard Image Header With Text** (`libro2-en-4-serie.jpg`): los mismos textos que en el libro 1 (Follow Tommy as he grows / I Grow, I Discover / Each book follows Tommy…).
+
+**Textos alternativos**
+| Imagen | Alt text |
+| --- | --- |
+| Cabecera | Cover of Tommy Learns to Sit Up: a baby sitting on a rug next to a colorful ball |
+| Cuadro 1 | Baby Tommy sitting with his legs apart, a dotted triangle showing his wide base |
+| Cuadro 2 | Baby Tommy sitting up and hugging his big colorful ball |
+| Cuadro 3 | Cups, cardboard rolls and a ball with a book sliding off it |
+| Adentro | What's inside: a story, simple physics, an experiment, and a page for grown-ups |
+| Serie | The first four books of the I Grow, I Discover series |
+
+---
+
+# Libro 3 · inglés (Tommy Learns to Crawl)
+
+Mismos 4 módulos, con las imágenes `libro3-en-…`. Content name: **Tommy Book 3 – EN**.
+
+**Módulo 1 · Standard Image Header With Text**
+- **Headline (arriba):** The science of crawling
+- **Headline (abajo):** Rula always gets away!
+- **Body text:** So Tommy is going to learn to crawl. He rocks forward and back, goes backward by mistake, and slips on the shiny hallway floor. WHOOSH! Then he discovers friction, the thing that keeps his hands and knees from slipping on the rug. And he counts: one hand, two hands, one knee, two knees. Four! A gentle read-aloud story for curious kids ages 4 to 7, with a hands-on experiment and a page for grown-ups.
+
+**Módulo 2 · Standard Three Images & Text**
+- **Headline del módulo:** Learning through play
+- **Imagen 1 · Headline:** Friction helps us grip · **Body:** On the fuzzy rug, Tommy's hands and knees don't slip. That grip is called friction, and it's what lets him crawl.
+- **Imagen 2 · Headline:** Hand, knee. Hand, knee. · **Body:** One hand, two hands, one knee, two knees: four! Tommy rocks, slips, tries again… and finally crawls all the way to Rula.
+- **Imagen 3 · Headline:** Try it at home · **Body:** A simple, safe experiment with books, a towel, and a ball: where does the ball roll farther, on the smooth floor or on the towel?
+
+**Módulo 3 · What's inside** (`libro3-en-3-adentro.jpg`): headline y body vacíos.
+
+**Módulo 4 · Standard Image Header With Text** (`libro3-en-4-serie.jpg`): los mismos textos que en el libro 1.
+
+**Textos alternativos**
+| Imagen | Alt text |
+| --- | --- |
+| Cabecera | Cover of Tommy Learns to Crawl: a baby crawling on a rug toward a colorful ball |
+| Cuadro 1 | Baby Tommy crawling on a fuzzy rug |
+| Cuadro 2 | Baby Tommy crawling, hand and knee, across the rug |
+| Cuadro 3 | A ball rolling down a ramp of books, and two little hands on a smooth floor |
+| Adentro | What's inside: a story, simple physics, an experiment, and a page for grown-ups |
+| Serie | The first four books of the I Grow, I Discover series |

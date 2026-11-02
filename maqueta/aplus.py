@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Imágenes para el contenido A+ de Amazon (libro 1), en inglés y en español neutro.
+"""Imágenes para el contenido A+ de Amazon de cada libro (inglés y español neutro).
 Arma cada imagen en HTML y la saca con el navegador al tamaño exacto que pide Amazon.
-Uso: python3 maqueta/aplus.py → kdp/aplus/libro1-<lang>-*.jpg
+Uso: python3 maqueta/aplus.py [N-lang ...] (sin nada: todos) → kdp/aplus/libroN-<lang>-*.jpg
 Las tapas de la serie salen de los PDF de tapa (kdp/aplus/tapas/libroN-<lang>.jpg)."""
 import html, subprocess, json
 from pathlib import Path
@@ -15,8 +15,8 @@ e = html.escape
 COLS = ["#D9452B", "#EE8A2A", "#E9B21C", "#5E9E44", "#4FA3D9", "#8A5CB8"]
 FUENTES = '<link href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Fraunces:opsz,wght@9..144,700;9..144,800;9..144,900&display=swap" rel="stylesheet">'
 
-T = {
-    "en": {
+LIBROS = {
+    (1, "en"): {
         "serie": "I Grow, I Discover · Book 1",
         "titulo": "Tommy Learns to Roll Over",
         "lema": "Big science for little ones",
@@ -33,7 +33,7 @@ T = {
         "libros": ["Roll Over", "Sit Up", "Crawl", "Stand Up"],
         "mas": "More books coming soon",
     },
-    "es": {
+    (1, "es"): {
         "serie": "Así crezco, así descubro · Libro 1",
         "titulo": "Tommy aprende a girar",
         "lema": "Gran ciencia para los más pequeños",
@@ -52,6 +52,26 @@ T = {
     },
 }
 
+COMUN_EN = {"lema": "Big science for little ones", "edad": "Ages 4–7 · Read aloud", "adentro_t": "What's inside",
+            "serie_t": "Follow Tommy as he grows", "serie_b": "One milestone, one physics idea and one math idea in every book.",
+            "libros": ["Roll Over", "Sit Up", "Crawl", "Stand Up"], "mas": "More books coming soon"}
+LIBROS[(2, "en")] = {**COMUN_EN,
+    "serie": "I Grow, I Discover · Book 2", "titulo": "Tommy Learns to Sit Up",
+    "bajada": "A read-aloud picture book about sitting up for the first time, and the secret of balance.",
+    "cuadros": [("l2-d04-v1.jpg", "68% 50%"), ("l2-d07-v1.jpg", "72% 50%"), ("l2-exp-v1.jpg", "0% 50%")],
+    "adentro": [("l2-d03-v1.jpg", "85% 60%", "A gentle story", "told by Tommy himself"),
+                ("l2-d05-v1.jpg", "80% 60%", "Real, simple physics", "a wide base doesn't fall"),
+                ("l2-exp-v1.jpg", "0% 50%", "A home experiment", "with things from home"),
+                ("l2-p24-v1.jpg", "50% 60%", "A page for grown-ups", "science, milestone and safety")]}
+LIBROS[(3, "en")] = {**COMUN_EN,
+    "serie": "I Grow, I Discover · Book 3", "titulo": "Tommy Learns to Crawl",
+    "bajada": "A read-aloud picture book about crawling, and the friction that keeps little hands from slipping.",
+    "cuadros": [("l3-d06.jpg", "88% 50%"), ("l3-d07.jpg", "33% 50%"), ("l3-exp.jpg", "0% 0%")],
+    "adentro": [("l3-d02.jpg", "75% 60%", "A gentle story", "told by Tommy himself"),
+                ("l3-d08.jpg", "0% 50%", "Real, simple physics", "friction keeps us from slipping"),
+                ("l3-exp.jpg", "0% 30%", "A home experiment", "with things from home"),
+                ("l3-p24.jpg", "50% 60%", "A page for grown-ups", "science, milestone and safety")]}
+
 BASE = f"""<!doctype html><html><head><meta charset="utf-8">{FUENTES}<style>
 *{{box-sizing:border-box}}body{{margin:0;font-family:Andika,sans-serif;color:#23304A}}
 .lienzo{{position:relative;overflow:hidden;background:#FFF9E7}}
@@ -63,7 +83,7 @@ h1,h2{{font-family:Fraunces,serif;font-weight:900;margin:0;line-height:1;letter-
 
 def cabecera(t):
     return BASE + f"""<div class="lienzo" style="width:970px;height:600px">
-<div class="foto" style="position:absolute;left:40px;top:40px;width:520px;height:520px;background-image:url({TAPAS}/libro1-{LANG}.jpg)"></div>
+<div class="foto" style="position:absolute;left:40px;top:40px;width:520px;height:520px;background-image:url({TAPAS}/libro{N}-{LANG}.jpg)"></div>
 <div style="position:absolute;left:600px;top:70px;width:330px">
 <div class="col" style="font-size:14px">{e(t['serie'])}</div>
 <h2 style="font-size:46px;margin-top:16px">{e(t['lema'])}</h2>
@@ -73,12 +93,12 @@ def cabecera(t):
 
 
 def cuadro(img, pos):
-    return BASE + f'<div class="lienzo" style="width:300px;height:300px;background:url({IMG}/{img}) {pos}/auto 100%"></div></body></html>'
+    return BASE + f'<div class="lienzo" style="width:300px;height:300px;background:url({IMG}/{img}) {pos}/cover no-repeat"></div></body></html>'
 
 
 def adentro(t):
     tiles = "".join(
-        f'<div style="width:215px;text-align:center"><div class="foto" style="width:215px;height:150px;background:url({IMG}/{img}) {pos}/auto 100%"></div>'
+        f'<div style="width:215px;text-align:center"><div class="foto" style="width:215px;height:150px;background:url({IMG}/{img}) {pos}/cover no-repeat"></div>'
         f'<div style="font-family:Fraunces,serif;font-weight:800;font-size:19px;margin-top:10px;color:{['#C4442A', '#4E8A37', '#3F7FB0', '#7D51AB'][k]}">{e(a)}</div>'
         f'<div style="font-size:15px;margin-top:3px">{e(b)}</div></div>'
         for k, (img, pos, a, b) in enumerate(t["adentro"]))
@@ -108,13 +128,16 @@ JS = """const { chromium } = require('playwright');
 
 if __name__ == "__main__":
     trabajos = []
-    for LANG, t in T.items():
+    import sys
+    elegidos = [(int(a.split("-")[0]), a.split("-")[1]) for a in sys.argv[1:]] or list(LIBROS)
+    for (N, LANG) in elegidos:
+        t = LIBROS[(N, LANG)]
         piezas = [("1-cabecera", cabecera(t), 970, 600), ("3-adentro", adentro(t), 970, 300), ("4-serie", serie(t), 970, 600)]
         piezas += [(f"2-cuadro{k + 1}", cuadro(*c), 300, 300) for k, c in enumerate(t["cuadros"])]
         for nombre, doc, w, h in piezas:
-            f = SALIDA / f"libro1-{LANG}-{nombre}.html"
+            f = SALIDA / f"libro{N}-{LANG}-{nombre}.html"
             f.write_text(doc, encoding="utf-8")
-            trabajos.append([str(f), str(SALIDA / f"libro1-{LANG}-{nombre}.jpg"), w, h])
+            trabajos.append([str(f), str(SALIDA / f"libro{N}-{LANG}-{nombre}.jpg"), w, h])
     js = SALIDA / "capturar.js"
     js.write_text(JS, encoding="utf-8")
     subprocess.run(["node", str(js), json.dumps(trabajos)], check=True, cwd=AQUI)
