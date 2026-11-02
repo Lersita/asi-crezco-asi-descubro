@@ -27,6 +27,24 @@ Texto alternativo (alt text) de cada imagen: una frase que describa la imagen, s
 - **Título (debajo de la imagen):** Conoce a Tommy y a Rula
 - **Texto:** Tommy todavía no se sienta, no gatea y no camina, pero hoy va a aprender algo nuevo. Con Rula, su pelota grande y de colores, gira por primera vez y descubre por qué lo redondo rueda. Una historia tierna para leer en voz alta con niños curiosos de 4 a 7 años, con un experimento y una página para los grandes.
 
+## Textos del módulo 4 (la serie): otro Standard Image Header With Text
+
+Igual en todos los libros. Imagen: `libroN-xx-4-serie.jpg`.
+
+### Inglés
+
+- **Headline (arriba):** Follow Tommy as he grows
+- **Headline (abajo):** I Grow, I Discover
+- **Body text:** Each book follows Tommy through one of a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every story. Read them in order and watch Tommy grow.
+- **Alt text:** The first four books of the I Grow, I Discover series
+
+### Español
+
+- **Título (arriba):** Acompaña a Tommy mientras crece
+- **Título (abajo):** Así crezco, así descubro
+- **Texto:** Cada libro acompaña a Tommy en uno de los primeros grandes logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada historia. Léelos en orden y mira cómo crece Tommy.
+- **Texto alternativo:** Los primeros cuatro libros de la serie Así crezco, así descubro
+
 ## Textos del módulo de tres imágenes
 
 ### Inglés
