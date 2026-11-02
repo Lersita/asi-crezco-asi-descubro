@@ -111,7 +111,7 @@ Mismos 4 módulos, con las imágenes `libro3-en-…`. Content name: **Tommy Book
 | --- | --- |
 | Cabecera | Cover of Tommy Learns to Crawl: a baby crawling on a rug toward a colorful ball |
 | Cuadro 1 | Baby Tommy crawling on a fuzzy rug |
-| Cuadro 2 | Baby Tommy crawling, hand and knee, across the rug |
+| Cuadro 2 | Baby Tommy on his hands and knees on the rug, smiling |
 | Cuadro 3 | A ball rolling down a ramp of books, and two little hands on a smooth floor |
 | Adentro | What's inside: a story, simple physics, an experiment, and a page for grown-ups |
 | Serie | The first four books of the I Grow, I Discover series |
