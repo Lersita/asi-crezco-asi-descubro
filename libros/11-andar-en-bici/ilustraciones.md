@@ -12,7 +12,7 @@ Cada prompt se arma así: **[ESTILO] + escena + [REGLAS]**.
 
 **[REGLAS]**
 ```
-Only mom and dad may appear as adults, each at most once, no other people. An adult close to the boy whenever he is on the bike. Exactly one ball and exactly one bicycle in the picture unless the scene says otherwise. The boy always wears his green helmet on the bike. Keep faces and the ball away from the vertical center line. Calm plain area in the upper part for text.
+Only mom and dad may appear as adults, each at most once, no other people. An adult close to the boy whenever he is on the bike. Exactly one ball and exactly one bicycle in the picture unless the scene says otherwise. Rula has only a tiny small red cap on top, never a big hat-like cap. Unless the scene says the training wheels are on, the bike has NO training wheels: only its two big wheels. The boy always wears his green helmet on the bike. Keep faces and the ball away from the vertical center line. Calm plain area in the upper part for text.
 ```
 
 ---
@@ -24,12 +24,12 @@ Only mom and dad may appear as adults, each at most once, no other people. An ad
 
 ## Páginas 2–3 · Doble 1
 ```
-[ESTILO]. On the sidewalk in front of the family house, a quiet street with no cars: the small green bike with training wheels and a front basket. Tomi standing next to it, putting on his green helmet; dad crouching in front of him, buckling the helmet strap under his chin. Rula on the ground next to the bike. [REGLAS]. Wide 21:9.
+[ESTILO]. On the sidewalk in front of the family house, a quiet street with no cars: the small green bike with the two small training wheels ON for this scene and a front basket. Tomi standing next to it, putting on his green helmet; dad crouching in front of him, buckling the helmet strap under his chin. Rula on the ground next to the bike. [REGLAS]. Wide 21:9.
 ```
 
 ## Páginas 4–5 · Doble 2 · Con rueditas
 ```
-[ESTILO]. The park. Tomi pedaling slowly along the round paved path on his small green bike with the two small training wheels on, green helmet on, Rula in the front basket, smiling. Mom sitting on the green bench, watching. [REGLAS]. Wide 21:9.
+[ESTILO]. The park. Tomi pedaling slowly along the round paved path on his small green bike, with the two small training wheels ON for this scene, green helmet on, Rula in the front basket, smiling. Mom sitting on the green bench, watching. [REGLAS]. Wide 21:9.
 ```
 
 ## Páginas 6–7 · Doble 3 · La rueda gira

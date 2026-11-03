@@ -168,7 +168,8 @@ Quedaban 571,5 créditos el 31/10/2026. El resto de los arreglos de la doble 8 (
 | Hoja de Tomi (edición de la del libro 10, Nano Banana 2) | 12 |
 | Hoja de la plaza (Nano Banana 2) | 12 |
 | 2 pruebas: portada y doble 6 (Nano Banana 2) | 24 |
-| **Subtotal** | **48** |
+| Doble 6 corregida: sin rueditas y tapita de Rula más chica (edición) | 12 |
+| **Subtotal** | **60** |
 
 ## Lo que más encarece
 
