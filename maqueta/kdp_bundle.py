@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Recopilatorio de los libros 1 a 4 para Amazon KDP: "Tommy's First Year" / "El primer año de Tommy".
+"""Recopilatorios de KDP: libros 1 a 4 ("Tommy's First Year" / "El primer año de Tommy") y libros 5 a 8
+("Tommy on the Move" / "Tommy en movimiento").
 Interior: 2 páginas de presentación + los interiores de KDP de los libros 1 a 4 (24 páginas cada uno) = 98 páginas.
 Tapa: un álbum de fotos del primer año (cuatro polaroids de Tomi que suben como una escalera de crecimiento),
 armado con las tapas de los cuatro libros, sin ilustraciones nuevas. Lomo para 98 páginas, con texto.
 
-Uso: python3 maqueta/kdp_bundle.py es|en
-  → maqueta/kdp-bundle14-<lang>-intro.html y maqueta/kdp-tapa-bundle14-<lang>.html
+Uso: python3 maqueta/kdp_bundle.py es|en [14|58]   (sin número: 14)
+  → maqueta/kdp-bundleNN-<lang>-intro.html y maqueta/kdp-tapa-bundleNN-<lang>.html (NN = 14 o 58)
   Después:
   python3 maqueta/kdp_bundle.py es --pdf   (arma kdp/bundle14-es-interior.pdf con las capturas y los interiores)
   node maqueta/kdp_pdf.js maqueta/kdp-tapa-bundle14-es.html kdp/bundle14-es-tapa.pdf 17.4800in 8.75in"""
@@ -23,14 +24,14 @@ COLS = ["#D9452B", "#EE8A2A", "#E9B21C", "#5E9E44", "#4FA3D9", "#8A5CB8"]
 e = html.escape
 
 # Recortes de Tomi en las tapas ampliadas de cada libro (4096 × 4096)
-FOTOS = {
+FOTOS14 = {
     1: ("img-kdp/p01-portada-v2.jpg", (183, 1207, 2683, 3707)),
     2: ("img-kdp/l2-p01-portada-v1.jpg", (224, 961, 2724, 3461)),
     3: ("img-kdp/l3-p01.jpg", (265, 1125, 2765, 3625)),
     4: ("img-kdp/l4-p01.jpg", (984, 1271, 3684, 3971)),
 }
 
-T = {
+T14 = {
     "en": {
         "coleccion": "I Grow, I Discover · Books 1–4",
         "t1": "Tommy's", "t2": "First Year",
@@ -77,6 +78,61 @@ T = {
     },
 }
 
+
+FOTOS58 = {
+    1: ("img-kdp/l5-p01.jpg", (0, 1100, 2700, 3800)),
+    2: ("img-kdp/l6-p01.jpg", (1000, 1250, 3500, 3750)),
+    3: ("img-kdp/l7-p01.jpg", (1050, 1150, 3550, 3650)),
+    4: ("img-kdp/l8-p01.jpg", (400, 1350, 2900, 3850)),
+}
+T58 = {
+    "en": {
+        "coleccion": "I Grow, I Discover · Books 5–8",
+        "t1": "Tommy", "t2": "on the Move",
+        "badge": ("4", "books", "in 1"),
+        "sub": "4 Books in 1: Walk, Run, Jump, and Climb the Stairs",
+        "fotos": [("Walk", "about 12–15 months"), ("Run", "about 18–24 months"),
+                  ("Jump", "about 2–3 years"), ("Climb", "about 2–3 years")],
+        "contra": "Four big steps, four big discoveries. Tommy is on the move: he learns to walk, run, jump, and climb the stairs. With Rula, his big colorful ball, he discovers how pushing and pulling make things move, why nothing stops all at once, why everything that goes up comes back down, and why climbing takes effort. And along the way he counts steps, finishes first, second, and third, measures himself with blocks, and follows a sequence: hand, foot, foot.",
+        "serie": T14["en"]["serie"],
+        "adentro_t": "Inside",
+        "adentro": T14["en"]["adentro"],
+        "libros": ["Tommy Learns to Walk", "Tommy Learns to Run", "Tommy Learns to Jump", "Tommy Learns to Climb the Stairs"],
+        "conceptos": ["Physics: force, pushing and pulling · Math: counting steps, near and far",
+                      "Physics: speed and stopping · Math: first, second, third",
+                      "Physics: gravity, up and down · Math: measuring heights",
+                      "Physics: height and effort · Math: sequences"],
+        "contenido": "In this book",
+        "libro": "Book",
+        "nota": T14["en"]["nota"],
+        "legal": T14["en"]["legal"],
+        "lomo": "TOMMY ON THE MOVE · BOOKS 5–8",
+    },
+    "es": {
+        "coleccion": "Así crezco, así descubro · Libros 5 a 8",
+        "t1": "Tommy", "t2": "en movimiento",
+        "badge": ("4", "libros", "en 1"),
+        "sub": "4 libros en 1: caminar, correr, saltar y subir la escalera",
+        "fotos": [("Caminar", "de 12 a 15 meses, más o menos"), ("Correr", "de 18 a 24 meses, más o menos"),
+                  ("Saltar", "de 2 a 3 años, más o menos"), ("Subir", "de 2 a 3 años, más o menos")],
+        "contra": "Cuatro grandes pasos, cuatro grandes descubrimientos. Tommy está en movimiento: aprende a caminar, correr, saltar y subir la escalera. Con Rula, su pelota grande y de colores, descubre cómo empujar y jalar hace que las cosas se muevan, por qué nada frena de golpe, por qué todo lo que sube vuelve a bajar y por qué subir cuesta esfuerzo. Y en el camino cuenta pasos, llega en primer, segundo y tercer lugar, se mide con cubos y sigue una secuencia: mano, pie, pie.",
+        "serie": T14["es"]["serie"],
+        "adentro_t": "Adentro",
+        "adentro": T14["es"]["adentro"],
+        "libros": ["Tommy aprende a caminar", "Tommy aprende a correr", "Tommy aprende a saltar", "Tommy aprende a subir la escalera"],
+        "conceptos": ["Física: la fuerza, empujar y jalar · Matemática: contar pasos, cerca y lejos",
+                      "Física: la velocidad y frenar · Matemática: primero, segundo y tercero",
+                      "Física: la gravedad, subir y bajar · Matemática: medir alturas",
+                      "Física: la altura y el esfuerzo · Matemática: las secuencias"],
+        "contenido": "En este libro",
+        "libro": "Libro",
+        "nota": T14["es"]["nota"],
+        "legal": T14["es"]["legal"],
+        "lomo": "TOMMY EN MOVIMIENTO · LIBROS 5 A 8",
+    },
+}
+GRUPOS = {"14": (FOTOS14, T14, 1), "58": (FOTOS58, T58, 5)}
+
 FUENTES = '<link href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800;9..144,900&display=swap" rel="stylesheet">'
 PAPEL = "background:#FFF9E7 radial-gradient(circle at 30% 20%,rgba(255,255,255,.7),rgba(255,255,255,0) 60%)"
 
@@ -84,7 +140,7 @@ PAPEL = "background:#FFF9E7 radial-gradient(circle at 30% 20%,rgba(255,255,255,.
 def fotos():
     for n, (ruta, caja) in FOTOS.items():
         im = Image.open(AQUI / ruta).convert("RGB").crop(caja).resize((1000, 1000), Image.LANCZOS)
-        im.save(AQUI / "img-kdp" / f"bundle14-foto{n}.jpg", quality=92)
+        im.save(AQUI / "img-kdp" / f"bundle{ID}-foto{n}.jpg", quality=92)
 
 
 def badge(t, size):
@@ -96,7 +152,7 @@ def polaroid(n, t, x, y, w, giro, unidad="in"):
     tit, edad = t["fotos"][n - 1]
     return (f'<div class="pol" style="left:{x}{unidad};top:{y}{unidad};width:{w}{unidad};transform:rotate({giro}deg)">'
             f'<div class="cinta" style="background:{COLS[(n * 2) % 6]}55"></div>'
-            f'<img src="img-kdp/bundle14-foto{n}.jpg"><div class="pie"><b><i style="background:{COLS[(n - 1) * 2 % 6]}">{n}</i>{e(tit)}</b><small>{e(edad)}</small></div></div>')
+            f'<img src="img-kdp/bundle{ID}-foto{n}.jpg"><div class="pie"><b><i style="background:{COLS[(n - 1) * 2 % 6]}">{PRIMERO + n - 1}</i>{e(tit)}</b><small>{e(edad)}</small></div></div>')
 
 
 CSS_COMUN = """
@@ -132,15 +188,15 @@ def tapa(lang):
     centros = [(frente_x + x + W / 2, SANGRADO + y + W / 2) for x, y, _ in pos]
     lista = "".join(f"<li>{e(x)}</li>" for x in t["adentro"])
     # Si existe la ilustración del pack (los cuatro Tommys en la alfombra), va de fondo del frente; si no, el álbum de polaroids
-    ilus = RAIZ / "ilustraciones" / "bundle14" / "tapa-v1.png"
+    ilus = RAIZ / "ilustraciones" / f"bundle{ID}" / "tapa-v1.png"
     if ilus.exists():
         im = Image.open(ilus).convert("RGB")
-        im.resize((im.width * 2, im.height * 2), Image.LANCZOS).save(AQUI / "img-kdp" / "bundle14-tapa.jpg", quality=92)
-        arte = f'<div class="frente" style="background:url(img-kdp/bundle14-tapa.jpg) center/cover"></div>'
+        im.resize((im.width * 2, im.height * 2), Image.LANCZOS).save(AQUI / "img-kdp" / f"bundle{ID}-tapa.jpg", quality=92)
+        arte = f'<div class="frente" style="background:url(img-kdp/bundle{ID}-tapa.jpg) center/cover"></div>'
     else:
         arte = (f'<div class="frente"></div><div class="alfombra"></div>{camino_svg(centros, ANCHO, ALTO)}{pols}'
                 f'<img class="rula2" src="../web/img/rula.webp" alt="">')
-    minis = "".join(f'<div class="mini"><img src="img-kdp/{FOTOS[n][0].split("/")[1]}"><div><b>{e(t["libro"])} {n}</b><span>{e(t["libros"][n - 1])}</span></div></div>' for n in range(1, 5))
+    minis = "".join(f'<div class="mini"><img src="img-kdp/{FOTOS[n][0].split("/")[1]}"><div><b>{e(t["libro"])} {PRIMERO + n - 1}</b><span>{e(t["libros"][n - 1])}</span></div></div>' for n in range(1, 5))
     doc = f"""<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><title>{e(t['t1'])} {e(t['t2'])} · tapa</title>{FUENTES}
 <style>
 @page{{size:{ANCHO}in {ALTO}in;margin:0}}*{{box-sizing:border-box}}
@@ -183,7 +239,7 @@ body{{margin:0;font-family:Andika,sans-serif;color:#23304A}}
 <div class="adentro"><b>{e(t['adentro_t'])}</b><ul>{lista}</ul></div><p class="serie" style="margin-top:3.5mm">{e(t['serie'])}</p></div>
 <img class="rula" src="../web/img/rula.webp" alt=""><div class="firma">by LERSA</div>
 </div></body></html>"""
-    salida = AQUI / f"kdp-tapa-bundle14-{lang}.html"
+    salida = AQUI / f"kdp-tapa-bundle{ID}-{lang}.html"
     salida.write_text(doc, encoding="utf-8")
     print("ok", salida.name, f"{ANCHO:.4f} x {ALTO} in, lomo {LOMO:.4f} in")
 
@@ -193,7 +249,7 @@ def intro(lang):
     t = T[lang]
     W, H = 219.075, 222.25
     pols = "".join(polaroid(n, t, x, y, 40, g, "mm") for n, (x, y, g) in zip(range(1, 5), [(18, 136, -5), (63, 128, 4), (108, 120, -3), (153, 112, 5)]))
-    items = "".join(f'<div class="item"><i style="background:{COLS[(n - 1) * 2 % 6]}">{n}</i><div><b>{e(t["libros"][n - 1])}</b><span>{e(t["conceptos"][n - 1])}</span></div></div>' for n in range(1, 5))
+    items = "".join(f'<div class="item"><i style="background:{COLS[(n - 1) * 2 % 6]}">{PRIMERO + n - 1}</i><div><b>{e(t["libros"][n - 1])}</b><span>{e(t["conceptos"][n - 1])}</span></div></div>' for n in range(1, 5))
     doc = f"""<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><title>{e(t['t1'])} {e(t['t2'])} · interior</title>{FUENTES}
 <style>
 @page{{size:{W}mm {H}mm;margin:0}}*{{box-sizing:border-box}}
@@ -217,7 +273,7 @@ html,body{{margin:0;width:{W}mm}}body{{font-family:Andika,sans-serif;color:#2330
 <div class="kpage p1"><div class="titulo"><div class="coleccion">{e(t['coleccion'])}</div><h1>{e(t['t1'])}<br>{e(t['t2'])}</h1><div class="sub">{e(t['sub'])}</div><div class="autor">by LERSA</div></div>{pols}</div>
 <div class="kpage p2"><div class="caja"><h2>{e(t['contenido'])}</h2>{items}<div class="nota">{e(t['nota'])}</div></div><div class="legal">{e(t['legal'])}</div></div>
 </body></html>"""
-    salida = AQUI / f"kdp-bundle14-{lang}-intro.html"
+    salida = AQUI / f"kdp-bundle{ID}-{lang}-intro.html"
     salida.write_text(doc, encoding="utf-8")
     print("ok", salida.name)
 
@@ -225,17 +281,17 @@ html,body{{margin:0;width:{W}mm}}body{{font-family:Andika,sans-serif;color:#2330
 def pdf_interior(lang):
     import pypdf
     with tempfile.TemporaryDirectory() as tmp:
-        subprocess.run(["node", str(AQUI / "kdp_capturas.js"), str(AQUI / f"kdp-bundle14-{lang}-intro.html"), tmp], check=True)
+        subprocess.run(["node", str(AQUI / "kdp_capturas.js"), str(AQUI / f"kdp-bundle{ID}-{lang}-intro.html"), tmp], check=True)
         pags = [Image.open(f).convert("RGB").resize((3450, 3500), Image.LANCZOS) for f in sorted(glob.glob(f"{tmp}/p*.png"))]
         assert len(pags) == 2, len(pags)
         intro_pdf = Path(tmp) / "intro.pdf"
         pags[0].save(intro_pdf, save_all=True, append_images=pags[1:], resolution=400, quality=92)
         w = pypdf.PdfWriter()
-        for f in [intro_pdf] + [RAIZ / "kdp" / f"libro{n}-{lang}-interior.pdf" for n in range(1, 5)]:
+        for f in [intro_pdf] + [RAIZ / "kdp" / f"libro{n}-{lang}-interior.pdf" for n in range(PRIMERO, PRIMERO + 4)]:
             for p in pypdf.PdfReader(str(f)).pages:
                 w.add_page(p)
         assert len(w.pages) == PAGINAS, len(w.pages)
-        salida = RAIZ / "kdp" / f"bundle14-{lang}-interior.pdf"
+        salida = RAIZ / "kdp" / f"bundle{ID}-{lang}-interior.pdf"
         with open(salida, "wb") as fh:
             w.write(fh)
     print(salida, PAGINAS, "páginas")
@@ -243,6 +299,8 @@ def pdf_interior(lang):
 
 if __name__ == "__main__":
     lang = sys.argv[1]
+    ID = next((a for a in sys.argv[2:] if a in GRUPOS), "14")
+    FOTOS, T, PRIMERO = GRUPOS[ID]
     if "--pdf" in sys.argv:
         pdf_interior(lang)
     else:

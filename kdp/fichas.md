@@ -606,6 +606,58 @@ Datos comunes como los demás libros, salvo: **precio sugerido USD 24,99** (los 
 >
 > *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
 
+## Recopilatorio de los libros 5 a 8 (propuesta, 3/11/2026)
+
+Un solo libro con los libros 5 a 8 adentro (98 páginas: 2 de presentación + 4 × 24). Archivos: `kdp/bundle58-en-interior.pdf` y `kdp/bundle58-en-tapa.pdf` (17,48 × 8,75 in, lomo de 0,23 in con texto), y lo mismo con `-es-`. Se arma con `python3 maqueta/kdp_bundle.py en|es 58` (y `--pdf` para el interior). La tapa es el álbum de polaroids, una por libro, que suben como una escalera de crecimiento; si se agrega `ilustraciones/bundle58/tapa-v1.png`, el script la usa de fondo, como en el recopilatorio 1 a 4. Datos comunes y precio como el recopilatorio 1 a 4 (sugerido USD 24,99).
+
+### Inglés
+
+- **Título:** Tommy on the Move
+- **Subtítulo:** 4 Books in 1: Walk, Run, Jump, and Climb the Stairs
+- **Serie:** I Grow, I Discover
+- **Palabras clave (7):** toddler milestones picture book · walking running jumping book · physics for kids ages 4-7 · STEM picture book collection · early math for kindergarten · read aloud book bundle · books about growing up
+
+**Descripción:**
+
+> **Four big steps, four big discoveries, in one book.**
+>
+> Tommy is on the move: he learns to walk, run, jump, and climb the stairs. With Rula, his big colorful ball, he discovers how pushing and pulling make things move, why nothing stops all at once, why everything that goes up comes back down, and why climbing takes effort. Along the way he counts steps, finishes first, second, and third, measures himself with blocks, and follows a sequence: hand, foot, foot.
+>
+> **This collection includes:**
+>
+> - Book 5: Tommy Learns to Walk
+> - Book 6: Tommy Learns to Run
+> - Book 7: Tommy Learns to Jump
+> - Book 8: Tommy Learns to Climb the Stairs
+>
+> **Inside each book:** a gentle story to read aloud, told by Tommy himself; real, simple physics and early math; a hands-on experiment with things from home; and a page for grown-ups with the science, the milestone, and safety tips.
+>
+> *I Grow, I Discover* follows a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every book. For curious kids ages 4 to 7.
+
+### Español
+
+- **Título:** Tommy en movimiento
+- **Subtítulo:** 4 libros en 1: caminar, correr, saltar y subir la escalera
+- **Serie:** Así crezco, así descubro
+- **Palabras clave (7):** libros infantiles en español · colección de libros para niños · física para niños de 4 a 7 años · aprender a caminar y correr · matemática temprana para niños · libro STEM en español · cuentos para leer en voz alta
+
+**Descripción:**
+
+> **Cuatro grandes pasos, cuatro grandes descubrimientos, en un solo libro.**
+>
+> Tommy está en movimiento: aprende a caminar, correr, saltar y subir la escalera. Con Rula, su pelota grande y de colores, descubre cómo empujar y jalar hace que las cosas se muevan, por qué nada frena de golpe, por qué todo lo que sube vuelve a bajar y por qué subir cuesta esfuerzo. Y en el camino cuenta pasos, llega en primer, segundo y tercer lugar, se mide con cubos y sigue una secuencia: mano, pie, pie.
+>
+> **Esta colección incluye:**
+>
+> - Libro 5: Tommy aprende a caminar
+> - Libro 6: Tommy aprende a correr
+> - Libro 7: Tommy aprende a saltar
+> - Libro 8: Tommy aprende a subir la escalera
+>
+> **En cada libro:** una historia tierna para leer en voz alta, contada por el propio Tommy; física simple y verdadera, y matemática temprana; un experimento con cosas de la casa; y una página para los grandes con la ciencia, el hito y consejos de seguridad.
+>
+> *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
+
 ---
 
 ## Después de publicar
