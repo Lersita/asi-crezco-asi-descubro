@@ -24,7 +24,7 @@ Only mom and dad may appear as adults, each at most once, no other people. An ad
 
 ## Páginas 2–3 · Doble 1
 ```
-[ESTILO]. On the sidewalk in front of the family house, a quiet street with no cars: the small green bike with the two small training wheels ON for this scene and a front basket. Tomi standing next to it, putting on his green helmet; dad crouching in front of him, buckling the helmet strap under his chin. Rula on the ground next to the bike. [REGLAS]. Wide 21:9.
+[ESTILO]. On the quiet sidewalk in front of the family house, with no cars: the small leaf-green bike with a front basket and the two small training wheels ON, standing on its kickstand, clearly visible in the middle of the left half. Tomi standing next to the bike, and dad crouching in front of him, buckling his green helmet strap under his chin. Rula on the ground next to the bike. Mom is not in this picture. Mom must look exactly like in the second reference image: light skin, dark chestnut-brown curly hair tied up in a bun, round glasses. Dad must look exactly like in the second reference image: light skin, short brown beard, mustard sweater. No other adults: mom at most once and dad at most once. [REGLAS]. Wide 21:9.
 ```
 
 ## Páginas 4–5 · Doble 2 · Con rueditas
@@ -39,7 +39,7 @@ Only mom and dad may appear as adults, each at most once, no other people. An ad
 
 ## Páginas 8–9 · Doble 4 · Arriba, adelante, abajo, atrás
 ```
-[ESTILO]. A clear side view of Tomi riding the small green bike along the path, green helmet on; his right foot on the pedal and the pedal crank clearly visible, big in the picture. Calm plain space around the pedal for words. Mom partially visible at the far right, walking. [REGLAS]. Wide 21:9.
+[ESTILO]. A clear, close side view of Tomi riding the small green bike along the paved path, filling most of the left half; his right foot on the pedal and the pedal crank big and clearly visible, low in the picture. No circles, no insets, no magnifying glass, no close-up bubbles: one single continuous scene. Calm plain paving and lawn around the pedal for words. Mom partially visible at the far right, walking. Mom must look exactly like in the second reference image: light skin, dark chestnut-brown curly hair tied up in a bun, round glasses. Dad must look exactly like in the second reference image: light skin, short brown beard, mustard sweater. No other adults: mom at most once and dad at most once. [REGLAS]. Wide 21:9.
 ```
 
 ## Páginas 10–11 · Doble 5 · Sin rueditas
@@ -59,7 +59,7 @@ Only mom and dad may appear as adults, each at most once, no other people. An ad
 
 ## Páginas 16–17 · Doble 8 · Vueltas a la plaza
 ```
-[ESTILO]. A top-down view of the park like a picture map: the round paved path circling the lawn with the big tree in the middle, the small fountain on one side and the green bench on the other side; Tomi riding the small green bike on the path, seen from above, with his green helmet. Plain paving around the path with space for arrows. [REGLAS]. Wide 21:9.
+[ESTILO]. A bird's-eye view straight from above, like a picture map: the round paved path seen as a full ring around the lawn, the big tree crown seen from above in the middle, the small round fountain on one side of the ring and the green bench on the other side, bushes and flowers around. Tomi riding the small green bike all by himself on the ring, seen from above, with his green helmet and Rula in the basket. Nobody else in the picture. Plain paving around the ring with space for arrows. [REGLAS]. Wide 21:9.
 ```
 
 ## Páginas 18–19 · Doble 9 · ¿Vos qué decís?
@@ -69,7 +69,7 @@ Only mom and dad may appear as adults, each at most once, no other people. An ad
 
 ## Páginas 20–21 · Doble 10 · Cierre
 ```
-[ESTILO]. Left half: Tomi riding happily along the path on the small green bike, green helmet on, Rula in the basket; mom and dad sitting together on the green bench, waving. Right half: Tomi, a second time, stopped with one foot on the ground, turning toward the viewer and waving goodbye with a big smile, Rula in the basket. The lower part of the right half is plain paving with space for a row of small pictures. Exactly two Tomis in the picture. [REGLAS]. Wide 21:9.
+[ESTILO]. Left half: Tomi riding happily along the path on the small green bike, green helmet on, Rula in the basket; behind him, mom and dad sitting together on the green bench, waving. Right half: Tomi, a second time, stopped with one foot on the ground next to his bike, turning toward the viewer and waving goodbye with a big smile, Rula in the basket; nobody else on the right half. The bottom 25 percent of the right half is plain empty paving, with no pictures, no photos, no frames and no objects on it. Exactly two Tomis, one mom and one dad in the whole picture. Mom must look exactly like in the second reference image: light skin, dark chestnut-brown curly hair tied up in a bun, round glasses. Dad must look exactly like in the second reference image: light skin, short brown beard, mustard sweater. No other adults: mom at most once and dad at most once. [REGLAS]. Wide 21:9.
 ```
 
 ## Páginas 22–23 · Experimento
