@@ -1,6 +1,6 @@
 # Libro 10 — Tomi aprende a nadar
 
-Borrador (propuesta), 3 de noviembre de 2026.
+Texto aprobado el 3 de noviembre de 2026.
 
 ## Ficha del libro
 
@@ -12,9 +12,9 @@ Borrador (propuesta), 3 de noviembre de 2026.
 | Matemática | Lleno, vacío y medio; volumen: cuántos vasos de agua entran en un balde |
 | Formato | 24 páginas: portada, 10 dobles de historia, experimento casero (doble) y página para los grandes |
 | Lector | Chicos de 4 a 7 años, leído en voz alta por un adulto |
-| Edad de Tomi | 4–5 años: **claramente más grande** que en el libro 9 (más alto, más delgado, piernas y brazos largos, cara menos redonda), malla verde y antiparras (ver `biblia/personajes.md`; el resto se define en la comparación de personajes) |
+| Edad de Tomi | 4–5 años: **claramente más grande** que en el libro 9 (más alto, más delgado, piernas y brazos largos, cara menos redonda), short de baño verde y antiparras azules (ver `biblia/personajes.md`) |
 | Qué hace Rula | Flota en la pileta, aunque es grande: está llena de aire |
-| Lugar | **(propuesta)** Una pileta de club chica y tranquila, sin otra gente: parte baja con escalera, borde de baldosas celestes, reposeras y un toldo. Es un lugar nuevo: antes de ilustrar se arma su hoja |
+| Lugar | Aprobado el 3/11/2026. Una pileta de club chica y tranquila, sin otra gente: parte baja con escalera, borde de baldosas celestes, reposeras y un toldo. Es un lugar nuevo: antes de ilustrar se arma su hoja |
 
 ## Historia página por página
 

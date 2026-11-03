@@ -27,7 +27,7 @@ Narra en primera persona. Es curioso, insistente y se ríe cuando algo le sale. 
 | 7. Saltar | 2–3 años | Nene chiquito, ya no bebé: más alto y delgado, piernas más largas, cara un poco menos redonda, sin panza de bebé (mismos ojos miel, cachetes rosados y sonrisa). Pelo un poco más largo y despeinado arriba, flequillo a mitad de la frente, apenas tapa la parte de arriba de las orejas. Todos los dientes de leche | Remera verde hoja con una **estrella amarilla** en el pecho (sin número: la IA no dibuja números), **short azul marino** hasta la rodilla y las zapatillas blancas con detalles verdes | Salta con los dos pies |
 | 8. Subir escaleras | 2–3 años | Igual que en el 7, un poco más alto. Pelo igual que en el 7 (aprobado el 31/10/2026) | La misma remera verde hoja con la estrella amarilla, **jean azul** largo con el ruedo apenas doblado y **medias verdes antideslizantes** (adentro de casa, como en el libro 5) | Sube agarrado a la baranda, con un adulto al lado |
 | 9. Tirar una pelota | 3–4 años | Un poco más alto y delgado que en el 8, brazos y piernas más largos, cara apenas menos redonda; sigue siendo un nene chiquito. Pelo: el mismo corte, con el flequillo apenas más largo (aprobado el 3/11/2026) | Remera verde hoja con **rayas horizontales anchas blancas** (sin estrella), **short azul marino** como en el libro 7 y las zapatillas blancas con verde | Tira con una mano, apunta |
-| 10. Nadar | 4–5 años | Más alto | Malla verde, antiparras | Flota y patea, siempre con un adulto en el agua |
+| 10. Nadar | 4–5 años | **Nene de jardín, claramente más grande que en el 9**: más alto y delgado, piernas y brazos largos, cara más ovalada y con menos cachetes (aprobado el 3/11/2026). Pelo igual que en el 9; mojado y pegado cuando está en el agua | **Short de baño verde hoja** hasta la mitad del muslo, sin remera, y **antiparras azules** con correa. Fuera del agua, la remera verde con rayas blancas del libro 9 | Flota y patea, siempre con un adulto en el agua |
 | 11. Andar en bici | 5–6 años | La edad de los lectores | Remera verde y **casco verde** | Anda en bici, primero con rueditas o empujado |
 
 ### El pelo crece libro a libro (curva corregida el 28 de octubre de 2026)
@@ -43,7 +43,8 @@ La curva anterior (27/10) daba demasiado pelo desde el libro 3: Tomi tenía pelo
 - **Libro 7 (2–3 años, decidido el 31 de octubre de 2026):** un poco más largo y despeinado arriba, flequillo a mitad de la frente, apenas tapa la parte de arriba de las orejas.
 - **Libro 8:** igual que en el libro 7 (aprobado el 31/10/2026).
 - **Libro 9:** el mismo corte que en el 8, con el flequillo apenas más largo (aprobado el 3/11/2026).
-- **Libro 10 en adelante:** crece de a poco.
+- **Libro 10:** igual que en el 9 (aprobado el 3/11/2026); en el agua se ve mojado y pegado.
+- **Libro 11:** crece de a poco.
 
 **Aviso del 3/11/2026 (pedido del usuario):** en el libro 9 el crecimiento casi no se notó en la hoja. En el **libro 10 (4–5 años) Tomi tiene que verse claramente más grande**: más alto, más delgado, piernas y brazos largos, cara menos redonda, un nene de jardín y no un bebé grande. Revisarlo en la comparación de personajes y pedirlo con fuerza en la hoja.
 - Regla: en cada libro el pelo es **igual o más** que en el anterior, nunca menos. Antes de ilustrar, comparar con las hojas de los libros anteriores.

@@ -1,6 +1,6 @@
 # Libro 10 — Tommy aprende a nadar (español neutro, edición KDP)
 
-Borrador (propuesta), 3 de noviembre de 2026. Traducción de `texto.md` según `biblia/idiomas.md` (tuteo, sin regionalismos; "pileta" pasa a "piscina", "balde" a "cubeta", "antiparras" a "goggles"). Las ilustraciones son las de la versión varón.
+Aprobado el 3 de noviembre de 2026. Traducción de `texto.md` según `biblia/idiomas.md` (tuteo, sin regionalismos; "pileta" pasa a "piscina", "balde" a "cubeta", "antiparras" a "goggles"). Las ilustraciones son las de la versión varón.
 
 ## Historia página por página
 
