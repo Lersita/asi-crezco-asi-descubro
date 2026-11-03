@@ -183,6 +183,13 @@ Quedaban 571,5 créditos el 31/10/2026. El resto de los arreglos de la doble 8 (
 | Tapa rehecha en un solo lugar: el patio con un caminito de piedras (Nano Banana 2) | 12 |
 | **Subtotal** | **36** |
 
+### Recopilatorio de los libros 9 a 11 (3/11/2026)
+
+| Paso | Créditos |
+| --- | --- |
+| Ilustración de tapa: los tres Tommys en un parque con un laguito (Nano Banana 2) | 12 |
+| **Subtotal** | **12** |
+
 ## Lo que más encarece
 
 - **Repetir por errores de la IA:** cada corrección suma 12 o 18 créditos. Revisar la evolución antes de generar (regla de `CLAUDE.md`) evita la más cara: rehacer un libro entero, como pasó con el pelo.

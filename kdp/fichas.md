@@ -660,7 +660,7 @@ Un solo libro con los libros 5 a 8 adentro (98 páginas: 2 de presentación + 4 
 
 ## Recopilatorio de los libros 9 a 11 (propuesta, 3/11/2026)
 
-Un solo libro con los libros 9 a 11 adentro (74 páginas: 2 de presentación + 3 × 24). Archivos: `kdp/bundle911-en-interior.pdf` y `kdp/bundle911-en-tapa.pdf` (17,4237 × 8,75 in; lomo de 0,1737 in **sin texto**, porque KDP pide 79 páginas o más para escribir en el lomo), y lo mismo con `-es-`. Se arma con `python3 maqueta/kdp_bundle.py en|es 911` (y `--pdf` para el interior); la tapa con `node maqueta/kdp_pdf.js maqueta/kdp-tapa-bundle911-en.html kdp/bundle911-en-tapa.pdf 17.4237in 8.75in`. Precio sugerido: **USD 19,99** (los tres sueltos suman USD 38,97; con 74 páginas la impresión es más barata que la de los de 98).
+Un solo libro con los libros 9 a 11 adentro (74 páginas: 2 de presentación + 3 × 24). Archivos: `kdp/bundle911-en-interior.pdf` y `kdp/bundle911-en-tapa.pdf` (17,4237 × 8,75 in; lomo de 0,1737 in **sin texto**, porque KDP pide 79 páginas o más para escribir en el lomo), y lo mismo con `-es-`. Se arma con `python3 maqueta/kdp_bundle.py en|es 911` (y `--pdf` para el interior); la tapa con `node maqueta/kdp_pdf.js maqueta/kdp-tapa-bundle911-en.html kdp/bundle911-en-tapa.pdf 17.4237in 8.75in`. La tapa lleva una ilustración propia (`ilustraciones/bundle911/tapa-v1.png`): los tres Tommys en un mismo parque, lanzando a Rula, chapoteando en un laguito con papá y andando en bici por el caminito. Precio sugerido: **USD 19,99** (los tres sueltos suman USD 38,97; con 74 páginas la impresión es más barata que la de los de 98).
 
 ### Inglés
 
