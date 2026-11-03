@@ -1,6 +1,6 @@
 # Libro 9 — Tomi aprende a tirar una pelota
 
-Borrador (propuesta), 3 de noviembre de 2026.
+Texto aprobado el 3 de noviembre de 2026.
 
 ## Ficha del libro
 
@@ -12,9 +12,9 @@ Borrador (propuesta), 3 de noviembre de 2026.
 | Matemática | Formas: círculo, cuadrado, triángulo y rectángulo, en el patio y en las cosas de todos los días |
 | Formato | 24 páginas: portada, 10 dobles de historia, experimento casero (doble) y página para los grandes |
 | Lector | Chicos de 4 a 7 años, leído en voz alta por un adulto |
-| Edad de Tomi | 3–4 años: más delgado y con los brazos más largos, remera verde rayada (ver `biblia/personajes.md`; el resto se define en la comparación de personajes) |
+| Edad de Tomi | 3–4 años: un poco más alto y delgado, brazos más largos, flequillo apenas más largo; remera verde con rayas blancas, short azul marino y zapatillas blancas con verde (ver `biblia/personajes.md`) |
 | Qué hace Rula | Vuela en curva cuando Tomi la tira. Rula es grande y liviana, y el aire la frena: no se usa para comparar pesados y livianos |
-| Lugar | **(propuesta)** El mismo patio de los libros 6 y 7 (ya tiene hoja), con una guirnalda de banderines triangulares. Las formas de tiza en las baldosas se dibujan en la maqueta, no las hace la IA |
+| Lugar | Aprobado el 3/11/2026. El mismo patio de los libros 6 y 7 (ya tiene hoja), con una guirnalda de banderines triangulares. Las formas de tiza en las baldosas se dibujan en la maqueta, no las hace la IA |
 
 ## Historia página por página
 

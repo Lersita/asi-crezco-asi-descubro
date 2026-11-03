@@ -1,6 +1,6 @@
 # Libro 9 — Tommy aprende a lanzar una pelota (español neutro, edición KDP)
 
-Borrador (propuesta), 3 de noviembre de 2026. Traducción de `texto.md` según `biblia/idiomas.md` (tuteo, sin regionalismos; "tirar" pasa a "lanzar"). Las ilustraciones son las de la versión varón.
+Aprobado el 3 de noviembre de 2026. Traducción de `texto.md` según `biblia/idiomas.md` (tuteo, sin regionalismos; "tirar" pasa a "lanzar"). Las ilustraciones son las de la versión varón.
 
 ## Historia página por página
 
