@@ -5,7 +5,7 @@ Interior: 2 páginas de presentación + los interiores de KDP de los libros 1 a 
 Tapa: un álbum de fotos del primer año (cuatro polaroids de Tomi que suben como una escalera de crecimiento),
 armado con las tapas de los cuatro libros, sin ilustraciones nuevas. Lomo para 98 páginas, con texto.
 
-Uso: python3 maqueta/kdp_bundle.py es|en [14|58]   (sin número: 14)
+Uso: python3 maqueta/kdp_bundle.py es|en [14|58|911]   (sin número: 14)
   → maqueta/kdp-bundleNN-<lang>-intro.html y maqueta/kdp-tapa-bundleNN-<lang>.html (NN = 14 o 58)
   Después:
   python3 maqueta/kdp_bundle.py es --pdf   (arma kdp/bundle14-es-interior.pdf con las capturas y los interiores)
@@ -131,7 +131,59 @@ T58 = {
         "lomo": "TOMMY EN MOVIMIENTO · LIBROS 5 A 8",
     },
 }
-GRUPOS = {"14": (FOTOS14, T14, 1), "58": (FOTOS58, T58, 5)}
+FOTOS911 = {
+    1: ("img-kdp/l9-p01.jpg", (0, 1400, 2500, 3900)),
+    2: ("img-kdp/l10-p01.jpg", (500, 1296, 3296, 4096)),
+    3: ("img-kdp/l11-p01.jpg", (1300, 1300, 3900, 3900)),
+}
+T911 = {
+    "en": {
+        "coleccion": "I Grow, I Discover · Books 9–11",
+        "t1": "Tommy's", "t2": "Big Adventures",
+        "badge": ("3", "books", "in 1"),
+        "sub": "3 Books in 1: Throw a Ball, Swim, and Ride a Bike",
+        "fotos": [("Throw", "about 3–4 years"), ("Swim", "about 4–5 years"), ("Ride", "about 5–6 years")],
+        "contra": "Three big adventures, three big discoveries. Tommy is growing up: he learns to throw a ball, to swim, and to ride a bike. With Rula, his big colorful ball, he discovers that a thrown ball makes a curve, that things full of air float, and that a moving bike is easier to balance than a still one. And along the way he finds circles, squares, and triangles, fills a bucket cup by cup, and counts turns and laps around the park.",
+        "serie": T14["en"]["serie"],
+        "adentro_t": "Inside",
+        "adentro": ["3 complete picture books in one volume", "3 hands-on experiments with things from home", "3 pages for grown-ups: the science, the milestone, and safety tips"],
+        "libros": ["Tommy Learns to Throw a Ball", "Tommy Learns to Swim", "Tommy Learns to Ride a Bike"],
+        "conceptos": ["Physics: trajectory, the curve of a throw · Math: shapes",
+                      "Physics: floating and sinking · Math: full, empty, and volume",
+                      "Physics: wheels and balance in motion · Math: turns and cycles"],
+        "contenido": "In this book",
+        "libro": "Book",
+        "nota": T14["en"]["nota"],
+        "legal": T14["en"]["legal"],
+        "lomo": "TOMMY'S BIG ADVENTURES · BOOKS 9–11",
+    },
+    "es": {
+        "coleccion": "Así crezco, así descubro · Libros 9 a 11",
+        "t1": "Las grandes aventuras", "t2": "de Tommy",
+        "badge": ("3", "libros", "en 1"),
+        "sub": "3 libros en 1: lanzar una pelota, nadar y andar en bicicleta",
+        "fotos": [("Lanzar", "de 3 a 4 años, más o menos"), ("Nadar", "de 4 a 5 años, más o menos"), ("Andar", "de 5 a 6 años, más o menos")],
+        "contra": "Tres grandes aventuras, tres grandes descubrimientos. Tommy está creciendo: aprende a lanzar una pelota, a nadar y a andar en bicicleta. Con Rula, su pelota grande y de colores, descubre que una pelota lanzada hace una curva, que lo que tiene mucho aire adentro flota y que una bicicleta en movimiento es más fácil de equilibrar que una quieta. Y en el camino encuentra círculos, cuadrados y triángulos, llena una cubeta vaso por vaso y cuenta vueltas al parque.",
+        "serie": T14["es"]["serie"],
+        "adentro_t": "Adentro",
+        "adentro": ["3 libros ilustrados completos en un solo tomo", "3 experimentos con cosas de la casa", "3 páginas para los grandes: la ciencia, el hito y consejos de seguridad"],
+        "libros": ["Tommy aprende a lanzar una pelota", "Tommy aprende a nadar", "Tommy aprende a andar en bicicleta"],
+        "conceptos": ["Física: la trayectoria, la curva de un lanzamiento · Matemática: las figuras",
+                      "Física: flotar y hundirse · Matemática: lleno, vacío y volumen",
+                      "Física: las ruedas y el equilibrio en movimiento · Matemática: vueltas y ciclos"],
+        "contenido": "En este libro",
+        "libro": "Libro",
+        "nota": T14["es"]["nota"],
+        "legal": T14["es"]["legal"],
+        "lomo": "LAS GRANDES AVENTURAS DE TOMMY · LIBROS 9 A 11",
+    },
+}
+GRUPOS = {"14": (FOTOS14, T14, 1), "58": (FOTOS58, T58, 5), "911": (FOTOS911, T911, 9)}
+POS_TAPA = {4: [(0.4, 5.55, -6), (2.33, 4.8, 4), (4.26, 4.05, -3), (6.2, 3.3, 5)],
+            3: [(0.55, 5.25, -5), (3.1, 4.4, 4), (5.65, 3.55, -3)]}
+POS_INTRO = {4: [(18, 136, -5), (63, 128, 4), (108, 120, -3), (153, 112, 5)],
+             3: [(24, 132, -5), (82, 124, 4), (140, 116, -3)]}
+N = 4
 
 FUENTES = '<link href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800;9..144,900&display=swap" rel="stylesheet">'
 PAPEL = "background:#FFF9E7 radial-gradient(circle at 30% 20%,rgba(255,255,255,.7),rgba(255,255,255,0) 60%)"
@@ -182,11 +234,12 @@ def tapa(lang):
     t = T[lang]
     frente_x = SANGRADO + REFILE + LOMO
     # Fotos del frente (pulgadas, desde el borde de refile del frente)
-    W = 1.95
-    pos = [(0.4, 5.55, -6), (2.33, 4.8, 4), (4.26, 4.05, -3), (6.2, 3.3, 5)]
+    W = 1.95 if N == 4 else 2.25
+    pos = POS_TAPA[N]
     pols = "".join(polaroid(n + 1, t, frente_x + x, SANGRADO + y, W, g) for n, (x, y, g) in enumerate(pos))
     centros = [(frente_x + x + W / 2, SANGRADO + y + W / 2) for x, y, _ in pos]
     lista = "".join(f"<li>{e(x)}</li>" for x in t["adentro"])
+    lomo = f'<div class="lomo"><div>{e(t["lomo"])}<span>LERSA</span></div></div>' if PAGINAS >= 79 else ""  # KDP pide 79 páginas o más para escribir en el lomo
     # Si existe la ilustración del pack (los cuatro Tommys en la alfombra), va de fondo del frente; si no, el álbum de polaroids
     ilus = RAIZ / "ilustraciones" / f"bundle{ID}" / "tapa-v1.png"
     if ilus.exists():
@@ -196,7 +249,7 @@ def tapa(lang):
     else:
         arte = (f'<div class="frente"></div><div class="alfombra"></div>{camino_svg(centros, ANCHO, ALTO)}{pols}'
                 f'<img class="rula2" src="../web/img/rula.webp" alt="">')
-    minis = "".join(f'<div class="mini"><img src="img-kdp/{FOTOS[n][0].split("/")[1]}"><div><b>{e(t["libro"])} {PRIMERO + n - 1}</b><span>{e(t["libros"][n - 1])}</span></div></div>' for n in range(1, 5))
+    minis = "".join(f'<div class="mini"><img src="img-kdp/{FOTOS[n][0].split("/")[1]}"><div><b>{e(t["libro"])} {PRIMERO + n - 1}</b><span>{e(t["libros"][n - 1])}</span></div></div>' for n in range(1, N + 1))
     doc = f"""<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><title>{e(t['t1'])} {e(t['t2'])} · tapa</title>{FUENTES}
 <style>
 @page{{size:{ANCHO}in {ALTO}in;margin:0}}*{{box-sizing:border-box}}
@@ -233,7 +286,7 @@ body{{margin:0;font-family:Andika,sans-serif;color:#23304A}}
 {arte}
 <div class="titulo"><div class="coleccion">{e(t['coleccion'])}</div><h1>{e(t['t1'])}<br>{e(t['t2'])}</h1><div class="sub">{e(t['sub'])}</div><div class="autor">by LERSA</div></div>
 <div style="position:absolute;left:{frente_x + REFILE - 0.55 - 1.5}in;top:{SANGRADO + 0.5}in">{badge(t, 1.5)}</div>
-<div class="lomo"><div>{e(t['lomo'])}<span>LERSA</span></div></div>
+{lomo}
 <div class="texto"><div class="coleccion">{e(t['coleccion'])}</div><h2>{e(t['t1'])} {e(t['t2'])}</h2>
 <p>{e(t['contra'])}</p><div class="minis">{minis}</div>
 <div class="adentro"><b>{e(t['adentro_t'])}</b><ul>{lista}</ul></div><p class="serie" style="margin-top:3.5mm">{e(t['serie'])}</p></div>
@@ -248,8 +301,8 @@ def intro(lang):
     """Las dos páginas de presentación del interior (misma medida que las páginas de KDP: 219,075 × 222,25 mm)."""
     t = T[lang]
     W, H = 219.075, 222.25
-    pols = "".join(polaroid(n, t, x, y, 40, g, "mm") for n, (x, y, g) in zip(range(1, 5), [(18, 136, -5), (63, 128, 4), (108, 120, -3), (153, 112, 5)]))
-    items = "".join(f'<div class="item"><i style="background:{COLS[(n - 1) * 2 % 6]}">{PRIMERO + n - 1}</i><div><b>{e(t["libros"][n - 1])}</b><span>{e(t["conceptos"][n - 1])}</span></div></div>' for n in range(1, 5))
+    pols = "".join(polaroid(n, t, x, y, 40, g, "mm") for n, (x, y, g) in zip(range(1, N + 1), POS_INTRO[N]))
+    items = "".join(f'<div class="item"><i style="background:{COLS[(n - 1) * 2 % 6]}">{PRIMERO + n - 1}</i><div><b>{e(t["libros"][n - 1])}</b><span>{e(t["conceptos"][n - 1])}</span></div></div>' for n in range(1, N + 1))
     doc = f"""<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><title>{e(t['t1'])} {e(t['t2'])} · interior</title>{FUENTES}
 <style>
 @page{{size:{W}mm {H}mm;margin:0}}*{{box-sizing:border-box}}
@@ -287,7 +340,7 @@ def pdf_interior(lang):
         intro_pdf = Path(tmp) / "intro.pdf"
         pags[0].save(intro_pdf, save_all=True, append_images=pags[1:], resolution=400, quality=92)
         w = pypdf.PdfWriter()
-        for f in [intro_pdf] + [RAIZ / "kdp" / f"libro{n}-{lang}-interior.pdf" for n in range(PRIMERO, PRIMERO + 4)]:
+        for f in [intro_pdf] + [RAIZ / "kdp" / f"libro{n}-{lang}-interior.pdf" for n in range(PRIMERO, PRIMERO + N)]:
             for p in pypdf.PdfReader(str(f)).pages:
                 w.add_page(p)
         assert len(w.pages) == PAGINAS, len(w.pages)
@@ -301,6 +354,10 @@ if __name__ == "__main__":
     lang = sys.argv[1]
     ID = next((a for a in sys.argv[2:] if a in GRUPOS), "14")
     FOTOS, T, PRIMERO = GRUPOS[ID]
+    N = len(FOTOS)
+    PAGINAS = 2 + 24 * N
+    LOMO = PAGINAS * 0.002347
+    ANCHO = 2 * SANGRADO + 2 * REFILE + LOMO
     if "--pdf" in sys.argv:
         pdf_interior(lang)
     else:

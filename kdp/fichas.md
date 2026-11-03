@@ -658,6 +658,56 @@ Un solo libro con los libros 5 a 8 adentro (98 páginas: 2 de presentación + 4 
 >
 > *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
 
+## Recopilatorio de los libros 9 a 11 (propuesta, 3/11/2026)
+
+Un solo libro con los libros 9 a 11 adentro (74 páginas: 2 de presentación + 3 × 24). Archivos: `kdp/bundle911-en-interior.pdf` y `kdp/bundle911-en-tapa.pdf` (17,4237 × 8,75 in; lomo de 0,1737 in **sin texto**, porque KDP pide 79 páginas o más para escribir en el lomo), y lo mismo con `-es-`. Se arma con `python3 maqueta/kdp_bundle.py en|es 911` (y `--pdf` para el interior); la tapa con `node maqueta/kdp_pdf.js maqueta/kdp-tapa-bundle911-en.html kdp/bundle911-en-tapa.pdf 17.4237in 8.75in`. Precio sugerido: **USD 19,99** (los tres sueltos suman USD 38,97; con 74 páginas la impresión es más barata que la de los de 98).
+
+### Inglés
+
+- **Título:** Tommy's Big Adventures
+- **Subtítulo:** 3 Books in 1: Throw a Ball, Swim, and Ride a Bike
+- **Serie:** I Grow, I Discover
+- **Palabras clave (7):** preschool milestones picture book · learning to swim and ride a bike · physics for kids ages 4-7 · STEM picture book collection · early math for kindergarten · read aloud book bundle · books about growing up
+
+**Descripción:**
+
+> **Three big adventures, three big discoveries, in one book.**
+>
+> Tommy is growing up: he learns to throw a ball, to swim, and to ride a bike. With Rula, his big colorful ball, he discovers that a thrown ball makes a curve, that things full of air float, and that a moving bike is easier to balance than a still one. Along the way he finds circles, squares, and triangles, fills a bucket cup by cup, and counts turns and laps around the park.
+>
+> **This collection includes:**
+>
+> - Book 9: Tommy Learns to Throw a Ball
+> - Book 10: Tommy Learns to Swim
+> - Book 11: Tommy Learns to Ride a Bike
+>
+> **Inside each book:** a gentle story to read aloud, told by Tommy himself; real, simple physics and early math; a hands-on experiment with things from home; and a page for grown-ups with the science, the milestone, and safety tips.
+>
+> *I Grow, I Discover* follows a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every book. For curious kids ages 4 to 7.
+
+### Español
+
+- **Título:** Las grandes aventuras de Tommy
+- **Subtítulo:** 3 libros en 1: lanzar una pelota, nadar y andar en bicicleta
+- **Serie:** Así crezco, así descubro
+- **Palabras clave (7):** libros infantiles en español · colección de libros para niños · física para niños de 4 a 7 años · aprender a nadar y andar en bicicleta · matemática temprana para niños · libro STEM en español · cuentos para leer en voz alta
+
+**Descripción:**
+
+> **Tres grandes aventuras, tres grandes descubrimientos, en un solo libro.**
+>
+> Tommy está creciendo: aprende a lanzar una pelota, a nadar y a andar en bicicleta. Con Rula, su pelota grande y de colores, descubre que una pelota lanzada hace una curva, que lo que tiene mucho aire adentro flota y que una bicicleta en movimiento es más fácil de equilibrar que una quieta. Y en el camino encuentra círculos, cuadrados y triángulos, llena una cubeta vaso por vaso y cuenta vueltas al parque.
+>
+> **Esta colección incluye:**
+>
+> - Libro 9: Tommy aprende a lanzar una pelota
+> - Libro 10: Tommy aprende a nadar
+> - Libro 11: Tommy aprende a andar en bicicleta
+>
+> **En cada libro:** una historia tierna para leer en voz alta, contada por el propio Tommy; física simple y verdadera, y matemática temprana; un experimento con cosas de la casa; y una página para los grandes con la ciencia, el hito y consejos de seguridad.
+>
+> *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
+
 ---
 
 ## Después de publicar
