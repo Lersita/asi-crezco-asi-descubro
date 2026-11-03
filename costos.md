@@ -171,7 +171,8 @@ Quedaban 571,5 créditos el 31/10/2026. El resto de los arreglos de la doble 8 (
 | Doble 6 corregida: sin rueditas y tapita de Rula más chica (edición) | 12 |
 | Lote: 11 páginas (Nano Banana 2) | 132 |
 | Dobles 1, 4, 8 y 10 rehechas (Nano Banana 2) | 48 |
-| **Subtotal** | **240** |
+| Doble 10: sacar las rueditas (edición del recorte) | 12 |
+| **Subtotal** | **252** |
 
 ## Lo que más encarece
 
