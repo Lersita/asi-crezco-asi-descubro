@@ -1,4 +1,4 @@
-# Fichas para Amazon KDP · libros 1 a 10 (propuesta)
+# Fichas para Amazon KDP · libros 1 a 11 (propuesta)
 
 Borrador del 27 de octubre de 2026. Todo lo que pide KDP al cargar cada libro de tapa blanda. Los campos que se repiten están en "Datos comunes"; abajo va lo propio de cada libro.
 
@@ -503,6 +503,52 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 > - Matemática temprana: lleno, vacío, a la mitad y contar vasos
 > - Un experimento: ¿flota o se hunde?
 > - Una página para los grandes con la ciencia, el hito y consejos de seguridad en el agua
+>
+> *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
+
+## Libro 11 · inglés
+
+- **Título:** Tommy Learns to Ride a Bike
+- **Subtítulo:** A Picture Book About Wheels, Balance, Turns, and Cycles
+- **Serie:** I Grow, I Discover · Book 11
+- **Palabras clave (7):** learning to ride a bike picture book · balance science for kids · physics for kids ages 4-7 · cycles and patterns for kindergarten · bike safety book for kids · STEM read aloud book · books about growing up
+
+**Descripción:**
+
+> **Dad gets Tommy a green bike and a helmet, and today Tommy is going to learn to ride.**
+>
+> First with training wheels, pedaling slowly around the park. Then without them: standing still, he tips over! But with Dad pushing the seat, Tommy discovers that it's easier to keep your balance when the bike is moving, until he looks back and Dad is far away: he's riding on his own! Along the way he counts turns and cycles: the wheel going around, the pedals going up, forward, down, and back, and laps around the park. The last book of the series, with all eleven milestones from rolling over to riding a bike.
+>
+> **Inside this book:**
+>
+> - A gentle story to read aloud, told by Tommy himself
+> - Real, simple physics: a moving bike is easier to balance than a still one
+> - Early math: turns, cycles, and counting laps
+> - A hands-on experiment: how far does one turn go?
+> - A page for grown-ups with the science, the milestone, and bike-safety tips
+>
+> *I Grow, I Discover* follows a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every book. For curious kids ages 4 to 7.
+
+## Libro 11 · español
+
+- **Título:** Tommy aprende a andar en bicicleta
+- **Subtítulo:** Un libro ilustrado sobre las ruedas, el equilibrio, las vueltas y los ciclos
+- **Serie:** Así crezco, así descubro · Libro 11
+- **Palabras clave (7):** libros infantiles en español · aprender a andar en bicicleta · física para niños de 4 a 7 años · ciclos y patrones para niños · equilibrio para niños · libro STEM en español · cuentos para leer en voz alta
+
+**Descripción:**
+
+> **Papá le trae a Tommy una bicicleta verde y un casco, y hoy Tommy va a aprender a andar.**
+>
+> Primero con rueditas, pedaleando despacito por el parque. Después sin rueditas: quieto, ¡se cae! Pero con papá empujando el asiento, Tommy descubre que es más fácil mantener el equilibrio cuando la bicicleta avanza, hasta que mira hacia atrás y papá está lejos: ¡va solo! En el camino cuenta vueltas y ciclos: la rueda que gira, los pedales que van arriba, adelante, abajo y atrás, y las vueltas al parque. El último libro de la colección, con los once logros, de girar a andar en bicicleta.
+>
+> **En este libro:**
+>
+> - Una historia tierna para leer en voz alta, contada por el propio Tommy
+> - Física simple y verdadera: una bicicleta en movimiento es más fácil de equilibrar que una quieta
+> - Matemática temprana: vueltas, ciclos y contar vueltas
+> - Un experimento: ¿cuánto avanza una vuelta?
+> - Una página para los grandes con la ciencia, el hito y consejos de seguridad en bicicleta
 >
 > *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
 

@@ -66,7 +66,7 @@ def armar(nombre, I):
     S.append(doble(f"{I}d03.jpg", [texto("Miro la rueda de adelante. Gira y gira, como Rula cuando rueda.", 24, 12, 150),
         puntito(296, 138),
         texto("Una vuelta, dos vueltas, tres vueltas… Con cada vuelta, la bici avanza.", 226, 12, 92)], (6, 7)))
-    S.append(doble(f"{I}d04.jpg", [texto("Mi pie va arriba, adelante, abajo, atrás… y otra vez arriba.", 120, 12, 94),
+    S.append(doble(f"{I}d04.jpg", [texto("Mi pie va arriba, adelante, abajo, atrás… y otra vez arriba.", 116, 12, 86),
         ciclo_pedal(300, 160, 21, ("ARRIBA", "ADELANTE", "ABAJO", "ATRÁS")),
         palabra("CICLO", 300, 56, 12),
         texto("Los pedales hacen siempre el mismo camino, una y otra vez. Eso es un CICLO.", 226, 12, 140)], (8, 9)))

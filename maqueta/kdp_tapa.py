@@ -29,6 +29,7 @@ CONTRATAPA = {
         8: "Mamá suelta a Rula desde el descanso y baja rebotando: ¡BONC, BONC, BONC! Ahora le toca a Tommy subir la escalera, agarrado del barandal y con papá al lado. Descubre que subir cuesta esfuerzo, porque las piernas levantan todo el cuerpo. Y aprende las secuencias: mano, pie, pie… ¿qué sigue?",
         9: "Rula espera en el patio, y Tommy va a aprender a lanzarla bien lejos. Lleva el brazo hacia atrás, apunta y… ¡ZAS! Descubre que la pelota hace una curva desde que sale de su mano, porque la gravedad la atrae hacia abajo todo el tiempo. Y juega a embocarla en figuras de tiza: un círculo, un cuadrado y un triángulo.",
         10: "Hoy Tommy va a la piscina con mamá y papá, y va a aprender a nadar. Rula flota, aunque es grande, porque está llena de aire. Un aro se hunde hasta el fondo. Con los pulmones llenos de aire y las manos de papá en la espalda, Tommy flota como Rula. Y llena una cubeta vaso por vaso: llena, vacía, a la mitad.",
+        11: "Papá le trae a Tommy una bicicleta verde y un casco. Primero con rueditas, después sin rueditas y con papá empujando… ¡hasta que va solo! Descubre que es más fácil mantener el equilibrio cuando la bicicleta avanza, y que quieta se cae. Y cuenta vueltas y ciclos: la rueda, los pedales y las vueltas al parque. El último libro de la colección.",
     },
     "en": {
         1: "Tommy is very little: he can't sit up, crawl, or walk yet. But today, with help from Rula, his big colorful ball, he's going to learn something new: how to roll over! Along the way, he discovers why round things roll and things with flat sides don't.",
@@ -41,6 +42,7 @@ CONTRATAPA = {
         8: "Mom lets go of Rula from the landing, and it bounces down: BONK, BONK, BONK! Now it's Tommy's turn to climb the stairs, holding the railing with Dad right beside him. He discovers that climbing takes effort, because his legs lift his whole body. And he learns about sequences: hand, foot, foot… what comes next?",
         9: "Rula is waiting in the backyard, and Tommy is going to learn to throw it really far. He swings his arm back, aims, and… SWISH! He discovers that the ball makes a curve from the moment it leaves his hand, because gravity pulls it down the whole time. Then he tries to land it in chalk shapes: a circle, a square, and a triangle.",
         10: "Today Tommy goes to the pool with Mom and Dad, and he is going to learn to swim. Rula floats, even though it's big, because it's full of air. A ring sinks all the way to the bottom. With his lungs full of air and Dad's hands under his back, Tommy floats just like Rula. And he fills a bucket cup by cup: full, empty, half full.",
+        11: "Dad gets Tommy a green bike and a helmet. First with training wheels, then without them and with Dad pushing… until he rides on his own! He discovers that it's easier to keep your balance when the bike is moving, and that a bike standing still falls over. And he counts turns and cycles: the wheel, the pedals, and laps around the park. The last book in the series.",
     },
 }
 SERIE = {
