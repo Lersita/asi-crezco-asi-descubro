@@ -195,7 +195,11 @@ Quedaban 571,5 créditos el 31/10/2026. El resto de los arreglos de la doble 8 (
 | Paso | Créditos |
 | --- | --- |
 | Ilustración de tapa: la pared del living con el marco de la puerta (Nano Banana 2) | 12 |
-| **Subtotal** | **12** |
+| Tapa alternativa: el camino del patio a la bici, con huellas que crecen (Nano Banana 2) | 12 |
+| Tapa alternativa: los 11 Tommys en fila en el parque (Nano Banana 2) | 12 |
+| **Subtotal** | **36** |
+
+Saldo de Kie.ai el 3/11/2026, después de las tapas alternativas: 173,5 créditos.
 
 ## Lo que más encarece
 

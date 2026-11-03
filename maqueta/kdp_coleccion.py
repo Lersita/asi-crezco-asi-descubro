@@ -6,6 +6,7 @@ Tapa: la pared de crecimiento. Una ilustración del living con el marco de una p
 encima, las rayitas de altura y una fotito de Tommy de cada libro, de bebé abajo a nene en bici arriba (se arman acá).
 
 Uso: python3 maqueta/kdp_coleccion.py es|en          → maqueta/kdp-coleccion-<lang>-intro.html y maqueta/kdp-tapa-coleccion-<lang>.html
+     python3 maqueta/kdp_coleccion.py es|en --tapa camino|fila   → tapa alternativa: maqueta/kdp-tapa-coleccion-<lang>-<variante>.html
      python3 maqueta/kdp_coleccion.py es|en --pdf    → kdp/coleccion-<lang>-interior.pdf (unos 400 MB)
      python3 maqueta/kdp_achicar.py kdp/coleccion-es-interior.pdf /tmp/x.pdf 82 && mv /tmp/x.pdf kdp/coleccion-es-interior.pdf   (unos 270 MB)
      node maqueta/kdp_pdf.js maqueta/kdp-tapa-coleccion-es.html kdp/coleccion-es-tapa.pdf 17.8743in 8.75in"""
@@ -88,6 +89,45 @@ def pared(t, x0, y0):
     return "".join(out)
 
 
+def huellas():
+    """Rastro sobre el camino de tapa-camino.png (coordenadas de la imagen, 2048 px): de la terraza a la bici,
+    primero manitos de gateo, después piecitos que crecen y al final la huella de la rueda."""
+    col, out = "#7A5A40", []
+
+    def pie(x, y, s, izq):
+        m = -1 if izq else 1
+        g = f'<g transform="translate({x:.0f},{y:.0f}) scale(1,.62) rotate(90) scale({m},1) scale({s:.1f})">'
+        g += ('<ellipse cx=".03" cy=".3" rx=".17" ry=".2"/><ellipse cx=".07" cy=".1" rx=".14" ry=".2"/>'
+              '<ellipse cx="-.01" cy="-.1" rx=".25" ry=".22"/>')
+        for dx, dy, r in ((-.17, -.43, .1), (-.01, -.47, .072), (.1, -.43, .064), (.19, -.37, .056), (.26, -.28, .05)):
+            g += f'<circle cx="{dx}" cy="{dy}" r="{r}"/>'
+        return g + "</g>"
+
+    def mano(x, y, s, izq):
+        m = -1 if izq else 1
+        g = f'<g transform="translate({x:.0f},{y:.0f}) scale(1,.62) rotate(90) scale({m},1) scale({s:.1f})">'
+        g += '<ellipse cx="0" cy=".12" rx=".27" ry=".25"/>'
+        for dx, dy, r in ((-.22, -.2, .07), (-.08, -.28, .07), (.06, -.29, .068), (.18, -.24, .062), (.32, .0, .065)):
+            g += f'<circle cx="{dx}" cy="{dy}" r="{r}"/>'
+        return g + "</g>"
+
+    # gateo: manitos alternadas
+    for i, x in enumerate(range(470, 720, 56)):
+        izq = i % 2 == 0
+        out.append(mano(x, 1765 - (x - 470) * 0.02 + (-24 if izq else 24), 56, izq))
+    # pasos que crecen
+    x, i = 760, 0
+    while x < 1290:
+        s = 60 + (x - 760) * 0.075
+        izq = i % 2 == 0
+        out.append(pie(x, 1752 - (x - 740) * 0.05 + (-0.3 * s if izq else 0.3 * s), s, izq))
+        x += s * 1.15 + 14; i += 1
+    # la rueda
+    out.append(f'<path d="M1305,1726 C1385,1718 1445,1707 1525,1692" fill="none" stroke="{col}" stroke-width="10" stroke-dasharray="15 8" stroke-linecap="round"/>')
+    return (f'<svg viewBox="0 0 2048 2048" preserveAspectRatio="xMidYMid slice" style="position:absolute;inset:0;width:100%;height:100%;mix-blend-mode:multiply">'
+            f'<g fill="{col}" opacity=".5">{"".join(out)}</g></svg>')
+
+
 CSS = """
 .foto{position:absolute;width:.62in;background:#fffdf8;padding:.04in .04in .04in;box-shadow:0 .6mm 1.4mm rgba(70,45,20,.35)}
 .foto img{display:block;width:100%;aspect-ratio:1;object-fit:cover}
@@ -95,26 +135,33 @@ CSS = """
 """
 
 
-def tapa(lang):
+# Título centrado arriba, sobre el cielo (tapas del camino y de la fila)
+CENTRADO = (".titulo{left:calc(var(--fx) + .45in);width:7.6in;top:.55in;text-align:center}"
+            ".titulo h1{font-size:46pt;text-shadow:0 0 2mm #fff,0 0 4mm #fff}.titulo .sub{max-width:5.6in;margin-left:auto;margin-right:auto}"
+            ".titulo .autor{display:inline-block}")
+
+
+def tapa(lang, variante="pared"):
     t = T[lang]
     frente_x = SANGRADO + REFILE + LOMO
-    ilus = RAIZ / "ilustraciones" / "coleccion" / "tapa-pared.png"
+    ilus = RAIZ / "ilustraciones" / "coleccion" / f"tapa-{variante}.png"
     im = Image.open(ilus).convert("RGB")
-    im.resize((im.width * 2, im.height * 2), Image.LANCZOS).save(AQUI / "img-kdp" / "coleccion-tapa.jpg", quality=92)
+    im.resize((im.width * 2, im.height * 2), Image.LANCZOS).save(AQUI / "img-kdp" / f"coleccion-tapa-{variante}.jpg", quality=92)
     lista = "".join(f"<li>{e(x)}</li>" for x in t["adentro"])
     minis = "".join(f'<div class="mini"><img src="img-kdp/coleccion-foto{n}.jpg"><span><b>{n}</b> {e(t["hitos"][n - 1])}</span></div>' for n in range(1, 12))
     doc = f"""<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><title>{e(t['serie'])} · tapa</title>{kb.FUENTES}
 <style>
 @page{{size:{ANCHO}in {ALTO}in;margin:0}}*{{box-sizing:border-box}}
 body{{margin:0;font-family:Andika,sans-serif;color:#23304A}}
-.tapa{{position:relative;width:{ANCHO}in;height:{ALTO}in;overflow:hidden;{kb.PAPEL}}}
+.tapa{{--fx:{frente_x}in;position:relative;width:{ANCHO}in;height:{ALTO}in;overflow:hidden;{kb.PAPEL}}}
 {kb.CSS_COMUN}{CSS}
-.frente{{position:absolute;left:{frente_x}in;top:0;width:{REFILE + SANGRADO}in;height:100%;background:url(img-kdp/coleccion-tapa.jpg) center/cover}}
+.frente{{position:absolute;left:{frente_x}in;top:0;width:{REFILE + SANGRADO}in;height:100%;background:url(img-kdp/coleccion-tapa-{variante}.jpg) center/cover}}
 .titulo{{position:absolute;left:{frente_x + 0.5}in;top:{SANGRADO + 0.5}in;width:3.55in}}
 .titulo h1{{font-size:40pt;line-height:.98}}
 .titulo .t2{{font-family:Fraunces,serif;font-weight:700;font-size:19pt;color:#C4532E;margin-top:2.5mm}}
 .titulo .sub{{font-weight:700;font-size:11.5pt;color:#4E4036;margin-top:4mm;line-height:1.3;text-shadow:0 0 1.2mm #fff,0 0 2.4mm #fff}}
 .titulo .autor{{font-size:13pt;margin-top:4mm;padding:1.2mm 3.5mm}}
+{CENTRADO if variante != "pared" else ""}
 .lomo{{position:absolute;left:{SANGRADO + REFILE}in;top:0;width:{LOMO}in;height:100%;display:flex;align-items:center;justify-content:center;background:#23304A}}
 .lomo div{{transform:rotate(90deg);white-space:nowrap;font-family:Fraunces,serif;font-weight:800;font-size:13pt;letter-spacing:.12em;color:#FFF9E7}}
 .lomo div span{{color:#E9B21C;margin-left:5mm}}
@@ -134,8 +181,8 @@ body{{margin:0;font-family:Andika,sans-serif;color:#23304A}}
 .rula{{position:absolute;left:{SANGRADO + 0.7}in;bottom:{SANGRADO + 0.45}in;width:1in}}
 .firma{{position:absolute;left:{SANGRADO + 1.9}in;bottom:{SANGRADO + 0.62}in;font-family:Fraunces,serif;font-weight:700;font-size:12pt;letter-spacing:.12em;color:#C4532E}}
 </style></head><body><div class="tapa">
-<div class="frente"></div>
-{pared(t, frente_x, SANGRADO)}
+<div class="frente">{huellas() if variante == "camino" else ""}</div>
+{pared(t, frente_x, SANGRADO) if variante == "pared" else ""}
 <div class="titulo"><div class="coleccion" style="font-size:10.5pt;margin-bottom:3mm">{e(t['badge'][0])} {e(t['badge'][1])} {e(t['badge'][2])}</div><h1>{e(t['serie'])}</h1><div class="t2">{e(t['t2'])}</div><div class="sub">{e(t['sub'])}</div><div class="autor">by LERSA</div></div>
 <div class="lomo"><div>{e(t['lomo'])}<span>LERSA</span></div></div>
 <div class="texto"><div class="coleccion">{e(t['serie'])} · {e(t['t2'])}</div><h2>{e(t['t2'])}</h2>
@@ -143,7 +190,7 @@ body{{margin:0;font-family:Andika,sans-serif;color:#23304A}}
 <div class="adentro"><b>{e(t['adentro_t'])}</b><ul>{lista}</ul></div><p class="pie">{e(t['pie'])}</p></div>
 <img class="rula" src="../web/img/rula.webp" alt=""><div class="firma">by LERSA</div>
 </div></body></html>"""
-    salida = AQUI / f"kdp-tapa-coleccion-{lang}.html"
+    salida = AQUI / (f"kdp-tapa-coleccion-{lang}.html" if variante == "pared" else f"kdp-tapa-coleccion-{lang}-{variante}.html")
     salida.write_text(doc, encoding="utf-8")
     print("ok", salida.name, f"{ANCHO:.4f} x {ALTO} in, lomo {LOMO:.4f} in")
 
@@ -210,5 +257,5 @@ if __name__ == "__main__":
     else:
         fotos()
         intro(lang)
-        if (RAIZ / "ilustraciones" / "coleccion" / "tapa-pared.png").exists():
-            tapa(lang)
+        v = sys.argv[sys.argv.index("--tapa") + 1] if "--tapa" in sys.argv else "pared"
+        tapa(lang, v)
