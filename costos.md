@@ -174,6 +174,13 @@ Quedaban 571,5 créditos el 31/10/2026. El resto de los arreglos de la doble 8 (
 | Doble 10: sacar las rueditas (edición del recorte) | 12 |
 | **Subtotal** | **252** |
 
+### Recopilatorio de los libros 5 a 8 (3/11/2026)
+
+| Paso | Créditos |
+| --- | --- |
+| Ilustración de tapa (Nano Banana 2; salió con defectos) | 12 |
+| **Subtotal** | **12** |
+
 ## Lo que más encarece
 
 - **Repetir por errores de la IA:** cada corrección suma 12 o 18 créditos. Revisar la evolución antes de generar (regla de `CLAUDE.md`) evita la más cara: rehacer un libro entero, como pasó con el pelo.
