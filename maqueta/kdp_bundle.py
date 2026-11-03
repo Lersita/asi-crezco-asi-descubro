@@ -260,8 +260,8 @@ body{{margin:0;font-family:Andika,sans-serif;color:#23304A}}
 .alfombra{{position:absolute;left:{frente_x}in;bottom:0;width:{REFILE + SANGRADO}in;height:1.25in;background:repeating-linear-gradient(90deg,#EBD3A6 0 .09in,#E2C38E .09in .18in);opacity:.55}}
 .titulo{{position:absolute;left:{frente_x + 0.6}in;top:{SANGRADO + 0.55}in;width:5.6in}}
 .titulo .coleccion{{font-size:11pt;margin-bottom:3mm}}
-.titulo h1{{font-size:62pt}}
-.titulo .sub{{font-family:Andika,sans-serif;font-weight:700;font-size:13pt;color:#6E5F52;margin-top:4mm;max-width:4.6in;line-height:1.3}}
+.titulo h1{{font-size:{62 if max(len(t['t1']), len(t['t2'])) <= 13 else 44}pt}}
+.titulo .sub{{font-family:Andika,sans-serif;font-weight:700;font-size:13pt;color:#4E4036;text-shadow:0 0 1.2mm #fff,0 0 2.4mm #fff,0 0 3.6mm rgba(255,255,255,.95);margin-top:4mm;max-width:4.6in;line-height:1.3}}
 .titulo .autor{{font-size:13pt;margin-top:4mm;padding:1.2mm 3.5mm}}
 .lomo{{position:absolute;left:{SANGRADO + REFILE}in;top:0;width:{LOMO}in;height:100%;display:flex;align-items:center;justify-content:center}}
 .lomo div{{transform:rotate(90deg);white-space:nowrap;font-family:Fraunces,serif;font-weight:800;font-size:6.2pt;letter-spacing:.12em;color:#23304A}}
