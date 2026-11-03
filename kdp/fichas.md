@@ -710,7 +710,7 @@ Un solo libro con los libros 9 a 11 adentro (74 páginas: 2 de presentación + 3
 
 ## Colección completa de los 11 libros (propuesta, 3/11/2026)
 
-Un solo libro con los 11 adentro (266 páginas: 2 de presentación + 11 × 24). Archivos: `kdp/coleccion-en-interior.pdf` (unos 270 MB, comprimido con `maqueta/kdp_achicar.py`; KDP acepta hasta 650 MB) y `kdp/coleccion-en-tapa.pdf` (17,8743 × 8,75 in, lomo de 0,6243 in con texto), y lo mismo con `-es-`. Se arma con `python3 maqueta/kdp_coleccion.py en|es` (ver el encabezado del script). La tapa es la pared de crecimiento: el marco de una puerta del living (ilustración propia, `ilustraciones/coleccion/tapa-v1.png`) con las rayitas de altura y una fotito de Tommy de cada libro, de bebé abajo a nene en bici arriba, y Rula en la alfombra.
+Un solo libro con los 11 adentro (266 páginas: 2 de presentación + 11 × 24). Archivos: `kdp/coleccion-en-interior.pdf` (unos 270 MB, comprimido con `maqueta/kdp_achicar.py`; KDP acepta hasta 650 MB) y `kdp/coleccion-en-tapa.pdf` (17,8743 × 8,75 in, lomo de 0,6243 in con texto), y lo mismo con `-es-`. Se arma con `python3 maqueta/kdp_coleccion.py en|es` (ver el encabezado del script). La tapa es la pared de crecimiento: el marco de una puerta del living (ilustración propia, `ilustraciones/coleccion/tapa-pared.png`) con las rayitas de altura y una fotito de Tommy de cada libro, de bebé abajo a nene en bici arriba, y Rula en la alfombra.
 
 **Precio:** la impresión a color premium de 266 páginas cuesta unos USD 19,60 (KDP la muestra exacta al cargar el interior). Con el 60 % de regalía, el precio mínimo ronda los USD 32,70. Sugerido: **USD 44,99** (deja unos USD 7,40 por venta; los 11 sueltos suman USD 142,89). Si se prefiere más barato, USD 39,99 deja unos USD 4,40.
 

@@ -98,7 +98,7 @@ CSS = """
 def tapa(lang):
     t = T[lang]
     frente_x = SANGRADO + REFILE + LOMO
-    ilus = RAIZ / "ilustraciones" / "coleccion" / "tapa-v1.png"
+    ilus = RAIZ / "ilustraciones" / "coleccion" / "tapa-pared.png"
     im = Image.open(ilus).convert("RGB")
     im.resize((im.width * 2, im.height * 2), Image.LANCZOS).save(AQUI / "img-kdp" / "coleccion-tapa.jpg", quality=92)
     lista = "".join(f"<li>{e(x)}</li>" for x in t["adentro"])
@@ -210,5 +210,5 @@ if __name__ == "__main__":
     else:
         fotos()
         intro(lang)
-        if (RAIZ / "ilustraciones" / "coleccion" / "tapa-v1.png").exists():
+        if (RAIZ / "ilustraciones" / "coleccion" / "tapa-pared.png").exists():
             tapa(lang)
