@@ -51,7 +51,7 @@ La IA dibuja una sola Rula; las otras dos (arriba de la curva y bajando) se agre
 
 ## Páginas 12–13 · Doble 6 · Figuras de tiza
 ```
-[ESTILO]. The small terrace of big plain terracotta tiles next to the peach wall of the house, with the open glass door at the far left. A wide area of plain, empty tiles in the middle and the right, with nothing drawn on them. Dad crouching at the left holding a piece of white chalk; Tomi standing next to him, holding Rula in both arms, watching. [REGLAS]. Wide 21:9.
+[ESTILO]. The same backyard as in the second reference image, seen from the lawn: on the left, the peach wall of the house with the open glass door and the small terrace of big plain terracotta tiles; on the right, the green lawn with the tree and the wooden fence. Dad, with his short beard and mustard sweater exactly as in the second reference image, crouching on the terrace and holding a piece of white chalk over the tiles; Tomi standing next to him, holding Rula in both arms (Rula exactly as in the character sheet, six vertical segments and a small red cap), watching. In front of them, a wide area of plain, empty terracotta tiles with nothing drawn on them. [REGLAS]. Wide 21:9.
 ```
 
 ## Páginas 14–15 · Doble 7 · ¡Adentro!
