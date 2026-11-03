@@ -44,6 +44,8 @@ La curva anterior (27/10) daba demasiado pelo desde el libro 3: Tomi tenía pelo
 - **Libro 8:** igual que en el libro 7 (aprobado el 31/10/2026).
 - **Libro 9:** el mismo corte que en el 8, con el flequillo apenas más largo (aprobado el 3/11/2026).
 - **Libro 10 en adelante:** crece de a poco.
+
+**Aviso del 3/11/2026 (pedido del usuario):** en el libro 9 el crecimiento casi no se notó en la hoja. En el **libro 10 (4–5 años) Tomi tiene que verse claramente más grande**: más alto, más delgado, piernas y brazos largos, cara menos redonda, un nene de jardín y no un bebé grande. Revisarlo en la comparación de personajes y pedirlo con fuerza en la hoja.
 - Regla: en cada libro el pelo es **igual o más** que en el anterior, nunca menos. Antes de ilustrar, comparar con las hojas de los libros anteriores.
 
 ## Emi (versión mujer)
