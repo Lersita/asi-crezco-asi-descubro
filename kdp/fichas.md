@@ -708,6 +708,50 @@ Un solo libro con los libros 9 a 11 adentro (74 páginas: 2 de presentación + 3
 >
 > *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
 
+## Colección completa de los 11 libros (propuesta, 3/11/2026)
+
+Un solo libro con los 11 adentro (266 páginas: 2 de presentación + 11 × 24). Archivos: `kdp/coleccion-en-interior.pdf` (unos 270 MB, comprimido con `maqueta/kdp_achicar.py`; KDP acepta hasta 650 MB) y `kdp/coleccion-en-tapa.pdf` (17,8743 × 8,75 in, lomo de 0,6243 in con texto), y lo mismo con `-es-`. Se arma con `python3 maqueta/kdp_coleccion.py en|es` (ver el encabezado del script). La tapa es la pared de crecimiento: el marco de una puerta del living (ilustración propia, `ilustraciones/coleccion/tapa-v1.png`) con las rayitas de altura y una fotito de Tommy de cada libro, de bebé abajo a nene en bici arriba, y Rula en la alfombra.
+
+**Precio:** la impresión a color premium de 266 páginas cuesta unos USD 19,60 (KDP la muestra exacta al cargar el interior). Con el 60 % de regalía, el precio mínimo ronda los USD 32,70. Sugerido: **USD 44,99** (deja unos USD 7,40 por venta; los 11 sueltos suman USD 142,89). Si se prefiere más barato, USD 39,99 deja unos USD 4,40.
+
+### Inglés
+
+- **Título:** I Grow, I Discover
+- **Subtítulo:** The Complete Collection: 11 Picture Books from Rolling Over to Riding a Bike
+- **Serie:** I Grow, I Discover
+- **Palabras clave (7):** baby milestones book collection · STEM picture book box set · physics for kids ages 4-7 · early math for kindergarten · read aloud picture book collection · gift book for new parents · books about growing up
+
+**Descripción:**
+
+> **Eleven first milestones, eleven big discoveries, in one beautiful volume.**
+>
+> Follow Tommy as he grows, from a baby rolling over on the rug to a boy riding his bike in the park. With Rula, his big colorful ball, he discovers rolling, balance, friction, gravity, force, speed, trajectories, floating, and balance on the move. Along the way he counts, measures, compares, and finds shapes, sequences, and cycles.
+>
+> **This collection includes all 11 books:** Roll Over, Sit Up, Crawl, Stand Up, Walk, Run, Jump, Climb the Stairs, Throw a Ball, Swim, and Ride a Bike.
+>
+> **Inside each book:** a gentle story to read aloud, told by Tommy himself; real, simple physics and early math; a hands-on experiment with things from home; and a page for grown-ups with the science, the milestone, and safety tips.
+>
+> A lovely gift for curious kids ages 4 to 7, and for the grown-ups who remember every one of these first steps.
+
+### Español
+
+- **Título:** Así crezco, así descubro
+- **Subtítulo:** La colección completa: 11 libros ilustrados, de girar a andar en bicicleta
+- **Serie:** Así crezco, así descubro
+- **Palabras clave (7):** libros infantiles en español · colección de libros para niños · física para niños de 4 a 7 años · hitos del bebé libro · matemática temprana para niños · libro STEM en español · regalo para niños de 4 a 7 años
+
+**Descripción:**
+
+> **Once primeros logros, once grandes descubrimientos, en un solo tomo.**
+>
+> Acompaña a Tommy mientras crece, desde que es un bebé que gira en la alfombra hasta que anda en bicicleta por el parque. Con Rula, su pelota grande y de colores, descubre cómo se rueda, el equilibrio, la fricción, la gravedad, la fuerza, la velocidad, la trayectoria, la flotación y el equilibrio en movimiento. Y en el camino cuenta, mide, compara y encuentra figuras, secuencias y ciclos.
+>
+> **Esta colección incluye los 11 libros:** girar, sentarse, gatear, pararse, caminar, correr, saltar, subir la escalera, lanzar una pelota, nadar y andar en bicicleta.
+>
+> **En cada libro:** una historia tierna para leer en voz alta, contada por el propio Tommy; física simple y verdadera, y matemática temprana; un experimento con cosas de la casa; y una página para los grandes con la ciencia, el hito y consejos de seguridad.
+>
+> Un regalo ideal para niños curiosos de 4 a 7 años, y para los grandes que recuerdan cada uno de estos primeros pasos.
+
 ---
 
 ## Después de publicar
