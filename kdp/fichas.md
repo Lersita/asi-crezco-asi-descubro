@@ -1,4 +1,4 @@
-# Fichas para Amazon KDP · libros 1 a 8 (propuesta)
+# Fichas para Amazon KDP · libros 1 a 9 (propuesta)
 
 Borrador del 27 de octubre de 2026. Todo lo que pide KDP al cargar cada libro de tapa blanda. Los campos que se repiten están en "Datos comunes"; abajo va lo propio de cada libro.
 
@@ -411,6 +411,52 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 > - Matemática temprana: secuencias y patrones, contar hacia adelante y hacia atrás
 > - Un experimento: ¿qué cuesta más?
 > - Una página para los grandes con la ciencia, el hito y consejos de seguridad en la escalera
+>
+> *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
+
+## Libro 9 · inglés
+
+- **Título:** Tommy Learns to Throw a Ball
+- **Subtítulo:** A Picture Book About Trajectories, Gravity, and Shapes
+- **Serie:** I Grow, I Discover · Book 9
+- **Palabras clave (7):** preschool throwing ball picture book · trajectory science for kids · physics for kids ages 4-7 · shapes book for kindergarten · gravity for preschoolers · STEM read aloud book · books about growing up
+
+**Descripción:**
+
+> **Rula is waiting in the backyard, and today Tommy is going to throw it really far.**
+>
+> His first try lands right by his feet. THUMP! Then Dad shows him how: swing your arm back, aim, and… SWISH! With Rula, his big colorful ball, Tommy discovers that a ball makes a curve from the moment it leaves his hand, because gravity pulls it down the whole time. A gentle throw makes a short curve; a hard one goes almost to the tree. Then he tries to land it in chalk shapes: a circle, a square, and a triangle.
+>
+> **Inside this book:**
+>
+> - A gentle story to read aloud, told by Tommy himself
+> - Real, simple physics: every throw makes a curve, and harder throws go farther
+> - Early math: circles, squares, triangles, and rectangles all around us
+> - A hands-on experiment: what curve does it make?
+> - A page for grown-ups with the science, the milestone, and safety tips
+>
+> *I Grow, I Discover* follows a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every book. For curious kids ages 4 to 7.
+
+## Libro 9 · español
+
+- **Título:** Tommy aprende a lanzar una pelota
+- **Subtítulo:** Un libro ilustrado sobre la trayectoria, la gravedad y las figuras
+- **Serie:** Así crezco, así descubro · Libro 9
+- **Palabras clave (7):** libros infantiles en español · trayectoria para niños · física para niños de 4 a 7 años · figuras geométricas para niños · gravedad para niños · libro STEM en español · cuentos para leer en voz alta
+
+**Descripción:**
+
+> **Rula espera en el patio, y hoy Tommy va a lanzarla bien lejos.**
+>
+> En el primer intento, cae junto a sus pies. ¡PUM! Papá le muestra cómo: el brazo hacia atrás, apuntar y… ¡ZAS! Con Rula, su pelota grande y de colores, Tommy descubre que la pelota hace una curva desde que sale de su mano, porque la gravedad la atrae hacia abajo todo el tiempo. Si la lanza suave, la curva es cortita; si la lanza fuerte, llega casi hasta el árbol. Después juega a embocarla en figuras de tiza: un círculo, un cuadrado y un triángulo.
+>
+> **En este libro:**
+>
+> - Una historia tierna para leer en voz alta, contada por el propio Tommy
+> - Física simple y verdadera: todo lo que lanzamos hace una curva, y más fuerte llega más lejos
+> - Matemática temprana: círculos, cuadrados, triángulos y rectángulos a nuestro alrededor
+> - Un experimento: ¿qué curva hace?
+> - Una página para los grandes con la ciencia, el hito y consejos de seguridad
 >
 > *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
 
