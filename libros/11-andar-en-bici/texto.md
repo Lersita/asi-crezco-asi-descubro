@@ -1,6 +1,6 @@
 # Libro 11 — Tomi aprende a andar en bici
 
-Borrador (propuesta), 3 de noviembre de 2026.
+Texto aprobado el 3 de noviembre de 2026, con las tres propuestas (Rula, cierre y plaza).
 
 ## Ficha del libro
 
@@ -12,9 +12,9 @@ Borrador (propuesta), 3 de noviembre de 2026.
 | Matemática | Vueltas y ciclos: contar vueltas de la rueda, el ciclo de los pedales (arriba, adelante, abajo, atrás) y las vueltas a la plaza |
 | Formato | 24 páginas: portada, 10 dobles de historia, experimento casero (doble) y página para los grandes |
 | Lector | Chicos de 4 a 7 años, leído en voz alta por un adulto |
-| Edad de Tomi | 5–6 años: la edad de los lectores; un poco más grande que en el libro 10; remera verde y casco verde (ver `biblia/personajes.md`; el resto se define en la comparación de personajes) |
-| Qué hace Rula | Va en el canasto de la bici. **(propuesta)** En lugar de decir que sus gajos giran en el canasto (una pelota quieta en un canasto no gira), Tomi descubre que la rueda gira como gira Rula cuando rueda |
-| Lugar | **(propuesta)** Una plaza tranquila, sin autos: un caminito redondo de baldosas alrededor de un cantero con un árbol grande, una fuente chica y un banco. Es un lugar nuevo: antes de ilustrar se arma su hoja |
+| Edad de Tomi | 5–6 años: la edad de los lectores; un poco más grande que en el libro 10; remera verde con rayas blancas, short azul marino, zapatillas blancas con verde y casco verde; la bici verde del libro 10 (ver `biblia/personajes.md`) |
+| Qué hace Rula | Va en el canasto de la bici. En lugar de decir que sus gajos giran en el canasto (una pelota quieta en un canasto no gira), Tomi descubre que la rueda gira como gira Rula cuando rueda |
+| Lugar | Una plaza tranquila, sin autos: un caminito redondo de baldosas alrededor de un cantero con un árbol grande, una fuente chica y un banco. Es un lugar nuevo: antes de ilustrar se arma su hoja |
 
 ## Historia página por página
 
@@ -84,7 +84,7 @@ Máximo tres frases por página. Tomi siempre con casco, en la plaza sin autos, 
 - **Texto, página izquierda:** Ando en bici por la plaza con mi casco y con Rula en el canasto. ¡Ya casi no me caigo!
 - **Texto, página derecha:** Hoy aprendí a andar en bici. ¿Vos sabés cuándo anduviste en bici por primera vez? Aprendí un montón de cosas… ¿y vos, qué vas a aprender ahora?
 - **Ilustración, página izquierda:** Tomi pedaleando feliz, con mamá y papá saludándolo desde el banco.
-- **Ilustración, página derecha:** **(propuesta)** Fin de la colección: Tomi frena, apoya un pie, se da vuelta y saluda al lector, con Rula en el canasto. En la maqueta, abajo, una fila con las 11 tapas chiquitas de la colección, de bebé girando a nene en bici, como un camino.
+- **Ilustración, página derecha:** Fin de la colección: Tomi frena, apoya un pie, se da vuelta y saluda al lector, con Rula en el canasto. En la maqueta, abajo, una fila con las 11 tapas chiquitas de la colección, de bebé girando a nene en bici, como un camino.
 
 ## Experimento: ¿Cuánto avanza una vuelta? (páginas 22–23)
 
@@ -138,7 +138,7 @@ El nombre va solo en la tapa ("{Nombre} aprende a andar en bici") y en la doble 
 - [x] Vueltas y ciclos en las dobles 3, 4, 8 y 9 y en el experimento.
 - [x] Rula aparece en todo el libro (en el canasto) y se la usa para comparar la rueda que gira.
 - [x] Mamá y papá de fondo; Tomi descubre solo. Siempre con casco y un adulto cerca, en una plaza sin autos.
-- [x] Cierra con pregunta al lector. **(propuesta)** Como es el último libro, en lugar del adelanto del hito siguiente cierra con una invitación ("¿y vos, qué vas a aprender ahora?") y las 11 tapas de la colección.
+- [x] Cierra con pregunta al lector. Como es el último libro, en lugar del adelanto del hito siguiente cierra con una invitación ("¿y vos, qué vas a aprender ahora?") y las 11 tapas de la colección.
 - [x] Experimento con materiales de la casa y sin riesgo.
 - [x] Un solo lugar nuevo (la plaza).
 - [x] Sin onomatopeyas fuertes; el libro se apoya en el ritmo de "pedaleo, pedaleo".

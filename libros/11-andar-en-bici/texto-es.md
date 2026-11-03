@@ -1,6 +1,6 @@
 # Libro 11 — Tommy aprende a andar en bicicleta (español neutro, edición KDP)
 
-Borrador (propuesta), 3 de noviembre de 2026. Traducción de `texto.md` según `biblia/idiomas.md` (tuteo, sin regionalismos; "bici" pasa a "bicicleta", "plaza" a "parque", "canasto" a "canasta", "banco" a "banca"). Las ilustraciones son las de la versión varón.
+Aprobado el 3 de noviembre de 2026. Traducción de `texto.md` según `biblia/idiomas.md` (tuteo, sin regionalismos; "bici" pasa a "bicicleta", "plaza" a "parque", "canasto" a "canasta", "banco" a "banca"). Las ilustraciones son las de la versión varón.
 
 ## Historia página por página
 

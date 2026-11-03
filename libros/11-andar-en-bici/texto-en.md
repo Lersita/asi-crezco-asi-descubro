@@ -1,6 +1,6 @@
 # Book 11 — Tommy Learns to Ride a Bike (English, KDP edition)
 
-Draft (proposal), November 3, 2026. Translation of `texto.md` following `biblia/idiomas.md` (US English, read-aloud rhythm, Rula is "it"). Illustrations: the boy version.
+Approved November 3, 2026. Translation of `texto.md` following `biblia/idiomas.md` (US English, read-aloud rhythm, Rula is "it"). Illustrations: the boy version.
 
 ## Story, page by page
 
