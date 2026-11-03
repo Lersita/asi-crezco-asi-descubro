@@ -145,7 +145,8 @@ Quedaban 571,5 créditos el 31/10/2026. El resto de los arreglos de la doble 8 (
 | Doble 3 con una sola Rula (las otras dos, agregadas a mano y sin créditos) | 18 |
 | Lote: 11 páginas (Nano Banana Pro) | 198 |
 | Doble 6 rehecha (cambió de estilo) | 18 |
-| **Subtotal** | **300** |
+| Tapa rehecha (Rula a la derecha, al final de la curva) | 18 |
+| **Subtotal** | **318** |
 
 ## Lo que más encarece
 

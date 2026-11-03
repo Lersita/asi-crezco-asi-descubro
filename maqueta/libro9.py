@@ -31,7 +31,7 @@ def armar(nombre, I):
     S.append(doble(f"{I}d03.jpg", [texto("Llevo el brazo para atrás, apunto… ¡y ZAS! La suelto.", 24, 12, 150),
         texto("Rula sube, sube… y después baja. ¡Hace una curva en el aire!", 312, 12, 108)], (6, 7), pos="left"))
     S.append(doble(f"{I}d04.jpg", [texto("Desde que sale de mi mano, Rula dibuja una curva.", 24, 12, 150),
-        palabra("TRAYECTORIA", 118, 146, 12),
+        palabra("TRAYECTORIA", 70, 150, 10),
         texto("Ese camino por el aire se llama TRAYECTORIA. La gravedad tira a Rula para abajo todo el tiempo, por eso la curva baja.", 318, 10, 104, 17)], (8, 9)))
     S.append(doble(f"{I}d05.jpg", [texto("Si la tiro suave, la curva es cortita y Rula cae cerca.", 24, 12, 150),
         texto("Si la tiro fuerte, la curva es larga y Rula llega lejos. ¡Casi hasta el árbol!", 226, 12, 140)], (10, 11)))

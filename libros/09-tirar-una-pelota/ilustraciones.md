@@ -19,7 +19,7 @@ Only mom and dad may appear as adults, each at most once, no other people. An ad
 
 ## Página 1 · Portada
 ```
-[ESTILO]. Tomi standing on the green lawn, seen from the side, one arm stretched forward and up, his hand just open after throwing; Rula flying high in the air ahead of him along a big curved deep-navy cut-paper motion line that rises from his hand and starts to come down. A huge happy smile. The tree and the fence in the soft background. Exactly one ball. The top 40 percent of the image is calm light blue sky for the title. Square 1:1.
+[ESTILO]. Tomi on the green lawn in the left third of the image, seen from the side and facing right, his throwing arm stretched forward toward the right, his hand just open after throwing, a huge happy smile. One smooth, thin, curved deep-navy cut-paper motion line starts at his hand, rises gently and arcs to the right, staying below the upper 40 percent of the image, and starts to come down on the right side. Rula, only once, at the far right end of the curve, at mid height of the image, on its way down. The tree and the fence in the soft background; the house door is not shown. Exactly one ball. The top 40 percent of the image is calm plain light blue sky, with nothing in it, for the title. Square 1:1.
 ```
 
 ## Páginas 2–3 · Doble 1
