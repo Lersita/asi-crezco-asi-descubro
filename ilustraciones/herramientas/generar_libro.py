@@ -17,7 +17,7 @@ def correr(par):
     aspecto = "1:1" if nombre in ("p01", "p24") else "3:2" if nombre == "exp" else "21:9"
     extra = estilo_ref.split(",")
     refs = [extra[0]] if nombre == "exp" else [hoja, *extra]
-    r = subprocess.run(["python3", "ilustraciones/herramientas/kie.py", "nano-banana-pro", aspecto, "2K",
+    r = subprocess.run(["python3", "ilustraciones/herramientas/kie.py", __import__("os").environ.get("MODELO", "nano-banana-pro"), aspecto, "2K",
                         f"ilustraciones/libro{n}/{nombre}-v1.png", prompt, *refs], capture_output=True, text=True)
     return nombre, (r.stdout + r.stderr).strip()[-200:]
 trabajos = [(k, p) for k, (_, p) in zip(nombres, bloques) if not solo or k in solo]
