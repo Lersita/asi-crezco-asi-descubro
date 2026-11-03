@@ -28,6 +28,7 @@ CONTRATAPA = {
         7: "Rula rebota muy alto en el pasto, y Tommy va a aprender a saltar. Dobla las rodillas, empuja el piso y… ¡HOP! Con Rula descubre la gravedad: todo lo que sube vuelve a bajar. Y se mide con cubos y con papelitos en la pared: ¿quién es más alto, Tommy o Rula?",
         8: "Mamá suelta a Rula desde el descanso y baja rebotando: ¡BONC, BONC, BONC! Ahora le toca a Tommy subir la escalera, agarrado del barandal y con papá al lado. Descubre que subir cuesta esfuerzo, porque las piernas levantan todo el cuerpo. Y aprende las secuencias: mano, pie, pie… ¿qué sigue?",
         9: "Rula espera en el patio, y Tommy va a aprender a lanzarla bien lejos. Lleva el brazo hacia atrás, apunta y… ¡ZAS! Descubre que la pelota hace una curva desde que sale de su mano, porque la gravedad la atrae hacia abajo todo el tiempo. Y juega a embocarla en figuras de tiza: un círculo, un cuadrado y un triángulo.",
+        10: "Hoy Tommy va a la piscina con mamá y papá, y va a aprender a nadar. Rula flota, aunque es grande, porque está llena de aire. Un aro se hunde hasta el fondo. Con los pulmones llenos de aire y las manos de papá en la espalda, Tommy flota como Rula. Y llena una cubeta vaso por vaso: llena, vacía, a la mitad.",
     },
     "en": {
         1: "Tommy is very little: he can't sit up, crawl, or walk yet. But today, with help from Rula, his big colorful ball, he's going to learn something new: how to roll over! Along the way, he discovers why round things roll and things with flat sides don't.",
@@ -39,6 +40,7 @@ CONTRATAPA = {
         7: "Rula bounces way up high on the grass, and Tommy is going to learn to jump. He bends his knees, pushes the ground, and… HOP! With Rula, he discovers gravity: everything that goes up comes back down. And he measures himself with blocks and paper squares on the wall: who is taller, Tommy or Rula?",
         8: "Mom lets go of Rula from the landing, and it bounces down: BONK, BONK, BONK! Now it's Tommy's turn to climb the stairs, holding the railing with Dad right beside him. He discovers that climbing takes effort, because his legs lift his whole body. And he learns about sequences: hand, foot, foot… what comes next?",
         9: "Rula is waiting in the backyard, and Tommy is going to learn to throw it really far. He swings his arm back, aims, and… SWISH! He discovers that the ball makes a curve from the moment it leaves his hand, because gravity pulls it down the whole time. Then he tries to land it in chalk shapes: a circle, a square, and a triangle.",
+        10: "Today Tommy goes to the pool with Mom and Dad, and he is going to learn to swim. Rula floats, even though it's big, because it's full of air. A ring sinks all the way to the bottom. With his lungs full of air and Dad's hands under his back, Tommy floats just like Rula. And he fills a bucket cup by cup: full, empty, half full.",
     },
 }
 SERIE = {

@@ -3,7 +3,13 @@
 Uso: python3 maqueta/libro10.py -> maqueta/libro10.html
 Las palabras grandes (FLOTA, SE HUNDE, LLENO, VACÍO) y los diez vasitos de la doble 8 se dibujan acá
 (la IA no dibuja textos ni cosas para contar). En algunas dobles se corre el encuadre para alejar caras del pliegue."""
-from comun import B, e, palabra, texto, doble, portada, experimento, escribir
+from comun import B, e, texto, doble, portada, experimento, escribir
+from comun import palabra as _palabra
+
+
+def palabra(*a, **k):
+    """Palabra grande con un borde blanco suave, para que se lea sobre el agua y los árboles."""
+    return _palabra(*a, **k).replace('style="', 'style="text-shadow:0 0 1.2mm #fff,0 0 2.4mm #fff,0 0 3.5mm rgba(255,255,255,.9);', 1)
 
 AGUA, AZUL = "#4FA3D9", "#23304A"
 
@@ -20,9 +26,8 @@ def vaso(x, y, n):
 
 def armar(nombre, I):
     S = [portada(f"{I}p01.jpg", f"{nombre} aprende<br>a nadar", 10)]
-    BORDE = '<style>.palabra{text-shadow:0 0 1.2mm #fff,0 0 2.4mm #fff,0 0 3.5mm rgba(255,255,255,.9)}</style>'
 
-    S.append(doble(f"{I}d01.jpg", [BORDE, texto(f"Soy {nombre}. Ya sé girar, sentarme, gatear, pararme, caminar, correr, saltar, subir la escalera y tirar una pelota.", 24, 8, 180, 16),
+    S.append(doble(f"{I}d01.jpg", [texto(f"Soy {nombre}. Ya sé girar, sentarme, gatear, pararme, caminar, correr, saltar, subir la escalera y tirar una pelota.", 24, 8, 180, 16),
         texto("Hoy vamos a la pileta con mamá y papá. ¡Hoy voy a aprender a nadar!", 226, 12, 130)], (2, 3)))
     S.append(doble(f"{I}d02.jpg", [texto("Bajo por la escalera, despacito. ¡Uy, qué fría está el agua!", 24, 12, 150),
         texto("Papá me espera adentro. Con él, me animo.", 226, 12, 120)], (4, 5)))

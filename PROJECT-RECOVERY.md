@@ -274,7 +274,7 @@ Estoy retomando mi colección de libros infantiles "Así crezco, así descubro".
 | 7 | Saltar | Aprobado | Listas | Falta | Listo (solo Tomi) | Listos | Sin cargar |
 | 8 | Subir escaleras | Aprobado | Listas | Falta | Listo (solo Tomi) | Listos | Sin cargar |
 | 9 | Tirar una pelota | Aprobado | Listas | Falta | Listo (solo Tomi) | Listos | Sin cargar |
-| 10 | Nadar | — | — | — | — | — | — |
+| 10 | Nadar | Aprobado | Listas | Falta | Listo (solo Tomi) | Listos | Sin cargar |
 | 11 | Andar en bici | — | — | — | — | — | — |
 
 Lo que ya está definido para los libros 6 a 11 (en `CLAUDE.md`, `biblia/personajes.md` y `biblia/tono-y-lenguaje.md`): edad, concepto de física y de matemática, qué hace Rula, ropa de Tomi y la trampa de física a evitar. Antes de ilustrar el 9 al 11 hay que armar hojas de lugares nuevos (plaza, pileta, vereda) y pensar la ropa.
@@ -289,7 +289,7 @@ Lo que ya está definido para los libros 6 a 11 (en `CLAUDE.md`, `biblia/persona
 2. **KDP:** cargar un libro por semana en los dos idiomas (límite de cuentas nuevas): libro 2, después 3 a 8, con autor "Lersa" y los archivos y fichas actuales. Pedir una copia de autor del libro 1.
 3. **Author Central:** cargar las biografías (`kdp/author-central.md`), la foto cuando lo permita y el link de autor (por ejemplo `lersabooks`).
 4. **Revisar los textos traducidos** (español neutro e inglés) de los libros 2 a 8 antes de publicarlos.
-5. **Libro 10 · Nadar**, cuando lo pidas (necesita hoja de la pileta; Tomi claramente más grande): texto → evolución → hojas → prueba → lote → maqueta → traducción → KDP.
+5. **Libro 11 · Andar en bici**, cuando lo pidas (necesita hoja de la vereda o la plaza; siempre con casco): texto → evolución → hojas → prueba → lote → maqueta → traducción → KDP.
 6. **Versión de Emi** de los libros 3 (rehacer con el pelo nuevo), 4 y 5, cuando se retome la web.
 7. **Si GitHub no vuelve:** instalar las herramientas en la PC (sección 6), abrir el respaldo y seguir con Claude Code ahí; guardar copias semanales del proyecto.
 8. **Contenido A+ en KDP** (imágenes debajo de la descripción): se puede armar con las páginas que ya existen, sin créditos.

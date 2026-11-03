@@ -158,7 +158,8 @@ Quedaban 571,5 créditos el 31/10/2026. El resto de los arreglos de la doble 8 (
 | 2 pruebas: portada (Nano Banana Pro, 18) y doble 3 (Nano Banana 2, 12; Pro falló tres veces sin cobrar) | 30 |
 | Lote: 11 páginas (Nano Banana 2; dos fallaron y se repitieron sin cobrar) | 132 |
 | Pelo de mamá en las dobles 1 y 7 (dos ediciones de recorte, Nano Banana 2) | 24 |
-| **Subtotal** | **228** |
+| Doble 10: bici en la misma pileta (edición) y sacar una segunda bici que agregó la IA (edición) | 24 |
+| **Subtotal** | **252** |
 
 ## Lo que más encarece
 

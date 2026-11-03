@@ -1,4 +1,4 @@
-# Fichas para Amazon KDP · libros 1 a 9 (propuesta)
+# Fichas para Amazon KDP · libros 1 a 10 (propuesta)
 
 Borrador del 27 de octubre de 2026. Todo lo que pide KDP al cargar cada libro de tapa blanda. Los campos que se repiten están en "Datos comunes"; abajo va lo propio de cada libro.
 
@@ -457,6 +457,52 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 > - Matemática temprana: círculos, cuadrados, triángulos y rectángulos a nuestro alrededor
 > - Un experimento: ¿qué curva hace?
 > - Una página para los grandes con la ciencia, el hito y consejos de seguridad
+>
+> *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
+
+## Libro 10 · inglés
+
+- **Título:** Tommy Learns to Swim
+- **Subtítulo:** A Picture Book About Floating, Sinking, Full, and Empty
+- **Serie:** I Grow, I Discover · Book 10
+- **Palabras clave (7):** learning to swim picture book · float or sink science for kids · physics for kids ages 4-7 · full and empty for kindergarten · water safety book for kids · STEM read aloud book · books about growing up
+
+**Descripción:**
+
+> **Today Tommy goes to the pool with Mom and Dad, and he is going to learn to swim.**
+>
+> He goes down the steps slowly (the water is cold!) and lets go of Rula, his big colorful ball. Will it sink? No! Rula floats, even though it's big, because it's full of air. A ring sinks all the way to the bottom. With his lungs full of air and Dad's hands under his back, Tommy floats just like Rula, then kicks with his board all the way to Mom. And he fills a bucket cup by cup: full, empty, half full.
+>
+> **Inside this book:**
+>
+> - A gentle story to read aloud, told by Tommy himself
+> - Real, simple physics: things with lots of air inside usually float
+> - Early math: full, empty, half full, and counting cups
+> - A hands-on experiment: float or sink?
+> - A page for grown-ups with the science, the milestone, and water-safety tips
+>
+> *I Grow, I Discover* follows a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every book. For curious kids ages 4 to 7.
+
+## Libro 10 · español
+
+- **Título:** Tommy aprende a nadar
+- **Subtítulo:** Un libro ilustrado sobre flotar y hundirse, lleno y vacío
+- **Serie:** Así crezco, así descubro · Libro 10
+- **Palabras clave (7):** libros infantiles en español · flota o se hunde para niños · física para niños de 4 a 7 años · lleno y vacío para niños · aprender a nadar libro · libro STEM en español · cuentos para leer en voz alta
+
+**Descripción:**
+
+> **Hoy Tommy va a la piscina con mamá y papá, y va a aprender a nadar.**
+>
+> Baja despacito por la escalera (¡qué fría está el agua!) y suelta a Rula, su pelota grande y de colores. ¿Se va a hundir? ¡No! Rula flota, aunque es grande, porque está llena de aire. Un aro se hunde hasta el fondo. Con los pulmones llenos de aire y las manos de papá en la espalda, Tommy flota como Rula, y después patalea con la tabla hasta mamá. Y llena una cubeta vaso por vaso: llena, vacía, a la mitad.
+>
+> **En este libro:**
+>
+> - Una historia tierna para leer en voz alta, contada por el propio Tommy
+> - Física simple y verdadera: las cosas con mucho aire adentro suelen flotar
+> - Matemática temprana: lleno, vacío, a la mitad y contar vasos
+> - Un experimento: ¿flota o se hunde?
+> - Una página para los grandes con la ciencia, el hito y consejos de seguridad en el agua
 >
 > *Así crezco, así descubro* sigue los primeros logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada libro. Para niños curiosos de 4 a 7 años.
 
