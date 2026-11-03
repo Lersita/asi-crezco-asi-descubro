@@ -135,6 +135,13 @@ Quedaban 571,5 créditos el 31/10/2026. El resto de los arreglos de la doble 8 (
 | Ilustración de tapa: los cuatro Tommys en la alfombra (Nano Banana Pro) | 18 |
 | **Subtotal** | **18** |
 
+### Libro 9 (en curso, 3/11/2026)
+
+| Paso | Créditos |
+| --- | --- |
+| Hoja de Tomi (edición de la del libro 7) | 12 |
+| **Subtotal** | **12** |
+
 ## Lo que más encarece
 
 - **Repetir por errores de la IA:** cada corrección suma 12 o 18 créditos. Revisar la evolución antes de generar (regla de `CLAUDE.md`) evita la más cara: rehacer un libro entero, como pasó con el pelo.
