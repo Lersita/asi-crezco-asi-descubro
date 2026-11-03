@@ -148,6 +148,14 @@ Quedaban 571,5 créditos el 31/10/2026. El resto de los arreglos de la doble 8 (
 | Tapa rehecha (Rula a la derecha, al final de la curva) | 18 |
 | **Subtotal** | **318** |
 
+### Libro 10 (en curso, 3/11/2026)
+
+| Paso | Créditos |
+| --- | --- |
+| Hoja de Tomi: edición de la del libro 9 (cambió la ropa pero no el tamaño, descartada) | 12 |
+| Hoja de Tomi nueva (Nano Banana Pro; se usan solo las dos figuras nuevas) | 18 |
+| **Subtotal** | **30** |
+
 ## Lo que más encarece
 
 - **Repetir por errores de la IA:** cada corrección suma 12 o 18 créditos. Revisar la evolución antes de generar (regla de `CLAUDE.md`) evita la más cara: rehacer un libro entero, como pasó con el pelo.
