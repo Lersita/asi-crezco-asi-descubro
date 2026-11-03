@@ -170,7 +170,8 @@ Quedaban 571,5 créditos el 31/10/2026. El resto de los arreglos de la doble 8 (
 | 2 pruebas: portada y doble 6 (Nano Banana 2) | 24 |
 | Doble 6 corregida: sin rueditas y tapita de Rula más chica (edición) | 12 |
 | Lote: 11 páginas (Nano Banana 2) | 132 |
-| **Subtotal** | **192** |
+| Dobles 1, 4, 8 y 10 rehechas (Nano Banana 2) | 48 |
+| **Subtotal** | **240** |
 
 ## Lo que más encarece
 
