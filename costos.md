@@ -180,7 +180,8 @@ Quedaban 571,5 créditos el 31/10/2026. El resto de los arreglos de la doble 8 (
 | --- | --- |
 | Ilustración de tapa (Nano Banana 2; salió con defectos) | 12 |
 | Edición: una sola Rula, sin manchas de pelo, pared lisa | 12 |
-| **Subtotal** | **24** |
+| Tapa rehecha en un solo lugar: el patio con un caminito de piedras (Nano Banana 2) | 12 |
+| **Subtotal** | **36** |
 
 ## Lo que más encarece
 

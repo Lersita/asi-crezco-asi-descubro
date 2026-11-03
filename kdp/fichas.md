@@ -608,7 +608,7 @@ Datos comunes como los demás libros, salvo: **precio sugerido USD 24,99** (los 
 
 ## Recopilatorio de los libros 5 a 8 (propuesta, 3/11/2026)
 
-Un solo libro con los libros 5 a 8 adentro (98 páginas: 2 de presentación + 4 × 24). Archivos: `kdp/bundle58-en-interior.pdf` y `kdp/bundle58-en-tapa.pdf` (17,48 × 8,75 in, lomo de 0,23 in con texto), y lo mismo con `-es-`. Se arma con `python3 maqueta/kdp_bundle.py en|es 58` (y `--pdf` para el interior). La tapa lleva una ilustración propia (`ilustraciones/bundle58/tapa-v1.png`): los cuatro Tommys, de caminar en la alfombra a subir la escalera, cada uno un poco más grande, con Rula. Si se borra ese archivo, el script arma la versión álbum con cuatro polaroids. Datos comunes y precio como el recopilatorio 1 a 4 (sugerido USD 24,99).
+Un solo libro con los libros 5 a 8 adentro (98 páginas: 2 de presentación + 4 × 24). Archivos: `kdp/bundle58-en-interior.pdf` y `kdp/bundle58-en-tapa.pdf` (17,48 × 8,75 in, lomo de 0,23 in con texto), y lo mismo con `-es-`. Se arma con `python3 maqueta/kdp_bundle.py en|es 58` (y `--pdf` para el interior). La tapa lleva una ilustración propia (`ilustraciones/bundle58/tapa-v1.png`): los cuatro Tommys en el patio, sobre un caminito de piedras que sube una lomita: camina, corre, salta y sube tres escalones de madera, cada uno un poco más grande, con Rula. Si se borra ese archivo, el script arma la versión álbum con cuatro polaroids. Datos comunes y precio como el recopilatorio 1 a 4 (sugerido USD 24,99).
 
 ### Inglés
 
