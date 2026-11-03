@@ -34,8 +34,10 @@ Only mom and dad may appear as adults, each at most once, no other people. An ad
 
 ## Páginas 6–7 · Doble 3 · ¡ZAS!
 ```
-[ESTILO]. Left part: Tomi on the lawn, seen from the side, his throwing arm stretched forward, his hand just open after throwing, his other arm back for balance. From his hand, one smooth curved deep-navy cut-paper motion line rises to the right, reaches a high point and comes down toward the grass. Along this curve, Rula appears three times, as a sequence: going up, at the top of the curve, and coming down near the grass; these three are the same ball in motion, no other balls. Rula always has its six VERTICAL segments (red, orange, yellow, leaf green, sky blue, violet) meeting at a small red cap on top, exactly as in the character sheet; never horizontal stripes. The motion line is thin and light, like a dotted cut-paper ribbon. Dad partially visible at the far right edge. [REGLAS]. Wide 21:9.
+[ESTILO]. Tomi on the lawn at the left third of the image, seen from the side, his throwing arm stretched forward and up, his hand just open after throwing, his other arm back for balance, a happy face. Rula, only once, in the air just in front of his hand, at the very start of its flight. One smooth, thin, curved deep-navy cut-paper motion line starts at his hand, rises over the middle of the image to a high point in the sky, and comes down to a spot on the grass near the right side. The sky along the curve is calm and empty. Exactly one ball in the picture. Dad partially visible at the far right edge, with his short beard. [REGLAS]. Wide 21:9.
 ```
+
+La IA dibuja una sola Rula; las otras dos (arriba de la curva y bajando) se agregan copiando la misma Rula, cada vez más transparente (decidido el 3/11/2026).
 
 ## Páginas 8–9 · Doble 4 · Trayectoria
 ```
