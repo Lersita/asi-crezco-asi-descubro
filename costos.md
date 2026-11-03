@@ -155,7 +155,8 @@ Quedaban 571,5 créditos el 31/10/2026. El resto de los arreglos de la doble 8 (
 | Hoja de Tomi: edición de la del libro 9 (cambió la ropa pero no el tamaño, descartada) | 12 |
 | Hoja de Tomi nueva (Nano Banana Pro; se usan solo las dos figuras nuevas) | 18 |
 | Hoja de la pileta (Nano Banana 2; Nano Banana Pro falló cuatro veces sin cobrar) | 12 |
-| **Subtotal** | **42** |
+| 2 pruebas: portada (Nano Banana Pro, 18) y doble 3 (Nano Banana 2, 12; Pro falló tres veces sin cobrar) | 30 |
+| **Subtotal** | **72** |
 
 ## Lo que más encarece
 
