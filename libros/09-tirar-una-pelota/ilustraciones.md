@@ -1,6 +1,6 @@
 # Libro 9 · Tomi aprende a tirar una pelota · Ilustraciones
 
-Un prompt por página (las dobles llevan una sola imagen panorámica). Nano Banana Pro en 2K, con tres referencias: la hoja de personajes del libro 9 (`referencias/hoja-personajes-libro9.png`), la portada del libro 7 para el estilo y el patio (`libro7/p01-v1.png`) y la doble 1 del libro 7 (`libro7/d01-v1.png`). La hoja del patio no se pasa: aplana el estilo. Las dobles salen en 21:9 y se recortan a 2:1. Se generan con `herramientas/generar_libro.py 9 URL_HOJA URL_ESTILO,URL_PAGINA`.
+Un prompt por página (las dobles llevan una sola imagen panorámica). Nano Banana Pro en 2K, con tres referencias: la hoja de personajes del libro 9 (`referencias/hoja-personajes-libro9.png`), la portada del libro 9 para el estilo (`libro9/p01-v1.png`; con la del libro 7 la doble 3 salió más lisa y oscura) y la doble 1 del libro 7 (`libro7/d01-v1.png`). La hoja del patio no se pasa: aplana el estilo. Las dobles salen en 21:9 y se recortan a 2:1. Se generan con `herramientas/generar_libro.py 9 URL_HOJA URL_ESTILO,URL_PAGINA`.
 
 Reglas de `CLAUDE.md`: la IA no dibuja números, palabras ni figuras de tiza (TRAYECTORIA y el círculo, el cuadrado y el triángulo de tiza se agregan en la maqueta: dejar baldosas lisas); prompts sin numeración; prueba de 2 imágenes antes del lote. Tomi tira solo pelotas blandas, nunca hacia una persona, una ventana o la casa.
 
@@ -34,7 +34,7 @@ Only mom and dad may appear as adults, each at most once, no other people. An ad
 
 ## Páginas 6–7 · Doble 3 · ¡ZAS!
 ```
-[ESTILO]. Left part: Tomi on the lawn, seen from the side, his throwing arm stretched forward, his hand just open after throwing, his other arm back for balance. From his hand, one smooth curved deep-navy cut-paper motion line rises to the right, reaches a high point and comes down toward the grass. Along this curve, Rula appears three times, as a sequence: going up, at the top of the curve, and coming down near the grass; these three are the same ball in motion, no other balls. Dad partially visible at the far right edge. [REGLAS]. Wide 21:9.
+[ESTILO]. Left part: Tomi on the lawn, seen from the side, his throwing arm stretched forward, his hand just open after throwing, his other arm back for balance. From his hand, one smooth curved deep-navy cut-paper motion line rises to the right, reaches a high point and comes down toward the grass. Along this curve, Rula appears three times, as a sequence: going up, at the top of the curve, and coming down near the grass; these three are the same ball in motion, no other balls. Rula always has its six VERTICAL segments (red, orange, yellow, leaf green, sky blue, violet) meeting at a small red cap on top, exactly as in the character sheet; never horizontal stripes. The motion line is thin and light, like a dotted cut-paper ribbon. Dad partially visible at the far right edge. [REGLAS]. Wide 21:9.
 ```
 
 ## Páginas 8–9 · Doble 4 · Trayectoria
