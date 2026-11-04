@@ -46,13 +46,18 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 
 ---
 
+### Palabras clave (desde el 4/11/2026)
+
+Siete casillas de hasta 50 caracteres. Amazon combina las palabras de todas las casillas, así que se escriben palabras sueltas que la gente busca, sin repetir las del título y el subtítulo, sin "for", "and" ni "at", y sin "newborn", "infant" ni "tummy time" (traen a quien busca libros para bebés y no compra). Las 4 primeras son fijas en toda la saga (hermano mayor como regalo, edad escolar y STEM, hitos del bebé, física para chicos) y las 3 últimas cambian por libro: física, hito y matemática. En los libros ya publicados se cambian en la ficha (Detalles del libro); no hace falta volver a revisar el interior ni la tapa.
+
+
 ## Libro 1 · inglés
 
 - **Idioma:** English
 - **Título:** Tommy Learns to Roll Over
 - **Subtítulo:** A Picture Book About Babies, Balls, and the Science of Rolling
 - **Serie:** I Grow, I Discover · Book 1
-- **Palabras clave (7):** baby milestones picture book · physics for kids ages 4-7 · science books for kindergarten · round things roll · STEM read aloud book · early math counting 1 to 3 · books about growing up
+- **Palabras clave (7, del 4/11/2026):** `big brother big sister new baby sibling gift` · `STEM read aloud preschool kindergarten 1st grade` · `baby milestones early childhood development` · `physics young kids first science curious gift` · `round shapes roll ramp hands-on experiment` · `baby first milestone flip from back to tummy` · `counting 1 2 3 up and down early math skills`
 
 **Descripción:**
 
@@ -75,7 +80,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy aprende a girar
 - **Subtítulo:** Un libro ilustrado sobre bebés, pelotas y la ciencia de rodar
 - **Serie:** Así crezco, así descubro · Libro 1
-- **Palabras clave (7):** libros infantiles en español · ciencia para niños de 4 a 7 años · física para niños · hitos del bebé libro · libro STEM en español · cuentos para leer en voz alta · contar del 1 al 3
+- **Palabras clave (7, del 4/11/2026):** `regalo hermano mayor hermana mayor nuevo bebé` · `STEM leer en voz alta preescolar kínder primaria` · `hitos del bebé desarrollo infantil temprano` · `libros infantiles en español física niños regalo` · `formas redondas ruedan rampa experimento casero` · `bebé se da vuelta de espaldas a boca abajo` · `contar del 1 al 3 arriba y abajo matemáticas`
 
 **Descripción:**
 
@@ -97,7 +102,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy Learns to Sit Up
 - **Subtítulo:** A Picture Book About Balance, Tall and Short, Near and Far
 - **Serie:** I Grow, I Discover · Book 2
-- **Palabras clave (7):** baby milestones picture book · balance science for kids · physics for kids ages 4-7 · tall and short concepts book · near and far for kindergarten · STEM read aloud book · books about growing up
+- **Palabras clave (7, del 4/11/2026):** `big brother big sister new baby sibling gift` · `STEM read aloud preschool kindergarten 1st grade` · `baby milestones early childhood development` · `physics young kids first science curious gift` · `center of gravity stable wobble experiment` · `baby sitting up without support first milestone` · `size comparison opposites position words math`
 
 **Descripción:**
 
@@ -120,7 +125,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy aprende a sentarse
 - **Subtítulo:** Un libro ilustrado sobre el equilibrio, lo alto y lo bajo, lo cerca y lo lejos
 - **Serie:** Así crezco, así descubro · Libro 2
-- **Palabras clave (7):** libros infantiles en español · equilibrio para niños · física para niños de 4 a 7 años · alto y bajo cerca y lejos · hitos del bebé libro · libro STEM en español · cuentos para leer en voz alta
+- **Palabras clave (7, del 4/11/2026):** `regalo hermano mayor hermana mayor nuevo bebé` · `STEM leer en voz alta preescolar kínder primaria` · `hitos del bebé desarrollo infantil temprano` · `libros infantiles en español física niños regalo` · `centro de gravedad estable experimento casero` · `bebé se sienta sin apoyo primer logro` · `tamaños opuestos ubicación matemáticas`
 
 **Descripción:**
 
@@ -143,7 +148,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy Learns to Crawl
 - **Subtítulo:** A Picture Book About Friction and Counting Hands and Knees
 - **Serie:** I Grow, I Discover · Book 3
-- **Palabras clave (7):** baby milestones picture book · friction science for kids · physics for kids ages 4-7 · counting books for kindergarten · crawling baby book · STEM read aloud book · books about growing up
+- **Palabras clave (7, del 4/11/2026):** `big brother big sister new baby sibling gift` · `STEM read aloud preschool kindergarten 1st grade` · `baby milestones early childhood development` · `physics young kids first science curious gift` · `slippery grip rough smooth surfaces experiment` · `crawling baby first crawl creeping milestone` · `count to four numbers early math skills learn`
 
 **Descripción:**
 
@@ -166,7 +171,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy aprende a gatear
 - **Subtítulo:** Un libro ilustrado sobre la fricción y cómo contar manos y rodillas
 - **Serie:** Así crezco, así descubro · Libro 3
-- **Palabras clave (7):** libros infantiles en español · fricción para niños · física para niños de 4 a 7 años · libros para contar · bebé gateando libro · libro STEM en español · cuentos para leer en voz alta
+- **Palabras clave (7, del 4/11/2026):** `regalo hermano mayor hermana mayor nuevo bebé` · `STEM leer en voz alta preescolar kínder primaria` · `hitos del bebé desarrollo infantil temprano` · `libros infantiles en español física niños regalo` · `resbaloso liso rugoso superficies experimento` · `bebé gatea primer gateo desarrollo motor` · `contar hasta cuatro números matemáticas`
 
 **Descripción:**
 
@@ -189,7 +194,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy Learns to Stand Up
 - **Subtítulo:** A Picture Book About Gravity and Comparing Heights
 - **Serie:** I Grow, I Discover · Book 4
-- **Palabras clave (7):** baby milestones picture book · gravity science for kids · physics for kids ages 4-7 · comparing heights kindergarten · baby first steps book · STEM read aloud book · books about growing up
+- **Palabras clave (7, del 4/11/2026):** `big brother big sister new baby sibling gift` · `STEM read aloud preschool kindergarten 1st grade` · `baby milestones early childhood development` · `physics young kids first science curious gift` · `things fall down drop test falling objects` · `pulling up to stand cruising furniture baby` · `taller shorter size measurement compare math`
 
 **Descripción:**
 
@@ -212,7 +217,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy aprende a pararse
 - **Subtítulo:** Un libro ilustrado sobre la gravedad y cómo comparar alturas
 - **Serie:** Así crezco, así descubro · Libro 4
-- **Palabras clave (7):** libros infantiles en español · gravedad para niños · física para niños de 4 a 7 años · comparar alturas · primeros pasos del bebé libro · libro STEM en español · cuentos para leer en voz alta
+- **Palabras clave (7, del 4/11/2026):** `regalo hermano mayor hermana mayor nuevo bebé` · `STEM leer en voz alta preescolar kínder primaria` · `hitos del bebé desarrollo infantil temprano` · `libros infantiles en español física niños regalo` · `las cosas caen soltar objetos experimento` · `bebé se para agarrado a los muebles` · `más alto más bajo medir tamaños matemáticas`
 
 **Descripción:**
 
@@ -235,7 +240,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy Learns to Walk
 - **Subtítulo:** A Picture Book About Pushing, Pulling, and Counting Steps
 - **Serie:** I Grow, I Discover · Book 5
-- **Palabras clave (7):** baby first steps picture book · push and pull science for kids · physics for kids ages 4-7 · counting books for kindergarten · near and far concepts book · STEM read aloud book · books about growing up
+- **Palabras clave (7, del 4/11/2026):** `big brother big sister new baby sibling gift` · `STEM read aloud preschool kindergarten 1st grade` · `baby milestones early childhood development` · `physics young kids first science curious gift` · `force and motion heavy light objects experiment` · `toddler learning to walk early walker balance` · `distance near far measure count numbers math`
 
 **Descripción:**
 
@@ -258,7 +263,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy aprende a caminar
 - **Subtítulo:** Un libro ilustrado sobre empujar, jalar y contar pasos
 - **Serie:** Así crezco, así descubro · Libro 5
-- **Palabras clave (7):** libros infantiles en español · primeros pasos del bebé libro · fuerza para niños · física para niños de 4 a 7 años · contar pasos cerca y lejos · libro STEM en español · cuentos para leer en voz alta
+- **Palabras clave (7, del 4/11/2026):** `regalo hermano mayor hermana mayor nuevo bebé` · `STEM leer en voz alta preescolar kínder primaria` · `hitos del bebé desarrollo infantil temprano` · `libros infantiles en español física niños regalo` · `fuerza y movimiento pesado liviano experimento` · `niño pequeño aprende a caminar equilibrio` · `distancia medir contar números matemáticas`
 
 **Descripción:**
 
@@ -281,7 +286,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy Learns to Run
 - **Subtítulo:** A Picture Book About Speed, Stopping, and First, Second, Third
 - **Serie:** I Grow, I Discover · Book 6
-- **Palabras clave (7):** toddler running picture book · speed science for kids · physics for kids ages 4-7 · ordinal numbers for kindergarten · fast and slow concepts book · STEM read aloud book · books about growing up
+- **Palabras clave (7, del 4/11/2026):** `big brother big sister new baby sibling gift` · `STEM read aloud preschool kindergarten 1st grade` · `baby milestones early childhood development` · `physics young kids first science curious gift` · `fast slow brake motion race experiment` · `toddler running race playground active play` · `ordinal numbers order ranking early math skills`
 
 **Descripción:**
 
@@ -304,7 +309,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy aprende a correr
 - **Subtítulo:** Un libro ilustrado sobre la velocidad, cómo frenar y el primero, el segundo y el tercero
 - **Serie:** Así crezco, así descubro · Libro 6
-- **Palabras clave (7):** libros infantiles en español · rápido y despacio para niños · física para niños de 4 a 7 años · números ordinales para niños · velocidad para niños · libro STEM en español · cuentos para leer en voz alta
+- **Palabras clave (7, del 4/11/2026):** `regalo hermano mayor hermana mayor nuevo bebé` · `STEM leer en voz alta preescolar kínder primaria` · `hitos del bebé desarrollo infantil temprano` · `libros infantiles en español física niños regalo` · `rápido despacio frenar movimiento carrera` · `niño pequeño corre carrera juego activo` · `orden primero segundo tercero matemáticas`
 
 **Descripción:**
 
@@ -327,7 +332,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy Learns to Jump
 - **Subtítulo:** A Picture Book About Gravity, Bouncing, and Measuring Height
 - **Serie:** I Grow, I Discover · Book 7
-- **Palabras clave (7):** toddler jumping picture book · gravity for kids · physics for kids ages 4-7 · measuring height for kindergarten · bouncing ball science book · STEM read aloud book · books about growing up
+- **Palabras clave (7, del 4/11/2026):** `big brother big sister new baby sibling gift` · `STEM read aloud preschool kindergarten 1st grade` · `baby milestones early childhood development` · `physics young kids first science curious gift` · `bounce up and down falling objects experiment` · `toddler jumping two feet hop active play` · `ruler units blocks how tall early math`
 
 **Descripción:**
 
@@ -350,7 +355,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy aprende a saltar
 - **Subtítulo:** Un libro ilustrado sobre la gravedad, los rebotes y cómo medir alturas
 - **Serie:** Así crezco, así descubro · Libro 7
-- **Palabras clave (7):** libros infantiles en español · gravedad para niños · física para niños de 4 a 7 años · medir alturas para niños · rebotes y pelotas para niños · libro STEM en español · cuentos para leer en voz alta
+- **Palabras clave (7, del 4/11/2026):** `regalo hermano mayor hermana mayor nuevo bebé` · `STEM leer en voz alta preescolar kínder primaria` · `hitos del bebé desarrollo infantil temprano` · `libros infantiles en español física niños regalo` · `rebotar subir y bajar caída experimento` · `niño pequeño salta con los dos pies` · `regla bloques unidades tamaño matemáticas`
 
 **Descripción:**
 
@@ -373,7 +378,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy Learns to Climb the Stairs
 - **Subtítulo:** A Picture Book About Effort, Height, and Sequences
 - **Serie:** I Grow, I Discover · Book 8
-- **Palabras clave (7):** toddler stairs picture book · climbing stairs for toddlers · physics for kids ages 4-7 · patterns and sequences for kindergarten · gravity and effort for kids · STEM read aloud book · books about growing up
+- **Palabras clave (7, del 4/11/2026):** `big brother big sister new baby sibling gift` · `STEM read aloud preschool kindergarten 1st grade` · `baby milestones early childhood development` · `physics young kids first science curious gift` · `going up and down energy safety at home` · `toddler climbing steps one at a time handrail` · `patterns order what comes next early math skills`
 
 **Descripción:**
 
@@ -396,7 +401,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy aprende a subir la escalera
 - **Subtítulo:** Un libro ilustrado sobre el esfuerzo, la altura y las secuencias
 - **Serie:** Así crezco, así descubro · Libro 8
-- **Palabras clave (7):** libros infantiles en español · escaleras para niños pequeños · física para niños de 4 a 7 años · secuencias y patrones para niños · gravedad y esfuerzo para niños · libro STEM en español · cuentos para leer en voz alta
+- **Palabras clave (7, del 4/11/2026):** `regalo hermano mayor hermana mayor nuevo bebé` · `STEM leer en voz alta preescolar kínder primaria` · `hitos del bebé desarrollo infantil temprano` · `libros infantiles en español física niños regalo` · `subir y bajar energía seguridad en casa` · `niño pequeño sube escalones con baranda` · `patrones orden qué sigue matemáticas`
 
 **Descripción:**
 
@@ -419,7 +424,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy Learns to Throw a Ball
 - **Subtítulo:** A Picture Book About Trajectories, Gravity, and Shapes
 - **Serie:** I Grow, I Discover · Book 9
-- **Palabras clave (7):** preschool throwing ball picture book · trajectory science for kids · physics for kids ages 4-7 · shapes book for kindergarten · gravity for preschoolers · STEM read aloud book · books about growing up
+- **Palabras clave (7, del 4/11/2026):** `big brother big sister new baby sibling gift` · `STEM read aloud preschool kindergarten 1st grade` · `baby milestones early childhood development` · `physics young kids first science curious gift` · `curve path arc aim target toss experiment` · `preschooler throwing catching motor skills` · `circle square triangle geometry early math`
 
 **Descripción:**
 
@@ -442,7 +447,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy aprende a lanzar una pelota
 - **Subtítulo:** Un libro ilustrado sobre la trayectoria, la gravedad y las figuras
 - **Serie:** Así crezco, así descubro · Libro 9
-- **Palabras clave (7):** libros infantiles en español · trayectoria para niños · física para niños de 4 a 7 años · figuras geométricas para niños · gravedad para niños · libro STEM en español · cuentos para leer en voz alta
+- **Palabras clave (7, del 4/11/2026):** `regalo hermano mayor hermana mayor nuevo bebé` · `STEM leer en voz alta preescolar kínder primaria` · `hitos del bebé desarrollo infantil temprano` · `libros infantiles en español física niños regalo` · `curva puntería tiro al blanco experimento` · `preescolar lanzar y atrapar motricidad` · `círculo cuadrado triángulo geometría`
 
 **Descripción:**
 
@@ -465,7 +470,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy Learns to Swim
 - **Subtítulo:** A Picture Book About Floating, Sinking, Full, and Empty
 - **Serie:** I Grow, I Discover · Book 10
-- **Palabras clave (7):** learning to swim picture book · float or sink science for kids · physics for kids ages 4-7 · full and empty for kindergarten · water safety book for kids · STEM read aloud book · books about growing up
+- **Palabras clave (7, del 4/11/2026):** `big brother big sister new baby sibling gift` · `STEM read aloud preschool kindergarten 1st grade` · `baby milestones early childhood development` · `physics young kids first science curious gift` · `float sink water experiment bathtub buoyancy` · `learning to swim lessons pool water safety` · `volume capacity measuring cups early math`
 
 **Descripción:**
 
@@ -488,7 +493,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy aprende a nadar
 - **Subtítulo:** Un libro ilustrado sobre flotar y hundirse, lleno y vacío
 - **Serie:** Así crezco, así descubro · Libro 10
-- **Palabras clave (7):** libros infantiles en español · flota o se hunde para niños · física para niños de 4 a 7 años · lleno y vacío para niños · aprender a nadar libro · libro STEM en español · cuentos para leer en voz alta
+- **Palabras clave (7, del 4/11/2026):** `regalo hermano mayor hermana mayor nuevo bebé` · `STEM leer en voz alta preescolar kínder primaria` · `hitos del bebé desarrollo infantil temprano` · `libros infantiles en español física niños regalo` · `flotar hundir agua experimento bañera` · `clases de natación piscina seguridad` · `volumen capacidad tazas medidoras`
 
 **Descripción:**
 
@@ -511,7 +516,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy Learns to Ride a Bike
 - **Subtítulo:** A Picture Book About Wheels, Balance, Turns, and Cycles
 - **Serie:** I Grow, I Discover · Book 11
-- **Palabras clave (7):** learning to ride a bike picture book · balance science for kids · physics for kids ages 4-7 · cycles and patterns for kindergarten · bike safety book for kids · STEM read aloud book · books about growing up
+- **Palabras clave (7, del 4/11/2026):** `big brother big sister new baby sibling gift` · `STEM read aloud preschool kindergarten 1st grade` · `baby milestones early childhood development` · `physics young kids first science curious gift` · `motion momentum spinning rotation experiment` · `riding a bicycle without training wheels helmet` · `counting laps loops repeating patterns math`
 
 **Descripción:**
 
@@ -534,7 +539,7 @@ Para las ediciones en español, las mismas categorías: KDP las ubica en la tien
 - **Título:** Tommy aprende a andar en bicicleta
 - **Subtítulo:** Un libro ilustrado sobre las ruedas, el equilibrio, las vueltas y los ciclos
 - **Serie:** Así crezco, así descubro · Libro 11
-- **Palabras clave (7):** libros infantiles en español · aprender a andar en bicicleta · física para niños de 4 a 7 años · ciclos y patrones para niños · equilibrio para niños · libro STEM en español · cuentos para leer en voz alta
+- **Palabras clave (7, del 4/11/2026):** `regalo hermano mayor hermana mayor nuevo bebé` · `STEM leer en voz alta preescolar kínder primaria` · `hitos del bebé desarrollo infantil temprano` · `libros infantiles en español física niños regalo` · `movimiento giro rotación experimento casero` · `bicicleta sin rueditas casco equilibrio` · `contar vueltas ciclos patrones matemáticas`
 
 **Descripción:**
 
