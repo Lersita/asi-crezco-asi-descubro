@@ -164,3 +164,34 @@ Mismos 4 módulos, con las imágenes `libro4-en-…`. Content name: **Tommy Book
 | Cuadro 3 | A ball, a sock and a soft block falling, two sheets of paper, and a child holding a ball up high |
 | Adentro | What's inside: a story, simple physics, an experiment, and a page for grown-ups |
 | Serie | The first four books of the I Grow, I Discover series |
+
+---
+
+# Libro 5 · inglés (Tommy Learns to Walk)
+
+Mismos 4 módulos, con las imágenes `libro5-en-…`. Content name: **Tommy Book 5 – EN**. Desde este libro, la imagen de la serie muestra los libros publicados hasta ese número (acá, del 1 al 5); las tapas salen de `kdp/aplus/tapas/`.
+
+**Módulo 1 · Standard Image Header With Text**
+- **Headline (arriba):** First steps, first forces
+- **Headline (abajo):** One step, two steps, three steps… FLOP!
+- **Body text:** Tommy can roll over, sit up, crawl, and stand up, and today Mom is waiting for him with open arms: it's time to walk. Along the way he discovers force: he pushes Rula and it rolls far away, he pulls the little blanket and Rula comes back, and the full toy box won't budge until he takes the toys out. And he counts his steps: four to the coffee table, eight to Dad. A gentle read-aloud story for curious kids ages 4 to 7, with a hands-on experiment and a page for grown-ups.
+
+**Módulo 2 · Standard Three Images & Text**
+- **Headline del módulo:** Learning through play
+- **Imagen 1 · Headline:** Push and pull · **Body:** Tommy pulls the corner of the little blanket, and Rula comes toward him! Pushing and pulling are both forces: they make things move.
+- **Imagen 2 · Headline:** One, two, three… walking! · **Body:** Arms out for balance, one step after another, all the way to Mom's arms. Many babies take their first steps somewhere between 12 and 15 months.
+- **Imagen 3 · Headline:** Try it at home · **Body:** A simple, safe experiment with a shoebox, some books, a kitchen towel, and a ball: how much force does it take to move something heavy?
+
+**Módulo 3 · What's inside** (`libro5-en-3-adentro.jpg`): headline y body vacíos.
+
+**Módulo 4 · Standard Image Header With Text** (`libro5-en-4-serie.jpg`): los mismos textos que en el libro 1.
+
+**Textos alternativos**
+| Imagen | Alt text |
+| --- | --- |
+| Cabecera | Cover of Tommy Learns to Walk: a toddler taking his first steps on a rug next to a colorful ball |
+| Cuadro 1 | Toddler Tommy sitting on the rug, pulling a blue checkered blanket |
+| Cuadro 2 | Toddler Tommy walking with his arms out for balance |
+| Cuadro 3 | Hands pushing an empty box and a box full of books, and a child pushing a ball |
+| Adentro | What's inside: a story, simple physics, an experiment, and a page for grown-ups |
+| Serie | The first five books of the I Grow, I Discover series |

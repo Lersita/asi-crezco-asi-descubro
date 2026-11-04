@@ -81,6 +81,16 @@ LIBROS[(4, "en")] = {**COMUN_EN,
                 ("l4-exp.jpg", "0% 20%", "A home experiment", "with things from home"),
                 ("l4-p24.jpg", "50% 60%", "A page for grown-ups", "science, milestone and safety")]}
 
+LIBROS[(5, "en")] = {**COMUN_EN,
+    "libros": ["Roll Over", "Sit Up", "Crawl", "Stand Up", "Walk"], "serie_n": [1, 2, 3, 4, 5],
+    "serie": "I Grow, I Discover · Book 5", "titulo": "Tommy Learns to Walk",
+    "bajada": "A read-aloud picture book about first steps, and the forces that make things move: pushing and pulling.",
+    "cuadros": [("l5-d05.jpg", (240, 0, 1258, 1018)), ("l5-d03.jpg", (200, 0, 1218, 1018)), ("l5-exp.jpg", (0, 0, 2400, 1610))],
+    "adentro": [("l5-d01.jpg", "30% 60%", "A gentle story", "told by Tommy himself"),
+                ("l5-d06.jpg", "75% 50%", "Real, simple physics", "pushing and pulling are forces"),
+                ("l5-exp.jpg", "50% 50%", "A home experiment", "with things from home"),
+                ("l5-p24.jpg", "50% 70%", "A page for grown-ups", "science, milestone and safety")]}
+
 BASE = f"""<!doctype html><html><head><meta charset="utf-8">{FUENTES}<style>
 *{{box-sizing:border-box}}body{{margin:0;font-family:Andika,sans-serif;color:#23304A}}
 .lienzo{{position:relative;overflow:hidden;background:#FFF9E7}}
@@ -127,14 +137,16 @@ def adentro(t):
 
 
 def serie(t):
+    nums = t.get("serie_n", [1, 2, 3, 4])
+    lado = 185 if len(nums) <= 4 else 158
     tapas = "".join(
-        f'<div style="text-align:center"><div class="foto" style="width:185px;height:185px;background-image:url({TAPAS}/libro{n}-{LANG}.jpg);transform:rotate({[-3, 2, -2, 3][n - 1]}deg)"></div>'
+        f'<div style="text-align:center"><div class="foto" style="width:{lado}px;height:{lado}px;background-image:url({TAPAS}/libro{n}-{LANG}.jpg);transform:rotate({[-3, 2, -2, 3, -2, 2][k % 6]}deg)"></div>'
         f'<div style="margin-top:14px;font-family:Fraunces,serif;font-weight:800;font-size:19px"><span style="display:inline-flex;width:28px;height:28px;border-radius:50%;background:{COLS[(n - 1) * 2 % 6]};color:#fff;align-items:center;justify-content:center;font-size:15px;margin-right:6px">{n}</span>{e(t["libros"][n - 1])}</div></div>'
-        for n in range(1, 5))
+        for k, n in enumerate(nums))
     return BASE + f"""<div class="lienzo" style="width:970px;height:600px;padding:72px 40px">
 <h2 style="font-size:44px;text-align:center">{e(t['serie_t'])}</h2>
 <p style="font-size:21px;text-align:center;margin:14px 0 0">{e(t['serie_b'])}</p>
-<div style="display:flex;justify-content:space-between;align-items:flex-start;margin-top:48px;padding:0 10px">{tapas}</div>
+<div style="display:flex;justify-content:space-between;align-items:flex-start;margin-top:{48 if lado == 185 else 58}px;padding:0 10px">{tapas}</div>
 <div style="text-align:center;margin-top:34px;font-weight:700;font-size:17px;color:#C4532E">{e(t['mas'])}</div></div></body></html>"""
 
 
