@@ -72,6 +72,15 @@ LIBROS[(3, "en")] = {**COMUN_EN,
                 ("l3-exp.jpg", "0% 30%", "A home experiment", "with things from home"),
                 ("l3-p24.jpg", "50% 60%", "A page for grown-ups", "science, milestone and safety")]}
 
+LIBROS[(4, "en")] = {**COMUN_EN,
+    "serie": "I Grow, I Discover · Book 4", "titulo": "Tommy Learns to Stand Up",
+    "bajada": "A read-aloud picture book about standing up for the first time, and the gravity that pulls everything down.",
+    "cuadros": [("l4-d05.jpg", (1232, 0, 2250, 1018)), ("l4-d10.jpg", (60, 0, 1078, 1018)), ("l4-exp.jpg", (330, 0, 2110, 1610))],
+    "adentro": [("l4-d01.jpg", "25% 60%", "A gentle story", "told by Tommy himself"),
+                ("l4-d06.jpg", "85% 50%", "Real, simple physics", "gravity pulls things down"),
+                ("l4-exp.jpg", "0% 20%", "A home experiment", "with things from home"),
+                ("l4-p24.jpg", "50% 60%", "A page for grown-ups", "science, milestone and safety")]}
+
 BASE = f"""<!doctype html><html><head><meta charset="utf-8">{FUENTES}<style>
 *{{box-sizing:border-box}}body{{margin:0;font-family:Andika,sans-serif;color:#23304A}}
 .lienzo{{position:relative;overflow:hidden;background:#FFF9E7}}

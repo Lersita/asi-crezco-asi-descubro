@@ -133,3 +133,34 @@ Mismos 4 módulos, con las imágenes `libro3-en-…`. Content name: **Tommy Book
 | Cuadro 3 | A ball rolling down a ramp of books, and two little hands on a smooth floor |
 | Adentro | What's inside: a story, simple physics, an experiment, and a page for grown-ups |
 | Serie | The first four books of the I Grow, I Discover series |
+
+---
+
+# Libro 4 · inglés (Tommy Learns to Stand Up)
+
+Mismos 4 módulos, con las imágenes `libro4-en-…`. Content name: **Tommy Book 4 – EN**.
+
+**Módulo 1 · Standard Image Header With Text**
+- **Headline (arriba):** Standing up against gravity
+- **Headline (abajo):** Rula is up on the couch!
+- **Body text:** Tommy can roll over, sit up, and crawl, but today Rula is up on the couch, so he's going to learn to stand up. He holds on tight, pushes with his legs… and BUMP! He plops down on his bottom. Then he discovers gravity, the force that pulls everything down: his sock, his soft block, and Rula too. And standing tall, he compares what reaches higher: the coffee table, the couch, or his own head. A gentle read-aloud story for curious kids ages 4 to 7, with a hands-on experiment and a page for grown-ups.
+
+**Módulo 2 · Standard Three Images & Text**
+- **Headline del módulo:** Learning through play
+- **Imagen 1 · Headline:** Everything falls down · **Body:** Tommy lets go of Rula, and down it goes! His sock and his soft block fall too. What pulls things toward the floor is called gravity.
+- **Imagen 2 · Headline:** Up, up, up… standing! · **Body:** Tommy holds on to the couch, takes little steps sideways, and then lets go. Like many babies somewhere between 9 and 12 months, he stands all by himself.
+- **Imagen 3 · Headline:** Try it at home · **Body:** A simple, safe experiment with a ball, a sock, and two sheets of paper: does everything fall the same? Which sheet lands first, the flat one or the crumpled one?
+
+**Módulo 3 · What's inside** (`libro4-en-3-adentro.jpg`): headline y body vacíos.
+
+**Módulo 4 · Standard Image Header With Text** (`libro4-en-4-serie.jpg`): los mismos textos que en el libro 1.
+
+**Textos alternativos**
+| Imagen | Alt text |
+| --- | --- |
+| Cabecera | Cover of Tommy Learns to Stand Up: a baby standing by the couch, holding a colorful ball |
+| Cuadro 1 | A colorful ball falling to the floor while baby Tommy watches, standing by the couch |
+| Cuadro 2 | Baby Tommy standing on the rug without holding on, arms out |
+| Cuadro 3 | A ball, a sock and a soft block falling, two sheets of paper, and a child holding a ball up high |
+| Adentro | What's inside: a story, simple physics, an experiment, and a page for grown-ups |
+| Serie | The first four books of the I Grow, I Discover series |
