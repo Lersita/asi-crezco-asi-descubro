@@ -2,6 +2,8 @@
 
 Se carga en KDP › Marketing › A+ Content Manager (o en la ficha del libro, "A+ Content"). Una versión por idioma: la inglesa en la tienda de Estados Unidos con el libro en inglés (B0HPS5H68W) y la española con el libro en español (B0HPS5LPS9). Las imágenes salen de `python3 maqueta/aplus.py`.
 
+> **Cambio del 4/11/2026: la imagen de la serie es genérica.** El módulo 4 usa `serie-en.jpg` (o `serie-es.jpg`) en todos los libros: Tommy de cada libro en escalera, del bebé que gira al nene en bici, sin tapas ni "more books coming soon". No hay que cambiarla cuando sale un libro nuevo. Alt text: **Tommy growing up, from a baby rolling over to a boy riding a bike: the 11 milestones of the series** (en español: **Tommy crece, del bebé que gira al nene que anda en bici: los 11 logros de la serie**). Donde abajo dice `serie-xx.jpg`, usar esta.
+
 Módulos, en este orden:
 
 | # | Módulo de Amazon | Imagen | Medida |
@@ -9,7 +11,7 @@ Módulos, en este orden:
 | 1 | Standard Image Header With Text (o "Standard Single Image" a lo ancho) | `libro1-xx-1-cabecera.jpg` | 970 × 600 |
 | 2 | Standard Three Images & Text | `libro1-xx-2-cuadro1.jpg`, `cuadro2`, `cuadro3` | 300 × 300 |
 | 3 | Standard Image & Light Text Overlay / Standard Single Image (banda) | `libro1-xx-3-adentro.jpg` | 970 × 300 |
-| 4 | Standard Single Image (a lo ancho) | `libro1-xx-4-serie.jpg` | 970 × 600 |
+| 4 | Standard Single Image (a lo ancho) | `serie-xx.jpg` | 970 × 600 |
 
 Texto alternativo (alt text) de cada imagen: una frase que describa la imagen, sin palabras clave repetidas.
 
@@ -29,21 +31,21 @@ Texto alternativo (alt text) de cada imagen: una frase que describa la imagen, s
 
 ## Textos del módulo 4 (la serie): otro Standard Image Header With Text
 
-Igual en todos los libros. Imagen: `libroN-xx-4-serie.jpg`.
+Igual en todos los libros. Imagen: `serie-xx.jpg`.
 
 ### Inglés
 
 - **Headline (arriba):** Follow Tommy as he grows
 - **Headline (abajo):** I Grow, I Discover
 - **Body text:** Each book follows Tommy through one of a baby's first big milestones, from rolling over to riding a bike, with one physics idea and one math idea in every story. Read them in order and watch Tommy grow.
-- **Alt text:** The first four books of the I Grow, I Discover series
+- **Alt text:** Tommy growing up, from a baby rolling over to a boy riding a bike: the 11 milestones of the series
 
 ### Español
 
 - **Título (arriba):** Acompaña a Tommy mientras crece
 - **Título (abajo):** Así crezco, así descubro
 - **Texto:** Cada libro acompaña a Tommy en uno de los primeros grandes logros de un bebé, de girar a andar en bicicleta, con un concepto de física y uno de matemática en cada historia. Léelos en orden y mira cómo crece Tommy.
-- **Texto alternativo:** Los primeros cuatro libros de la serie Así crezco, así descubro
+- **Texto alternativo:** Tommy crece, del bebé que gira al nene que anda en bici: los 11 logros de la serie
 
 ## Textos del módulo de tres imágenes
 
@@ -70,13 +72,13 @@ Igual en todos los libros. Imagen: `libroN-xx-4-serie.jpg`.
 | Cuadro 2 | Baby Tommy on his tummy after rolling over | Tommy boca abajo después de girar |
 | Cuadro 3 | A child testing what rolls down a ramp made of books | Un chico prueba qué rueda por una rampa hecha con libros |
 | Adentro | What's inside: a story, simple physics, an experiment, and a page for grown-ups | Qué hay adentro: una historia, física simple, un experimento y una página para los grandes |
-| Serie | The first four books of the I Grow, I Discover series | Los primeros cuatro libros de la serie Así crezco, así descubro |
+| Serie | Tommy growing up, from a baby rolling over to a boy riding a bike: the 11 milestones of the series | Tommy crece, del bebé que gira al nene que anda en bici: los 11 logros de la serie |
 
 ---
 
 # Libro 2 · inglés (Tommy Learns to Sit Up)
 
-Mismos 4 módulos y en el mismo orden que el libro 1, con las imágenes `libro2-en-…`. El módulo de la serie (`libro2-en-4-serie.jpg`) es igual al del libro 1. Content name: **Tommy Book 2 – EN**.
+Mismos 4 módulos y en el mismo orden que el libro 1, con las imágenes `libro2-en-…`. El módulo de la serie (`serie-en.jpg`) es igual al del libro 1. Content name: **Tommy Book 2 – EN**.
 
 **Módulo 1 · Standard Image Header With Text**
 - **Headline (arriba):** Sitting up is a balancing act
@@ -91,7 +93,7 @@ Mismos 4 módulos y en el mismo orden que el libro 1, con las imágenes `libro2-
 
 **Módulo 3 · What's inside** (`libro2-en-3-adentro.jpg`): headline y body vacíos.
 
-**Módulo 4 · Standard Image Header With Text** (`libro2-en-4-serie.jpg`): los mismos textos que en el libro 1 (Follow Tommy as he grows / I Grow, I Discover / Each book follows Tommy…).
+**Módulo 4 · Standard Image Header With Text** (`serie-en.jpg`): los mismos textos que en el libro 1 (Follow Tommy as he grows / I Grow, I Discover / Each book follows Tommy…).
 
 **Textos alternativos**
 | Imagen | Alt text |
@@ -101,7 +103,7 @@ Mismos 4 módulos y en el mismo orden que el libro 1, con las imágenes `libro2-
 | Cuadro 2 | Baby Tommy sitting up and hugging his big colorful ball |
 | Cuadro 3 | Cups, cardboard rolls and a ball with a book sliding off it |
 | Adentro | What's inside: a story, simple physics, an experiment, and a page for grown-ups |
-| Serie | The first four books of the I Grow, I Discover series |
+| Serie | Tommy growing up, from a baby rolling over to a boy riding a bike: the 11 milestones of the series |
 
 ---
 
@@ -122,7 +124,7 @@ Mismos 4 módulos, con las imágenes `libro3-en-…`. Content name: **Tommy Book
 
 **Módulo 3 · What's inside** (`libro3-en-3-adentro.jpg`): headline y body vacíos.
 
-**Módulo 4 · Standard Image Header With Text** (`libro3-en-4-serie.jpg`): los mismos textos que en el libro 1.
+**Módulo 4 · Standard Image Header With Text** (`serie-en.jpg`): los mismos textos que en el libro 1.
 
 **Textos alternativos**
 | Imagen | Alt text |
@@ -132,7 +134,7 @@ Mismos 4 módulos, con las imágenes `libro3-en-…`. Content name: **Tommy Book
 | Cuadro 2 | Baby Tommy on his hands and knees on the rug, smiling |
 | Cuadro 3 | A ball rolling down a ramp of books, and two little hands on a smooth floor |
 | Adentro | What's inside: a story, simple physics, an experiment, and a page for grown-ups |
-| Serie | The first four books of the I Grow, I Discover series |
+| Serie | Tommy growing up, from a baby rolling over to a boy riding a bike: the 11 milestones of the series |
 
 ---
 
@@ -153,7 +155,7 @@ Mismos 4 módulos, con las imágenes `libro4-en-…`. Content name: **Tommy Book
 
 **Módulo 3 · What's inside** (`libro4-en-3-adentro.jpg`): headline y body vacíos.
 
-**Módulo 4 · Standard Image Header With Text** (`libro4-en-4-serie.jpg`): los mismos textos que en el libro 1.
+**Módulo 4 · Standard Image Header With Text** (`serie-en.jpg`): los mismos textos que en el libro 1.
 
 **Textos alternativos**
 | Imagen | Alt text |
@@ -163,13 +165,13 @@ Mismos 4 módulos, con las imágenes `libro4-en-…`. Content name: **Tommy Book
 | Cuadro 2 | Baby Tommy standing on the rug without holding on, arms out |
 | Cuadro 3 | A ball, a sock and a soft block falling, two sheets of paper, and a child holding a ball up high |
 | Adentro | What's inside: a story, simple physics, an experiment, and a page for grown-ups |
-| Serie | The first four books of the I Grow, I Discover series |
+| Serie | Tommy growing up, from a baby rolling over to a boy riding a bike: the 11 milestones of the series |
 
 ---
 
 # Libro 5 · inglés (Tommy Learns to Walk)
 
-Mismos 4 módulos, con las imágenes `libro5-en-…`. Content name: **Tommy Book 5 – EN**. Desde este libro, la imagen de la serie muestra los libros publicados hasta ese número (acá, del 1 al 5); las tapas salen de `kdp/aplus/tapas/`.
+Mismos 4 módulos, con las imágenes `libro5-en-…`. Content name: **Tommy Book 5 – EN**.
 
 **Módulo 1 · Standard Image Header With Text**
 - **Headline (arriba):** First steps, first forces
@@ -184,7 +186,7 @@ Mismos 4 módulos, con las imágenes `libro5-en-…`. Content name: **Tommy Book
 
 **Módulo 3 · What's inside** (`libro5-en-3-adentro.jpg`): headline y body vacíos.
 
-**Módulo 4 · Standard Image Header With Text** (`libro5-en-4-serie.jpg`): los mismos textos que en el libro 1.
+**Módulo 4 · Standard Image Header With Text** (`serie-en.jpg`): los mismos textos que en el libro 1.
 
 **Textos alternativos**
 | Imagen | Alt text |
@@ -194,4 +196,4 @@ Mismos 4 módulos, con las imágenes `libro5-en-…`. Content name: **Tommy Book
 | Cuadro 2 | Toddler Tommy walking with his arms out for balance |
 | Cuadro 3 | Hands pushing an empty box and a box full of books, and a child pushing a ball |
 | Adentro | What's inside: a story, simple physics, an experiment, and a page for grown-ups |
-| Serie | The first five books of the I Grow, I Discover series |
+| Serie | Tommy growing up, from a baby rolling over to a boy riding a bike: the 11 milestones of the series |

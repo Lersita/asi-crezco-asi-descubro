@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Imágenes para el contenido A+ de Amazon de cada libro (inglés y español neutro).
 Arma cada imagen en HTML y la saca con el navegador al tamaño exacto que pide Amazon.
-Uso: python3 maqueta/aplus.py [N-lang ...] (sin nada: todos) → kdp/aplus/libroN-<lang>-*.jpg
+Uso: python3 maqueta/aplus.py [N-lang ...] (sin nada: todos) → kdp/aplus/libroN-<lang>-*.jpg y kdp/aplus/serie-<lang>.jpg\n(la imagen de la serie es una sola por idioma, la misma para todos los libros)
 Las tapas de la serie salen de los PDF de tapa (kdp/aplus/tapas/libroN-<lang>.jpg)."""
 import html, subprocess, json
 from pathlib import Path
@@ -136,18 +136,36 @@ def adentro(t):
 <div style="display:flex;justify-content:space-between;margin-top:14px">{tiles}</div></div></body></html>"""
 
 
-def serie(t):
-    nums = t.get("serie_n", [1, 2, 3, 4])
-    lado = 185 if len(nums) <= 4 else 158
-    tapas = "".join(
-        f'<div style="text-align:center"><div class="foto" style="width:{lado}px;height:{lado}px;background-image:url({TAPAS}/libro{n}-{LANG}.jpg);transform:rotate({[-3, 2, -2, 3, -2, 2][k % 6]}deg)"></div>'
-        f'<div style="margin-top:14px;font-family:Fraunces,serif;font-weight:800;font-size:19px"><span style="display:inline-flex;width:28px;height:28px;border-radius:50%;background:{COLS[(n - 1) * 2 % 6]};color:#fff;align-items:center;justify-content:center;font-size:15px;margin-right:6px">{n}</span>{e(t["libros"][n - 1])}</div></div>'
-        for k, n in enumerate(nums))
-    return BASE + f"""<div class="lienzo" style="width:970px;height:600px;padding:72px 40px">
-<h2 style="font-size:44px;text-align:center">{e(t['serie_t'])}</h2>
-<p style="font-size:21px;text-align:center;margin:14px 0 0">{e(t['serie_b'])}</p>
-<div style="display:flex;justify-content:space-between;align-items:flex-start;margin-top:{48 if lado == 185 else 58}px;padding:0 10px">{tapas}</div>
-<div style="text-align:center;margin-top:34px;font-weight:700;font-size:17px;color:#C4532E">{e(t['mas'])}</div></div></body></html>"""
+SERIE = {
+    "en": {"t": "Follow Tommy as he grows", "b": "From rolling over to riding a bike: one milestone, one physics idea and one math idea in every book.",
+           "hitos": ["Roll over", "Sit up", "Crawl", "Stand up", "Walk", "Run", "Jump", "Climb stairs", "Throw a ball", "Swim", "Ride a bike"]},
+    "es": {"t": "Acompaña a Tommy mientras crece", "b": "De girar a andar en bicicleta: un logro, un concepto de física y uno de matemática en cada libro.",
+           "hitos": ["Girar", "Sentarse", "Gatear", "Pararse", "Caminar", "Correr", "Saltar", "Subir escaleras", "Lanzar", "Nadar", "Andar en bici"]},
+}
+
+
+def serie(lang):
+    """Imagen genérica de la serie, la misma para todos los libros: Tommy de cada libro, creciendo en escalera
+    (las fotitos salen de maqueta/img-kdp/coleccion-fotoN.jpg, que arma kdp_coleccion.py). No nombra tapas
+    ni cuántos libros hay publicados, así no hay que cambiarla cuando sale un libro nuevo."""
+    t = SERIE[lang]
+    puntos, items = [], []
+    for i in range(11):
+        n = i + 1
+        lado = 58 + i * 1.6
+        cx = 62 + i * 84.6
+        cy = 492 - i * 24
+        puntos.append(f"{cx:.0f},{cy:.0f}")
+        items.append(
+            f'<div style="position:absolute;left:{cx - lado / 2:.0f}px;top:{cy - lado / 2:.0f}px;width:{lado:.0f}px">'
+            f'<div class="foto" style="width:{lado:.0f}px;height:{lado:.0f}px;border:4px solid #fff;background-image:url(file://{AQUI}/img-kdp/coleccion-foto{n}.jpg);transform:rotate({[-3, 2, -2, 3, -1, 2][i % 6]}deg)"></div>'
+            f'<span style="position:absolute;left:-9px;top:-9px;display:flex;width:24px;height:24px;border-radius:50%;background:{COLS[i % 6]};color:#fff;align-items:center;justify-content:center;font-family:Fraunces,serif;font-weight:900;font-size:13px;box-shadow:0 1px 3px rgba(0,0,0,.3)">{n}</span>'
+            f'<div style="position:absolute;left:-14px;right:-14px;top:{lado + 8:.0f}px;text-align:center;font-family:Fraunces,serif;font-weight:800;font-size:14px;line-height:1.05">{e(t["hitos"][i])}</div></div>')
+    return BASE + f"""<div class="lienzo" style="width:970px;height:600px">
+<h2 style="position:absolute;left:0;right:0;top:46px;font-size:44px;text-align:center">{e(t['t'])}</h2>
+<p style="position:absolute;left:90px;right:90px;top:108px;font-size:20px;line-height:1.35;text-align:center;margin:0">{e(t['b'])}</p>
+<svg width="970" height="600" style="position:absolute;left:0;top:0"><polyline points="{' '.join(puntos)}" fill="none" stroke="#C4532E" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round" opacity=".55"/></svg>
+{''.join(items)}</div></body></html>"""
 
 
 JS = """const { chromium } = require('playwright');
@@ -163,12 +181,16 @@ if __name__ == "__main__":
     elegidos = [(int(a.split("-")[0]), a.split("-")[1]) for a in sys.argv[1:]] or list(LIBROS)
     for (N, LANG) in elegidos:
         t = LIBROS[(N, LANG)]
-        piezas = [("1-cabecera", cabecera(t), 970, 600), ("3-adentro", adentro(t), 970, 300), ("4-serie", serie(t), 970, 600)]
+        piezas = [("1-cabecera", cabecera(t), 970, 600), ("3-adentro", adentro(t), 970, 300)]
         piezas += [(f"2-cuadro{k + 1}", cuadro(*c), 300, 300) for k, c in enumerate(t["cuadros"])]
         for nombre, doc, w, h in piezas:
             f = SALIDA / f"libro{N}-{LANG}-{nombre}.html"
             f.write_text(doc, encoding="utf-8")
             trabajos.append([str(f), str(SALIDA / f"libro{N}-{LANG}-{nombre}.jpg"), w, h])
+    for lang in sorted({l for _, l in elegidos}):
+        f = SALIDA / f"serie-{lang}.html"
+        f.write_text(serie(lang), encoding="utf-8")
+        trabajos.append([str(f), str(SALIDA / f"serie-{lang}.jpg"), 970, 600])
     js = SALIDA / "capturar.js"
     js.write_text(JS, encoding="utf-8")
     subprocess.run(["node", str(js), json.dumps(trabajos)], check=True, cwd=AQUI)
