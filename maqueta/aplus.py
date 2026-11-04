@@ -145,26 +145,33 @@ SERIE = {
 
 
 def serie(lang):
-    """Imagen genérica de la serie, la misma para todos los libros: Tommy de cada libro, creciendo en escalera
+    """Imagen genérica de la serie, la misma para todos los libros: Tommy de cada libro, en víbora de 3 filas
     (las fotitos salen de maqueta/img-kdp/coleccion-fotoN.jpg, que arma kdp_coleccion.py). No nombra tapas
     ni cuántos libros hay publicados, así no hay que cambiarla cuando sale un libro nuevo."""
     t = SERIE[lang]
-    puntos, items = [], []
-    for i in range(11):
+    xs, ys = [150, 376, 602, 828], [218, 366, 514]   # víbora: 3 filas de 4, ida y vuelta; el último lugar es Rula
+    items = []
+    for i in range(12):
+        fila, col = divmod(i, 4)
+        cx = xs[col] if fila % 2 == 0 else xs[3 - col]
+        cy = ys[fila]
+        if i == 11:
+            items.append(f'<img src="file://{RAIZ}/web/img/rula.webp" style="position:absolute;left:{cx - 52}px;top:{cy - 56}px;width:104px">')
+            continue
         n = i + 1
-        lado = 58 + i * 1.6
-        cx = 62 + i * 84.6
-        cy = 492 - i * 24
-        puntos.append(f"{cx:.0f},{cy:.0f}")
+        lado = 94 + i * 1.6
         items.append(
-            f'<div style="position:absolute;left:{cx - lado / 2:.0f}px;top:{cy - lado / 2:.0f}px;width:{lado:.0f}px">'
+            f'<div style="position:absolute;left:{cx - lado / 2:.0f}px;top:{cy - lado / 2 - 10:.0f}px;width:{lado:.0f}px">'
             f'<div class="foto" style="width:{lado:.0f}px;height:{lado:.0f}px;border:4px solid #fff;background-image:url(file://{AQUI}/img-kdp/coleccion-foto{n}.jpg);transform:rotate({[-3, 2, -2, 3, -1, 2][i % 6]}deg)"></div>'
-            f'<span style="position:absolute;left:-9px;top:-9px;display:flex;width:24px;height:24px;border-radius:50%;background:{COLS[i % 6]};color:#fff;align-items:center;justify-content:center;font-family:Fraunces,serif;font-weight:900;font-size:13px;box-shadow:0 1px 3px rgba(0,0,0,.3)">{n}</span>'
-            f'<div style="position:absolute;left:-14px;right:-14px;top:{lado + 8:.0f}px;text-align:center;font-family:Fraunces,serif;font-weight:800;font-size:14px;line-height:1.05">{e(t["hitos"][i])}</div></div>')
+            f'<span style="position:absolute;left:-10px;top:-10px;display:flex;width:28px;height:28px;border-radius:50%;background:{COLS[i % 6]};color:#fff;align-items:center;justify-content:center;font-family:Fraunces,serif;font-weight:900;font-size:15px;box-shadow:0 1px 3px rgba(0,0,0,.3)">{n}</span>'
+            f'<div style="position:absolute;left:-30px;right:-30px;top:{lado + 7:.0f}px;text-align:center;font-family:Fraunces,serif;font-weight:800;font-size:16px;line-height:1.05;text-shadow:0 0 4px #FFF9E7,0 0 8px #FFF9E7">{e(t["hitos"][i])}</div></div>')
+    y0, y1, y2 = [y - 10 for y in ys]
+    camino = (f"M{xs[0]},{y0} H{xs[3]} C{xs[3] + 95},{y0} {xs[3] + 95},{y1} {xs[3]},{y1} "
+              f"H{xs[0]} C{xs[0] - 95},{y1} {xs[0] - 95},{y2} {xs[0]},{y2} H{xs[3]}")
     return BASE + f"""<div class="lienzo" style="width:970px;height:600px">
-<h2 style="position:absolute;left:0;right:0;top:46px;font-size:44px;text-align:center">{e(t['t'])}</h2>
-<p style="position:absolute;left:90px;right:90px;top:108px;font-size:20px;line-height:1.35;text-align:center;margin:0">{e(t['b'])}</p>
-<svg width="970" height="600" style="position:absolute;left:0;top:0"><polyline points="{' '.join(puntos)}" fill="none" stroke="#C4532E" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round" opacity=".55"/></svg>
+<h2 style="position:absolute;left:0;right:0;top:30px;font-size:40px;text-align:center">{e(t['t'])}</h2>
+<p style="position:absolute;left:60px;right:60px;top:84px;font-size:18px;line-height:1.3;text-align:center;margin:0">{e(t['b'])}</p>
+<svg width="970" height="600" style="position:absolute;left:0;top:0"><path d="{camino}" fill="none" stroke="#C4532E" stroke-width="4" stroke-dasharray="2 11" stroke-linecap="round" opacity=".5"/></svg>
 {''.join(items)}</div></body></html>"""
 
 
