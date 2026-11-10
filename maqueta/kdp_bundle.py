@@ -10,7 +10,7 @@ Uso: python3 maqueta/kdp_bundle.py es|en [14|58|911]   (sin número: 14)
   Después:
   python3 maqueta/kdp_bundle.py es --pdf   (arma kdp/bundle14-es-interior.pdf con las capturas y los interiores)
   node maqueta/kdp_pdf.js maqueta/kdp-tapa-bundle14-es.html kdp/bundle14-es-tapa.pdf 17.4800in 8.75in"""
-import sys, html, subprocess, tempfile, glob
+import os, sys, html, subprocess, tempfile, glob
 from pathlib import Path
 from PIL import Image
 
@@ -347,7 +347,10 @@ def pdf_interior(lang):
         salida = RAIZ / "kdp" / f"bundle{ID}-{lang}-interior.pdf"
         with open(salida, "wb") as fh:
             w.write(fh)
-    # PDF simple de fotos, como los libros sueltos: el unido con pypdf daba "Error processing interior" en KDP
+    # Versión liviana y simple: la vista previa de KDP daba "Error processing interior" con el unido de 149 MB;
+    # pasó con fotos a calidad 80 (unos 90 MB) en un PDF simple de fotos, como los libros sueltos
+    subprocess.run([sys.executable, str(AQUI / "kdp_achicar.py"), str(salida), str(salida) + ".tmp", "80"], check=True)
+    os.replace(str(salida) + ".tmp", salida)
     subprocess.run([sys.executable, str(AQUI / "kdp_limpiar.py"), str(salida)], check=True)
     print(salida, PAGINAS, "páginas")
 
