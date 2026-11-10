@@ -347,6 +347,8 @@ def pdf_interior(lang):
         salida = RAIZ / "kdp" / f"bundle{ID}-{lang}-interior.pdf"
         with open(salida, "wb") as fh:
             w.write(fh)
+    # PDF simple de fotos, como los libros sueltos: el unido con pypdf daba "Error processing interior" en KDP
+    subprocess.run([sys.executable, str(AQUI / "kdp_limpiar.py"), str(salida)], check=True)
     print(salida, PAGINAS, "páginas")
 
 

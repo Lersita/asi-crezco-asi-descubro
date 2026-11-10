@@ -9,6 +9,7 @@ Uso: python3 maqueta/kdp_coleccion.py es|en          → maqueta/kdp-coleccion-<
      python3 maqueta/kdp_coleccion.py es|en --tapa camino|fila   → tapa alternativa: maqueta/kdp-tapa-coleccion-<lang>-<variante>.html
      python3 maqueta/kdp_coleccion.py es|en --pdf    → kdp/coleccion-<lang>-interior.pdf (unos 400 MB)
      python3 maqueta/kdp_achicar.py kdp/coleccion-es-interior.pdf /tmp/x.pdf 82 && mv /tmp/x.pdf kdp/coleccion-es-interior.pdf   (unos 270 MB)
+     python3 maqueta/kdp_limpiar.py kdp/coleccion-es-interior.pdf   (PDF simple, para que KDP no dé error al procesarlo)
      node maqueta/kdp_pdf.js maqueta/kdp-tapa-coleccion-es.html kdp/coleccion-es-tapa.pdf 17.8743in 8.75in"""
 import sys, html, subprocess, tempfile, glob
 from pathlib import Path
@@ -247,7 +248,7 @@ def pdf_interior(lang):
         salida = RAIZ / "kdp" / f"coleccion-{lang}-interior.pdf"
         with open(salida, "wb") as fh:
             w.write(fh)
-    print(salida, PAGINAS, "páginas")
+    print(salida, PAGINAS, "páginas (después: kdp_achicar.py y kdp_limpiar.py)")
 
 
 if __name__ == "__main__":
