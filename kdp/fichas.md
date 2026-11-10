@@ -568,7 +568,7 @@ Datos comunes como los demás libros, salvo: **precio sugerido USD 24,99** (los 
 - **Título:** Tommy's First Year
 - **Subtítulo:** 4 Books in 1: Roll Over, Sit Up, Crawl, and Stand Up
 - **Serie:** I Grow, I Discover
-- **Palabras clave (7):** baby's first year picture book · baby milestones book set · physics for kids ages 4-7 · STEM picture book collection · early math for kindergarten · read aloud book bundle · books about growing up
+- **Palabras clave (7, del 10/11/2026):** `big brother big sister new baby sibling gift` · `STEM read aloud preschool kindergarten 1st grade` · `baby milestones early childhood development` · `box set collection book bundle holiday gift` · `rolling balance friction gravity experiments` · `rolling sitting crawling standing baby stages` · `counting comparing measuring early math skills`
 
 **Descripción:**
 
@@ -592,7 +592,7 @@ Datos comunes como los demás libros, salvo: **precio sugerido USD 24,99** (los 
 - **Título:** El primer año de Tommy
 - **Subtítulo:** 4 libros en 1: girar, sentarse, gatear y pararse
 - **Serie:** Así crezco, así descubro
-- **Palabras clave (7):** libros infantiles en español · primer año del bebé libro · colección de libros para niños · física para niños de 4 a 7 años · matemática temprana para niños · libro STEM en español · cuentos para leer en voz alta
+- **Palabras clave (7, del 10/11/2026):** `regalo hermano mayor hermana mayor nuevo bebé` · `STEM leer en voz alta preescolar kínder primaria` · `hitos del bebé desarrollo infantil temprano` · `colección paquete libros infantiles regalo navidad` · `rodar equilibrio fricción gravedad experimentos` · `bebé gira se sienta gatea se para etapas` · `contar comparar medir matemáticas tempranas`
 
 **Descripción:**
 
