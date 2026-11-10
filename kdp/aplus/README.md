@@ -197,3 +197,36 @@ Mismos 4 módulos, con las imágenes `libro5-en-…`. Content name: **Tommy Book
 | Cuadro 3 | Hands pushing an empty box and a box full of books, and a child pushing a ball |
 | Adentro | What's inside: a story, simple physics, an experiment, and a page for grown-ups |
 | Serie | Tommy growing up, from a baby rolling over to a boy riding a bike: the 11 milestones of the series |
+
+---
+
+# Recopilatorio 1–4 · inglés (Tommy's First Year)
+
+Imágenes `recopilatorio14-en-…` (salen de `python3 maqueta/aplus.py b14-en`). Content name: **Tommy Books 1-4 Bundle – EN**. Cambia el módulo 2: es **Standard Four Image & Text** (4 imágenes, una por libro) en lugar de tres.
+
+**Módulo 1 · Standard Image Header With Text** (`recopilatorio14-en-1-cabecera.jpg`)
+- **Headline (arriba):** Tommy's first year, all in one book
+- **Headline (abajo):** Four milestones, four big discoveries
+- **Body text:** Roll over, sit up, crawl, and stand up: this collection brings together the first four books of I Grow, I Discover. With Rula, his big colorful ball, Tommy discovers why round things roll, how balance works, what friction does, and how gravity pulls everything down. Along the way he counts, compares, and measures. A gentle read-aloud collection for curious kids ages 4 to 7, and a lovely gift for a big brother or sister-to-be.
+
+**Módulo 2 · Standard Four Image & Text** (`cuadro1` a `cuadro4`)
+- **Headline del módulo:** One milestone in every book
+- **Imagen 1 · Headline:** Book 1: Roll Over · **Body:** Round things roll! Tommy rolls over for the first time and watches Rula roll away.
+- **Imagen 2 · Headline:** Book 2: Sit Up · **Body:** A wide base doesn't fall. Tommy learns to balance, and what's tall and short, near and far.
+- **Imagen 3 · Headline:** Book 3: Crawl · **Body:** Hands and knees grip the rug thanks to friction. One, two, three, four: off he goes!
+- **Imagen 4 · Headline:** Book 4: Stand Up · **Body:** Everything he lets go of falls down: that's gravity. And standing tall, he compares heights.
+
+**Módulo 3 · Standard Single Image** (`recopilatorio14-en-3-adentro.jpg`): headline y body vacíos.
+
+**Módulo 4 · Standard Image Header With Text** (`serie-en.jpg`): los mismos textos que en los libros sueltos.
+
+**Textos alternativos**
+| Imagen | Alt text |
+| --- | --- |
+| Cabecera | Cover of Tommy's First Year: four babies on a rug, from rolling over to standing by the couch, with a colorful ball |
+| Cuadro 1 | Baby Tommy on his tummy next to his colorful ball |
+| Cuadro 2 | Baby Tommy sitting with his legs apart, a dotted triangle showing his wide base |
+| Cuadro 3 | Baby Tommy crawling on the rug, smiling |
+| Cuadro 4 | Baby Tommy standing on the rug without holding on, arms out |
+| Adentro | Inside every book: a story, simple physics, an experiment, and a page for grown-ups |
+| Serie | Tommy growing up, from a baby rolling over to a boy riding a bike: the 11 milestones of the series |

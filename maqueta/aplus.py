@@ -91,6 +91,19 @@ LIBROS[(5, "en")] = {**COMUN_EN,
                 ("l5-exp.jpg", "50% 50%", "A home experiment", "with things from home"),
                 ("l5-p24.jpg", "50% 70%", "A page for grown-ups", "science, milestone and safety")]}
 
+# Recopilatorio 1 a 4: el módulo 2 lleva 4 imágenes (una por libro) en lugar de 3
+LIBROS[("b14", "en")] = {**COMUN_EN,
+    "tapa": "bundle14-en", "prefijo": "recopilatorio14-en",
+    "serie": "I Grow, I Discover · Books 1–4", "titulo": "Tommy's First Year",
+    "lema": "Four milestones, one book",
+    "bajada": "Roll over, sit up, crawl, and stand up: Tommy's whole first year in a single read-aloud collection.",
+    "cuadros": [("d06-v3.jpg", "80% 55%"), ("l2-d04-v1.jpg", "68% 50%"), ("l3-d02.jpg", "84% 50%"), ("l4-d10.jpg", (60, 0, 1078, 1018))],
+    "adentro_t": "Inside every book",
+    "adentro": [("d01-v3.jpg", "15% 60%", "A gentle story", "told by Tommy himself"),
+                ("l3-d08.jpg", "0% 50%", "Real, simple physics", "one big idea in every book"),
+                ("l2-exp-v1.jpg", "0% 50%", "A home experiment", "with things from home"),
+                ("l4-p24.jpg", "50% 60%", "A page for grown-ups", "science, milestone and safety")]}
+
 BASE = f"""<!doctype html><html><head><meta charset="utf-8">{FUENTES}<style>
 *{{box-sizing:border-box}}body{{margin:0;font-family:Andika,sans-serif;color:#23304A}}
 .lienzo{{position:relative;overflow:hidden;background:#FFF9E7}}
@@ -102,7 +115,7 @@ h1,h2{{font-family:Fraunces,serif;font-weight:900;margin:0;line-height:1;letter-
 
 def cabecera(t):
     return BASE + f"""<div class="lienzo" style="width:970px;height:600px">
-<div class="foto" style="position:absolute;left:40px;top:40px;width:520px;height:520px;background-image:url({TAPAS}/libro{N}-{LANG}.jpg)"></div>
+<div class="foto" style="position:absolute;left:40px;top:40px;width:520px;height:520px;background-image:url({TAPAS}/{t.get('tapa', f'libro{N}-{LANG}')}.jpg)"></div>
 <div style="position:absolute;left:600px;top:70px;width:330px">
 <div class="col" style="font-size:14px">{e(t['serie'])}</div>
 <h2 style="font-size:46px;margin-top:16px">{e(t['lema'])}</h2>
@@ -185,15 +198,16 @@ JS = """const { chromium } = require('playwright');
 if __name__ == "__main__":
     trabajos = []
     import sys
-    elegidos = [(int(a.split("-")[0]), a.split("-")[1]) for a in sys.argv[1:]] or list(LIBROS)
+    elegidos = [(int(a.split("-")[0]) if a[0].isdigit() else a.split("-")[0], a.split("-")[1]) for a in sys.argv[1:]] or list(LIBROS)
     for (N, LANG) in elegidos:
         t = LIBROS[(N, LANG)]
         piezas = [("1-cabecera", cabecera(t), 970, 600), ("3-adentro", adentro(t), 970, 300)]
         piezas += [(f"2-cuadro{k + 1}", cuadro(*c), 300, 300) for k, c in enumerate(t["cuadros"])]
         for nombre, doc, w, h in piezas:
-            f = SALIDA / f"libro{N}-{LANG}-{nombre}.html"
+            pre = t.get("prefijo", f"libro{N}-{LANG}")
+            f = SALIDA / f"{pre}-{nombre}.html"
             f.write_text(doc, encoding="utf-8")
-            trabajos.append([str(f), str(SALIDA / f"libro{N}-{LANG}-{nombre}.jpg"), w, h])
+            trabajos.append([str(f), str(SALIDA / f"{pre}-{nombre}.jpg"), w, h])
     for lang in sorted({l for _, l in elegidos}):
         f = SALIDA / f"serie-{lang}.html"
         f.write_text(serie(lang), encoding="utf-8")
