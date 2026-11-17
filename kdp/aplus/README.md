@@ -230,3 +230,34 @@ Imágenes `recopilatorio14-en-…` (salen de `python3 maqueta/aplus.py b14-en`).
 | Cuadro 4 | Baby Tommy standing on the rug without holding on, arms out |
 | Adentro | Inside every book: a story, simple physics, an experiment, and a page for grown-ups |
 | Serie | Tommy growing up, from a baby rolling over to a boy riding a bike: the 11 milestones of the series |
+
+---
+
+# Libro 6 · inglés (Tommy Learns to Run)
+
+Mismos 4 módulos, con las imágenes `libro6-en-…` y `serie-en.jpg` en el módulo 4. Content name: **Tommy Book 6 – EN**.
+
+**Módulo 1 · Standard Image Header With Text**
+- **Headline (arriba):** Fast, slow, and stop!
+- **Headline (abajo):** Rula rolls away into the backyard
+- **Body text:** Tommy can roll over, sit up, crawl, stand up, and walk, and today Rula rolls away into the backyard: it's time to run. He discovers speed: Rula zooms down the little hill and slows down going up, and when Tommy runs toward Dad, his feet keep going a little more before he can stop. Then there's a race to the tree: who comes in first, second, and third? A gentle read-aloud story for curious kids ages 4 to 7, with a hands-on experiment and a page for grown-ups.
+
+**Módulo 2 · Standard Three Images & Text**
+- **Headline del módulo:** Learning through play
+- **Imagen 1 · Headline:** Fast and slow · **Body:** When Tommy walks, he gets to the tree slowly. When he runs, he gets there much faster! Fast means covering a lot of ground in a little time.
+- **Imagen 2 · Headline:** Time to stop! · **Body:** Tommy runs toward Dad, but his feet keep going a little more. Nothing stops all at once: stopping takes a moment and some space.
+- **Imagen 3 · Headline:** Try it at home · **Body:** A simple, safe experiment with a tray, some books, and a ball: does a higher ramp make it faster? And who wins the race: the ball, the tube, or the bottle?
+
+**Módulo 3 · What's inside** (`libro6-en-3-adentro.jpg`): headline y body vacíos.
+
+**Módulo 4 · Standard Image Header With Text** (`serie-en.jpg`): los mismos textos que en los otros libros.
+
+**Textos alternativos**
+| Imagen | Alt text |
+| --- | --- |
+| Cabecera | Cover of Tommy Learns to Run: a toddler running across the backyard toward a colorful ball |
+| Cuadro 1 | Toddler Tommy running fast past a tree, with speed lines behind him |
+| Cuadro 2 | Toddler Tommy running toward Dad's open hands, sliding to a stop |
+| Cuadro 3 | Balls rolling down ramps made of books, and a child racing a ball, a tube and a bottle |
+| Adentro | What's inside: a story, simple physics, an experiment, and a page for grown-ups |
+| Serie | Tommy growing up, from a baby rolling over to a boy riding a bike: the 11 milestones of the series |

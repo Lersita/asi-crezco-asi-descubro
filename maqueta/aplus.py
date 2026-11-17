@@ -91,6 +91,15 @@ LIBROS[(5, "en")] = {**COMUN_EN,
                 ("l5-exp.jpg", "50% 50%", "A home experiment", "with things from home"),
                 ("l5-p24.jpg", "50% 70%", "A page for grown-ups", "science, milestone and safety")]}
 
+LIBROS[(6, "en")] = {**COMUN_EN,
+    "serie": "I Grow, I Discover · Book 6", "titulo": "Tommy Learns to Run",
+    "bajada": "A read-aloud picture book about running for the first time, and the science of speed: fast, slow, and stopping.",
+    "cuadros": [("l6-d04.jpg", (1200, 0, 2218, 1018)), ("l6-d05.jpg", (715, 0, 1733, 1018)), ("l6-exp.jpg", (0, 0, 2400, 1610))],
+    "adentro": [("l6-d02.jpg", "50% 60%", "A gentle story", "told by Tommy himself"),
+                ("l6-d06.jpg", "70% 60%", "Real, simple physics", "nothing stops all at once"),
+                ("l6-exp.jpg", "50% 50%", "A home experiment", "with things from home"),
+                ("l6-p24.jpg", "50% 70%", "A page for grown-ups", "science, milestone and safety")]}
+
 # Recopilatorio 1 a 4: el módulo 2 lleva 4 imágenes (una por libro) en lugar de 3
 LIBROS[("b14", "en")] = {**COMUN_EN,
     "tapa": "bundle14-en", "prefijo": "recopilatorio14-en",
