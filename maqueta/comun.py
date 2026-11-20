@@ -33,7 +33,7 @@ def portada(img, titulo_html, n):
     return (f'''<section class="spread"><div class="guarda"></div>
 <div class="page-r art" style="background-image:url({B}{img})"></div><div class="fold"></div>
 <div class="cover-t"><div class="coleccion">Así crezco, así descubro</div>
-<h1>{titulo_html}</h1><div class="badge"><span>Libro</span>{n}</div></div>
+<h1>{titulo_html}</h1><div class="autor">by LERSA</div><div class="badge"><span>Libro</span>{n}</div></div>
 <div class="borrador">Borrador · ilustraciones de prueba</div></section>''')
 
 def experimento(titulo_html, necesitas, pasos, img, columnas, objetos, nota, descubrimos):
@@ -76,6 +76,7 @@ body{margin:0;font-family:Andika,sans-serif;color:#23304A}
 .cover-t{position:absolute;left:216mm;top:0;width:216mm;padding:16mm 16mm 0}
 .coleccion{font-family:Fraunces,serif;font-weight:600;font-size:12pt;letter-spacing:.22em;text-transform:uppercase;color:#C4532E}
 h1{font-family:Fraunces,serif;font-weight:800;font-size:60pt;line-height:1;margin:4mm 0 0;color:#23304A;letter-spacing:-.01em}
+.autor{display:inline-block;font-family:Fraunces,serif;font-weight:700;font-size:13pt;letter-spacing:.12em;color:#C4532E;margin-top:3mm;padding:1.2mm 3.5mm;background:#FFF8E8;border-radius:1.5mm;box-shadow:0 .5mm 1mm rgba(70,45,20,.2)}
 .badge{position:absolute;right:16mm;top:16mm;width:22mm;height:22mm;border-radius:50%;background:conic-gradient(#D9452B 0 60deg,#EE8A2A 0 120deg,#E9B21C 0 180deg,#5E9E44 0 240deg,#4FA3D9 0 300deg,#8A5CB8 0 360deg);
  display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:Fraunces,serif;font-weight:900;font-size:13mm;color:#fff;text-shadow:0 .5mm 1mm rgba(0,0,0,.35);line-height:.9}
 .badge span{font-size:3mm;letter-spacing:.15em;text-transform:uppercase}

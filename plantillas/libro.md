@@ -33,7 +33,7 @@ Las tapas (frente, lomo y contratapa) van aparte del interior, como pide Amazon 
 | Física | |
 | Matemática | |
 | Formato | 24 páginas: portada, 10 dobles de historia, experimento casero (doble) y página para los grandes |
-| Lector | Chicos de 5 a 7 años, leído en voz alta por un adulto |
+| Lector | Chicos de 4 a 7 años, leído en voz alta por un adulto |
 | Edad de Tomi | (ver `biblia/personajes.md`) |
 | Qué hace Rula | (cómo muestra el concepto físico) |
 

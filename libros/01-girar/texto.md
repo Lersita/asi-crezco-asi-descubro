@@ -13,7 +13,7 @@ Primer libro de la colección "Así crezco, así descubro" (nombre provisorio), 
 | Física | Rotación: las cosas redondas ruedan, las que tienen lados planos no |
 | Matemática | Arriba y abajo; contar del 1 al 3 |
 | Formato | 24 páginas: portada, 10 dobles de historia, experimento casero (doble) y página para los grandes |
-| Lector | Chicos de 5 a 7 años, leído en voz alta por un adulto |
+| Lector | Chicos de 4 a 7 años, leído en voz alta por un adulto |
 
 **Personajes** (nombres provisorios)
 

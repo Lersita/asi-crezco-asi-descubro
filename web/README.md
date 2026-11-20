@@ -1,6 +1,6 @@
 # Web de la colección
 
-Página de un solo archivo (`index.html`) con un personalizador: elegís mujer o varón, escribís el nombre y hojeás el libro 1 o 2 (desde la quinta doble, la vista previa se ve borrosa).
+Página de un solo archivo (`index.html`) con un personalizador: elegís mujer o varón, escribís el nombre y hojeás el libro 1, 2 o 3 (desde la quinta doble, la vista previa se ve borrosa).
 
 **Venta:** el cliente elige los libros, paga con Mercado Pago (Checkout Pro) y descarga el PDF en `gracias.html`. Los precios están en `precios.json`, que usan la web (para mostrarlos) y el servidor (para cobrar).
 
@@ -20,7 +20,7 @@ Página de un solo archivo (`index.html`) con un personalizador: elegís mujer o
 
 Cuando cambian las ilustraciones o el texto de un libro: regenerá la maqueta (`maqueta/libro1.py`, `libro1_emi.py`, `libro2.py`) y después las plantillas y las vistas previas con `node web/herramientas/plantillas.js` y `python3 web/herramientas/vista.py` (desde la raíz del repositorio).
 
-Libros disponibles hoy: libro 1 y libro 2, en mujer y varón.
+Libros disponibles hoy: libros 1, 2 y 3, en mujer y varón. Se eligen tildando los libros; el precio depende de cuántos (1, 2 o 3).
 
 ## Publicar en Vercel
 

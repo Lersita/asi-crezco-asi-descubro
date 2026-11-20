@@ -8,7 +8,7 @@ Una colección de 11 libros infantiles de física y matemática. Proyecto person
 
 ## Concepto
 
-- **Lectores:** chicos de 5 a 7 años. El libro lo lee un adulto en voz alta.
+- **Lectores:** chicos de 4 a 7 años. El libro lo lee un adulto en voz alta.
 - **Hilo de la colección:** cada libro es un hito motor del desarrollo de un bebé.
 - **Narrador:** Tomi, en primera persona. Crece de libro en libro: es bebé en el libro 1 y anda en bici en el 11.
 - **Compañera fija:** Rula, su pelota grande, blanda y de colores. Aparece en los 11 libros y muestra el concepto físico de cada uno.
@@ -49,15 +49,29 @@ Las edades son siempre un rango aproximado.
 - **25/10/2026:** estilo de ilustración A, papel recortado. Personajes de Tomi y Rula aprobados. Formato cuadrado de 21,6 cm. Experimento en doble (páginas 22–23). Máximo 3 frases por página, repartiendo el texto de cada doble.
 - **26/10/2026:** Tomi con piel un par de tonos más clara, pelo castaño claro y ojos miel. Versión mujer: **Emi**, igual a Tomi, con pelo muy cortito, un mechón con una flor coral y la misma piel. El protagonista se personaliza: el cliente elige mujer o varón y escribe el nombre (va en la tapa, "{Nombre} aprende a girar", y en la frase de la doble 1). En la web se dice "mujer" y "varón", nunca "nena" o "nene".
 - **26/10/2026:** el texto de los libros no nombra al protagonista fuera de la tapa y la doble 1 (si no, el PDF personalizado diría "Tomi"). La versión mujer cambia solo las palabras con género.
-- **27/10/2026:** venta del **PDF digital** con Mercado Pago (Checkout Pro). Precios: 1 libro $18.999; 2 libros $34.199; 3 libros $48.499; colección de 11 $124.999. Hoy solo se venden 1 y 2 (hay 2 libros listos); 3 y 11 se muestran como "próximamente". El **impreso** en tapa dura (con el PDF de regalo al instante, en una sola compra) queda para cuando haya presupuesto de imprenta.
+- **27/10/2026:** venta del **PDF digital** con Mercado Pago (Checkout Pro). Precios: 1 libro $18.999; 2 libros $34.199; 3 libros $48.499; colección de 11 $124.999. Desde el 27/10/2026 se venden los libros 1, 2 y 3 (packs de 1, 2 y 3); la colección de 11 se muestra como "próximamente". En la web se eligen los libros tildándolos. El **impreso** en tapa dura (con el PDF de regalo al instante, en una sola compra) queda para cuando haya presupuesto de imprenta.
+- **27/10/2026:** la venta real se abre **cuando estén terminados los 11 libros**, para que la saga tenga sentido completa. Hasta entonces, la web queda como vidriera y con la credencial de prueba de Mercado Pago.
+- **27/10/2026 · cambio de modelo:** prueba de venta en **Amazon KDP (Estados Unidos)**, **tapa blanda** y **sin personalizar**, con los **libros 1 a 4** en dos ediciones: **español neutro** (tuteo, sin regionalismos) e **inglés**. El protagonista es **Tommy** en los dos idiomas (sin versión Emi en KDP). Las tapas dicen **"by LERSA"** (apodo del autor). Cobro por Payoneer (cuenta en Estados Unidos que el usuario ya tiene). La **web con Mercado Pago queda en pausa**; los textos rioplatenses y la personalización se conservan.
+- **30/10/2026:** en las fichas de KDP el autor es **"Lersa"** (L mayúscula, resto en minúscula), como quedó publicado el libro 1, para que todos los libros compartan una sola página de autor en Amazon y Author Central. Las tapas siguen diciendo "by LERSA" en mayúsculas por diseño.
+- **28/10/2026:** el público pasa a ser de **4 a 7 años** (antes, 5 a 7), en la web, en las fichas y edad de lectura de KDP y en la contratapa.
 - **27/10/2026:** el pelo crece libro a libro (detalle en `biblia/personajes.md`). Desde el libro 4, Tomi sin remolino y Emi sin colita; Emi lleva un ganchito con flor coral. Antes de gastar créditos en ilustraciones, revisar la evolución y consultar (ver "Cómo trabajar").
 
 ## Estado (27/10/2026)
 
-- **Libros 1 y 2:** texto, ilustraciones (varón y mujer) y PDF de borrador listos.
-- **Libro 3 (27/10/2026):** texto aprobado; ilustraciones (varón y mujer) y PDF de borrador listos para revisar. Pelo de Tomi y Emi corregido en los libros 2 y 3 (ver `ilustraciones/README.md`). Falta sumarlo a la web. Libro 4 en adelante: sin empezar.
+- **Libros 1 y 2:** texto, ilustraciones (varón y mujer) y PDF de borrador listos, a la venta.
+- **Libro 3 (27/10/2026):** texto, ilustraciones (varón y mujer) y PDF de borrador listos, y **a la venta en la web**. Pelo de Tomi y Emi corregido en los libros 2 y 3 (ver `ilustraciones/README.md`). 
+- **KDP (27/10/2026):** libros 1 a 4 en español neutro e inglés con interior (fotos a 400 dpi) y tapa listos, y fichas en `kdp/fichas.md`. **Libro 1 en inglés publicado** (https://www.amazon.com/dp/B0HPS5H68W, live el 30/10/2026; enviado el 27/10) a USD 12,99 (impresión USD 4,20; queda unos USD 3,59 por libro antes de la retención del 30 % de Estados Unidos). Cobro por Payoneer (Takenos no figura entre los bancos que acepta KDP). **Libro 1 en español publicado** (https://www.amazon.com/dp/B0HPS5LPS9, live el 30/10/2026; autor corregido a "Lersa" y descripción a 4–7 años el 31/10, en revisión). Falta: libros 2 a 5.
+- **Libro 4 (27/10/2026):** texto aprobado, hojas de personajes aprobadas, ilustraciones de Tomi y PDF de borrador de la versión varón listos. Falta la versión de Emi (unos 156 créditos).
+- **Segunda corrección del pelo (28/10/2026):** menos pelo desde el libro 3. Hojas nuevas de los libros 3 a 5 y páginas de Tomi de los libros 3 y 4 corregidas; KDP de los libros 3 y 4 rearmado. La versión de Emi de los libros 3 y 4 queda para más adelante (por ahora solo varón, para KDP).
+- **Libro 5 (28/10/2026):** texto aprobado, hojas de Tomi y Emi, 13 ilustraciones de Tomi y maqueta con PDF de borrador (`maqueta/libro5.py`). Maqueta aprobada; traducción a español neutro e inglés (`texto-es.md`, `texto-en.md`, `maqueta/kdp_textos.py`), fichas y archivos de KDP listos el 28/10/2026. Emi, más adelante.
+- **Libro 6 (31/10/2026):** texto aprobado, hoja de Tomi (18–24 meses), hoja del patio, 13 ilustraciones de Tomi, maqueta (`maqueta/libro6.py`), traducción, fichas y archivos de KDP listos. Emi, más adelante.
+- **Libro 7 (31/10/2026):** texto aprobado (doble 8 cambiada a "cinco cubos" y "casi tres cubos"), hoja de Tomi (2–3 años), 13 ilustraciones de Tomi (doble 8 corregida a mano, sin créditos), maqueta (`maqueta/libro7.py`), traducción, fichas y archivos de KDP listos. Emi, más adelante.
+- **Libro 8 (31/10/2026):** texto aprobado, hoja de Tomi (jean azul y medias antideslizantes), hoja de la escalera (`referencias/set-escalera.png`: seis escalones, baranda baja en diagonal y horizontal en el descanso, rejita abajo), 13 ilustraciones de Tomi (todos del lado de adentro de la baranda; portada hecha editando la doble 4), maqueta (`maqueta/libro8.py`), traducción, fichas y archivos de KDP listos. Emi, más adelante.
+- **Libro 9 (3/11/2026):** texto aprobado, hoja de Tomi (3–4 años, remera verde con rayas blancas), 13 ilustraciones de Tomi en el patio (doble 3: una Rula de la IA y dos copias cada vez más transparentes sobre la curva), maqueta (`maqueta/libro9.py`, con las figuras de tiza y TRAYECTORIA), traducción, fichas y archivos de KDP listos. Emi, más adelante. 
+- **Libro 10 (3/11/2026):** texto aprobado, hoja de Tomi de 5 años (claramente más grande; short de baño verde y antiparras azules), hoja de la pileta del club (`referencias/set-pileta.png`), 13 ilustraciones (casi todas con Nano Banana 2, porque Nano Banana Pro fallaba en formato panorámico ese día; pelo de mamá corregido en las dobles 1 y 7; doble 10 con la bici en la misma pileta), maqueta (`maqueta/libro10.py`), traducción, fichas y archivos de KDP listos. Emi, más adelante.
+- **Libro 11 (3/11/2026):** texto aprobado (Rula: "la rueda gira como Rula cuando rueda"; cierre de la colección con "¿y vos, qué vas a aprender ahora?" y las 11 tapas), hoja de Tomi (remera rayada y casco verde), hoja de la plaza (`referencias/set-plaza.png`), 13 ilustraciones con Nano Banana 2 (dobles 1, 4, 8 y 10 rehechas; doble 6 y 10 sin rueditas), maqueta (`maqueta/libro11.py`), traducción, fichas y archivos de KDP listos. **Los 11 libros de la colección quedaron terminados en su versión varón.** Emi de los libros 3 a 11, más adelante.
 - **Web:** publicada en Vercel (https://asi-crezco-asi-descubro-web.vercel.app), carpeta `web/`. Personalizador, visor (desde la quinta doble se ve borroso), precios y packs, compra con Mercado Pago y descarga en `gracias.html`. Probado de punta a punta **en modo prueba** (credencial de un usuario vendedor de prueba en la variable `MP_ACCESS_TOKEN` de Vercel). Detalle técnico en `web/README.md`.
-- **Créditos de Kie.ai:** quedaban unos 520 el 27/10/2026, después de corregir el pelo. Cada imagen nueva con Nano Banana Pro cuesta 18; cada edición con Nano Banana 2 en 2K, 12.
+- **Créditos de Kie.ai:** quedaban 156 el 27/10/2026, después de la versión de Tomi del libro 4. Ver `costos.md`. Cada imagen nueva con Nano Banana Pro cuesta 18; cada edición con Nano Banana 2 en 2K, 12.
 
 ### Pendiente para vender de verdad
 
@@ -71,11 +85,13 @@ Las edades son siempre un rango aproximado.
 ## Estructura del proyecto
 
 - `CLAUDE.md`: este contexto y las reglas.
-- `biblia/personajes.md`: Tomi en cada edad, Rula, mamá y papá. `biblia/tono-y-lenguaje.md`: cómo se escribe y la física que no se puede decir mal. `biblia/estilo-visual.md`: estilo, seguridad en las imágenes, formato de impresión.
+- `PROJECT-RECOVERY.md`: cómo retomar el proyecto desde el respaldo, con o sin GitHub (arquitectura, flujo, indicaciones maestras, herramientas, estado de los 11 libros).
+- `costos.md`: créditos de Kie.ai y dólares gastados por libro (1.000 créditos = USD 5). Se actualiza cada vez que se gastan créditos.
+- `biblia/personajes.md`: Tomi en cada edad, Rula, mamá y papá. `biblia/tono-y-lenguaje.md`: cómo se escribe y la física que no se puede decir mal. `biblia/estilo-visual.md`: estilo, seguridad en las imágenes, formato de impresión. `biblia/idiomas.md`: español neutro e inglés para KDP (glosario, títulos, onomatopeyas).
 - `plantillas/libro.md`: la estructura fija de 24 páginas.
-- `libros/NN-hito/`: `texto.md`, `ilustraciones.md` (prompts) y los PDF de borrador.
+- `libros/NN-hito/`: `texto.md` (rioplatense, web), `texto-es.md` (español neutro, KDP), `texto-en.md` (inglés, KDP), `ilustraciones.md` (prompts) y los PDF de borrador.
 - `ilustraciones/`: imágenes originales. `README.md` dice qué versión se usa en cada página y cómo se hicieron. `herramientas/kie.py` genera o edita una imagen con Kie.ai.
-- `maqueta/`: arma cada libro en HTML (`libro1.py`, `libro1_emi.py`, `libro2.py`, `libro2_emi.py`, `libro3.py` que arma las dos versiones, con piezas comunes en `comun.py`) y lo pasa a PDF con `pdf.js`.
+- `maqueta/`: arma cada libro en HTML (`libro1.py`, `libro1_emi.py`, `libro2.py`, `libro2_emi.py`, `libro3.py` y `libro4.py` que arman las dos versiones, `libro5.py` a `libro11.py` solo varón por ahora, con piezas comunes en `comun.py`) y lo pasa a PDF con `pdf.js`.
 - `web/`: la web y las funciones de pago. Ver `web/README.md`.
 
 ## Cómo se hace cada cosa
@@ -83,7 +99,8 @@ Las edades son siempre un rango aproximado.
 - **Ilustrar un libro:** revisión de la evolución con el usuario (ver "Antes de gastar créditos en ilustraciones") → hoja de personajes de la edad nueva (editando la anterior) → cada doble con Nano Banana Pro en 2K y 21:9, pasando la hoja y una portada como referencia → revisar todas juntas en una hoja de contactos → corregir. La versión mujer se hace **editando** las imágenes del varón con Nano Banana 2 y la hoja de Emi.
 - **Problemas conocidos de las ediciones:** a veces cambian la piel o la cara de los adultos, o dejan una viñeta sin cambiar. Arreglo sin gastar créditos: unir la zona del adulto desde la versión anterior (las imágenes quedan alineadas). Para una viñeta, editar solo ese recorte. Las URL de Kie.ai (tempfile) vencen: guardar siempre la imagen en `ilustraciones/`.
 - **Después de cambiar ilustraciones o texto:** maqueta (`python3 maqueta/libroN.py`) → PDF (`node maqueta/pdf.js maqueta/libroN.html salida.pdf`) → plantillas de la web (`node web/herramientas/plantillas.js`) → vistas previas (`python3 web/herramientas/vista.py`) → guardar en Git → pull request a `main` y merge (Vercel publica solo) → comprobar la web. Ver "Cada cambio llega al repositorio y a la web".
-- **Sumar un libro a la venta:** agregarlo en `web/precios.json`, en `api/_pdf.js` (título y frase de la doble 1) y en el visor de `web/index.html`.
+- **Archivos para Amazon KDP:** `cd maqueta && python3 kdp.py N es|en && python3 kdp_tapa.py N es|en`, después revisar márgenes con `node maqueta/kdp_margenes.js maqueta/kdp-libroN-es.html` (tiene que decir OK), armar el interior con `python3 maqueta/kdp_raster.py maqueta/kdp-libroN-es.html kdp/libroN-es-interior.pdf` (**el interior siempre como fotos de cada página a 400 dpi**, sacadas en pantalla con `kdp_capturas.js`: el modo de impresión del navegador achicaba el contenido al 66 % y KDP lo mostraba en un rincón). Antes de mandarlo, **mirar las páginas enteras**, no solo las medidas. La tapa: `node maqueta/kdp_pdf.js maqueta/kdp-tapa-libroN-es.html kdp/libroN-es-tapa.pdf 17.3063in 8.75in` y `python3 maqueta/kdp_medida.py kdp/libroN-es-tapa.pdf 17.3063 8.75`. Los textos traducidos están en `maqueta/kdp_textos.py`; si falta una traducción, `kdp.py` se detiene y la lista. Las ilustraciones ampliadas para imprenta (300 dpi o más) se generan con `python3 maqueta/kdp_ampliar.py` en `maqueta/img-kdp/`, con el mismo nombre que en `maqueta/img/`: ampliación ×2 sin IA más un leve realce, que conserva la textura del papel (decidido el 27/10/2026, después de probar Recraft, que la alisaba). Si una ilustración cambia, se vuelve a correr. Los PDF de `kdp/` no se guardan en Git: se regeneran. **Recopilatorios y colección (10/11/2026):** la vista previa de KDP fallaba con el interior unido de 149 MB; pasó con el interior a calidad 80 (`kdp_achicar.py`, unos 90 MB) rearmado como PDF simple de fotos (`kdp_limpiar.py`, lo hace solo `kdp_bundle.py`) y la tapa pasada a una imagen a 400 dpi (`python3 maqueta/kdp_tapa_imagen.py kdp/bundleNN-xx-tapa.pdf ANCHO 8.75`). Después de subir, esperar unos minutos antes de abrir la vista previa.
+- **Sumar un libro a la venta:** agregarlo en `web/precios.json` (y habilitar el pack de esa cantidad), en `api/_pdf.js` (título y frase de la doble 1), en `web/herramientas/plantillas.js`, y en `web/index.html` (casilla de compra, visor `LIBROS_V` con la posición de la frase, botón del visor, estante y textos de los packs). Tapa del estante: `web/img/bN-varon-portada.jpg` y `bN-mujer-portada.jpg` (800 × 800). Después: plantillas, vistas previas, prueba en local del PDF personalizado y de la página, y pull request.
 
 ## Cómo trabajar
 
@@ -112,4 +129,13 @@ Para **cualquier** ilustración (hojas de personajes, páginas, correcciones), a
 1. **Revisar la evolución:** poner lado a lado a Tomi y a Emi del libro anterior (y de los anteriores) y comprobar que el cambio tiene sentido con la edad: **pelo (cantidad y largo, siempre igual o más que en el libro anterior, nunca menos)**, dientes, tamaño y proporciones del cuerpo, ropa y lo que puede hacer. Lo mismo para Rula, mamá, papá y la casa.
 2. **Preguntarle al usuario** las definiciones que no estén cerradas en `biblia/personajes.md` (cuánto pelo, cómo es la ropa nueva, etc.), mostrándole la comparación. No decidir solo.
 3. **Recién con su aprobación**, gastar créditos. Si una generación sale mal, no "corregir para el otro lado" sin volver a chequear contra la evolución aprobada.
-4. Avisar antes cuántos créditos se van a usar y cuántos quedan.
+4. Avisar antes cuántos créditos se van a usar y cuántos quedan, y después anotar lo gastado en `costos.md`.
+
+### Cómo pedir las imágenes para que la IA se equivoque menos (regla del 27/10/2026)
+
+1. **Hoja del set:** el living (sillón con respaldo, alfombra tejida, mesita, mesa, ventana) tiene una imagen de referencia propia en `ilustraciones/referencias/`. Se pasa en todas las páginas, junto con la hoja de personajes, en lugar de una página de un libro anterior. Cuando aparece un lugar nuevo (pileta, plaza, escalera), se arma su hoja antes de ilustrar.
+2. **La IA no dibuja medidas ni textos:** las líneas de altura, las flechas de medida, los números y las palabras se agregan en la maqueta. En la imagen solo van flechas de movimiento simples.
+3. **Prompts sin numeración** ("(1)", "1.") y con verbos que no se puedan malinterpretar: "se agarra del borde para sostenerse", no "holding a box".
+4. **Prueba antes del lote:** generar 2 imágenes, revisarlas y recién después lanzar el resto.
+5. **Regla fija de personas** en el bloque [REGLAS] de cada libro: solo mamá y papá, cada uno una vez como máximo, sin otras personas.
+6. **Las hojas de personajes no llevan objetos ni poses que adelanten otro libro** (caminar, cargar cosas), porque el modelo las copia en las páginas.

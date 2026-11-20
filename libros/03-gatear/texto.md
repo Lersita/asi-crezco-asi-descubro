@@ -11,7 +11,7 @@ Borrador (propuesta), 27 de octubre de 2026.
 | Física | Fricción: lo que no deja resbalar. Ayuda a agarrarse y empujar, y también frena |
 | Matemática | Contar manos y rodillas: uno, dos, tres, cuatro |
 | Formato | 24 páginas: portada, 10 dobles de historia, experimento casero (doble) y página para los grandes |
-| Lector | Chicos de 5 a 7 años, leído en voz alta por un adulto |
+| Lector | Chicos de 4 a 7 años, leído en voz alta por un adulto |
 | Edad de Tomi | 7–10 meses: primeros dos dientes abajo, pelo corto castaño claro con el remolino, ojos miel, body verde y pantalón largo de tela |
 | Qué hace Rula | Rueda lejos en el piso liso del pasillo y frena enseguida sobre la alfombra |
 

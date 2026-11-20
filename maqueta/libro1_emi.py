@@ -33,7 +33,7 @@ S = []
 S.append(f'''<section class="spread"><div class="guarda"></div>
 <div class="page-r art" style="background-image:url({B}p01-portada-emi.jpg)"></div><div class="fold"></div>
 <div class="cover-t"><div class="coleccion">Así crezco, así descubro</div>
-<h1>Emi aprende<br>a girar</h1><div class="badge"><span>Libro</span>1</div></div>
+<h1>Emi aprende<br>a girar</h1><div class="autor">by LERSA</div><div class="badge"><span>Libro</span>1</div></div>
 <div class="borrador">Borrador · ilustraciones de prueba</div></section>''')
 
 S.append(doble("d01-emi.jpg", [texto("Me llamo Emi. Soy chiquita, muy chiquita.", 18, 16, 150),
@@ -104,6 +104,7 @@ body{margin:0;font-family:Andika,sans-serif;color:#23304A}
  background-image:var(--grano),radial-gradient(circle at 25% 25%,rgba(233,178,28,.55) 0 2.2mm,transparent 2.4mm),radial-gradient(circle at 75% 75%,rgba(79,163,217,.45) 0 2.2mm,transparent 2.4mm);background-size:auto,36mm 36mm,36mm 36mm}
 .guarda.der{left:216mm}
 .cover-t{position:absolute;left:216mm;top:0;width:216mm;padding:16mm 16mm 0}
+.autor{display:inline-block;font-family:Fraunces,serif;font-weight:700;font-size:13pt;letter-spacing:.12em;color:#C4532E;margin-top:3mm;padding:1.2mm 3.5mm;background:#FFF8E8;border-radius:1.5mm;box-shadow:0 .5mm 1mm rgba(70,45,20,.2)}
 .coleccion{font-family:Fraunces,serif;font-weight:600;font-size:12pt;letter-spacing:.22em;text-transform:uppercase;color:#C4532E}
 h1{font-family:Fraunces,serif;font-weight:800;font-size:60pt;line-height:1;margin:4mm 0 0;color:#23304A;letter-spacing:-.01em}
 .badge{position:absolute;right:16mm;top:16mm;width:22mm;height:22mm;border-radius:50%;background:conic-gradient(#D9452B 0 60deg,#EE8A2A 0 120deg,#E9B21C 0 180deg,#5E9E44 0 240deg,#4FA3D9 0 300deg,#8A5CB8 0 360deg);

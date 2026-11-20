@@ -25,6 +25,11 @@ const LIBROS = {
     generos: ['varon', 'mujer'],
     nombreTexto: n => `Soy ${n}. Ya sé girar: boca arriba, boca abajo.`,
   },
+  libro3: {
+    titulo2: 'a gatear',
+    generos: ['varon', 'mujer'],
+    nombreTexto: n => `Soy ${n}. Ya sé girar y ya sé sentarme.`,
+  },
 };
 
 // Etiqueta de papel cortado: mismos puntos que el clip-path de la maqueta (en %)

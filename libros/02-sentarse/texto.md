@@ -11,7 +11,7 @@ Borrador (propuesta), 26 de octubre de 2026.
 | Física | Equilibrio: lo que tiene una base ancha no se cae |
 | Matemática | Alto y bajo; cerca y lejos |
 | Formato | 24 páginas: portada, 10 dobles de historia, experimento casero (doble) y página para los grandes |
-| Lector | Chicos de 5 a 7 años, leído en voz alta por un adulto |
+| Lector | Chicos de 4 a 7 años, leído en voz alta por un adulto |
 | Edad de Tomi | 6–8 meses: más rellenito, pelo corto castaño claro, ojos miel, body verde con una pelotita dibujada |
 | Qué hace Rula | Toca el piso en un puntito: el cubo no se queda arriba de ella. Rueda lejos cuando Tomi la empuja |
 

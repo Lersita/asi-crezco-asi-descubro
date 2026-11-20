@@ -104,3 +104,57 @@ El pelo no crecía entre libros. Se aprobó la evolución que está en `biblia/p
 - Arreglos sin gastar créditos: en `libro2/d10-compuesta.png` se devolvió el borde derecho (la edición había agregado a mamá) y en `libro3/d07-v1.png` la esquina de arriba a la izquierda (había agregado una cara).
 - Se repitieron 3 ediciones: `libro2/p24-v1.png`, porque había perdido el remolino, y `libro2-emi/d04.png` y `d10-compuesta.png`, porque la edición había agregado una línea punteada y una hoja de personajes.
 - Las figuras de Tomi de la web (`web/img/tomi-solito.webp` y `tomi-cuatro-patas.webp`) se recortaron de la hoja nueva del libro 2.
+
+## Libro 4 (carpetas `libro4/` y `libro4-emi/`)
+
+Generado el 27 de octubre de 2026 con Nano Banana Pro en 2K, con referencias `referencias/hoja-personajes-libro4.png` (Tomi de unos 11 meses: pelo más largo y despeinado sin remolino, cuatro dientes, remera verde y pañal) y `libro3/d10-v2.png` (estilo y living). Bloque de estilo: `herramientas/style-libro4.txt`. Se genera con `herramientas/generar_libro.py 4`, que sirve para cualquier libro.
+
+- La hoja de Tomi se editó para que no cargue la caja ni camine, y se borró a mano una figura que seguía cargándola.
+- La tapa y las dobles 1 a 5 salieron con un banco sin respaldo; se editaron (`*-v2.png`) para que el sillón sea el mismo con respaldo de las demás páginas.
+- La doble 7 se rehízo (`d07-v2.png`) porque la línea de la cabeza de Tomi quedaba a la altura de la mesa.
+- En el experimento se borraron a mano unos números "(1) (2) (3)" que había escrito la IA.
+- Doble 5: en el borde derecho aparece otro papá, pero queda afuera al recortar la doble a 2:1.
+
+| Página | Varón (`libro4/`) |
+| --- | --- |
+| 1 Portada | `p01-v2.png` |
+| 2–3 a 10–11 | `d01-v2.png` … `d05-v2.png` |
+| 12–13 | `d06-v1.png` |
+| 14–15 | `d07-v2.png` |
+| 16–17 a 20–21 | `d08-v1.png` … `d10-v1.png` |
+| 22–23 | `exp-v1.png` |
+| 24 | `p24-v1.png` |
+
+Las versiones `-v1` de la tapa y de las dobles 1 a 5 quedan como originales de las editadas.
+
+## Segunda corrección del pelo (28 de octubre de 2026)
+
+La curva del pelo se bajó desde el libro 3 (ver `biblia/personajes.md`). Hojas nuevas en `referencias/` (las anteriores, en `referencias/anteriores/`). Las páginas de Tomi de los libros 3 y 4 se editaron con `herramientas/pelo2.py` (Nano Banana 2) y quedaron como `libroN/<página>-pelo2.png`. Arreglos a mano, pegando la zona desde la imagen anterior: libro 3 página 24 (cara de papá) y libro 4 dobles 3 (línea punteada de más), 4 (mamá había quedado pelada) y 10 (una segunda pelota); se guardaron como `-pelo2-c.png`. El experimento no se tocó (muestra al lector, no a Tomi). La versión de Emi de los libros 3 y 4 todavía usa las imágenes anteriores: se rehace más adelante.
+
+## Libro 5 · Caminar (28 de octubre de 2026)
+
+Nano Banana Pro en 2K con `herramientas/generar_libro.py 5`, pasando la hoja `referencias/hoja-personajes-libro5.png` y `libro4/d10-pelo2-c.png` para el estilo. Bloque de estilo: `herramientas/style-libro5.txt`, que describe el living con palabras. La hoja del living (`referencias/set-living.png`) **no se pasa**: tiene un estilo plano y las páginas salían planas (se probó también pasarla a papel recortado, sin éxito). Todas las páginas son `-v1`. Correcciones: doble 2 rehecha (una cara en el pliegue), doble 4 editada desde una versión con dos pelotas, doble 5 editada (la manta estaba cortada), doble 9 rehecha (estilo plano) y en la doble 8 se borró a mano una letra de un cubito. Las descartadas quedan como `-v0-*`. Las huellitas y sus números se dibujan en la maqueta (`maqueta/libro5.py`). Solo versión varón por ahora.
+
+## Libro 6 · Correr (31 de octubre de 2026)
+
+Nano Banana Pro en 2K con `herramientas/generar_libro.py 6`, pasando la hoja `referencias/hoja-personajes-libro6.png`, la portada del libro 6 (`libro6/p01-v1.png`) para el estilo y `libro5/d03-v1.png`. Bloque de estilo: `herramientas/style-libro6.txt`. La hoja del patio (`referencias/set-patio.png`) se usó en la portada y la primera prueba; en las páginas sin la puerta de la casa empujaba a un estilo plano, así que el lote se hizo sin ella. Correcciones: doble 3 rehecha dos veces y con mamá agregada en un recorte pegado (`d03-v2.png`); doble 8 rehecha (flores en el pliegue); mamá agregada en la doble 10 (edición); experimento rehecho (el chico estaba arrodillado arriba de los libros). Las descartadas quedan como `-v0-*`. Solo versión varón por ahora.
+
+## Libro 7 · Saltar (31 de octubre de 2026)
+
+Nano Banana Pro en 2K con `herramientas/generar_libro.py 7`, pasando la hoja `referencias/hoja-personajes-libro7.png` y la portada del libro 7 para el estilo. Bloque de estilo: `herramientas/style-libro7.txt`. Se usan todas las `-v1`. La doble 8 salió con 7 cubos y una torre más alta que Tomi; la rehecha salió plana (`d08-v0-plano.png`, descartada). `d08-v1.png` sale de `d08-v0-siete-cubos.png` arreglada a mano: se sacaron los 2 cubos de arriba (fondo tomado de una edición del recorte, que cambiaba el pelo de Tomi y por eso no se usó entera), quedó una torre de 5 cubos a la altura de Tomi, y Rula con su torrecita se corrieron 240 px a la derecha para alejarlos del pliegue. Solo versión varón por ahora.
+
+## Libro 8 · Subir la escalera (31 de octubre de 2026)
+
+Nano Banana Pro en 2K con `herramientas/generar_libro.py 8`, pasando la hoja `referencias/hoja-personajes-libro8.png`, la portada del libro 7 para el estilo y la hoja de la escalera `referencias/set-escalera.png`. Esta hoja sí se pasa en las páginas: tiene textura de papel y ordena la escalera. La hoja salió en cinco pasos: v1 (escalones confusos), v2 (seis escalones, pero la baranda como una cerca horizontal en el piso), v3 (edición: baranda en diagonal), v4 (edición: baranda también en el descanso, pero perdió un escalón) y v5 = `set-escalera.png` (la parte de arriba de la v4 pegada sobre la v3). Bloque de estilo: `herramientas/style-libro8.txt`. Correcciones: la portada salió plana dos veces y se hizo editando la doble 4 a cuadrado; las dobles 3, 5 y 6 y la página 24 se rehicieron porque Tomi o mamá quedaban del lado de afuera de la baranda (la doble 3 con otra escena, la 5 editando la versión anterior). Las descartadas quedan como `-v0-*`. Solo versión varón por ahora.
+
+## Libro 9 · Tirar una pelota (3 de noviembre de 2026)
+
+Nano Banana Pro en 2K con `herramientas/generar_libro.py 9`, pasando la hoja `referencias/hoja-personajes-libro9.png`, la portada del libro 9 (primera versión) para el estilo y `libro7/d04-v1.png`. Bloque de estilo: `herramientas/style-libro9.txt`. La doble 3 salió dos veces con estilo plano y pelotas de más; la buena (`d03-v1.png`) tiene una sola Rula y `d03-v2.png` le suma dos copias de esa Rula, cada vez más transparentes, sobre la curva (pedido del usuario), sin créditos. La doble 6 se rehizo (cambió de estilo). La tapa se rehizo con Rula a la derecha, al final de la curva, para que no la tape el título (`p01-v1.png`; la anterior quedó como `p01-v0-pelota-arriba.png`). Solo versión varón por ahora.
+
+## Libro 10 · Nadar (3 de noviembre de 2026)
+
+Hoja de Tomi de 5 años: la edición de la del libro 9 no lo agrandó (`hoja-personajes-libro10-v0-chico.png`); la generada de cero mezcló figuras nuevas con copias del libro 9 (`-v1-mezcla.png`) y se recortó a las dos figuras nuevas (`hoja-personajes-libro10.png`). Hoja de la pileta (`referencias/set-pileta.png`) con Nano Banana 2. Páginas con `herramientas/generar_libro.py 10`, pasando la hoja, la portada del libro 9 para el estilo y la hoja de la pileta; ese día Nano Banana Pro fallaba en formato panorámico, así que la portada salió con Pro y el resto con Nano Banana 2 (`MODELO=nano-banana-2`). Correcciones: pelo de mamá en las dobles 1 y 7 (edición del recorte, `-v2`); doble 10 con la bici en la misma pileta (edición de la mitad derecha) y una segunda bici que agregó la IA borrada con otra edición (`d10-v2.png`). Solo versión varón por ahora.
+
+## Libro 11 · Andar en bici (3 de noviembre de 2026)
+
+Hoja de Tomi editando la del libro 10 (remera rayada, short y casco verde) y hoja de la plaza (`referencias/set-plaza.png`), las dos con Nano Banana 2. Páginas con `MODELO=nano-banana-2 herramientas/generar_libro.py 11`, pasando la hoja, la portada del libro 10 para el estilo y la hoja de la plaza (en la segunda tanda, la doble 6 del libro 10 en lugar de la portada, para que mamá y papá salgan iguales). Correcciones: doble 6 sin rueditas y tapita de Rula más chica (`d06-v2.png`); dobles 1, 4, 8 y 10 rehechas (faltaba la bici, un círculo de lupa, otra mujer en lugar de mamá y papá repetido); doble 10 sin rueditas (`d10-v2.png`). Las descartadas quedan como `-v0`. Solo versión varón por ahora.

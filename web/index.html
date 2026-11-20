@@ -274,7 +274,7 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
   <div class="envoltura">
     <div>
       <div class="copete" aria-label="De qué se trata">
-        <span style="background:var(--hoja)">11 libros</span><span style="background:var(--cielo)">Física y matemática</span><span style="background:var(--violeta)">De 5 a 7 años</span>
+        <span style="background:var(--hoja)">11 libros</span><span style="background:var(--cielo)">Física y matemática</span><span style="background:var(--violeta)">De 4 a 7 años</span>
       </div>
       <h1><span class="vivo" data-nombre>Emi</span> aprende a girar, sentarse, gatear… y descubre el mundo.</h1>
       <p class="bajada">Una colección ilustrada en papel recortado. Cada libro sigue un primer gran logro de un bebé y enseña un concepto de física y uno de matemática. Elegí si es mujer o varón, escribí su nombre y el cuento se arma con su nombre.</p>
@@ -297,11 +297,12 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
         </div>
         <div class="compra" id="comprar">
           <span class="etq" id="etq-libros">¿Qué libros querés?</span>
-          <div class="opciones" id="opciones" role="radiogroup" aria-labelledby="etq-libros">
-            <label class="opcion"><input type="radio" name="compra" id="compra-libro1" value="libro1" checked><span><b>Libro 1</b> · <span data-nombre>Emi</span> aprende a girar</span><em data-precio="1">$18.999</em></label>
-            <label class="opcion"><input type="radio" name="compra" id="compra-libro2" value="libro2"><span><b>Libro 2</b> · <span data-nombre>Emi</span> aprende a sentarse</span><em data-precio="1">$18.999</em></label>
-            <label class="opcion"><input type="radio" name="compra" id="compra-ambos" value="libro1,libro2"><span><b>Los dos libros</b> <i class="ahorro" data-ahorro="2">10% menos</i></span><em data-precio="2">$34.199</em></label>
+          <div class="opciones" id="opciones" role="group" aria-labelledby="etq-libros">
+            <label class="opcion"><input type="checkbox" name="compra" id="compra-libro1" value="libro1" checked><span><b>Libro 1</b> · <span data-nombre>Emi</span> aprende a girar</span><em data-precio="1">$18.999</em></label>
+            <label class="opcion"><input type="checkbox" name="compra" id="compra-libro2" value="libro2"><span><b>Libro 2</b> · <span data-nombre>Emi</span> aprende a sentarse</span><em data-precio="1">$18.999</em></label>
+            <label class="opcion"><input type="checkbox" name="compra" id="compra-libro3" value="libro3"><span><b>Libro 3</b> · <span data-nombre>Emi</span> aprende a gatear</span><em data-precio="1">$18.999</em></label>
           </div>
+          <p class="ayuda">Tildá los libros que quieras. Llevando 2, pagás <span data-ahorro="2">10% menos</span>; llevando 3, <span data-ahorro="3">15% menos</span>.</p>
           <!--solo-web-->
           <button class="boton" type="button" id="pagar">Comprar y descargar · $18.999</button>
           <p class="ayuda estado-pago" id="estado-pago" aria-live="polite">Pagás con Mercado Pago y descargás el PDF al instante, listo para imprimir.</p>
@@ -368,6 +369,7 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
         <div class="cambio-rapido" role="group" aria-label="Libro">
           <button type="button" data-libro="libro1" aria-pressed="true">Libro 1</button>
           <button type="button" data-libro="libro2" aria-pressed="false">Libro 2</button>
+          <button type="button" data-libro="libro3" aria-pressed="false">Libro 3</button>
         </div>
         <div class="cambio-rapido" role="group" aria-label="Versión">
           <button type="button" data-genero="mujer" aria-pressed="true">Mujer</button>
@@ -405,13 +407,13 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
         <h3>Física, sin decir nada falso</h3>
         <div class="ej"><i style="background:var(--rojo)"></i><p><b>Rotación.</b> Lo redondo toca el piso en un puntito y rueda con poco. Lo plano se apoya en una cara entera.</p></div>
         <div class="ej"><i style="background:var(--cielo)"></i><p><b>Equilibrio.</b> Con las piernas abiertas y las manos en el piso, la base se hace más ancha y ya no se cae.</p></div>
-        <div class="ej"><i style="background:var(--hoja)"></i><p><b>Fricción, gravedad, fuerza, flotación.</b> Cada concepto aparece cuando el cuerpo lo necesita.</p></div>
+        <div class="ej"><i style="background:var(--hoja)"></i><p><b>Fricción.</b> La alfombra no deja que resbalen las manos y las rodillas: por eso se puede gatear. Después vienen gravedad, fuerza y flotación.</p></div>
       </article>
       <article class="hoja aparece">
         <h3>Matemática en el cuerpo</h3>
         <div class="ej"><i style="background:var(--yema)"></i><p><b>Arriba y abajo, contar hasta 3.</b> Una vuelta, dos vueltas, tres vueltas, hasta alcanzar a Rula.</p></div>
         <div class="ej"><i style="background:var(--naranja)"></i><p><b>Alto y bajo, cerca y lejos.</b> Desde el piso todo es alto; sentado, Rula queda cerca.</p></div>
-        <div class="ej"><i style="background:var(--violeta)"></i><p><b>Pasos, ordinales, formas, volumen.</b> Lo que se cuenta y se mide jugando.</p></div>
+        <div class="ej"><i style="background:var(--violeta)"></i><p><b>Contar manos y rodillas.</b> Una mano, dos manos, una rodilla, dos rodillas: ¡cuatro! Después vienen pasos, ordinales, formas y volumen.</p></div>
       </article>
     </div>
     <div class="cita aparece">
@@ -453,7 +455,7 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
   <div class="papelito" data-vel="0.2" style="width:240px;height:240px;background:#FFF6E4;opacity:.12;right:-60px;top:-50px"></div>
   <div class="envoltura">
     <div>
-      <h2 id="t-cierre">El primer libro de <span data-nombre>Emi</span> ya tiene tapa.</h2>
+      <h2 id="t-cierre">Los tres primeros libros de <span data-nombre>Emi</span> ya tienen tapa.</h2>
       <p>Estamos terminando los once libros. Este prototipo muestra cómo va a quedar el suyo.</p>
       <div class="aviso" id="aviso" hidden>Esto es un prototipo: todavía no tomamos pedidos. El libro de <b data-nombre>Emi</b> queda anotado para cuando abramos.</div>
     </div>
@@ -481,7 +483,8 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
   // el título de tapa y la frase con el nombre. Desde la quinta vista, la doble se ve borrosa.
   const LIBROS_V={
     libro1:{nro:1,t2:"a girar",nombre:[18,16,150],frase:()=>`Me llamo ${esc(N())}. Soy ${G("chiquito","chiquita")}, muy ${G("chiquito","chiquita")}.`},
-    libro2:{nro:2,t2:"a sentarse",nombre:[40,12,150],frase:()=>`Soy ${esc(N())}. Ya sé girar: boca arriba, boca abajo.`}
+    libro2:{nro:2,t2:"a sentarse",nombre:[40,12,150],frase:()=>`Soy ${esc(N())}. Ya sé girar: boca arriba, boca abajo.`},
+    libro3:{nro:3,t2:"a gatear",nombre:[24,12,150],frase:()=>`Soy ${esc(N())}. Ya sé girar y ya sé sentarme.`}
   };
   const LIBRES=4; // vistas que se ven completas (tapa y páginas 2 a 7)
   const PIES=["Tapa","Páginas 2 y 3","Páginas 4 y 5","Páginas 6 y 7","Páginas 8 y 9","Páginas 10 y 11","Páginas 12 y 13","Páginas 14 y 15","Páginas 16 y 17","Páginas 18 y 19","Páginas 20 y 21","Experimento · páginas 22 y 23","Para los grandes · página 24"];
@@ -567,16 +570,16 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
     ["Saltar","2 a 3 años","Subir y bajar","Medir alturas"],["Subir escaleras","2 a 3 años","Altura y esfuerzo","Secuencias"],
     ["Tirar una pelota","3 a 4 años","Trayectoria","Formas"],["Nadar","4 a 5 años","Flotar y hundirse","Lleno, vacío, volumen"],
     ["Andar en bici","5 a 6 años","Equilibrio en movimiento","Vueltas y ciclos"]];
-  const verbo={"Girar":"aprende a girar","Sentarse":"aprende a sentarse"};
+  const verbo={"Girar":"aprende a girar","Sentarse":"aprende a sentarse","Gatear":"aprende a gatear"};
   function pintarEstante(){
     const g=estado.genero;
     $("#estante").innerHTML=LIBROS.map(([h,e,f,m],k)=>{
       let cub;
       if(k===0) cub=`<img src="img/b1-${g}-portada.jpg" alt="Tapa del libro 1" loading="lazy">`;
-      else if(k===1) cub=`<img src="img/b2-${g}-portada.jpg" alt="Tapa del libro 2" loading="lazy">`;
+      else if(k<3) cub=`<img src="img/b${k+1}-${g}-portada.jpg" alt="Tapa del libro ${k+1}" loading="lazy">`;
       else cub=`<div class="sil" style="background:${COLS[k%6]}">${k+1}</div>`;
-      const estado2=k===0?"Borrador ilustrado · mujer y varón":k===1?"Borrador ilustrado · mujer y varón":"Próximamente";
-      return `<article class="libro-card"><div class="cubierta" style="background:${COLS[(k+3)%6]}22">${cub}</div><div class="info"><span class="nro">Libro ${k+1}</span><h3>${k<2?esc(N())+" "+verbo[h]:h}</h3><span class="edad">Más o menos de ${e}</span><div class="chips"><span class="chip fis">${f}</span><span class="chip mat">${m}</span></div><span class="estado ${k>1?"pronto":""}">${estado2}</span></div></article>`;
+      const estado2=k<3?"Borrador ilustrado · mujer y varón":"Próximamente";
+      return `<article class="libro-card"><div class="cubierta" style="background:${COLS[(k+3)%6]}22">${cub}</div><div class="info"><span class="nro">Libro ${k+1}</span><h3>${k<3?esc(N())+" "+verbo[h]:h}</h3><span class="edad">Más o menos de ${e}</span><div class="chips"><span class="chip fis">${f}</span><span class="chip mat">${m}</span></div><span class="estado ${k>2?"pronto":""}">${estado2}</span></div></article>`;
     }).join("");
   }
 
@@ -614,9 +617,9 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
   const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
   const plata=n=>"$"+Math.round(n).toLocaleString("es-AR");
   const textos={
-    "1":{sub:"Elegí el libro 1 o el libro 2.",boton:"Elegir un libro",valor:"libro1"},
-    "2":{sub:"Los dos libros que ya están listos.",boton:"Elegir los dos",valor:"libro1,libro2"},
-    "3":{sub:"Cuando esté listo el libro 3."},
+    "1":{sub:"Elegí uno de los tres libros.",boton:"Elegir un libro",valor:"libro1"},
+    "2":{sub:"Los dos libros que quieras.",boton:"Elegir dos",valor:"libro1,libro2"},
+    "3":{sub:"Los tres libros que ya están listos: girar, sentarse y gatear.",boton:"Elegir los tres",valor:"libro1,libro2,libro3"},
     "11":{sub:"Los 11 libros, de girar a andar en bici. Cuando esté completa."}
   };
   fetch("precios.json").then(r=>r.json()).then(P=>{
@@ -637,7 +640,9 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
     $$("[data-precio]").forEach(e=>{const p=P.packs.find(x=>String(x.cantidad)===e.dataset.precio);if(p)e.textContent=plata(p.precio);});
     $$("[data-ahorro]").forEach(e=>{const p=P.packs.find(x=>String(x.cantidad)===e.dataset.ahorro);if(p)e.textContent=ahorro(p)+"% menos";});
     $$("[data-elegir]").forEach(b=>b.addEventListener("click",()=>{
-      const r=$$('input[name="compra"]').find(i=>i.value===b.dataset.elegir); if(r){r.checked=true;r.dispatchEvent(new Event("change",{bubbles:true}));}
+      const quiero=b.dataset.elegir.split(",");
+      $$('input[name="compra"]').forEach(i=>{i.checked=quiero.includes(i.value);});
+      document.dispatchEvent(new Event("change",{bubbles:true}));
       $("#comprar").scrollIntoView({behavior:"smooth",block:"center"});
     }));
     window.acadPrecios=P;
@@ -652,13 +657,14 @@ footer .envoltura{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:spac
   const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
   const boton=$("#pagar"), estado=$("#estado-pago"); if(!boton) return;
   const plata=n=>"$"+Math.round(n).toLocaleString("es-AR");
-  const elegidos=()=>($$('input[name="compra"]').find(i=>i.checked)||{value:"libro1"}).value.split(",");
+  const elegidos=()=>$$('input[name="compra"]').filter(i=>i.checked).map(i=>i.value);
   function rotular(){
     const P=window.acadPrecios, n=elegidos().length;
-    const p=P&&P.packs.find(x=>x.cantidad===n);
-    boton.textContent=`Comprar y descargar${p?" · "+plata(p.precio):""}`;
+    const p=P&&P.packs.find(x=>x.cantidad===n&&x.disponible);
+    boton.disabled=n===0;
+    boton.textContent=n===0?"Elegí al menos un libro":`Comprar y descargar${p?" · "+plata(p.precio):""}`;
   }
-  document.addEventListener("change",e=>{if(e.target.name==="compra")rotular();});
+  document.addEventListener("change",e=>{if(!e.target.name||e.target.name==="compra")rotular();});
   document.addEventListener("acad-precios",rotular); rotular();
   boton.addEventListener("click",async()=>{
     const {estado:st,nombre}=window.acad; estado.classList.remove("error");
