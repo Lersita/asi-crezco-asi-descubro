@@ -13,7 +13,7 @@ Módulos, en este orden:
 | 3 | Standard Image & Light Text Overlay / Standard Single Image (banda) | `libro1-xx-3-adentro.jpg` | 970 × 300 |
 | 4 | Standard Single Image (a lo ancho) | `serie-xx.jpg` | 970 × 600 |
 
-Texto alternativo (alt text) de cada imagen: una frase que describa la imagen, sin palabras clave repetidas.
+Texto alternativo (alt text) de cada imagen: una frase que describa la imagen, sin palabras clave repetidas, de **100 caracteres como máximo** (es el límite de Amazon).
 
 ## Textos del módulo de cabecera (Standard Image Header With Text)
 
@@ -223,7 +223,7 @@ Imágenes `recopilatorio14-en-…` (salen de `python3 maqueta/aplus.py b14-en`).
 **Textos alternativos**
 | Imagen | Alt text |
 | --- | --- |
-| Cabecera | Cover of Tommy's First Year: four babies on a rug, from rolling over to standing by the couch, with a colorful ball |
+| Cabecera | Cover of Tommy's First Year: four babies on a rug, from rolling over to standing up |
 | Cuadro 1 | Baby Tommy on his tummy next to his colorful ball |
 | Cuadro 2 | Baby Tommy sitting with his legs apart, a dotted triangle showing his wide base |
 | Cuadro 3 | Baby Tommy crawling on the rug, smiling |
@@ -289,7 +289,7 @@ Mismos 4 módulos, con las imágenes `libro7-en-…` y `serie-en.jpg` en el mód
 | Cabecera | Cover of Tommy Learns to Jump: a boy jumping on the grass next to a bouncing colorful ball |
 | Cuadro 1 | Tommy jumping in the backyard, with an arrow pointing up |
 | Cuadro 2 | Tommy jumping to touch colored paper squares on the wall |
-| Cuadro 3 | A paper strip with marks on the wall, balls and a sock falling, and a child jumping next to the strip |
+| Cuadro 3 | A paper strip on the wall, balls and a sock falling, and a child jumping next to it |
 | Adentro | What's inside: a story, simple physics, an experiment, and a page for grown-ups |
 | Serie | Tommy growing up, from a baby rolling over to a boy riding a bike: the 11 milestones of the series |
 
@@ -317,7 +317,7 @@ Mismos 4 módulos, con las imágenes `libro8-en-…` y `serie-en.jpg` en el mód
 **Textos alternativos**
 | Imagen | Alt text |
 | --- | --- |
-| Cabecera | Cover of Tommy Learns to Climb the Stairs: a boy on the stairs holding the railing, with Dad beside him |
+| Cabecera | Cover of Tommy Learns to Climb the Stairs: a boy holding the railing, with Dad beside him |
 | Cuadro 1 | A colorful ball bouncing down wooden stairs while Tommy and Dad watch from the bottom |
 | Cuadro 2 | Tommy and Mom celebrating on the landing at the top of the stairs, with Dad below |
 | Cuadro 3 | Hands lifting a cloth bag with books, a row of socks in two colors, and a child lifting the bag |
