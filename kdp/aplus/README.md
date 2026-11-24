@@ -4,6 +4,8 @@ Se carga en KDP › Marketing › A+ Content Manager (o en la ficha del libro, "
 
 > **Cambio del 4/11/2026: la imagen de la serie es genérica.** El módulo 4 usa `serie-en.jpg` (o `serie-es.jpg`) en todos los libros: Tommy de cada libro en forma de víbora (3 filas de ida y vuelta, con Rula al final), del bebé que gira al nene en bici, sin tapas ni "more books coming soon". No hay que cambiarla cuando sale un libro nuevo. Alt text: **Tommy growing up, from a baby rolling over to a boy riding a bike: the 11 milestones of the series** (en español: **Tommy crece, del bebé que gira al nene que anda en bici: los 11 logros de la serie**). Donde abajo dice `serie-xx.jpg`, usar esta.
 
+> **Regla del 24/11/2026:** al pasarle al usuario el A+ de un libro, escribir siempre completos los textos del módulo 4 (los dos headlines, el body text y el alt text), aunque sean los mismos en todos los libros. Nunca "los mismos que en el libro 1".
+
 Módulos, en este orden:
 
 | # | Módulo de Amazon | Imagen | Medida |
