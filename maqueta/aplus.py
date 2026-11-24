@@ -100,6 +100,23 @@ LIBROS[(6, "en")] = {**COMUN_EN,
                 ("l6-exp.jpg", "50% 50%", "A home experiment", "with things from home"),
                 ("l6-p24.jpg", "50% 70%", "A page for grown-ups", "science, milestone and safety")]}
 
+LIBROS[(7, "en")] = {**COMUN_EN,
+    "serie": "I Grow, I Discover · Book 7", "titulo": "Tommy Learns to Jump",
+    "bajada": "A read-aloud picture book about jumping for the first time, and the gravity that always brings us back down.",
+    "cuadros": [("l7-d05.jpg", (150, 0, 1168, 1018)), ("l7-d07.jpg", (540, 0, 1558, 1018)), ("l7-exp.jpg", (0, 0, 2400, 1610))],
+    "adentro": [("l7-d02.jpg", "60% 60%", "A gentle story", "told by Tommy himself"),
+                ("l7-d03.jpg", "80% 50%", "Real, simple physics", "what goes up comes down"),
+                ("l7-exp.jpg", "50% 50%", "A home experiment", "with things from home"),
+                ("l7-p24.jpg", "50% 60%", "A page for grown-ups", "science, milestone and safety")]}
+LIBROS[(8, "en")] = {**COMUN_EN,
+    "serie": "I Grow, I Discover · Book 8", "titulo": "Tommy Learns to Climb the Stairs",
+    "bajada": "A read-aloud picture book about climbing stairs, the effort it takes to go up, and sequences that repeat.",
+    "cuadros": [("l8-d02.jpg", (330, 0, 1348, 1018)), ("l8-d06.jpg", (1300, 0, 2318, 1018)), ("l8-exp.jpg", (0, 0, 2400, 1610))],
+    "adentro": [("l8-d01.jpg", "40% 60%", "A gentle story", "told by Tommy himself"),
+                ("l8-d05.jpg", "55% 50%", "Real, simple physics", "going up takes effort"),
+                ("l8-exp.jpg", "50% 50%", "A home experiment", "with things from home"),
+                ("l8-p24.jpg", "50% 60%", "A page for grown-ups", "science, milestone and safety")]}
+
 # Recopilatorio 1 a 4: el módulo 2 lleva 4 imágenes (una por libro) en lugar de 3
 LIBROS[("b14", "en")] = {**COMUN_EN,
     "tapa": "bundle14-en", "prefijo": "recopilatorio14-en",

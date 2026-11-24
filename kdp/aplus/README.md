@@ -13,7 +13,7 @@ Módulos, en este orden:
 | 3 | Standard Image & Light Text Overlay / Standard Single Image (banda) | `libro1-xx-3-adentro.jpg` | 970 × 300 |
 | 4 | Standard Single Image (a lo ancho) | `serie-xx.jpg` | 970 × 600 |
 
-Texto alternativo (alt text) de cada imagen: una frase que describa la imagen, sin palabras clave repetidas.
+Texto alternativo (alt text) de cada imagen: una frase que describa la imagen, sin palabras clave repetidas, de **100 caracteres como máximo** (es el límite de Amazon).
 
 ## Textos del módulo de cabecera (Standard Image Header With Text)
 
@@ -223,7 +223,7 @@ Imágenes `recopilatorio14-en-…` (salen de `python3 maqueta/aplus.py b14-en`).
 **Textos alternativos**
 | Imagen | Alt text |
 | --- | --- |
-| Cabecera | Cover of Tommy's First Year: four babies on a rug, from rolling over to standing by the couch, with a colorful ball |
+| Cabecera | Cover of Tommy's First Year: four babies on a rug, from rolling over to standing up |
 | Cuadro 1 | Baby Tommy on his tummy next to his colorful ball |
 | Cuadro 2 | Baby Tommy sitting with his legs apart, a dotted triangle showing his wide base |
 | Cuadro 3 | Baby Tommy crawling on the rug, smiling |
@@ -259,5 +259,67 @@ Mismos 4 módulos, con las imágenes `libro6-en-…` y `serie-en.jpg` en el mód
 | Cuadro 1 | Toddler Tommy running fast past a tree, with speed lines behind him |
 | Cuadro 2 | Toddler Tommy running toward Dad's open hands, sliding to a stop |
 | Cuadro 3 | Balls rolling down ramps made of books, and a child racing a ball, a tube and a bottle |
+| Adentro | What's inside: a story, simple physics, an experiment, and a page for grown-ups |
+| Serie | Tommy growing up, from a baby rolling over to a boy riding a bike: the 11 milestones of the series |
+
+---
+
+# Libro 7 · inglés (Tommy Learns to Jump)
+
+Mismos 4 módulos, con las imágenes `libro7-en-…` y `serie-en.jpg` en el módulo 4. Content name: **Tommy Book 7 – EN**.
+
+**Módulo 1 · Standard Image Header With Text**
+- **Headline (arriba):** What goes up comes down
+- **Headline (abajo):** HOP! Tommy's feet leave the grass
+- **Body text:** Tommy can already walk and run, and today Rula bounces way up high on the grass: it's time to jump. He bends his knees, pushes the ground with his feet… HOP! But he always lands back down, because gravity pulls him down all the time. Rula bounces too, a little lower each time. Then Dad sticks three paper squares on the wall, and Tommy measures how high he can reach, and how many blocks tall he is. A gentle read-aloud story for curious kids ages 4 to 7, with a hands-on experiment and a page for grown-ups.
+
+**Módulo 2 · Standard Three Images & Text**
+- **Headline del módulo:** Learning through play
+- **Imagen 1 · Headline:** Up and down · **Body:** Tommy jumps as high as he can, and right away he comes back down. Rula goes up and down too. What brings them both back? Gravity!
+- **Imagen 2 · Headline:** How high can I reach? · **Body:** Three paper squares on the wall: low, middle, and high. Tommy jumps and touches the low one, then the middle one. The high one will have to wait until he grows!
+- **Imagen 3 · Headline:** Try it at home · **Body:** A simple, safe experiment with a paper strip on the wall, two balls, and a sock: what bounces highest? And how high can you reach when you jump?
+
+**Módulo 3 · What's inside** (`libro7-en-3-adentro.jpg`): headline y body vacíos.
+
+**Módulo 4 · Standard Image Header With Text** (`serie-en.jpg`): los mismos textos que en los otros libros.
+
+**Textos alternativos**
+| Imagen | Alt text |
+| --- | --- |
+| Cabecera | Cover of Tommy Learns to Jump: a boy jumping on the grass next to a bouncing colorful ball |
+| Cuadro 1 | Tommy jumping in the backyard, with an arrow pointing up |
+| Cuadro 2 | Tommy jumping to touch colored paper squares on the wall |
+| Cuadro 3 | A paper strip on the wall, balls and a sock falling, and a child jumping next to it |
+| Adentro | What's inside: a story, simple physics, an experiment, and a page for grown-ups |
+| Serie | Tommy growing up, from a baby rolling over to a boy riding a bike: the 11 milestones of the series |
+
+---
+
+# Libro 8 · inglés (Tommy Learns to Climb the Stairs)
+
+Mismos 4 módulos, con las imágenes `libro8-en-…` y `serie-en.jpg` en el módulo 4. Content name: **Tommy Book 8 – EN**.
+
+**Módulo 1 · Standard Image Header With Text**
+- **Headline (arriba):** Step by step, all the way up
+- **Headline (abajo):** Hand, foot, foot!
+- **Body text:** Dad opens the little gate at the stairs, and today Tommy is going to climb them. Rula bounces down, BONK, BONK, BONK, pulled by gravity… but going up is different! On every step, Tommy's legs lift his whole body: that takes effort. Hand on the railing, one foot, the other foot: always in the same order, a sequence, just like the colors on Rula's stripes. A gentle read-aloud story for curious kids ages 4 to 7, with a hands-on experiment and a page for grown-ups.
+
+**Módulo 2 · Standard Three Images & Text**
+- **Headline del módulo:** Learning through play
+- **Imagen 1 · Headline:** Down is easy · **Body:** Mom lets go of Rula on the landing, and it bounces down step by step. Gravity pulls it down… but what about going up?
+- **Imagen 2 · Headline:** I made it! · **Body:** Four, five, six! Climbing takes effort, because Tommy lifts his whole body on every step. Many children climb stairs holding a railing somewhere between 2 and 3 years.
+- **Imagen 3 · Headline:** Try it at home · **Body:** A simple, safe experiment with a cloth bag, three books, and some socks: what takes more effort, lifting higher or lifting heavier? And which sock comes next in the row?
+
+**Módulo 3 · What's inside** (`libro8-en-3-adentro.jpg`): headline y body vacíos.
+
+**Módulo 4 · Standard Image Header With Text** (`serie-en.jpg`): los mismos textos que en los otros libros.
+
+**Textos alternativos**
+| Imagen | Alt text |
+| --- | --- |
+| Cabecera | Cover of Tommy Learns to Climb the Stairs: a boy holding the railing, with Dad beside him |
+| Cuadro 1 | A colorful ball bouncing down wooden stairs while Tommy and Dad watch from the bottom |
+| Cuadro 2 | Tommy and Mom celebrating on the landing at the top of the stairs, with Dad below |
+| Cuadro 3 | Hands lifting a cloth bag with books, a row of socks in two colors, and a child lifting the bag |
 | Adentro | What's inside: a story, simple physics, an experiment, and a page for grown-ups |
 | Serie | Tommy growing up, from a baby rolling over to a boy riding a bike: the 11 milestones of the series |
